@@ -1,1 +1,0 @@
-# collegemont-royal.github.io
