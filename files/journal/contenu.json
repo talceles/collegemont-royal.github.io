@@ -4,46 +4,46 @@
         {
             "title":"Édition 5.5",
             "subtitle":"Spéciale poisson d'avril !",
-            "image":"https://clem2004.github.io/files/journal/images/55.png",
-            "link":"https://clem2004.github.io/files/journal/Journal55.pdf",
+            "image":"https://collegemont-royal.github.io/files/journal/images/55.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal55.pdf",
             "UUID":"aa263ee3-6ec0-4823-ba04-986f2fe802ce"
         },{
             "title":"Édition 5",
             "subtitle":"Le mois de l'alimentation !",
-            "image":"https://clem2004.github.io/files/journal/images/5.png",
-            "link":"https://clem2004.github.io/files/journal/Journal5.pdf",
+            "image":"https://collegemont-royal.github.io/files/journal/images/5.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal5.pdf",
             "UUID":"6d5a12e9-a245-4969-be91-9f2271b25ef4"
         },{
             "title":"Édition 4.5",
             "subtitle":"Spéciale relâche !",
-            "image":"https://clem2004.github.io/files/journal/images/45.png",
-            "link":"https://clem2004.github.io/files/journal/Journal45.pdf"
+            "image":"https://collegemont-royal.github.io/files/journal/images/45.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal45.pdf"
         },{
             "title":"Édition 4",
             "subtitle":"Joyeuse St-Valentin !",
-            "image":"https://clem2004.github.io/files/journal/images/4.png",
-            "link":"https://clem2004.github.io/files/journal/Journal4.pdf"
+            "image":"https://collegemont-royal.github.io/files/journal/images/4.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal4.pdf"
         },{
             "title":"Édition 3",
             "subtitle":"Bye bye 2020 !",
-            "image":"https://clem2004.github.io/files/journal/images/3.png",
-            "link":"https://clem2004.github.io/files/journal/Journal3.pdf"
+            "image":"https://collegemont-royal.github.io/files/journal/images/3.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf"
         },{
             "title":"Édition 2",
             "subtitle":"Bonnes vacances !",
-            "image":"https://clem2004.github.io/files/journal/images/2.png",
-            "link":"https://clem2004.github.io/files/journal/Journal2.pdf"
+            "image":"https://collegemont-royal.github.io/files/journal/images/2.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal2.pdf"
         },{
             "title":"Édition 1",
             "subtitle":"C'est parti pour une nouvelle année !",
-            "image":"https://clem2004.github.io/files/journal/images/1.png",
-            "link":"https://clem2004.github.io/files/journal/Journal1.pdf"
+            "image":"https://collegemont-royal.github.io/files/journal/images/1.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal1.pdf"
         },{
             "title":"Archives",
             "subtitle":"",
             "image":"🗄",
             "newPage":true,
-            "link":"https://clem2004.github.io/files/journal/archives/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/journal/archives/contenu.json"
         }
     ]
 }
