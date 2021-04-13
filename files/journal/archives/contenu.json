@@ -2,10 +2,16 @@
     "cells":
     [
         {
-            "title":"À venir...",
-            "subtitle":"Les éditions du journal étudiant des années passées seront disponibles ici sous peu... À suivre...",
-            "image":"⏱",
+            "title":"Les archives du Royal Éditorial !",
+            "subtitle":"Les éditions du journal étudiant des années passées sont disponibles ici.",
+            "image":"🗄",
             "notification":true
+        },{
+            "title":"Édition COVID-19",
+            "subtitle":"2020",
+            "image":"🦠",
+            "link":"https://collegemont-royal.github.io/files/journal/archives/covid2020/contenu.json"
+            "newPage":true
         }
     ]
 }
