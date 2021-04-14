@@ -2,6 +2,11 @@
     "cells":
     [
         {
+            "title":"Édition 6 bientôt disponible...",
+            "subtitle":"Parution prévue durant la semaine prochaine.",
+            "image":"message",
+            "notification":true
+        },{
             "title":"Édition 5.5",
             "subtitle":"Spéciale poisson d'avril !",
             "image":"https://collegemont-royal.github.io/files/journal/images/55.png",
