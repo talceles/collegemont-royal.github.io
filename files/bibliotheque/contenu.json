@@ -2,10 +2,11 @@
     "cells":
     [
         {
-            "title":"Ma bibliothèque animée",
-            "subtitle":"Suggestions de lecture et critiques littéraires.",
-            "image":"📖",
-            "link":"https://padlet.com/padlets/pvw6nnnncz94u07w"
+            "title":"Suggestions de lecture",
+            "subtitle":"Ma bibliothèque animée sur Padlet",
+            "image":"📕",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/suggestions.json"
         },{
             "title":"Personnages célèbres",
             "subtitle":"Les cadres des personnages célèbres sont désormais affichés! Un ralye sera bientôt mis sur pied. À suivre...",
