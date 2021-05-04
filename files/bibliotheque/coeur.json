@@ -1,0 +1,14 @@
+{
+    "cells":
+    [
+        {
+            "title":"Les coups de coeur de la bibliothèque",
+            "subtitle":"Vous pouvez découvrir ici les coups de coeur littéraires des élèves. Tous ces livres sont disponibles à la bibliothèque. Bonne lecture !",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/coeur.png"
+        },{
+            "title":"L'après...",
+            "subtitle":"Un virus mortel a décimé tous les adultes de la planète. Les adolescents et enfants tenteront de survivre sans leurs parents. Deux bandes principales vont se former et s'affronter pour gagner les dernières ressources. Qui gagnera? Skye ou Vincent.\n\nCliquez ici pour lire la critique de ce roman par Mme. Émilie de Bellefeuille Bordeleau.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/lapres.jpeg"
+        }
+    ]
+}
