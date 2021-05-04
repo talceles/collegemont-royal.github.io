@@ -4,9 +4,15 @@
         {
             "title":"Suggestions de lecture",
             "subtitle":"Ma bibliothèque animée sur Padlet",
-            "image":"📚",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/bulle.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/suggestions.json"
+        },{
+            "title":"Coups de coeur",
+            "subtitle":"Les livres préférés des élèves",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/coeur.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/coeur.json"
         },{
             "title":"Personnages célèbres",
             "subtitle":"Les cadres des personnages célèbres sont désormais affichés! Un rallye sera bientôt mis sur pied. À suivre...",
