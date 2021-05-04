@@ -1,0 +1,42 @@
+{
+    "cells":
+    [
+        {
+            "title":"Les nouveautés de la bibliothèque",
+            "subtitle":"Vous pouvez découvrir ici les nouveaux livres de la bibliothèque. Tous ces livres sont disponibles à la bibliothèque. Bonne lecture !",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge.png"
+        },{
+            "title":"Entre les lignes",
+            "subtitle":"Tome #5 de la série Entre chiens et loups. La suite des aventures de Tobey et Callie Rose. Un roman autour des thèmes du racisme, de la ségrégation, de la famille et de l'amour.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/entreleslignes.jpg"
+        },{
+            "title":"La Vie hantée d'Anya",
+            "subtitle":"Fille d'immigrés, Anya a l'impression de ne jamais être à sa place. En tombant dans un puits, elle rencontre Emily, un fantôme avec lequel elle se lie d'amitié. Le spectre ne tarde pas à jalouser de tout ce qui entoure la vie d'Anya.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/anya.jpg"
+        },{
+            "title":"Le Dernier petit singe",
+            "subtitle":"Piégé à l'intérieur de la cabine d'un photomaton, Karim, 12 ans, doit accepter une mission qui le dépasse pour pouvoir s'en échapper. Seul chez lui après cet étrange épisode, son appartement devient le théâtre de phénomènes nocturnes bizarres et effrayants. Non seulement sa vie est en jeu, mais aussi celle d'une personne à qui il doit venir en aide.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/ledernierpetitsinge.jpg"
+        },{
+            "title":"Miss Peregrine et les enfants particuliers",
+            "subtitle":"Abe Portman, un enfant juif polonais, s'est autrefois réfugié pour échapper à la menace nazie dans un orphelinat d'une île du pays de Galles dirigée par Miss Peregrine Faucon. Là-bas, il a côtoyé des enfants aux capacités surnaturelles censées les protéger des monstres. Aujourd'hui devenu vieillard, il raconte cette période à son petit-fils Jacob, âgé de 15 ans.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/missperegrine.jpg"
+        },{
+            "title":"Massamba : le marchand de tours Eiffel",
+            "subtitle":"Massamba fuit son pays en Afrique pour se réfugier en France. Après une dangereuse traversée de la Méditerranée et un séjour dans un camp de réfugiés, il se cache dans un camion pour rejoindre Paris où il devient vendeur de tours Eiffel miniatures.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/massamba.jpg"
+        },{
+            "title":"Pax et le petit soldat",
+            "subtitle":"Peter a sauvé un bébé renard, Pax. Tous deux sont inséparables. Un jour, son père l'oblige à l'abandonner. Pax affronte la nature sauvage en attendant son ami. Malgré la guerre qui se prépare, Peter s'échappe pour partir à sa recherche. Prix Sorcières 2018, prix des libraires du Québec 2018, prix Enfantaisie 2018.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/pax.jpg"
+        },{
+            "title":"Alma, le vent se lève",
+            "subtitle":"En 1786, Alma, 13 ans, quitte la vallée d'Afrique qui la protège du reste du monde pour partir seule à la recherche de son petit frère disparu. Pendant ce temps, à La Rochelle, le jeune Joseph Mars embarque clandestinement sur La Douce Amélie, l'imposant navire de traite du cruel capitaine Gardel. Il est en quête d'un immense trésor mais c'est Alma qu'il découvre.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/alma.jpg"
+        },{
+            "title":"Lac Adélard",
+            "subtitle":"Le lac Adélard a toujours eu la réputation d'être hanté. Certains prétendent y avoir aperçu une étrange fillette portant une cage d'oiseau. D'autres y auraient vu une jeune femme couverte de sang. Élie ne sait pas trop s'il doit croire ces histoires. Ce qu'il sait, en revanche, c'est qu'une petite balade en quatre roues près du lac est un excellent prétexte pour inviter la belle Anna. Il est loin d'imaginer que cette expédition leur permettra de découvrir une partie de l'horrible histoire que cache cet endroit à la réputation inquiétante.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/couvertures/lacadelard.jpg"
+        }
+    ]
+}
