@@ -28,7 +28,7 @@
         },{
             "title":"Personnages célèbres",
             "subtitle":"Les cadres des personnages célèbres sont désormais affichés! Un rallye sera bientôt mis sur pied. À suivre...",
-            "image":"👸🏻",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage.png",
             "notification":true
         }
     ]
