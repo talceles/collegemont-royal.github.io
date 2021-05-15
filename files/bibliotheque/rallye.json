@@ -1,0 +1,22 @@
+{
+    "cells":
+    [
+        {
+            "title":"Le rallye des personnages célèbres",
+            "subtitle":"Message de Mme Faral ici.",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage.png",
+            "notification":true
+        },{
+            "title":"Affiches des personnages",
+            "subtitle":"Référez-vous à ce document PDF pour répondre aux questions.",
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/affiches.pdf",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/fichier.png"
+        },{
+            "title":"Participer au rallye",
+            "subtitle":"Cliquez ici pour commencer le rallye !",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/loupe.png",
+            "link":"https://forms.gle/GeNDGZdRyAFPsg2S9",
+            "openURL":true
+        }
+    ]
+}
