@@ -10,25 +10,25 @@
         },{
             "title":"Suggestions de lecture",
             "subtitle":"Résumés des livres de ma bibliothèque animée",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/bulle2.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/bulle.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/suggestions.json"
         },{
             "title":"Coups de coeur",
             "subtitle":"Les livres préférés des élèves",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/coeur2.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/coeur.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/coeur.json"
         },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge2.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/nouveau.json"
         },{
             "title":"Personnages célèbres",
             "subtitle":"Les cadres des personnages célèbres sont désormais affichés! Un rallye sera bientôt mis sur pied. À suivre...",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage2.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage.png",
             "notification":true
         }
     ]
