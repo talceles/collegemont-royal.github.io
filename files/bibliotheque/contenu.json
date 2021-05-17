@@ -26,10 +26,11 @@
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/nouveau.json"
         },{
-            "title":"Personnages célèbres",
-            "subtitle":"Les cadres des personnages célèbres sont désormais affichés! Un rallye sera bientôt mis sur pied. À suivre...",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage-celebre.png",
-            "notification":true
+            "title":"Rallye des personnages célèbres",
+            "subtitle":"Le rallye des personnages célèbres est ouvert !",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage.png",
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/rallye.json",
+            "newPage":true
         }
     ]
 }
