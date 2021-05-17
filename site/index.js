@@ -14,8 +14,10 @@ window.addEventListener('popstate', e => {
 
 function addClickEvent(i) {
     var element = document.getElementById(i); //grab the element
-    element.onclick = function() { //asign a function
-        window.open(cells[i].link);
+    if (cells[i].link) {
+        element.onclick = function() { //asign a function
+            window.open(cells[i].link);
+        }
     }
 }
 
