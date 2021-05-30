@@ -2,20 +2,9 @@
     "cells":
     [
         {
-            "title":"Le rallye des personnages célèbres",
-            "subtitle":"Dans le cadre de l’activité des personnages célèbres, nous organisons un rallye virtuel. Le but est que vous connaissiez les exploits de ces héros d'antan. Il y a des cartes cadeaux à gagner et des lunettes de réalité virtuelle. Tirage des gagnants le 1 juin 2021.",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/personnage-celebre.png"
-        },{
-            "title":"Affiches des personnages",
-            "subtitle":"Référez-vous à ce document PDF pour répondre aux questions.",
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/affiches.pdf",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/fichier.png"
-        },{
-            "title":"Participer au rallye",
-            "subtitle":"Cliquez ici pour commencer le rallye !",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/loupe.png",
-            "link":"https://forms.gle/GeNDGZdRyAFPsg2S9",
-            "openURL":true
+            "title":"Le rallye des personnages célèbres est terminé.",
+            "subtitle":"Tirage des gagnants le 1 juin 2021.",
+            "image":"❌"
         }
     ]
 }
