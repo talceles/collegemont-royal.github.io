@@ -5,20 +5,20 @@
             "title":"Padlet: Ma bibliothèque animée",
             "subtitle":"Toutes les suggestions de lecture et les critiques littéraires sont disponible ici.",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/padlet2.png",
-            "link":"https://padlet.com/padlets/pvw6nnnncz94u07w",
+            "link":"http://qr.w69b.com/g/t5gBlf7d6",
             "name":"Ma bibliothèque animée"
         },{
             "title":"Suggestions de lecture",
             "subtitle":"Résumés des livres de ma bibliothèque animée",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/bulle.png",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/suggestions.json"
+            "link":"http://qr.w69b.com/g/l8MIHvQkw"
         },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge.png",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/nouveau.json"
+            "link":"http://qr.w69b.com/g/s5eHB2Ees"
         }
     ]
 }
