@@ -61,6 +61,7 @@ function loadTableView() {
         if (cells[i].notification) {
             classe = classe + ", notification"
         }
+        cells[i].subtitle = markDown(cells[i].subtitle)
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
         addHoverEvent(i);
 
@@ -133,7 +134,7 @@ function getUrl() {
     }
 }
 
-function get(yourUrl){
+function get(yourUrl) {
     var Httpreq = new XMLHttpRequest(); // a new request
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
@@ -147,4 +148,12 @@ function isEmoji(str) {
     } else {
         return false;
     }
+}
+
+function markDown(str) {
+    var boldParameters = /\*\*(.*?)\*\*/gm;
+    var bold = str.replace(boldParameters, '<b>$1</b>');
+    var italicParameters = /\*(.*?)\*/gm;
+    var italic = bold.replace(italicParameters, '<i>$1</i>');
+    return bold + italic;
 }
