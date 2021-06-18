@@ -2,6 +2,12 @@
     "cells":
     [
         {
+            "title":"Édition 8",
+            "subtitle":"Bonnes vacances !",
+            "image":"https://collegemont-royal.github.io/files/journal/images/8.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal8.pdf",
+            "UUID":"7db3d4c7-9518-4f62-855b-7a3ffee51288"
+        },{
             "title":"Édition 7",
             "subtitle":"Le mois du sport !",
             "image":"https://collegemont-royal.github.io/files/journal/images/7.png",
