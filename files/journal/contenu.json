@@ -5,14 +5,12 @@
             "title":"Édition 8",
             "subtitle":"Place aux vacances !",
             "image":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/images/8.png",
-            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal8.pdf",
-            "UUID":"7db3d4c7-9518-4f62-855b-7a3ffee51288"
+            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal8.pdf"
         },{
             "title":"Édition 7",
             "subtitle":"Le mois du sport !",
             "image":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/images/7.png",
-            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal7.pdf",
-            "UUID":"dfb1a478-68cc-4452-a93d-2d4aa2953242"
+            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal7.pdf"
         },{
             "title":"Entrevue : Les sportifs du collège",
             "subtitle":"Écoutez les sportifs du CMR nous expliquer comment la COVID-19 a affecté leurs activités sportives.",
@@ -64,7 +62,7 @@
             "image":"🗄",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/journal/archives/contenu.json",
-            "UUID":"d2065659-de0b-4499-a241-911e184bd5c3"
+            "UUID":"e98d4328-cfcb-49fe-8ea8-d79a59b107b3"
         }
     ]
 }
