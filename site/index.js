@@ -155,5 +155,5 @@ function markDown(str) {
     var bold = str.replace(boldParameters, '<b>$1</b>');
     var italicParameters = /\*(.*?)\*/gm;
     var italic = bold.replace(italicParameters, '<i>$1</i>');
-    return bold + italic;
+    return italic;
 }
