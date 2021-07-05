@@ -2,25 +2,27 @@
     "version":"1.6.3",
     "cells": [
         {
-            "title":"Calendrier",
-            "subtitle":"Calendrier scolaire 2020-2021",
-            "image":"Calendrier",
-            "link":"https://collegemont-royal.github.io/files/ecole/calendrier2021.pdf"
-        },{
-            "title":"Code de vie",
-            "subtitle":"Code de vie 2020-2021",
-            "image":"Codedevie",
-            "link":"https://collegemont-royal.github.io/files/ecole/cdv2021.pdf"
-        },{
-            "title":"Cafétéria",
-            "subtitle":"Menu de la cafétéria 2020-2021",
-            "image":"fork",
-            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
+            "title":"Informations générales",
+            "subtitle":"Informations et règlements de l'année scolaire 2021-2022",
+            "image":"404",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
         },{
             "title":"Site du Collège",
             "subtitle":"Site web officiel du Collège Mont-Royal",
             "image":"lien",
             "link":"https://collegemont-royal.qc.ca/"
+        },{
+            "title":"Bibliothèque",
+            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
+            "image":"bibliotheque",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
+        },{
+            "title":"Cafétéria",
+            "subtitle":"Menu de la cafétéria 2020-2021",
+            "image":"fork",
+            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Journal Étudiant",
             "subtitle":"**Bonnes vacances •** Dernière édition #8 disponible !",
@@ -29,12 +31,11 @@
             "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
             "UUID":"18d055e4-b6d4-4700-8151-38ce80f61c82"
         },{
-            "title":"Bibliothèque",
-            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
-            "image":"bibliotheque",
+            "title":"Support technique",
+            "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
+            "image":"404",
             "newPage":true,
-            "UUID":"9b56b326-9e5b-4ef9-bc33-45dec00935fd",
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/support/contenu.json"
         }
     ]
 }

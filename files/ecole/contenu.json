@@ -1,0 +1,25 @@
+{
+    "cells": [
+        {
+            "title":"Calendrier",
+            "subtitle":"Calendrier scolaire 2020-2021",
+            "image":"Calendrier",
+            "link":"https://collegemont-royal.github.io/files/ecole/calendrier2021.pdf"
+        },{
+            "title":"Informations générales",
+            "subtitle":"Informations pour l'année scolaire 2020-2021",
+            "image":"404",
+            "link":""
+        },{
+            "title":"Code de vie",
+            "subtitle":"Code de vie 2020-2021",
+            "image":"Codedevie",
+            "link":"https://collegemont-royal.github.io/files/ecole/cdv2021.pdf"
+        },{
+            "title":"Règlement iPad",
+            "subtitle":"Règles d'utilisation de la tablette iPad au collège",
+            "image":"404",
+            "link":""
+        }
+    ]
+}
