@@ -1,0 +1,30 @@
+{
+    "cells": [
+        {
+            "title":"Calendrier",
+            "subtitle":"Calendrier scolaire pour l'année scolaire 2021-2022",
+            "image":"404",
+            "link":"https://collegemont-royal.github.io/files/ecole/calendrier2021.pdf"
+        },{
+            "title":"Horaire des cycles",
+            "subtitle":"Horaire des cycles pour l'année scolaire 2021-2022",
+            "image":"404",
+            "link":"https://collegemont-royal.github.io/files/ecole/horairecycles.pdf"
+        },{
+            "title":"Code de vie",
+            "subtitle":"Code de vie **2020-2021**",
+            "image":"404",
+            "link":"https://collegemont-royal.github.io/files/ecole/cdv2021.pdf"
+        },{
+            "title":"Règlement iPad (1, 2 et 3)",
+            "subtitle":"Règles d'utilisation de la tablette électronique iPad 2021-2022",
+            "image":"404",
+            "link":"https://collegemont-royal.github.io/files/ecole/regles-utilisation-tablette123.pdf"
+        },{
+            "title":"Règlement iPad (4 et 5)",
+            "subtitle":"Règles d'utilisation de la tablette électronique iPad 2021-2022",
+            "image":"404",
+            "link":"https://collegemont-royal.github.io/files/ecole/regles-utilisation-tablette45.pdf"
+        }
+    ]
+}
