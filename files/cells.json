@@ -10,18 +10,18 @@
         },{
             "title":"Site du Collège",
             "subtitle":"Site web officiel du Collège Mont-Royal",
-            "image":"lien",
+            "image":"404",
             "link":"https://collegemont-royal.qc.ca/"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
-            "image":"bibliotheque",
+            "image":"404",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
         },{
             "title":"Cafétéria",
             "subtitle":"Menu de la cafétéria 2020-2021",
-            "image":"fork",
+            "image":"404",
             "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Journal Étudiant",
