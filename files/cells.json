@@ -4,24 +4,24 @@
         {
             "title":"Informations générales",
             "subtitle":"Informations et règlements de l'année scolaire 2021-2022",
-            "image":"404",
+            "image":"https://collegemont-royal.github.io/files/images/infos.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
         },{
             "title":"Site du Collège",
             "subtitle":"Site web officiel du Collège Mont-Royal",
-            "image":"404",
+            "image":"https://collegemont-royal.github.io/files/images/siteweb.png",
             "link":"https://collegemont-royal.qc.ca/"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
-            "image":"404",
+            "image":"https://collegemont-royal.github.io/files/images/bibliotheque.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
         },{
             "title":"Cafétéria",
             "subtitle":"Menu de la cafétéria 2020-2021",
-            "image":"404",
+            "image":"https://collegemont-royal.github.io/files/images/lotusbleu.png",
             "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Journal Étudiant",
@@ -33,7 +33,7 @@
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
-            "image":"404",
+            "image":"https://collegemont-royal.github.io/files/images/support.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/contenu.json"
         }
