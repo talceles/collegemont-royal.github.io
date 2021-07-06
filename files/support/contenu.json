@@ -4,12 +4,14 @@
             "title":"Tutoriels iPad",
             "subtitle":"Apprenez à utiliser votre tablette comme un pro!",
             "image":"https://collegemont-royal.github.io/files/images/youtube.png",
-            "link":""
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/support/tutoriels.json"
         },{
             "title":"Problèmes fréquents",
             "subtitle":"Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",
             "image":"https://collegemont-royal.github.io/files/images/ampoule.png",
-            "link":""
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/support/solutions.json"
         },{
             "title":"Contacter le support technique",
             "subtitle":"Écrivez un courriel au support technique du collège et nous vous répondront dès que possible.",
