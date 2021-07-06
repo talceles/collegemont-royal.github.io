@@ -7,7 +7,7 @@
             "notification":true
         },{
             "title":"AirPlay",
-            "subtitle":"**1 - S'assurer qu'aucune autre personne n'est connectée à l'Apple TV**\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth\n",
+            "subtitle":"**1 - S'assurer qu'aucune autre personne n'est connectée à l'Apple TV**\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth",
             "image":"https://collegemont-royal.github.io/files/support/images/airplay.png",
             "notification":true
         }
