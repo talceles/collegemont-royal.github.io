@@ -2,14 +2,14 @@
     "cells": [
         {
             "title":"WiFi",
-            "subtitle":"**1 - Redémarrez le WiFi**\nPour un iPad, rendez-vous dans Réglages > WiFi;\nPour un ordinateur, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n\n**2 - Oublier le réseau WiFi**\nPour un iPad, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\nPour un ordinateur, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier",
+            "subtitle":"**1 - Redémarrez le WiFi**\nPour un iPad, rendez-vous dans Réglages > WiFi;\nPour un ordinateur, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n**2 - Oublier le réseau WiFi**\nPour un iPad, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\nPour un ordinateur, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier",
             "image":"https://collegemont-royal.github.io/files/support/images/wifi.png",
-            "link":""
+            "notification":true
         },{
             "title":"AirPlay",
-            "subtitle":"**1 - S'assurer qu'aucune autre personne n'est connectée à l'Apple TV**\n\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi\n\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth\n\n",
+            "subtitle":"**1 - S'assurer qu'aucune autre personne n'est connectée à l'Apple TV**\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth\n",
             "image":"https://collegemont-royal.github.io/files/support/images/airplay.png",
-            "link":""
+            "notification":true
         }
     ]
 }
