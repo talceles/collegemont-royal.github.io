@@ -2,9 +2,40 @@
     "version":"1.6.3",
     "cells": [
         {
-            "title":"De retour en aout...",
-            "subtitle":"**Bonnes vacances à tous et à toutes!**",
-            "image":"🕑"
+            "title":"Informations générales",
+            "subtitle":"Informations et règlements de l'année scolaire 2021-2022",
+            "image":"https://collegemont-royal.github.io/files/images/infos.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
+        },{
+            "title":"Site du Collège",
+            "subtitle":"Site web officiel du Collège Mont-Royal",
+            "image":"https://collegemont-royal.github.io/files/images/siteweb.png",
+            "link":"https://collegemont-royal.qc.ca/"
+        },{
+            "title":"Bibliothèque",
+            "subtitle":"Suggestions de lecture, critiques littéraires et activités",
+            "image":"https://collegemont-royal.github.io/files/images/bibliotheque.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
+        },{
+            "title":"Cafétéria",
+            "subtitle":"Menu de la cafétéria 2020-2021",
+            "image":"https://collegemont-royal.github.io/files/images/cafeteria.png",
+            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
+        },{
+            "title":"Journal Étudiant",
+            "subtitle":"**Bonnes vacances •** Dernière édition #8 disponible !",
+            "image":"🗞",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
+            "UUID":"18d055e4-b6d4-4700-8151-38ce80f61c82"
+        },{
+            "title":"Support technique",
+            "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
+            "image":"https://collegemont-royal.github.io/files/images/support.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/support/contenu.json"
         }
     ]
 }
