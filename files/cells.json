@@ -26,10 +26,9 @@
         },{
             "title":"Journal Étudiant",
             "subtitle":"**Bonnes vacances •** Dernière édition #8 disponible !",
-            "image":"🗞",
+            "image":"https://collegemont-royal.github.io/files/images/journal.png",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
-            "UUID":"18d055e4-b6d4-4700-8151-38ce80f61c82"
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
