@@ -17,7 +17,7 @@
             "notification":true
         },{
             "title":"Sonnerie",
-            "subtitle":"*Pour désactiver la sonnerie de son iPad.*\n**Rendez-vous dans Réglages > Sons**\n1 - Glissez le curseur de son jusqu'à 0%\n2 - Changez les sons SMS, courriel, etc. pour 'Aucune'\n3 - Désactivez l'interrupteur 'Clics du clavier' et 'Son de verrouillage'",
+            "subtitle":"*Pour désactiver la sonnerie de son iPad.*\n**1 - Rendez-vous dans Réglages > Sons**\n1 - Glissez le curseur de son jusqu'à 0%\n2 - Changez les sons SMS, courriel, etc. pour 'Aucune'\n3 - Désactivez l'interrupteur 'Clics du clavier' et 'Son de verrouillage'\n**2 - Activez le mode silencieux**\nOuvrez le centre de contrôle et cliquez sur la cloche pour qu'elle devienne rouge et barrée.",
             "image":"https://collegemont-royal.github.io/files/support/images/sonnerie.png",
             "notification":true
         },{
