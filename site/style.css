@@ -22,6 +22,7 @@ cell {
 
 .notification {
     background-color: rgba(160, 160, 160, 0.15);
+    margin: 4px;
 }
 
 .mouseOver.notification {
