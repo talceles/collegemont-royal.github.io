@@ -15,7 +15,8 @@
             "title":"Entrevue : Les sportifs du collège",
             "subtitle":"Écoutez les sportifs du CMR nous expliquer comment la COVID-19 a affecté leurs activités sportives.",
             "image":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/images/video7.png",
-            "link":"https://youtu.be/L6r_DxC3b4M"
+            "link":"https://youtu.be/L6r_DxC3b4M",
+            "openURL":true
         },{
             "title":"Édition 6",
             "subtitle":"Le mois de la lecture !",
