@@ -2,12 +2,12 @@
     "cells": [
         {
             "title":"WiFi",
-            "subtitle":"*Pour les problèmes de connection au WiFi ou pour une connexion lente.*\n**1 - Redémarrez le WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi;\n*Pour un ordinateur*, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n**2 - Oublier le réseau WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\n*Pour un ordinateur*, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier.",
+            "subtitle":"*Pour les problèmes de connexion au WiFi ou pour une connexion lente.*\n**1 - Redémarrez le WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi;\n*Pour un ordinateur*, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n**2 - Oublier le réseau WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\n*Pour un ordinateur*, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier.",
             "image":"https://collegemont-royal.github.io/files/support/images/wifi.png",
             "notification":true
         },{
             "title":"AirPlay",
-            "subtitle":"*Pour les problèmes de connection à une Apple TV.*\n**1 - S'assurer que l'Apple TV est disponible**\nPour vous connecter, personne d'autre ne doit être connecté à l'Apple TV.\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi.\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth.",
+            "subtitle":"*Pour les problèmes de connexion à une Apple TV.*\n**1 - S'assurer que l'Apple TV est disponible**\nPour vous connecter, personne d'autre ne doit être connecté à l'Apple TV.\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi.\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth.",
             "image":"https://collegemont-royal.github.io/files/support/images/airplay.png",
             "notification":true
         },{
@@ -17,7 +17,7 @@
             "notification":true
         },{
             "title":"Sonnerie",
-            "subtitle":"*Pour désactiver la sonnerie de son iPad.*\n**1 - Rendez-vous dans Réglages > Sons**\n1 - Glissez le curseur de son jusqu'à 0%\n2 - Changez les sons SMS, courriel, etc. pour 'Aucune'\n3 - Désactivez l'interrupteur 'Clics du clavier' et 'Son de verrouillage'\n**2 - Activez le mode silencieux**\nOuvrez le centre de contrôle et cliquez sur la cloche pour qu'elle devienne rouge et barrée.",
+            "subtitle":"*Pour désactiver la sonnerie de son iPad.*\n**1 - Rendez-vous dans Réglages > Sons**\n• Glissez le curseur de son jusqu'à 0%\n• Changez les sons SMS, courriel, etc. pour 'Aucune'\n• Désactivez l'interrupteur 'Clics du clavier' et 'Son de verrouillage'\n**2 - Activez le mode silencieux**\n• Ouvrez le centre de contrôle et cliquez sur la cloche pour qu'elle devienne rouge et barrée.",
             "image":"https://collegemont-royal.github.io/files/support/images/sonnerie.png",
             "notification":true
         },{
