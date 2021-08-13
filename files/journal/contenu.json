@@ -3,9 +3,10 @@
     [
         {
             "title":"Nous recrutons !",
-            "subtitle":"Joignez-vous à la super équipe du Journal Étudiant pour l'édition 2021-2022 !",
-            "image":"https://collegemont-royal.github.io/files/journal/banniere-journal.png",
-            "article":true
+            "subtitle":"Joignez-vous à la super équipe du Journal Étudiant pour l'année scolaire 2021-2022 !\nPour assister à la première rencontre, contactez Novalie Chevalier par le Pluriportail ou cliquez ici pour lui envoyer un courriel.",
+            "image":"https://collegemont-royal.github.io/files/journal/banniere-journal.jpg",
+            "article":true,
+            "link":"mailto:nchevalier@collegemont-royal.qc.ca?subject=Journal%20%C3%89tudiant%202021-2022&body=Bonjour!%20Je%20souhaite%20faire%20partie%20de%20l'%C3%A9quipe%20du%20journal%20%C3%A9tudiant%20cette%20ann%C3%A9e.%0D%0A%0D%0AMon%20nom%20%3A%0D%0AMon%20groupe%20%3A%0D%0AJe%20souhaite%20%C3%A9crire%20sur...%0D%0A%0D%0AMerci!"
         },{
             "title":"Édition 8",
             "subtitle":"Dernière édition 2021, au cas où vous l'auriez manquée.",
