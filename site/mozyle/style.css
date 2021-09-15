@@ -266,7 +266,7 @@ table.fixed-header thead, .lista li.fixed {
 .filehidden {
     width: 0px !important;
     height: 0 !important;
-    overflow: scroll !important;
+    overflow: hidden !important;
     opacity:0 !important
 }
 
@@ -565,7 +565,7 @@ i, em {
     border-radius: 100px;
     background: #fff;
     box-shadow: 0 2px 25px rgba(0, 0, 0, .1);
-    overflow: scroll
+    overflow:hidden
 }
 
 #loading_box .loading-progress .loading-progress-bar {
@@ -763,7 +763,7 @@ i, em {
     margin: 0 auto;
     white-space: nowrap;
     background: #f5f5f5;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 30px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
     border-right:1px solid rgba(0, 0, 0, .15)
@@ -771,7 +771,7 @@ i, em {
 
 .bar-status-loader .status-loader-orange {
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
     background-color: #ed7633;
     width: 100%;
@@ -786,7 +786,7 @@ i, em {
 
 .bar-status-loader .status-loader-light-green {
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
     background-color: #8cc05d;
     width: 33.3%;
@@ -801,7 +801,7 @@ i, em {
 
 .bar-status-loader .status-loader-dark-green {
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
     background-color: #418001;
     width: 100%;
@@ -1214,7 +1214,7 @@ input[type=radio]:disabled:not(:checked) {
 
 .onoffswitch label {
     display: block;
-    overflow: scroll;
+    overflow: hidden;
     cursor: pointer;
     height: 100%;
     padding: 0;
@@ -1298,7 +1298,7 @@ input[type=radio]:disabled:not(:checked) {
     padding-top: 4px;
     color: #5e6d7b;
     border-bottom: 2px solid transparent;
-    overflow: scroll;
+    overflow: hidden;
     width: 100%;
     vertical-align: middle;
     font-size: 1.1em;
@@ -1415,7 +1415,7 @@ b, strong {
 
 body.hideuserbar #userbar {
     height: 0;
-    overflow: scroll
+    overflow:hidden
 }
 
 #userbar .userbar-content {
@@ -1427,8 +1427,8 @@ body.hideuserbar #userbar {
 #userbar .userbar-content .option-username {
     padding: 7px 10px 0;
     float: left;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -1512,7 +1512,7 @@ body.hideuserbar #userbar {
     max-height: 0;
     opacity: 1;
     visibility: hidden;
-    overflow: scroll;
+    overflow: hidden;
     transform:translateY(-10px)
 }
 
@@ -1549,7 +1549,7 @@ body.hideuserbar #userbar {
 #bar #bar-table .table-item {
     display: table-cell;
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     vertical-align: middle;
@@ -1732,7 +1732,7 @@ body.hideuserbar #userbar {
 
 #chooseplatform-content .white-box {
     width: 270px;
-    overflow: scroll;
+    overflow: hidden;
     max-height: 250px;
     background: #fff;
     z-index: 11;
@@ -1897,7 +1897,7 @@ body.hideuserbar #userbar {
 
 #main {
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -1909,7 +1909,7 @@ body.hideuserbar #userbar {
 }
 
 #main #main2 {
-    overflow: scroll;
+    overflow: hidden;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -1921,7 +1921,7 @@ body.hideuserbar #userbar {
 }
 
 #main #main2 #main3 {
-    overflow: scroll;
+    overflow: hidden;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -2081,7 +2081,7 @@ body.hideuserbar #userbar {
     background-size: 30px;
     width: 36px;
     height: 36px;
-    overflow: scroll;
+    overflow: hidden;
     cursor: pointer;
     color:transparent
 }
@@ -2114,8 +2114,8 @@ body.hideuserbar #userbar {
     justify-content: center;
     font-weight: 600;
     flex-direction: column;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -2160,7 +2160,7 @@ body.hideuserbar #userbar {
 .div_photo {
     height: 80px;
     width: 80px;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 100px;
     background: #f1f4f5;
     display: inline-block;
@@ -2321,8 +2321,8 @@ body.hideuserbar #userbar {
 .lista li .description {
     color: #999;
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -2467,7 +2467,7 @@ body.hideuserbar #userbar {
 
 .lista li.vppitem .icon {
     width: 28px;
-    overflow: scroll;
+    overflow: hidden;
     height: 36px;
     margin-top: -3px;
     float:left
@@ -2484,8 +2484,8 @@ body.hideuserbar #userbar {
 
 .lista li.vppitem .name {
     padding: 0 8px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -3536,7 +3536,7 @@ table.fixed-header.style-basic .empty-message {
     line-height: 150%;
     text-align: center;
     white-space: nowrap;
-    text-overflow: scroll;
+    text-overflow: ellipsis;
     background: #ffe477;
     color: #ff5722;
     font-weight:600
@@ -3583,7 +3583,7 @@ table.fixed-header.style-basic .empty-message {
     width: 100%;
     display: flex;
     border: 1px solid #3aa99e;
-    overflow: scroll;
+    overflow: hidden;
     border-radius:4px
 }
 
@@ -3997,7 +3997,7 @@ span.img-toggle-password.mini {
 }
 
 .ms-table > .ms-form .multi-filter.closed > .mf-main > .mf-options {
-    overflow: scroll;
+    overflow: hidden;
     max-height: 0;
     padding: 0 10px;
     opacity:0
@@ -4006,7 +4006,7 @@ span.img-toggle-password.mini {
 .ms-table > .ms-form .multi-filter.closed > .mf-main > .mf-options > .mf-option {
     height: 0;
     padding: 0;
-    overflow: scroll
+    overflow:hidden
 }
 
 .ms-table > .ms-form .multi-filter.closed > .mf-main > .mf-mask {
@@ -4060,7 +4060,7 @@ span.img-toggle-password.mini {
 
 .ms-table > .ms-content > .ms-pagination {
     height: 34px;
-    overflow: scroll;
+    overflow: hidden;
     border-top: 1px solid #ddd;
     padding: 7px 15px;
     background: #fafafa;
@@ -4081,7 +4081,7 @@ span.img-toggle-password.mini {
 #appselector {
     width: 100%;
     height: 100%;
-    overflow: scroll
+    overflow:visible
 }
 
 #appselector #as-head {
@@ -4118,14 +4118,14 @@ span.img-toggle-password.mini {
     right: 10px;
     top: 10px;
     border-radius: 4px;
-    overflow: scroll
+    overflow:hidden
 }
 
 #appselector #as-head .as-options > .as-option {
     padding: 7px 15px;
     white-space: nowrap;
-    text-overflow: scroll;
-    overflow: scroll
+    text-overflow: ellipsis;
+    overflow:hidden
 }
 
 #appselector #as-head .as-options.opened > .as-option.suboption {
@@ -4182,7 +4182,7 @@ span.img-toggle-password.mini {
 
 #appselector #as-main .as-search {
     height: 41px;
-    overflow: scroll;
+    overflow: hidden;
     border-bottom:1px solid #ccc
 }
 
@@ -4232,8 +4232,8 @@ span.img-toggle-password.mini {
     position: relative;
     cursor: pointer;
     white-space: nowrap;
-    text-overflow: scroll;
-    overflow: scroll
+    text-overflow: ellipsis;
+    overflow: hidden
 }
 
 #appselector.list .app[is_paid="1"]:after {
@@ -4287,7 +4287,7 @@ span.img-toggle-password.mini {
 
 #appselector.list .app > .app-icon.curved {
     border-radius: 6px;
-    overflow: hidden
+    overflow:hidden
 }
 
 #appselector.list .app > .app-icon > img {
@@ -4344,7 +4344,7 @@ span.img-toggle-password.mini {
     width: 24px;
     margin-right: 5px;
     border-radius: 2px;
-    overflow: scroll;
+    overflow: hidden;
     background: #ddd;
     position: absolute;
     top: 4px;
@@ -4404,7 +4404,7 @@ span.img-toggle-password.mini {
     height: 18px;
     overflow: hidden;
     font-size: .9em;
-    text-overflow: scroll;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap
 }
@@ -4483,7 +4483,7 @@ span.img-toggle-password.mini {
     margin: 1%;
     flex-direction: column;
     border-radius: 5px;
-    overflow: hidden
+    overflow:hidden
 }
 
 @media (min-width: 1660px) {
@@ -4562,8 +4562,8 @@ span.img-toggle-password.mini {
 #appselector.app-catalog .app .app-name {
     font-size: 1.2rem;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     -webkit-line-clamp: 2;
     -webkit-box-orient:vertical
 }
@@ -4674,7 +4674,7 @@ span.img-toggle-password.mini {
     padding-top: 4px;
     vertical-align: top;
     height: 34px;
-    overflow: scroll;
+    overflow: hidden;
     font-size:.9em
 }
 
@@ -4682,7 +4682,7 @@ span.img-toggle-password.mini {
     font-size: .8em;
     color: #aaa;
     height: 34px;
-    overflow: hidden
+    overflow:hidden
 }
 
 .appselector_grid .app > .config {
@@ -4783,9 +4783,9 @@ span.img-toggle-password.mini {
 .appselector_list .app > .app-name {
     padding-top: 5px;
     vertical-align: top;
-    overflow: scroll;
+    overflow: hidden;
     font-size: .95em;
-    text-overflow: scroll;
+    text-overflow: ellipsis;
     overflow: scroll;
     white-space:nowrap
 }
@@ -4879,7 +4879,7 @@ span.img-toggle-password.mini {
 #login .login_inputs {
     margin: 20px 0;
     border: 1px solid #c6d5dc;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 7px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -4967,7 +4967,7 @@ span.img-toggle-password.mini {
 
 #dash .dash_box {
     background: #fff;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 15px;
     border-radius: 4px;
     box-shadow:0 1px 1px rgba(0, 0, 0, .1)
@@ -4981,8 +4981,8 @@ span.img-toggle-password.mini {
     color: #fff;
     font-weight: 500;
     height: 40px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -5159,7 +5159,7 @@ span.img-toggle-password.mini {
     position: relative;
     margin: 10px .5%;
     border-radius: 4px;
-    overflow: scroll;
+    overflow: hidden;
     background: #fff;
     white-space: nowrap;
     color: #fff;
@@ -5203,8 +5203,8 @@ span.img-toggle-password.mini {
     padding: 5px 10px;
     opacity: .8;
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
@@ -5251,7 +5251,7 @@ span.img-toggle-password.mini {
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-    overflow: scroll
+    overflow:hidden
 }
 
 #dash .dashboard-graphs .graph-box .lateral-title {
@@ -5716,7 +5716,7 @@ span.img-toggle-password.mini {
     height: 100%;
     top: 0;
     left: 0;
-    overflow: scroll;
+    overflow: hidden;
     transition:background .8s ease
 }
 
@@ -5973,8 +5973,8 @@ span.img-toggle-password.mini {
 
 #helpcenter #categories_list > li > .append > ul > li > .append > ul > li > span > font {
     display: block;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -6000,8 +6000,8 @@ span.img-toggle-password.mini {
 
 #helpcenter #articles_list li > span > font {
     display: block;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -6330,14 +6330,14 @@ span.img-toggle-password.mini {
     padding-top: 20px;
     font-weight: 600;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
 .userheader_infos .type {
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -6407,7 +6407,7 @@ span.img-toggle-password.mini {
 
 #dock-preview {
     height: 370px;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
     background: url("../images/wallpapers/mac-sierra.jpg") no-repeat center center;
     background-size: cover;
@@ -6525,8 +6525,8 @@ span.img-toggle-password.mini {
     color: #37474f;
     max-width: 100%;
     text-align: center;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -6576,8 +6576,8 @@ span.img-toggle-password.mini {
     color: #37474f;
     max-width: 100%;
     text-align: center;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -6680,7 +6680,7 @@ li.ui-widget-content_device {
     margin-left: 33px;
     margin-bottom: 20px;
     max-height: 300px;
-    overflow: scroll;
+    overflow: hidden;
     opacity: 1;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
@@ -6701,7 +6701,7 @@ li.ui-widget-content_device {
     background-color: #f0f0f0;
     display: block;
     height: 38px;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 15px;
     float: left;
     padding: 10px 20px 0;
@@ -6711,13 +6711,13 @@ li.ui-widget-content_device {
 .label_filter_selected {
     padding: 10px 0 0 10px;
     clear: none;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
 .gm-style-iw div {
-    overflow: scroll !important
+    overflow:hidden !important
 }
 
 .label_aviso_supervisao {
@@ -6733,7 +6733,7 @@ li.ui-widget-content_device {
 #list_types, #list_1_1, #list_shared, #list_limbo {
     width: 100%;
     height: calc(100% - 40px);
-    overflow: scroll
+    overflow:hidden
 }
 
 #list_types {
@@ -6757,7 +6757,7 @@ li.ui-widget-content_device {
     border-radius: 5px;
     width: 200px;
     height: 150px;
-    overflow: scroll;
+    overflow: hidden;
     padding: 10px;
     cursor:pointer
 }
@@ -6835,7 +6835,7 @@ li.ui-widget-content_device {
 .item_aplicativo .icon {
     float: left;
     margin-right: 10px;
-    overflow: scroll;
+    overflow: hidden;
     width: 40px;
     height:40px
 }
@@ -7021,7 +7021,7 @@ li.ui-widget-content_device {
     height: 54px;
     margin-right: 10px;
     float: left;
-    overflow: scroll
+    overflow:hidden
 }
 
 .list2appsperline .aplicativo > .bookicon img {
@@ -7036,8 +7036,8 @@ li.ui-widget-content_device {
 .list2appsperline .aplicativo > .nome {
     line-height: 130%;
     height: 20px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     vertical-align:top
 }
@@ -7057,8 +7057,8 @@ li.ui-widget-content_device {
 .list2appsperline .aplicativo > .categoria {
     line-height: 130%;
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     color:#999
 }
@@ -7098,8 +7098,8 @@ li.ui-widget-content_device {
     font-size: .8em;
     margin-top: -18px;
     color: #999;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -7263,8 +7263,8 @@ li.ui-widget-content_device {
     display: -webkit-box;
     font-size: 11px;
     line-height: 1.3em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     -webkit-line-clamp: 2;
     -webkit-box-orient:vertical
 }
@@ -7290,7 +7290,7 @@ li.ui-widget-content_device {
     padding: 4px 0;
     vertical-align: top;
     white-space: nowrap;
-    overflow: scroll
+    overflow:hidden
 }
 
 .profile_apps_list .aplicativo:not(:last-child) {
@@ -7417,8 +7417,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     padding: 5px 0 0 8px;
     max-width: calc(100% - 110px);
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     vertical-align:top
 }
@@ -7449,7 +7449,7 @@ li.ui-widget-content_device {
     padding-top: 20px;
     height: 50px;
     font-weight: bold;
-    overflow: scroll;
+    overflow: hidden;
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
@@ -7624,7 +7624,7 @@ li.ui-widget-content_device {
 #lista_restricoes .item_aplicativo > .icone {
     width: 24px;
     height: 24px;
-    overflow: scroll;
+    overflow: hidden;
     float:left
 }
 
@@ -7690,7 +7690,7 @@ li.ui-widget-content_device {
     border: 1px solid #e4eaec;
     border-right: 0;
     width: calc(100% + 20px);
-    overflow: scroll;
+    overflow: hidden;
     margin-top: 25px;
     margin-left:30px
 }
@@ -7739,8 +7739,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     color: #bbb;
     max-width: 70px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -7749,8 +7749,8 @@ li.ui-widget-content_device {
     line-height: 170%;
     font-weight: 600;
     margin-left: 50px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -7758,15 +7758,15 @@ li.ui-widget-content_device {
     color: #37474f;
     line-height: 170%;
     margin-left: 50px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
 #list_classfeed > .classperiod .teacher_name {
     margin-left: 50px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -7878,7 +7878,7 @@ li.ui-widget-content_device {
 
 .stickylist {
     height: 100px;
-    overflow: scroll;
+    overflow: hidden;
     position:relative
 }
 
@@ -7947,7 +7947,7 @@ li.ui-widget-content_device {
 
 .sl-profilelist {
     height: 100px;
-    overflow: scroll;
+    overflow: hidden;
     position:relative
 }
 
@@ -8105,7 +8105,7 @@ li.ui-widget-content_device {
     height: 100%;
     vertical-align: middle;
     text-align: center;
-    overflow: scroll;
+    overflow: hidden;
     background: #fff;
     background: -moz-radial-gradient(center, ellipse cover, #fff 0%, #e4eaec 100%);
     background: -webkit-radial-gradient(center, ellipse cover, #fff 0%, #e4eaec 100%);
@@ -8247,7 +8247,7 @@ li.ui-widget-content_device {
     vertical-align: middle;
     padding: 4%;
     text-align: left;
-    overflow: scroll;
+    overflow: hidden;
     max-width: 90%;
     max-height: 90%;
     overflow: auto;
@@ -8369,8 +8369,8 @@ li.ui-widget-content_device {
     color: #fff;
     line-height: 120%;
     margin-bottom: 8px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     text-shadow:0 1px 2px #000
 }
@@ -8431,8 +8431,8 @@ li.ui-widget-content_device {
     margin-top: 15px;
     font-size: 1.5em;
     display: inline-block;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8445,8 +8445,8 @@ li.ui-widget-content_device {
     padding-left: 8px;
     border-left: 1px solid rgba(255, 255, 255, .5);
     opacity: .8;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8456,8 +8456,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     color: #fff;
     opacity: .5;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8567,8 +8567,8 @@ li.ui-widget-content_device {
 #form_certificateinstall .file_upload_box .upload_status {
     float: right;
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8577,8 +8577,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     width: 49%;
     color: #999;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8586,8 +8586,8 @@ li.ui-widget-content_device {
     padding: 5px 36px 6px 0;
     width: 100%;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8675,8 +8675,8 @@ li.ui-widget-content_device {
 #form_bookinstall .file_upload_box .upload_status {
     float: right;
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8685,8 +8685,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     width: 49%;
     color: #999;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8694,8 +8694,8 @@ li.ui-widget-content_device {
     padding: 5px 36px 6px 0;
     width: 100%;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8769,8 +8769,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     width: 49%;
     color: #999;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8778,8 +8778,8 @@ li.ui-widget-content_device {
     padding: 0px 36px 5px 0;
     width: 100%;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8847,8 +8847,8 @@ li.ui-widget-content_device {
     font-size: .9em;
     width: 49%;
     color: #999;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8856,8 +8856,8 @@ li.ui-widget-content_device {
     padding: 0px 36px 5px 0;
     width: 100%;
     color: #37474f;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -8991,7 +8991,7 @@ li.ui-widget-content_device {
     border: 1px solid #ff9800;
     white-space: nowrap;
     width: 15px;
-    overflow: scroll;
+    overflow: hidden;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
@@ -9055,7 +9055,7 @@ table.table-std {
     border-radius: 4px;
     border-collapse: collapse;
     border-style: hidden;
-    overflow: scroll;
+    overflow: hidden;
     box-shadow:0 0 0 1px #ccc
 }
 
@@ -9139,8 +9139,8 @@ table.table-std.expanded .item_expanded {
     font-size: 1.6em;
     color: #37474f;
     padding-top: 20px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -9156,16 +9156,16 @@ table.table-std.expanded .item_expanded {
     font-style: italic;
     color: #999;
     margin-bottom: 10px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
 #app_info .app_header .company {
     margin-top: 10px;
     margin-bottom: 3px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -9207,7 +9207,7 @@ table.pricing_table {
     width: 100%;
     border-collapse: collapse;
     border-style: hidden;
-    overflow: scroll;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -9308,7 +9308,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     box-shadow: 0 0px 2px rgba(0, 0, 0, .1);
     border: 1px solid #ccc;
     border-radius: 0 4px 4px 4px;
-    overflow: scroll;
+    overflow: hidden;
     padding:15px
 }
 
@@ -9361,7 +9361,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     box-shadow: 0 0px 2px rgba(0, 0, 0, .1);
     border: 1px solid #ccc;
     border-radius: 0 4px 4px 4px;
-    overflow: scroll;
+    overflow: hidden;
     padding:15px
 }
 
@@ -9615,7 +9615,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 }
 
 #youtubelist .youtube_item .videoinfo {
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
     width: calc(100% - 190px);
     float: left;
@@ -9690,7 +9690,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     position: absolute;
     z-index: 10;
     max-height: none;
-    overflow: scroll;
+    overflow: hidden;
     bottom: -10px;
     left: -10px;
     width: 100%;
@@ -9746,7 +9746,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     border-radius: 4px;
     border-collapse: collapse;
     border-style: hidden;
-    overflow: scroll;
+    overflow: hidden;
     box-shadow: 0 0 0 1px #ddd;
     background: #fff;
     margin-bottom:10px
@@ -9770,7 +9770,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     background-color: #f0f0f0;
     display: block;
     height: 38px;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 15px;
     float: left;
     padding: 10px 20px 0;
@@ -9950,7 +9950,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 
 #devices-filter {
     min-height: 50px;
-    overflow: scroll
+    overflow:hidden
 }
 
 #devices-filter #addbutton-devices-filter {
@@ -9974,8 +9974,8 @@ table.pricing_table tr:last-child td:not(:first-child) {
     word-break: break-all;
     max-width: 400px;
     white-space: nowrap;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     position:relative
 }
 
@@ -10038,7 +10038,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     width: 100%;
     height: 100%;
     border-radius: 24%;
-    overflow: scroll
+    overflow:hidden
 }
 
 .appinstall .appinstall-name {
@@ -10046,8 +10046,8 @@ table.pricing_table tr:last-child td:not(:first-child) {
     color: #37474f;
     font-weight: 600;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .appinstall .appinstall-description {
@@ -10064,7 +10064,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     margin-bottom: 5px;
     margin-top: 8px;
     background: #f5f5f5;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 4px;
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
@@ -10073,7 +10073,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 
 .appinstall .appinstall-progressbar .status {
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
     height: 100%;
     border-right: 1px solid rgba(0, 0, 0, .15);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15);
@@ -10101,7 +10101,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     height: 6px;
     margin-top: 6px;
     vertical-align: top;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 100px;
     margin-right:7px
 }
@@ -10128,7 +10128,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     width: 100%;
     height: 8px;
     background: #f5f5f5;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow:inset 0 1px 1px rgba(0, 0, 0, .15)
 }
@@ -10140,7 +10140,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 
 .mm-bar > .mm-content > .mm-item {
     float: left;
-    overflow: scroll;
+    overflow: hidden;
     height: 100%;
     box-shadow:inset 0 1px 1px rgba(0, 0, 0, .15)
 }
@@ -10390,7 +10390,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     margin-right: 10px;
     width: 44px;
     height: 44px;
-    overflow: scroll;
+    overflow: hidden;
     padding: 5px;
     border-radius: 5px;
     box-shadow:0 1px 2px rgba(0, 0, 0, .2)
@@ -10498,7 +10498,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 #cm_selectperiod #whitebar {
     background: #fff;
     min-height: 45px;
-    overflow: scroll
+    overflow:hidden
 }
 
 #cm_selectperiod .input_search {
@@ -10628,23 +10628,23 @@ table.pricing_table tr:last-child td:not(:first-child) {
     color: #bbb;
     max-width: 90px;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_periodslist .cm_course_classperiods .cm_classperiod .cm_classperiod_name {
     color: #37474f;
     font-size: 1.1em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_periodslist .cm_course_classperiods .cm_classperiod .cm_teacher_name {
     font-size: .9em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_periodslist .cm_course_classperiods .cm_classperiod .cm_count_students {
@@ -10830,7 +10830,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 100%;
     height: calc(100% - 70px);
     background: #f9f9f9;
-    overflow: scroll;
+    overflow: hidden;
     position:relative
 }
 
@@ -11014,14 +11014,14 @@ input[type=range]:disabled::-moz-range-thumb {
     color: #37474f;
     text-transform: uppercase;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .classmanager .classperiod_name {
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .classmanager > .cm_main {
@@ -11087,8 +11087,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-weight: 600;
     color: #37474f;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-bottom:15px
 }
 
@@ -11319,8 +11319,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 0 5px 3px;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_main > .cm_content > .cm_userlist .cm_user > .cm_inside > .cm_devicename {
@@ -11330,8 +11330,8 @@ input[type=range]:disabled::-moz-range-thumb {
     display: block;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_main > .cm_content > .cm_userlist .cm_user > .cm_inside > .cm_devicename img {
@@ -11365,8 +11365,8 @@ input[type=range]:disabled::-moz-range-thumb {
     color: #a2a2a2;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
     -o-transition: all .2s;
@@ -11471,7 +11471,7 @@ input[type=range]:disabled::-moz-range-thumb {
     width: 40px;
     height: 40px;
     border: 3px solid #f1f1f1;
-    overflow: scroll;
+    overflow: hidden;
     color: #e5e5e5;
     padding-top: 5px;
     background: #fff;
@@ -11628,8 +11628,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 16px 45px 0 55px;
     width: 100%;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_main > .cm_content > .cm_commandoptions .cm_behaviorlist {
@@ -11756,8 +11756,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 5px;
     font-size: .9em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_main > .cm_content > .cm_commandoptions .cm_expandbehaviors {
@@ -12183,8 +12183,8 @@ input[type=range]:disabled::-moz-range-thumb {
 .cm_internetcontrol .cm_sitelist > .cm_site .cm_url {
     display: block;
     white-space: nowrap;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     padding-right:15px
 }
 
@@ -12195,8 +12195,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding-left: 23px;
     display: block;
     white-space: nowrap;
-    text-overflow: scroll;
-    overflow: scroll
+    text-overflow: ellipsis;
+    overflow:hidden
 }
 
 .cm_internetcontrol .cm_sitelist > .cm_site:not(:last-child) {
@@ -12307,7 +12307,7 @@ input[type=range]:disabled::-moz-range-thumb {
     position: relative;
     padding: 9px 15px;
     vertical-align: top;
-    overflow: scroll;
+    overflow: hidden;
     border-bottom:1px solid #e4eaec
 }
 
@@ -12336,10 +12336,10 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .classmanager .cm_applock #apps_studyapps .application .cm_appicon {
-    width: 41px;
-    height: 41px;
+    width: 31px;
+    height: 31px;
     float: left;
-    margin-right:10px;
+    margin-right:10px
 }
 
 .classmanager .cm_applock #apps_studyapps .application .cm_appicon img {
@@ -12356,8 +12356,8 @@ input[type=range]:disabled::-moz-range-thumb {
 .classmanager .cm_applock #apps_studyapps .application .cm_appname {
     padding-top: 7px;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .classmanager .cm_applock .select_another_app {
@@ -12532,8 +12532,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 10px 0;
     font-size: .95em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_urllock_historic > .cm_historic_item {
@@ -12549,7 +12549,7 @@ input[type=range]:disabled::-moz-range-thumb {
 .cm_urllock_historic > .cm_historic_item > .cm_url {
     line-height: 150%;
     max-height: 42px;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom:3px
 }
 
@@ -12769,12 +12769,12 @@ input[type=range]:disabled::-moz-range-thumb {
 
 .classmanager .cm_unanswer_user .cm_username {
     height: 20px;
-    overflow: scroll
+    overflow:hidden
 }
 
 .classmanager .cm_unanswer_user .cm_userabsent {
     height: 20px;
-    overflow: scroll;
+    overflow: hidden;
     display: block;
     font-size:.9em
 }
@@ -12797,7 +12797,7 @@ input[type=range]:disabled::-moz-range-thumb {
 .cm_quickpoll_historic > .cm_historic_item > .cm_question {
     line-height: 150%;
     max-height: 42px;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom:3px
 }
 
@@ -12839,8 +12839,8 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #cm_students_without_device .list_students .student .user_name {
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size:.95em
 }
 
@@ -13041,8 +13041,8 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 33px;
     text-align: left;
     font-size: .9em;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm_main > .cm_content > .cm_userlist.screenshare .cm_user > .cm_inside > .cm_activetab img {
@@ -13056,7 +13056,7 @@ input[type=range]:disabled::-moz-range-thumb {
     background: #fff;
     padding-top: 40px;
     position: relative;
-    overflow: scroll
+    overflow:scroll
 }
 
 #cm_startclass {
@@ -13064,7 +13064,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 100%;
     padding: 15px 15px 0;
     background: #f9f9f9;
-    overflow: scroll
+    overflow:hidden
 }
 
 #cm_startclass .cm-startclass-options {
@@ -13339,7 +13339,7 @@ input[type=range]:disabled::-moz-range-thumb {
 #cm_startedclass {
     width: 100%;
     height: 100%;
-    overflow: scroll
+    overflow:hidden
 }
 
 #cm_startedclass #cm_startedclass_header {
@@ -13707,8 +13707,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 0 5px 3px;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_devicename {
@@ -13718,8 +13718,8 @@ input[type=range]:disabled::-moz-range-thumb {
     display: block;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_devicename img {
@@ -13753,8 +13753,8 @@ input[type=range]:disabled::-moz-range-thumb {
     color: #a2a2a2;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
     -o-transition: all .2s;
@@ -13802,8 +13802,8 @@ input[type=range]:disabled::-moz-range-thumb {
     margin: 15px 5px;
     text-align: center;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user.absent {
@@ -13873,8 +13873,8 @@ input[type=range]:disabled::-moz-range-thumb {
     max-width: 175px;
     padding-top: 3px;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_activetab {
@@ -13883,8 +13883,8 @@ input[type=range]:disabled::-moz-range-thumb {
     white-space: nowrap;
     height: 33px;
     font-size: .85em;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_activetab img {
@@ -13995,7 +13995,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 65.5%;
     max-width: 100%;
     border-bottom: 1px solid #ddd;
-    overflow: scroll;
+    overflow: hidden;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
     -o-transition: all .2s;
@@ -14120,8 +14120,8 @@ input[type=range]:disabled::-moz-range-thumb {
 #cm_screenshare_tabs .cm_screenshare_tabs_list > .cm_tab_item .cm_tab_text {
     font-size: .9em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm_startedclass #cm_startedclass_content #cm_userscreenshots {
@@ -14228,7 +14228,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .timeline-usage {
-    overflow: scroll;
+    overflow: hidden;
     position:relative
 }
 
@@ -14268,8 +14268,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-weight: 600;
     color: #37474f;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .timeline-usage .timeline-users .btn-viewscreen {
@@ -14299,7 +14299,7 @@ input[type=range]:disabled::-moz-range-thumb {
 .timeline-usage .timeline-apps {
     width: auto;
     margin-left: 200px;
-    overflow: scroll
+    overflow:scroll
 }
 
 .timeline-usage .timeline-apps .timeline-timer {
@@ -14310,7 +14310,7 @@ input[type=range]:disabled::-moz-range-thumb {
     color: #999;
     font-size: .9em;
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
@@ -14347,7 +14347,7 @@ input[type=range]:disabled::-moz-range-thumb {
     clear: both;
     width: 100%;
     text-align: right;
-    overflow: scroll
+    overflow:hidden
 }
 
 .timeline-usage .timeline-apps .timeline-apps-content .app-usage .app-img img {
@@ -14366,8 +14366,8 @@ input[type=range]:disabled::-moz-range-thumb {
     border-radius: 3px;
     font-size: .7em;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
     -o-transition: all .2s;
@@ -14509,8 +14509,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: 1.5em;
     display: inline-block;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm-classperiodheader .cm-classperiod-infos .classperiod_name {
@@ -14522,8 +14522,8 @@ input[type=range]:disabled::-moz-range-thumb {
     border-left: 1px solid rgba(255, 255, 255, .3);
     opacity: .8;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm-classperiodheader .cm-classperiod-infos .teacher_name {
@@ -14533,8 +14533,8 @@ input[type=range]:disabled::-moz-range-thumb {
     color: #fff;
     opacity: .7;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 #cm-classperiodheader .cm-classperiod-platforms {
@@ -14566,11 +14566,11 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #cm-classperiodheader .cm-classperiod-platforms .cm-list .cm-platform {
     display: table-cell;
-    overflow: scroll;
+    overflow: hidden;
     width: 100%;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll;
+    overflow: hidden;
+    text-overflow: ellipsis;
     background: #203533;
     border-bottom: 5px solid #f9f9f9;
     padding: 8px 5px;
@@ -14662,8 +14662,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: .9em;
     color: #aaa;
     white-space: nowrap;
-    overflow: scroll;
-    text-overflow: scroll
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .cm-classhistory-list .cm-session .cm-screenshots {
@@ -14967,7 +14967,7 @@ input[type=range]:disabled::-moz-range-thumb {
         width: 65px;
         height: 65px;
         margin: 0 auto 8px;
-        overflow: scroll
+        overflow:hidden
     }
 
     #myapps-main .myapps-list .app .app-icon.app-ios {
@@ -15000,7 +15000,7 @@ input[type=range]:disabled::-moz-range-thumb {
         color: #fff;
         padding: 22px 7px;
         font-size: 1.1em;
-        overflow: scroll;
+        overflow: hidden;
         box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
         background: #37474f;
         background: -moz-linear-gradient(top, #37474f 0%, #5e6d7b 100%);
@@ -15012,8 +15012,8 @@ input[type=range]:disabled::-moz-range-thumb {
     #myapps-main .myapps-list .app .app-name {
         text-align: center;
         margin-bottom: 8px;
-        text-overflow: scroll;
-        overflow: scroll;
+        text-overflow: ellipsis;
+        overflow: hidden;
         white-space:nowrap
     }
 
@@ -15023,8 +15023,8 @@ input[type=range]:disabled::-moz-range-thumb {
         color: #aaa;
         margin: -4px auto 7px;
         font-style: italic;
-        text-overflow: scroll;
-        overflow: scroll;
+        text-overflow: ellipsis;
+        overflow: hidden;
         white-space:nowrap
     }
 
@@ -15065,7 +15065,7 @@ input[type=range]:disabled::-moz-range-thumb {
         width: 32px;
         height: 32px;
         float: left;
-        overflow: scroll
+        overflow:hidden
     }
 
     #myapps-main .myapps-list .app .app-icon.app-ios {
@@ -15098,7 +15098,7 @@ input[type=range]:disabled::-moz-range-thumb {
         color: #fff;
         padding: 22px 7px;
         font-size: 1.1em;
-        overflow: scroll;
+        overflow: hidden;
         box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
         background: #37474f;
         background: -moz-linear-gradient(top, #37474f 0%, #5e6d7b 100%);
@@ -15109,8 +15109,8 @@ input[type=range]:disabled::-moz-range-thumb {
 
     #myapps-main .myapps-list .app .app-name {
         margin-left: 40px;
-        text-overflow: scroll;
-        overflow: scroll;
+        text-overflow: ellipsis;
+        overflow: hidden;
         white-space: nowrap;
         max-width:calc(100% - 130px)
     }
@@ -15124,8 +15124,8 @@ input[type=range]:disabled::-moz-range-thumb {
         margin-left: 40px;
         color: #aaa;
         font-style: italic;
-        text-overflow: scroll;
-        overflow: scroll;
+        text-overflow: ellipsis;
+        overflow: hidden;
         white-space: nowrap;
         max-width:calc(100% - 130px)
     }
@@ -15165,8 +15165,8 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #myapps-main .study-site .cm_url {
     display: block;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     padding-right:15px
 }
@@ -15177,8 +15177,8 @@ input[type=range]:disabled::-moz-range-thumb {
     clear: both;
     padding-left: 23px;
     display: block;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -15556,7 +15556,7 @@ input[type=range]:disabled::-moz-range-thumb {
     float: left;
     width: 39%;
     height: 260px;
-    overflow: scroll;
+    overflow: hidden;
     text-align: center;
     padding-top: 20px;
     background: #fff;
@@ -15572,7 +15572,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #section-lastscore .gauge-graph .mask {
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0 auto;
     display: block;
     width: 20rem;
@@ -15689,7 +15689,7 @@ input[type=range]:disabled::-moz-range-thumb {
     width: 100%;
     height: 100%;
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow:0 2px 10px rgba(0, 0, 0, .05)
@@ -15996,7 +15996,7 @@ input[type=range]:disabled::-moz-range-thumb {
     box-shadow: 0 0px 2px rgba(0, 0, 0, .1);
     border: 1px solid #ccc;
     border-radius: 4px;
-    overflow: scroll
+    overflow:hidden
 }
 
 .device-rulelist .rule-item {
@@ -16108,8 +16108,8 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-name {
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -16117,8 +16117,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: .9em;
     color: #aaa;
     margin-bottom: 3px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -16126,8 +16126,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 3px 8px;
     font-size: .9em;
     border: none;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -16184,7 +16184,7 @@ input[type=range]:disabled::-moz-range-thumb {
     background: #fff;
     min-height: 70px;
     padding: 10px;
-    overflow: scroll
+    overflow:hidden
 }
 
 #last-processing-date {
@@ -16199,7 +16199,7 @@ input[type=range]:disabled::-moz-range-thumb {
     border-right: 1px solid #ddd;
     white-space: nowrap;
     overflow: visible;
-    text-overflow: scroll
+    text-overflow:ellipsis
 }
 
 #last-processing-date .borderblue {
@@ -16222,7 +16222,7 @@ input[type=range]:disabled::-moz-range-thumb {
     display: block;
     float: left;
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     width: 350px;
     height: 145px;
     margin: 15px 1%;
@@ -16423,7 +16423,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 48px;
     background: #fafafa;
     border-radius: 25%;
-    overflow: scroll;
+    overflow: hidden;
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .05);
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .05);
     box-shadow:0 1px 5px rgba(0, 0, 0, .05)
@@ -16440,8 +16440,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-weight: 600;
     color: #333;
     margin-bottom: 5px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -16471,7 +16471,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 .scroll-whiteshadow {
     position: relative;
-    overflow: scroll
+    overflow:hidden
 }
 
 .scroll-whiteshadow:before {
@@ -17040,7 +17040,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #main3 .with-pagination .custom-command-table {
     display: table !important;
-    overflow: scroll !important
+    overflow:hidden !important
 }
 
 #main3 .with-pagination .custom-command-table tbody {
@@ -17159,7 +17159,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 .mosyleav-dash .dash-box {
     background: #fff;
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 6px;
     box-shadow: 0px 0 15px rgba(0, 0, 0, .15);
     padding:10px
@@ -17171,8 +17171,8 @@ input[type=range]:disabled::-moz-range-thumb {
     text-align: center;
     color: #333;
     font-weight: bold;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -17188,8 +17188,8 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .mosyleav-dash .dash-box.box-numbers .h5-number {
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     font-size:1.2rem
 }
@@ -17218,8 +17218,8 @@ input[type=range]:disabled::-moz-range-thumb {
 
 .mosyleav-dash .dash-box.box-numbers .number-description {
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     margin-bottom:15px
 }
@@ -17258,16 +17258,16 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: 2.5em;
     padding-top: 5px;
     font-weight: bold;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     letter-spacing:-1px
 }
 
 .mosyleav-dash .dash-box.box-numbers .box-infections .column-number .h5-infected-description {
     font-size: .9em;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -17319,8 +17319,8 @@ input[type=range]:disabled::-moz-range-thumb {
     margin-left: 28px;
     color: #333;
     font-weight: bold;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -17329,8 +17329,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: .9em;
     color: #999;
     font-style: italic;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -17386,7 +17386,7 @@ input[type=range]:disabled::-moz-range-thumb {
 .mosyleav-field-rules {
     float: right;
     white-space: nowrap;
-    overflow: scroll;
+    overflow: hidden;
     margin-left:10px
 }
 
@@ -17677,7 +17677,7 @@ input[type=range]:disabled::-moz-range-thumb {
     border-radius: 6px;
     box-shadow: 0px 0 15px rgba(0, 0, 0, .1);
     padding: 15px;
-    overflow: scroll
+    overflow:hidden
 }
 
 #macsecurity-dashboard .dash-container .dash-box.dash-complianceratio {
@@ -17773,8 +17773,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: 1.1em;
     font-weight: bold;
     color: #393939;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
     margin-bottom:10px
 }
@@ -17939,7 +17939,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #macsecurity-activation .activation-container .rule-icons {
     white-space: nowrap;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
     text-align: center;
     padding: 30px 0 20px;
@@ -18009,7 +18009,7 @@ input[type=range]:disabled::-moz-range-thumb {
     display: inline-block;
     position: relative;
     text-align: left;
-    overflow: scroll;
+    overflow: hidden;
     width: 350px;
     height: 145px;
     margin: 9px;
@@ -18129,7 +18129,7 @@ input[type=range]:disabled::-moz-range-thumb {
 #macsecurity-ruleslist.display-list .rule-item {
     position: relative;
     text-align: left;
-    overflow: scroll;
+    overflow: hidden;
     padding: 13px 10px;
     border-bottom:1px solid #eee
 }
@@ -18159,15 +18159,15 @@ input[type=range]:disabled::-moz-range-thumb {
     font-weight: 600;
     font-size: 1.03em;
     margin-bottom: 3px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
 #macsecurity-ruleslist.display-list .rule-item .rule-tags {
     width: calc(100% - 380px);
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -18250,7 +18250,7 @@ input[type=range]:disabled::-moz-range-thumb {
 .macsecurity-filter {
     float: right;
     white-space: nowrap;
-    overflow: scroll;
+    overflow: hidden;
     margin-left:10px
 }
 
@@ -18423,8 +18423,8 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-name {
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -18432,8 +18432,8 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: .9em;
     color: #aaa;
     margin-bottom: 3px;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -18441,8 +18441,8 @@ input[type=range]:disabled::-moz-range-thumb {
     padding: 3px 8px;
     font-size: .9em;
     border: none;
-    text-overflow: scroll;
-    overflow: scroll;
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -18585,7 +18585,7 @@ input[type=range]:disabled::-moz-range-thumb {
     box-shadow: 0 0px 2px rgba(0, 0, 0, .1);
     border: 1px solid #ccc;
     border-radius: 4px;
-    overflow: scroll;
+    overflow: hidden;
     clear:both
 }
 
@@ -18870,7 +18870,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #app-catalog-fuse-modal {
-    overflow: scroll
+    overflow:hidden
 }
 
 #app-catalog-fuse-modal .feature-fuse {
