@@ -13,6 +13,11 @@
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/solutions.json"
         },{
+            "title":"Applications disponibles",
+            "subtitle":"La liste des applications débloquées sur les iPads durant les heures de classe.",
+            "image":"https://collegemont-royal.github.io/files/images/applications.png",
+            "link":"https://collegemont-royal.github.io/site/mozyle/applications"
+        },{
             "title":"Contacter le support technique",
             "subtitle":"Écrivez un courriel au support technique du collège et nous vous répondrons dès que possible.",
             "image":"https://collegemont-royal.github.io/files/images/contact.png",
