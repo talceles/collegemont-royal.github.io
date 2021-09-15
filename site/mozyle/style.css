@@ -4287,7 +4287,7 @@ span.img-toggle-password.mini {
 
 #appselector.list .app > .app-icon.curved {
     border-radius: 6px;
-    overflow: scroll
+    overflow: hidden
 }
 
 #appselector.list .app > .app-icon > img {
@@ -4386,7 +4386,7 @@ span.img-toggle-password.mini {
 #appselector.grid .app > .app-icon {
     width: 38px;
     height: 38px;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0 auto;
     text-align:center
 }
@@ -4402,10 +4402,10 @@ span.img-toggle-password.mini {
 #appselector.grid .app > .app-name {
     clear: both;
     height: 18px;
-    overflow: scroll;
+    overflow: hidden;
     font-size: .9em;
     text-overflow: scroll;
-    overflow: scroll;
+    overflow: hidden;
     white-space:nowrap
 }
 
@@ -4483,7 +4483,7 @@ span.img-toggle-password.mini {
     margin: 1%;
     flex-direction: column;
     border-radius: 5px;
-    overflow: scroll
+    overflow: hidden
 }
 
 @media (min-width: 1660px) {
@@ -4641,7 +4641,7 @@ span.img-toggle-password.mini {
 .appselector_grid .app > .app-icon {
     width: 50px;
     height: 50px;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0 auto;
     text-align:center
 }
@@ -4682,7 +4682,7 @@ span.img-toggle-password.mini {
     font-size: .8em;
     color: #aaa;
     height: 34px;
-    overflow: scroll
+    overflow: hidden
 }
 
 .appselector_grid .app > .config {
@@ -4750,7 +4750,7 @@ span.img-toggle-password.mini {
     width: 24px;
     height: 24px;
     float: left;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0 auto;
     margin-right: 7px;
     text-align:center
