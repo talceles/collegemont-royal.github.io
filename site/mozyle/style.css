@@ -4747,11 +4747,12 @@ span.img-toggle-password.mini {
 }
 
 .appselector_list .app > .app-icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     float: left;
     overflow: hidden;
     margin: 0 auto;
+    margin-top: 2.5px;
     margin-right: 7px;
     text-align:center
 }
@@ -4785,7 +4786,6 @@ span.img-toggle-password.mini {
     vertical-align: top;
     overflow: hidden;
     font-size: .95em;
-    text-overflow: ellipsis;
     overflow: scroll;
     white-space:nowrap
 }
