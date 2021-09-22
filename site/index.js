@@ -62,12 +62,6 @@ function loadTableView() {
         cells[i].subtitle = markDown(cells[i].subtitle)
 
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
-
-        if (cells[i].tint) {
-            document.getElementById(cells[i].image).classList.add("icon");
-            document.getElementById(cells[i].image).style = 'background: url(' + cells[i].image + ');'
-        }
-
         
         addHoverEvent(i);
 
