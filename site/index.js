@@ -131,7 +131,6 @@ function setDarkMode() {
 
 function getUrl() {
     const src = new URLSearchParams(window.location.search).get('src');
-    console.log(src);
     if (history.state != null) {
         return history.state;
     } else if (src != null) {
