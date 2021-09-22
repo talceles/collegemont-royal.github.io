@@ -58,6 +58,19 @@ cell {
     animation: fadeIn 0.3s ease-out;
 }
 
+.icon {
+    position: relative; /* Allows an absolute positioned psuedo element */
+}
+
+.icon::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #EC008C; /* The color you want the icon to change to */
+    mix-blend-mode: screen;
+}
+
 @keyframes fadeIn {
     0% {opacity: 0%; left: 10%;}
     100% {opacity: 100%; left: 0px;}

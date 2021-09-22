@@ -64,9 +64,8 @@ function loadTableView() {
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
 
         if (cells[i].tint) {
-            document.getElementById(cells[i].image).src = "https://img-19.ccm2.net/cI8qqj-finfDcmx6jMK6Vr-krEw=/1500x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg"
-            document.getElementById(cells[i].image).setAttribute("data-mask", cells[i].image);
-            document.getElementById(cells[i].image).classList.add("mask");
+            document.getElementById(cells[i].image).classList.add("icon");
+            document.getElementById(cells[i].image).style = 'background: url(' + cells[i].image + ');'
         }
 
         
