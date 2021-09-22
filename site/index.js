@@ -151,10 +151,12 @@ function isEmoji(str) {
 }
 
 function markDown(str) {
-    var boldParameters = /\*\*(.*?)\*\*/gm;
-    var bold = str.replace(boldParameters, '<b>$1</b>');
-    var italicParameters = /\*(.*?)\*/gm;
-    var italic = bold.replace(italicParameters, '<i>$1</i>');
-    var enters = italic.replace(/\n/g, "<br>");
-    return enters;
+    if (str) {
+        var boldParameters = /\*\*(.*?)\*\*/gm;
+        var bold = str.replace(boldParameters, '<b>$1</b>');
+        var italicParameters = /\*(.*?)\*/gm;
+        var italic = bold.replace(italicParameters, '<i>$1</i>');
+        var enters = italic.replace(/\n/g, "<br>");
+        return enters;
+    }
 }
