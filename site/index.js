@@ -58,11 +58,18 @@ function loadTableView() {
     document.body.innerHTML = ""
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
-        if (cells[i].notification) {
-            classe = classe + ", notification"
-        }
+        if (cells[i].notification) { classe = classe + ", notification" }
         cells[i].subtitle = markDown(cells[i].subtitle)
+
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
+
+        if (cells[i].tint) {
+            document.getElementById(cells[i].image).src = "https://img-19.ccm2.net/cI8qqj-finfDcmx6jMK6Vr-krEw=/1500x/smart/b829396acc244fd484c5ddcdcb2b08f3/ccmcms-commentcamarche/20494859.jpg"
+            document.getElementById(cells[i].image).style = "data-mask=" + cells[i].image;
+            document.getElementById(cells[i].image).classList.add("mask");
+        }
+
+        
         addHoverEvent(i);
 
         if (cells[i].newPage) {
@@ -101,7 +108,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        return `<cell id = ${i} class="${cellClass}"><img src="${image}" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+        return `<cell id = ${i} class="${cellClass}"><img src="${image}" id=${image} height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else if (isEmoji(image) != true) {
         // IMAGE IS IMAGE NAME
         return `<cell id = ${i} class="${cellClass}"><img src="https://collegemont-royal.github.io/files/images/${image}.png" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
