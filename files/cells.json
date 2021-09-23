@@ -23,6 +23,19 @@
             "subtitle":"Menu de la cafétéria",
             "image":"https://collegemont-royal.github.io/files/images/cafeteria.png",
             "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
+        },{
+            "title":"Journal Étudiant",
+            "subtitle":"**Nouveau ∙ **Première édition 2021-2022 !",
+            "image":"https://collegemont-royal.github.io/files/images/journal.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
+            "UUID":"31aa25cf-3a43-4ff1-af9c-0a51efcba6fe"
+        },{
+            "title":"Support technique",
+            "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
+            "image":"https://collegemont-royal.github.io/files/images/support.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/support/contenu.json"
         }
     ]
 }
