@@ -11,6 +11,7 @@
             "title":"Site du Collège",
             "subtitle":"Site web officiel du Collège Mont-Royal",
             "image":"https://collegemont-royal.github.io/files/images/siteweb.png",
+            "tint":"AD00FF",
             "link":"https://collegemont-royal.qc.ca/"
         },{
             "title":"Bibliothèque",
