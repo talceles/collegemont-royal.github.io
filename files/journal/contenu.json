@@ -2,12 +2,12 @@
     "cells":
     [
         {
-            "title":"Nous recrutons !",
-            "subtitle":"Le Royal Éditorial se veut le reflet de la vie étudiante au Collège Mont-Royal. Propulsé par des étudiants de tous les niveaux, le comité est toujours à la recherche de collaborateurs passionnés. Une place vous attend au sein d’une équipe dynamique et motivée! Pour découvrir comment y participer, communiquez avec Novalie Chevalier par le Pluriportail ou en cliquant sur ce message pour lui envoyer un courriel.",
-            "image":"https://collegemont-royal.github.io/files/journal/banniere-journal.jpg",
+            "title":"Entrevue avec les candidates à la présidence du Collège Mont-Royal",
+            "subtitle":"Bientôt disponible...",
+            "image":"https://collegemont-royal.github.io/files/journal/images/entrevue.jpg",
             "article":true,
             "openURL":true,
-            "link":"mailto:nchevalier@collegemont-royal.qc.ca?subject=Journal%20%C3%89tudiant%202021-2022&body=Bonjour!%20Je%20souhaite%20faire%20partie%20de%20l'%C3%A9quipe%20du%20journal%20%C3%A9tudiant%20cette%20ann%C3%A9e.%0D%0A%0D%0AMon%20nom%20%3A%0D%0AMon%20groupe%20%3A%0D%0AJe%20souhaite%20%C3%A9crire%20sur...%0D%0A%0D%0AMerci!"
+            "link":""
         },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
