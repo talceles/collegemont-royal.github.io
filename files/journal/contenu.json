@@ -5,9 +5,7 @@
             "title":"Entrevue avec les candidates à la présidence du Collège Mont-Royal",
             "subtitle":"Bientôt disponible...",
             "image":"https://collegemont-royal.github.io/files/journal/images/entrevue.jpg",
-            "article":true,
-            "openURL":true,
-            "link":""
+            "article":true
         },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
