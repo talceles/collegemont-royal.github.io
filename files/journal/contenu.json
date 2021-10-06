@@ -9,16 +9,17 @@
             "openURL":true,
             "article":true
         },{
+            "title":"Édition 2",
+            "subtitle":"La vie étudiante!",
+            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal2.pdf",
+            "UUID":"789e6f4a-d7cb-4397-89ce-09262e42cfde"
+        },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
             "link":"https://collegemont-royal.github.io/files/journal/Journal1.pdf",
             "UUID":"baa36560-c577-46e0-ba51-4835e5dd9981"
-        },{
-            "title":"Édition 8 (2020-2021)",
-            "subtitle":"Dernière édition 2021, au cas où vous l'auriez manquée.",
-            "image":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/images/8.png",
-            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal8.pdf"
         },{
             "title":"Archives",
             "subtitle":"",
