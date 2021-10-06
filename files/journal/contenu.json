@@ -2,9 +2,11 @@
     "cells":
     [
         {
-            "title":"Entrevue avec les candidates à la présidence du Collège Mont-Royal",
-            "subtitle":"Bientôt disponible...",
-            "image":"https://collegemont-royal.github.io/files/journal/images/entrevue.jpg",
+            "title":"Entrevue avec les présidentes du Collège Mont-Royal",
+            "subtitle":"Salma Sévigny et Coralie Paul nous expliquent leurs motivations pour devenir présidentes.",
+            "image":"https://collegemont-royal.github.io/files/journal/images/entrevue2.jpg",
+            "link":"https://youtu.be/wX8VrXCFJro",
+            "openURL":true,
             "article":true
         },{
             "title":"Édition 1",
