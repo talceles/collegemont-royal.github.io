@@ -7,6 +7,12 @@
             "image":"https://collegemont-royal.github.io/files/journal/images/entrevue.jpg",
             "article":true
         },{
+            "title":"Édition 2",
+            "subtitle":"Deuxième édition du journal étudiant",
+            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal2.pdf",
+     
+         },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
