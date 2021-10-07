@@ -2,9 +2,11 @@
     "cells":
     [
         {
-            "title":"Entrevue avec les candidates à la présidence du Collège Mont-Royal",
-            "subtitle":"Bientôt disponible...",
-            "image":"https://collegemont-royal.github.io/files/journal/images/entrevue.jpg",
+            "title":"Entrevue avec les présidentes du Collège Mont-Royal",
+            "subtitle":"Venez en apprendre davantage sur les motivations des présidentes de l'école, Salma Sévigny et Coralie Paul, en cliquant ici pour visionner leur entrevue. De plus, ne manquez pas les détails des projets qu’elles souhaitent mettre en place durant l’année en consultant la deuxième édition du journal étudiant. Bon visionnement!",
+            "image":"https://collegemont-royal.github.io/files/journal/images/entrevue2.jpg",
+            "link":"https://youtu.be/wX8VrXCFJro",
+            "openURL":true,
             "article":true
         },{
             "title":"Édition 2",
@@ -12,18 +14,12 @@
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
             "link":"https://collegemont-royal.github.io/files/journal/Journal2.pdf",
             "UUID":"baa36560-c577-46e0-ba51-4835e5dd9981"
-     
-         },{
+        },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
             "link":"https://collegemont-royal.github.io/files/journal/Journal1.pdf",
             "UUID":"baa36560-c577-46e0-ba51-4835e5dd9981"
-        },{
-            "title":"Édition 8 (2020-2021)",
-            "subtitle":"Dernière édition 2021, au cas où vous l'auriez manquée.",
-            "image":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/images/8.png",
-            "link":"https://collegemont-royal.github.io/files/journal/archives/2020-2021/Journal8.pdf"
         },{
             "title":"Archives",
             "subtitle":"",
