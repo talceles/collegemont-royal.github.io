@@ -58,7 +58,8 @@ function loadTableView() {
     document.body.innerHTML = ""
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
-        if (cells[i].notification) { classe = classe + ", notification" }
+        if (cells[i].notification) { classe = classe + " notification" }
+        if (cells[i].article) { classe = classe + " article" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
         document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
@@ -97,14 +98,11 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     title = title || ""
     subtitle = subtitle || ""
-    image = image || "404"
+    image = image || "🎆"
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
         return `<cell id = ${i} class="${cellClass}"><img src="${image}" id=${image} height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
-    } else if (isEmoji(image) != true) {
-        // IMAGE IS IMAGE NAME
-        return `<cell id = ${i} class="${cellClass}"><img src="https://collegemont-royal.github.io/files/images/${image}.png" height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else {
         // IMAGE IS EMOJI
         return `<cell id = ${i} class="${cellClass}"><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`

@@ -20,9 +20,43 @@ cell {
     font-size: 17px;
 }
 
+.article img {
+    position: inherit;
+    height: auto;
+    padding: 0px 0px;
+    width: 100%;
+    display: block;
+}
+
+.article {
+    display: block;
+    background-color: rgba(160, 160, 160, 0.15);
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.article description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 2px;
+}
+
 .notification {
     background-color: rgba(160, 160, 160, 0.15);
     margin: 4px;
+}
+
+.mouseOver.article {
+    transition: none;
+    background-color: rgba(160, 160, 160, 0.15);
+    padding-left: 10px;
+}
+
+.mouseOut.article {
+    transition: none;
+    background-color: rgba(160, 160, 160, 0.15);
+    padding-left: 10px;
 }
 
 .mouseOver.notification {
@@ -59,8 +93,8 @@ cell {
 }
 
 @keyframes fadeIn {
-    0% {opacity: 0%; left: 10%;}
-    100% {opacity: 100%; left: 0px;}
+    0% { opacity: 0%; left: 10%; }
+    100% { opacity: 100%; left: 0px; }
 }
 
 emoji {
