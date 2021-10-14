@@ -39,7 +39,7 @@ cell {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 2px;
+    padding: 16px 16px;
 }
 
 .notification {
@@ -50,13 +50,13 @@ cell {
 .mouseOver.article {
     transition: none;
     background-color: rgba(160, 160, 160, 0.15);
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 .mouseOut.article {
     transition: none;
     background-color: rgba(160, 160, 160, 0.15);
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 .mouseOver.notification {
