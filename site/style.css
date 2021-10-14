@@ -25,14 +25,6 @@ cell {
     font-size: 17px;
 }
 
-.article img {
-    position: inherit;
-    height: auto;
-    padding: 0px 0px;
-    width: 100%;
-    display: block;
-}
-
 .article {
     display: block;
     background-color: rgb(235, 235, 240);
@@ -47,15 +39,35 @@ cell {
     overflow: hidden;
 }
 
+.article img {
+    position: inherit;
+    height: auto;
+    padding: 0px 0px;
+    width: 100%;
+    display: block;
+}
+
 .mouseOver.article {
     transition: none;
-    background-color: rgba(160, 160, 160, 0.15);
+    background-color: rgb(220, 220, 230);
+    padding-left: 0px;
+}
+
+.dark .mouseOver.article {
+    transition: none;
+    background-color: rgb(40, 40, 40);
     padding-left: 0px;
 }
 
 .mouseOut.article {
     transition: none;
-    background-color: rgba(160, 160, 160, 0.15);
+    background-color: rgb(235, 235, 240);
+    padding-left: 0px;
+}
+
+.dark .mouseOut.article {
+    transition: none;
+    background-color: rgb(30, 30, 30);
     padding-left: 0px;
 }
 
@@ -71,12 +83,23 @@ cell {
 
 .mouseOver.notification {
     transition: all 0.2s;
-    background-color: rgba(160, 160, 160, 0.215);
+    background-color: rgb(220, 220, 230);
+}
+
+.dark .mouseOver.notification {
+    transition: all 0.2s;
+    background-color: rgb(40, 40, 40);
 }
 
 .mouseOut.notification {
     transition: all 0.2s;
-    background-color: rgba(160, 160, 160, 0.15);
+    background-color: rgb(235, 235, 240);
+    padding-left: 10px;
+}
+
+.dark .mouseOut.notification {
+    transition: all 0.2s;
+    background-color: rgb(30, 30, 30);
     padding-left: 10px;
 }
 
