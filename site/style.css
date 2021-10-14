@@ -44,7 +44,8 @@ cell {
 img {
     width: 80px;
     height: 80px;
-    object-fit: contain;    
+    object-fit: contain;
+    padding: 0px 10px;
 }
 
 .article img {
