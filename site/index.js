@@ -113,8 +113,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
 function setDarkMode() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.style.backgroundColor = "black";
-        document.body.style.color = "white";
+        document.body.classList.add("dark");
     }
 }
 
