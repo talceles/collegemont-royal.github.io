@@ -73,12 +73,10 @@ cell {
 
 .notification {
     background-color: rgb(235, 235, 240);
-    margin: 4px;
 }
 
 .dark .notification {
     background-color: rgb(30, 30, 30);
-    margin: 4px;
 }
 
 .mouseOver.notification {
