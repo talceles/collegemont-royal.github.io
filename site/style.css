@@ -4,8 +4,7 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
     padding-top: 15px;
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
+    -webkit-text-size-adjust: 150%;
 }
 
 body.dark {
