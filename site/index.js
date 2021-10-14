@@ -35,13 +35,15 @@ function addNewPageEvent(i) {
 
 function addHoverEvent(i) {
     var element = document.getElementById(i); //grab the element
-    element.onmouseover = function() { //asign a function
-        element.classList.remove("mouseOut", "mouseOver")
-        element.classList.add("mouseOver")
-    }
-    element.onmouseout = function() { //asign a function
-        element.classList.remove("mouseOut", "mouseOver")
-        element.classList.add("mouseOut")
+    if (cells[i].link) {
+        element.onmouseover = function() { //asign a function
+            element.classList.remove("mouseOut", "mouseOver")
+            element.classList.add("mouseOver")
+        }
+        element.onmouseout = function() { //asign a function
+            element.classList.remove("mouseOut", "mouseOver")
+            element.classList.add("mouseOut")
+        }
     }
 }
 
@@ -102,7 +104,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        return `<cell id = ${i} class="${cellClass}"><img src="${image}" id=${image} height="80px"/><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+        return `<cell id = ${i} class="${cellClass}"><img-container><img src="${image}" id=${image}/></img-container><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     } else {
         // IMAGE IS EMOJI
         return `<cell id = ${i} class="${cellClass}"><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`

@@ -3,6 +3,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
+    margin-bottom: 10px;
     padding-top: 15px;
     -webkit-text-size-adjust: 120%;
 }
@@ -29,7 +30,8 @@ cell {
 .article {
     display: block;
     background-color: rgb(235, 235, 240);
-    padding: 0px 0px;
+    padding: 0;
+    margin: 10px 20px;
     overflow: hidden;
 }
 
@@ -38,6 +40,12 @@ cell {
     background-color: rgb(30, 30, 30);
     padding: 0px 0px;
     overflow: hidden;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;    
 }
 
 .article img {
@@ -51,13 +59,12 @@ cell {
 .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(220, 220, 230);
-    padding-left: 0px;
+    margin: 10px 15px;
 }
 
 .dark .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(40, 40, 40);
-    padding-left: 0px;
 }
 
 .mouseOut.article {
@@ -152,6 +159,11 @@ description {
 
 cell-title {
     font-size: 17px;
+}
+
+.article cell-title {
+    font-size: 17px;
+    font-weight: 500;
 }
 
 cell-subtitle {
