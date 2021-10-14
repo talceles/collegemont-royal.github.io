@@ -48,25 +48,25 @@ cell {
 }
 
 .mouseOver.article {
-    transition: none;
+    transition: all 0.2s;
     background-color: rgb(220, 220, 230);
     padding-left: 0px;
 }
 
 .dark .mouseOver.article {
-    transition: none;
+    transition: all 0.2s;
     background-color: rgb(40, 40, 40);
     padding-left: 0px;
 }
 
 .mouseOut.article {
-    transition: none;
+    transition: all 0.2s;
     background-color: rgb(235, 235, 240);
     padding-left: 0px;
 }
 
 .dark .mouseOut.article {
-    transition: none;
+    transition: all 0.2s;
     background-color: rgb(30, 30, 30);
     padding-left: 0px;
 }
@@ -105,7 +105,7 @@ cell {
 
 .mouseOver {
     transition: all 0.2s;
-    background-color: rgba(160, 160, 160, 0.215);
+    background-color: rgba(160, 160, 160, 0.2);
     padding-left: 18px;
 }
 
