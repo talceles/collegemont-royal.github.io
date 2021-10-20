@@ -8,7 +8,7 @@
             "article":true
         },{
             "title":"Application développée par Clément Gauthier",
-            "subtitle":"Ancien élève du collège\n© Tous droits réservés",
+            "subtitle":"Ancien élève du collège",
             "image":"ℹ️",
             "notification":true
         },{
@@ -23,6 +23,10 @@
             "image":"📨",
             "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
             "openURL":true
+        },{
+            "title":"© Clément Gauthier",
+            "subtitle":"Tous droits réservés",
+            "image":"©"
         }
     ]
 }
