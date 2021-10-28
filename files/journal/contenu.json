@@ -6,14 +6,14 @@
             "subtitle":"Découvrez ce qui se cache derrière la fête du 31 octobre en consultant la troisième édition du journal étudiant!",
             "image":"https://collegemont-royal.github.io/files/journal/images/5D63FE08-1D64-4F2F-A1E4-2E976690B3D2.jpeg",
             "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf",
-            "openURL":true,
+            "name":"Édition 3",
             "article":true
         },{
             "title":"Édition 3",
             "subtitle":"Édition spéciale Halloween!",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
             "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf",
-            "UUID":"2edc31e5-3e4d-4bee-bd4d-82e6ddf27302"
+            "UUID":"4404ea73-2b45-48b7-b6cc-42749d80e8da"
         },{
             "title":"Édition 2",
             "subtitle":"Deuxième édition du journal étudiant mettant la vie étudiante au coeur du Collège!",
