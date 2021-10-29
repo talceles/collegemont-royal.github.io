@@ -60,7 +60,7 @@ cell {
     background-color: rgb(235, 235, 240);
     padding: 0;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .dark .article {
@@ -68,6 +68,7 @@ cell {
     background-color: rgb(30, 30, 30);
     padding: 0px 0px;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 img {
@@ -87,35 +88,37 @@ img {
 .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(220, 220, 230);
-    margin: 10px 15px;
+    margin-left: 15px;
 }
 
 .dark .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(40, 40, 40);
-    margin: 0px 15px;
+    margin-left: 15px;
 }
 
 .mouseOut.article {
     transition: all 0.2s;
     background-color: rgb(235, 235, 240);
     padding-left: 0px;
-    margin: 0px 10px;
+    margin-left: 10px;
 }
 
 .dark .mouseOut.article {
     transition: all 0.2s;
     background-color: rgb(30, 30, 30);
     padding-left: 0px;
+    margin-left: 10px;
 }
 
 .notification {
     background-color: rgb(235, 235, 240);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .dark .notification {
     background-color: rgb(30, 30, 30);
+    margin-bottom: 5px;
 }
 
 .mouseOver.notification {
