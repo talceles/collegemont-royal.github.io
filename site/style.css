@@ -12,6 +12,10 @@ body.dark {
     color: white;
 }
 
+.top {
+    margin-right: 65px;
+}
+
 h1.title {
     display: inline;
     padding-left: 30px;
