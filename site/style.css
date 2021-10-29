@@ -20,7 +20,7 @@ h1.title {
     display: inline;
     padding-left: 30px;
     padding-bottom: 10px;
-    font-size: xx-large;
+    font-size: min(7vw, 40px);
     font-weight: 500;
 }
 
