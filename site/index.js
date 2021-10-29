@@ -47,6 +47,10 @@ function addHoverEvent(i) {
     }
 }
 
+document.getElementsByClassName("i")[0].onclick = function() {
+    popupwindow("https://collegemont-royal.github.io/?src=https://collegemont-royal.github.io/files/info.json", 'CMR - Informations', 400, 600)
+};
+
 // CELLS
 
 function parseCells(url) {
@@ -59,7 +63,7 @@ function parseCells(url) {
 function loadTableView() {
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
-    document.getElementsByClassName("title")[0].innerHTML = JSON.parse(str).title || "";
+    setTitle();
 
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
@@ -122,6 +126,16 @@ function setDarkMode() {
     }
 }
 
+function setTitle() {
+    let title = JSON.parse(str).title || "";
+    document.getElementsByClassName("title")[0].innerHTML = title;
+    if (title != "") {
+        document.title = "CMR - " + title
+    } else {
+        document.title = "CMR"
+    }
+}
+
 // UTILITIES
 
 function getUrl() {
@@ -161,3 +175,9 @@ function markDown(str) {
         return enters;
     }
 }
+
+function popupwindow(url, title, w, h) {
+    var left = (screen.width/2)-(w/2);
+    var top = (screen.height/2)-(h/2);
+    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+  } 

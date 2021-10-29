@@ -5,7 +5,6 @@ body {
     margin: 0;
     margin-bottom: 10px;
     padding-top: 15px;
-    -webkit-text-size-adjust: 115%;
 }
 
 body.dark {
@@ -14,11 +13,30 @@ body.dark {
 }
 
 h1.title {
+    display: inline;
     padding-left: 30px;
     padding-bottom: 10px;
-    margin: 0;
     font-size: xx-large;
     font-weight: 500;
+}
+
+button.i {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("ressources/i.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+}
+
+div.top {
+    margin-bottom: 10px;
 }
 
 cell {
@@ -33,6 +51,8 @@ cell {
     border-radius: 20px;
 
     font-size: 17px;
+
+    -webkit-text-size-adjust: 115%;
 }
 
 .article {
