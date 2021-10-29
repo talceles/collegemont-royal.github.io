@@ -60,6 +60,7 @@ cell {
     background-color: rgb(235, 235, 240);
     padding: 0;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .dark .article {
@@ -110,6 +111,7 @@ img {
 
 .notification {
     background-color: rgb(235, 235, 240);
+    margin-bottom: 10px;
 }
 
 .dark .notification {
