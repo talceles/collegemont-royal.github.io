@@ -15,7 +15,7 @@
         },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Ouvrir l'App Store",
-            "image":"appstore",
+            "image":"https://collegemont-royal.github.io/files/images/appstore.png",
             "link":"https://apps.apple.com/developer/stephane-gauthier/id1489666753",
             "openURL":true
         },{
