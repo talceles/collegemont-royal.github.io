@@ -57,14 +57,17 @@ function parseCells(url) {
 }
 
 function loadTableView() {
-    document.body.innerHTML = ""
+    document.getElementsByClassName("cells")[0].innerHTML = "";
+
+    document.getElementsByClassName("title")[0].innerHTML = JSON.parse(str).title || "";
+
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
         if (cells[i].notification) { classe = classe + " notification" }
         if (cells[i].article) { classe = classe + " article" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
-        document.body.insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
+        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
         
         addHoverEvent(i);
 
