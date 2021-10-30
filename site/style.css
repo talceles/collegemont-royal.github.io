@@ -28,15 +28,15 @@ button.i {
     display: inline;
     position: absolute;
     right: 20px;
-    top: 15px;
+    top: 20px;
 
     background-color: rgba(0, 0, 0, 0);
     background-image: url("ressources/i.png");
     background-repeat: no-repeat;
     background-size: contain;
     border-style: none;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 div.top {
