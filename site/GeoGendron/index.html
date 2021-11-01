@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/build.loader.js";
+      var loaderUrl = buildUrl + "/GeoGendron.loader.js";
       var config = {
-        dataUrl: buildUrl + "/build.data.br",
-        frameworkUrl: buildUrl + "/build.framework.js.br",
-        codeUrl: buildUrl + "/build.wasm.br",
+        dataUrl: buildUrl + "/GeoGendron.data.br",
+        frameworkUrl: buildUrl + "/GeoGendron.framework.js.br",
+        codeUrl: buildUrl + "/GeoGendron.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CMR",
         productName: "GeoGendron",
@@ -85,6 +85,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
+      canvas.style.background = "url('" + buildUrl + "/GeoGendron.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
