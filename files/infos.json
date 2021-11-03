@@ -2,6 +2,10 @@
     "title":"ℹ️ Informations",
     "cells": [
         {
+            "title":"Test 😎",
+            "image":"https://collegemont-royal.github.io/files/test.png",
+            "article":true
+        },{
             "title":"Le collège",
             "subtitle":"Le Collège Mont-Royal est une institution privée, mixte, titulaire d’un permis d’enseignement pour la formation générale de niveau secondaire. Il offre un enseignement en français conduisant à l’obtention d’un diplôme d’études secondaires.\n**Cliquez ici pour en savoir plus ➜**",
             "image":"https://collegemont-royal.github.io/files/ecole/ecole.png",
