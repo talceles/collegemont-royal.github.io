@@ -92,13 +92,11 @@ img {
 .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(220, 220, 230);
-    margin-left: 15px;
 }
 
 .dark .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(40, 40, 40);
-    margin-left: 15px;
 }
 
 .mouseOut.article {
