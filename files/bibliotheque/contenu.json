@@ -9,12 +9,6 @@
             "link":"https://padlet.com/nfaral/pvw6nnnncz94u07w",
             "name":"Ma bibliothèque animée"
         },{
-            "title":"Suggestions de lecture",
-            "subtitle":"Résumés des livres de ma bibliothèque animée",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/bulle.png",
-            "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/suggestions.json"
-        },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge.png",
