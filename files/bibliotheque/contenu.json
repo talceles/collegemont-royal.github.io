@@ -11,7 +11,8 @@
         },{
             "title":"À venir...",
             "subtitle":"Le premier balado littéraire du comité de la bibliothèque sera disponible sous peu!",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/balado.png"
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/balado.png",
+            "tint":"baaacf"
         },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
