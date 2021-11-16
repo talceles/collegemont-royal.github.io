@@ -5,6 +5,7 @@ let slides = false;
 loadTableView();
 
 setDarkMode();
+hideIButton();
 
 // EVENTS
 
@@ -133,6 +134,15 @@ function setTitle() {
         document.title = "CMR - " + title
     } else {
         document.title = "CMR"
+    }
+}
+
+function hideIButton() {
+    if (link == "https://collegemont-royal.github.io/files/infos.json") {
+        console.log("hidden");
+        document.getElementsByClassName("i")[0].id = "hidden";
+    } else {
+        document.getElementsByClassName("i")[0].id = "";
     }
 }
 

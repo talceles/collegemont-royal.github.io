@@ -39,6 +39,10 @@ button.i {
     width: 35px;
 }
 
+#hidden {
+    display: none;
+}
+
 div.top {
     margin-bottom: 10px;
 }
