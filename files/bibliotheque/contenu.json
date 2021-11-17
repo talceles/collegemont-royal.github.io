@@ -13,8 +13,7 @@
             "subtitle":"Le premier balado littéraire du comité de la bibliothèque est disponible !",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/balado_nouveau.png",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/balado/contenu.json",
-            "UUID":"89413df7-ebaa-4bec-be76-fb79b7c801b0"
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/balado/contenu.json"
         },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
