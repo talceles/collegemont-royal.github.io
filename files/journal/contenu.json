@@ -3,20 +3,11 @@
     "cells":
     [
         {   
-            "title":"Place aux contenus audiovisuels!",
+            "title":"Édition 4",
             "subtitle":"À travers des médiums variés, découvrez de nouvelles idées de contenus audiovisuels !",
             "image":"https//collegemont-royal.github.io/files/journal/2021-2022_Journal4.pdf",
             "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf",
-            "name":"Édition 4",
-            "article":true
-            
-            
-            "title":"L'Halloween à vos portes!",
-            "subtitle":"Découvrez ce qui se cache derrière la fête du 31 octobre en consultant la troisième édition du journal étudiant!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/halloween.jpeg",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf",
-            "name":"Édition 3",
-            "article":true
+            "UUID":"4404ea73-2b45-48b7-b6cc-42749d80e8da"
         },{
             "title":"Édition 3",
             "subtitle":"Édition spéciale Halloween!",
