@@ -29,7 +29,8 @@
             "subtitle":"**Nouveau ∙ **Quatrième édition!",
             "image":"https://collegemont-royal.github.io/files/images/journal.png",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/journal/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
+            "UUID":"49742ff4-5db2-410a-b084-760c195535e9"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
