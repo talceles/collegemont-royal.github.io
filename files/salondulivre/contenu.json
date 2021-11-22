@@ -2,6 +2,12 @@
     "title":"Salon du livre",
     "cells": [
         {
+            "title":"PASSEPORT SALON DU LIVRE",
+            "subtitle":"Toutes les informations nécéssaires pour la sortie au salon du livre\nGlissez ce message vers la gauche pour l'ajouter à vos favoris 💜",
+            "image":"https://collegemont-royal.github.io/files/salondulivre/salondulivre.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/salondulivre/contenu.json"
+        },{
             "title":"Mme Faral : 438 501-4973",
             "subtitle":"Contactez Mme Faral en cas d'urgence.",
             "image":"📞",
