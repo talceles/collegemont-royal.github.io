@@ -2,8 +2,8 @@
     "title":"Salon du livre",
     "cells": [
         {
-            "title":"Contact de Mme. Faral",
-            "subtitle":"438 501-4973",
+            "title":"Mme Faral : 438 501-4973",
+            "subtitle":"Contactez Mme Faral en cas d'urgence.",
             "image":"📞",
             "link":"tel:4385014973",
             "openURL":true
