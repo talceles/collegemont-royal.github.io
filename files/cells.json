@@ -2,6 +2,12 @@
     "version":"1.9.1",
     "cells": [
         {
+            "title":"PASSEPORT SALON DU LIVRE",
+            "subtitle":"Toutes les informations nécéssaires pour la sortie au salon du livre",
+            "image":"https://collegemont-royal.github.io/files/salondulivre/salondulivre.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/salondulivre/contenu.json"
+        },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements de l'année scolaire",
             "image":"https://collegemont-royal.github.io/files/images/infos.png",

@@ -1,0 +1,25 @@
+{
+    "title":"Salon du livre",
+    "cells": [
+        {
+            "title":"Contact de Mme. Faral",
+            "subtitle":"438 501-4973",
+            "image":"📞",
+            "link":"tel:4385014973",
+            "openURL":true
+        },{
+            "title":"Rencontre à 15h au 1001 Pl. Jean-Paul-Riopelle",
+            "image":"🕒"
+        },{
+            "title":"Rencontre à 18h pour le souper",
+            "image":"🕕"
+        },{
+            "title":"Rencontre à 19h30 pour le retour du souper",
+            "image":"🕢"
+        },{
+            "title":"Prenez une capture d'écran de cette page!",
+            "subtitle":"Assurez-vous d'avoir ces informations sur vous au salon du livre!",
+            "image":"🔔"
+        }
+    ]
+}
