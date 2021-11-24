@@ -8,7 +8,7 @@
             "notification":true
         },{
             "title":"PASSEPORT SALON DU LIVRE",
-            "subtitle":"Toutes les informations nécéssaires pour la sortie au salon du livre\nGlissez ce message vers la gauche pour l'ajouter à vos favoris 💜",
+            "subtitle":"Toutes les informations nécéssaires pour la sortie au salon du livre.",
             "image":"https://collegemont-royal.github.io/files/salondulivre/salondulivre.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/salondulivre/contenu.json"
