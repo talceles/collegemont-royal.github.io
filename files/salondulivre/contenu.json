@@ -2,6 +2,11 @@
     "title":"Salon du livre",
     "cells": [
         {
+            "title":"Prenez une capture d'écran de cette page!",
+            "subtitle":"Assurez-vous d'avoir ces informations sur vous au salon du livre!",
+            "image":"🔔",
+            "notification":true
+        },{
             "title":"PASSEPORT SALON DU LIVRE",
             "subtitle":"Toutes les informations nécéssaires pour la sortie au salon du livre\nGlissez ce message vers la gauche pour l'ajouter à vos favoris 💜",
             "image":"https://collegemont-royal.github.io/files/salondulivre/salondulivre.png",
@@ -17,15 +22,11 @@
             "title":"Rencontre à 15h au 1001 Pl. Jean-Paul-Riopelle",
             "image":"🕒"
         },{
-            "title":"Rencontre à 18h pour le souper",
+            "title":"Rencontre à 17h30 pour le souper",
             "image":"🕕"
         },{
-            "title":"Rencontre à 19h30 pour le retour du souper",
+            "title":"Rencontre à 18h30 pour le retour du souper",
             "image":"🕢"
-        },{
-            "title":"Prenez une capture d'écran de cette page!",
-            "subtitle":"Assurez-vous d'avoir ces informations sur vous au salon du livre!",
-            "image":"🔔"
         }
     ]
 }
