@@ -20,12 +20,15 @@
             "openURL":true
         },{
             "title":"Rencontre à 15h au 1001 Pl. Jean-Paul-Riopelle",
+            "subtitle":"Entrée principale du salon.",
             "image":"🕒"
         },{
             "title":"Rencontre à 17h30 pour le souper",
+            "subtitle":"À l'entrée principale du salon.",
             "image":"🕕"
         },{
             "title":"Rencontre à 18h30 pour le retour du souper",
+            "subtitle":"À l'entrée principale du salon.",
             "image":"🕢"
         }
     ]
