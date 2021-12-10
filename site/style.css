@@ -12,12 +12,14 @@ body.dark {
 }
 
 div.top {
+    color: white;
     position: relative;
     height: 70px;
     width: 100%;
     margin: 0;
     margin-bottom: 10px;
     background-color: #1D2953;
+    border-radius: 0 0 15px 15px;
 }
 
 div.toptitle {
