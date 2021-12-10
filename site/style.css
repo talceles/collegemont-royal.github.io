@@ -14,12 +14,12 @@ body.dark {
 div.top {
     color: white;
     position: fixed;
-    z-index:99;
+    
     height: 70px;
     width: 100%;
     margin: 0;
     background-color: #1D2953;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 20px 20px;
 }
 
 div.cells {
@@ -44,7 +44,7 @@ div.toptitlenlogo {
 h1.title {
     display: inline;
     padding-bottom: 10px;
-    font-size: min(5vw, 30px);
+    font-size: min(5.5vw, 30px);
     font-weight: 500;
     margin: 0;
 }
