@@ -14,6 +14,7 @@ body.dark {
 div.top {
     color: white;
     position: fixed;
+    z-index:99;
     height: 70px;
     width: 100%;
     margin: 0;
