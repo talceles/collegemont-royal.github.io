@@ -132,7 +132,7 @@ function setDarkMode() {
 }
 
 function setTitle() {
-    let title = JSON.parse(str).title || "";
+    let title = JSON.parse(str).title || "Application CMR";
     document.getElementsByClassName("title")[0].innerHTML = title;
     if (title != "") {
         document.title = "CMR - " + title
