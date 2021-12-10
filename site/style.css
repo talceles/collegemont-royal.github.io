@@ -13,13 +13,17 @@ body.dark {
 
 div.top {
     color: white;
-    position: relative;
+    position: fixed;
     height: 70px;
     width: 100%;
     margin: 0;
-    margin-bottom: 10px;
     background-color: #1D2953;
     border-radius: 0 0 15px 15px;
+}
+
+div.cells {
+    position: relative;
+    top: 80px;
 }
 
 div.toptitle {
@@ -28,7 +32,7 @@ div.toptitle {
     position: relative;
     top: 12px;
     left: 75px;
-    width: 100%;
+    width: auto;
 }
 
 div.toptitlenlogo {
@@ -39,7 +43,7 @@ div.toptitlenlogo {
 h1.title {
     display: inline;
     padding-bottom: 10px;
-    font-size: min(7vw, 30px);
+    font-size: min(5vw, 30px);
     font-weight: 500;
     margin: 0;
 }
