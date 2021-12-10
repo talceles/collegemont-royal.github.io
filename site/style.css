@@ -4,7 +4,6 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
     margin-bottom: 10px;
-    padding-top: 15px;
 }
 
 body.dark {
@@ -12,39 +11,73 @@ body.dark {
     color: white;
 }
 
-.top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+div.top {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #1D2953;
+}
 
-    margin-right: 30px;
-    margin-left: 30px;
+div.toptitle {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    top: 12px;
+    left: 75px;
+    width: 100%;
+}
+
+div.toptitlenlogo {
+    position: absolute;
+    left: 0px;
 }
 
 h1.title {
+    display: inline;
+    padding-bottom: 10px;
     font-size: min(7vw, 30px);
     font-weight: 500;
     margin: 0;
 }
 
-button.i {
-    margin-left: auto;
+h5 {
+    width: 100px;
+    display: inline;
+    font-size: 10px;
+    padding-left: 2px;
+    margin: 0;
+}
+
+button {
+    position: absolute;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("ressources/i.png");
     background-repeat: no-repeat;
     background-size: contain;
     border-style: none;
+    margin: 0;
     padding: 0;
+}
+
+button.i {
+    top: 17.5px;
+    right: 17.5px;
+    background-image: url("ressources/i.png");
     height: 35px;
     width: 35px;
 }
 
-#hidden {
-    display: none;
+button.logo {
+    background-image: url("../site/ressources/logo.png");
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
 }
 
-div.top {
-    margin-bottom: 10px;
+#hidden {
+    display: none;
 }
 
 cell {
