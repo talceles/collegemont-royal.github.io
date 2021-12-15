@@ -256,11 +256,12 @@ description {
 
 cell-title {
     font-size: 17px;
+    font-weight: bold;
 }
 
 .article cell-title {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 cell-subtitle {
