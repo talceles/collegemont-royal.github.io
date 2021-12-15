@@ -38,6 +38,8 @@ div.top {
 div.cells {
     position: relative;
     top: 80px;
+    min-height: 100vh;
+    margin-bottom: 100px;
 }
 
 div.toptitle {
