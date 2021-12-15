@@ -15,6 +15,7 @@ div.top {
     color: white;
     position: fixed;
     
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
     z-index: 99;
     height: 70px;
     width: 100%;
@@ -110,14 +111,11 @@ cell {
     padding: 0;
     overflow: hidden;
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 .dark .article {
-    display: block;
     background-color: rgb(30, 30, 30);
-    padding: 0px 0px;
-    overflow: hidden;
-    margin-bottom: 5px;
 }
 
 img {
@@ -137,6 +135,7 @@ img {
 .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(220, 220, 230);
+    padding-left: 0px;
 }
 
 .dark .mouseOver.article {
@@ -148,14 +147,11 @@ img {
     transition: all 0.2s;
     background-color: rgb(235, 235, 240);
     padding-left: 0px;
-    margin-left: 10px;
 }
 
 .dark .mouseOut.article {
     transition: all 0.2s;
     background-color: rgb(30, 30, 30);
-    padding-left: 0px;
-    margin-left: 10px;
 }
 
 .notification {
@@ -236,6 +232,15 @@ description {
     flex-direction: column;
     justify-content: center;
     padding: 16px 16px;
+}
+
+.article.mouseOver description {
+    transition: all, 0.2s;
+    padding: 16px 24px;
+}
+
+.article.mouseOut description {
+    transition: all, 0.2s;
 }
 
 cell-title {
