@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -9,6 +9,17 @@ body {
 body.dark {
     background-color: black;
     color: white;
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../site/ressources/fonts/GOTHIC.woff);
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    font-weight: bold;
+    src: url(../site/ressources/fonts/GOTHICB.woff);
 }
 
 div.top {
@@ -47,7 +58,7 @@ h1.title {
     display: inline;
     padding-bottom: 10px;
     font-size: min(5.5vw, 30px);
-    font-weight: 500;
+    font-weight: bold;
     margin: 0;
 }
 
