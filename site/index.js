@@ -1,1 +1,205 @@
-var _0x4c6fbb=_0x3943;(function(_0x4b7ba0,_0xa3725a){var _0x53fe7a=_0x3943,_0x443dd6=_0x4b7ba0();while(!![]){try{var _0x42be8a=parseInt(_0x53fe7a(0x206))/0x1*(parseInt(_0x53fe7a(0x200))/0x2)+parseInt(_0x53fe7a(0x22b))/0x3*(-parseInt(_0x53fe7a(0x205))/0x4)+-parseInt(_0x53fe7a(0x202))/0x5*(parseInt(_0x53fe7a(0x1f5))/0x6)+-parseInt(_0x53fe7a(0x216))/0x7*(-parseInt(_0x53fe7a(0x207))/0x8)+-parseInt(_0x53fe7a(0x220))/0x9*(-parseInt(_0x53fe7a(0x21d))/0xa)+parseInt(_0x53fe7a(0x22c))/0xb*(parseInt(_0x53fe7a(0x219))/0xc)+-parseInt(_0x53fe7a(0x225))/0xd*(parseInt(_0x53fe7a(0x20b))/0xe);if(_0x42be8a===_0xa3725a)break;else _0x443dd6['push'](_0x443dd6['shift']());}catch(_0x5c3791){_0x443dd6['push'](_0x443dd6['shift']());}}}(_0x2cff,0xc80ab));let link=getUrl(),str=get(link),slides=![];loadTableView(),setDarkMode(),hideIButton(),window[_0x4c6fbb(0x1f3)]('popstate',_0x6ad213=>{var _0x477c84=_0x4c6fbb;parseCells(_0x6ad213[_0x477c84(0x223)]);});function _0x2cff(){var _0x31d71c=['parse','matchMedia','innerHTML','\x20notification','(prefers-color-scheme:\x20dark)','location','hidden','addEventListener','get','776442unlosq','remove','getElementById','title','\x20article','https://collegemont-royal.github.io/files/cells.json','transitionLeft','getElementsByClassName','mouseOut','<i>$1</i>','cell','6ATWdvT','</cell-subtitle></description></cell>','10WhDhUI','mouseOver','(?:[✀-➿]|(?:�[�-�]){2}|[�-�][�-�]|[#-9]️?⃣|㊙|㊗|〽|〰|Ⓜ|�[�-�]|�[�-�]|🆎|�[�-�]|�[�-�]|[�[�-�]|🈚|🈯|[�[�-�]|[�[�-�]|‼|⁉|[▪-▫]|▶|◀|[◻-◾]|©|®|™|ℹ|🀄|[☀-⛿]|⬅|⬆|⬇|⬛|⬜|⭐|⭕|⌚|⌛|⌨|⏏|[⏩-⏳]|[⏸-⏺]|🃏|⤴|⤵|[←-⇿])','742636NmPDya','432701ozjsjG','307144cnkftT','logo','height','https://collegemont-royal.github.io/?src=https://collegemont-royal.github.io/files/infos.json','1743644oXshdm','Application\x20CMR','length','dark',',\x20height=','pushState','https://collegemont-royal.github.io?src=','CMR','subtitle','toolbar=no,\x20location=no,\x20directories=no,\x20status=no,\x20menubar=no,\x20scrollbars=no,\x20resizable=no,\x20copyhistory=no,\x20width=','link','91cZGadD','send','GET','12cByNIA','/></img-container><description><cell-title>','classList','\x22><emoji>','53140LrtTDm','src','join','1224layiFG','open','article','state','newPage','221LYTrkF','onmouseover','match','width','\x20class=\x22','notification','12CwPgEN','15600057dByzha','<cell\x20id\x20=\x20','onclick','insertAdjacentHTML','</cell-title><cell-subtitle>','https://collegemont-royal.github.io','replace','add','matches','cells','<b>$1</b>','responseText','getElementsByTagName'];_0x2cff=function(){return _0x31d71c;};return _0x2cff();}function addClickEvent(_0x5adb0c){var _0x3d6bca=_0x4c6fbb,_0xa32593=document[_0x3d6bca(0x1f7)](_0x5adb0c);cells[_0x5adb0c][_0x3d6bca(0x215)]&&(_0xa32593[_0x3d6bca(0x22e)]=function(){var _0x3c1c2c=_0x3d6bca;window[_0x3c1c2c(0x221)](cells[_0x5adb0c][_0x3c1c2c(0x215)]);});}function addNewPageEvent(_0x9e9af6){var _0x1c8c8e=_0x4c6fbb,_0x538b26=document[_0x1c8c8e(0x1f7)](_0x9e9af6);_0x538b26[_0x1c8c8e(0x22e)]=function(){var _0x1d7661=_0x1c8c8e;history[_0x1d7661(0x210)](cells[_0x9e9af6][_0x1d7661(0x215)],cells[_0x9e9af6][_0x1d7661(0x1f8)],_0x1d7661(0x211)+cells[_0x9e9af6][_0x1d7661(0x215)]),slideLeft(),slides=!![],setTimeout(function(){parseCells(cells[_0x9e9af6]['link']);},0x12c);};}function addHoverEvent(_0x10a75a){var _0xaf638=_0x4c6fbb,_0x4d9c3b=document[_0xaf638(0x1f7)](_0x10a75a);cells[_0x10a75a][_0xaf638(0x215)]&&(_0x4d9c3b[_0xaf638(0x226)]=function(){var _0x2309f8=_0xaf638;_0x4d9c3b[_0x2309f8(0x21b)][_0x2309f8(0x1f6)](_0x2309f8(0x1fd),_0x2309f8(0x203)),_0x4d9c3b['classList'][_0x2309f8(0x233)](_0x2309f8(0x203));},_0x4d9c3b['onmouseout']=function(){var _0x247f54=_0xaf638;_0x4d9c3b['classList']['remove'](_0x247f54(0x1fd),_0x247f54(0x203)),_0x4d9c3b[_0x247f54(0x21b)]['add'](_0x247f54(0x1fd));});}document[_0x4c6fbb(0x1fc)]('i')[0x0][_0x4c6fbb(0x22e)]=function(){var _0x40d056=_0x4c6fbb;popupwindow(_0x40d056(0x20a),'CMR\x20-\x20Informations',0x190,0x258);},document[_0x4c6fbb(0x1fc)](_0x4c6fbb(0x208))[0x0][_0x4c6fbb(0x22e)]=function(){var _0x1d9fe2=_0x4c6fbb;window[_0x1d9fe2(0x1f1)]=_0x1d9fe2(0x231);};function parseCells(_0x587b69){var _0x2c69cf=_0x4c6fbb;link=getUrl(),str=get(link),cells=JSON['parse'](str)[_0x2c69cf(0x235)],loadTableView();}function loadTableView(){var _0x47f8e3=_0x4c6fbb;try{let _0x11e114=JSON[_0x47f8e3(0x1ec)](str)[_0x47f8e3(0x235)];}catch{return;}document[_0x47f8e3(0x1fc)](_0x47f8e3(0x235))[0x0][_0x47f8e3(0x1ee)]='',setTitle();for(let _0x2a400c=0x0;_0x2a400c<cells[_0x47f8e3(0x20d)];_0x2a400c++){let _0x5614a9=_0x47f8e3(0x1fd);cells[_0x2a400c][_0x47f8e3(0x22a)]&&(_0x5614a9=_0x5614a9+_0x47f8e3(0x1ef)),cells[_0x2a400c][_0x47f8e3(0x222)]&&(_0x5614a9=_0x5614a9+_0x47f8e3(0x1f9)),cells[_0x2a400c][_0x47f8e3(0x213)]=markDown(cells[_0x2a400c][_0x47f8e3(0x213)]),document[_0x47f8e3(0x1fc)](_0x47f8e3(0x235))[0x0][_0x47f8e3(0x22f)]('beforeend',GenerateHTMLCell(cells[_0x2a400c][_0x47f8e3(0x1f8)],cells[_0x2a400c][_0x47f8e3(0x213)],cells[_0x2a400c]['image'],_0x2a400c,_0x5614a9)),addHoverEvent(_0x2a400c),cells[_0x2a400c][_0x47f8e3(0x224)]?addNewPageEvent(_0x2a400c):addClickEvent(_0x2a400c);}fadeIn();}function slideLeft(){var _0x4f6d63=_0x4c6fbb,_0x3703cc=document[_0x4f6d63(0x1eb)](_0x4f6d63(0x1ff));for(let _0x52799f=0x0;_0x52799f<_0x3703cc[_0x4f6d63(0x20d)];_0x52799f++){_0x3703cc[_0x52799f]['classList']['remove'](_0x4f6d63(0x1fb),'mouseOver',_0x4f6d63(0x1fd)),_0x3703cc[_0x52799f]['classList'][_0x4f6d63(0x233)](_0x4f6d63(0x1fb),_0x4f6d63(0x1fd));}}function _0x3943(_0x3705b0,_0x555c8d){var _0x2cff2a=_0x2cff();return _0x3943=function(_0x394309,_0x447f32){_0x394309=_0x394309-0x1e9;var _0x4f19a8=_0x2cff2a[_0x394309];return _0x4f19a8;},_0x3943(_0x3705b0,_0x555c8d);}function fadeIn(){var _0x471675=_0x4c6fbb;if(slides){slides=![];var _0x3a35bb=document[_0x471675(0x1eb)](_0x471675(0x1ff));for(let _0x39b03b=0x0;_0x39b03b<_0x3a35bb[_0x471675(0x20d)];_0x39b03b++){_0x3a35bb[_0x39b03b][_0x471675(0x21b)][_0x471675(0x1f6)]('fadeIn'),_0x3a35bb[_0x39b03b][_0x471675(0x21b)]['add']('fadeIn');}}}function GenerateHTMLCell(_0x56f2bc,_0x162ffe,_0x20f99d,_0x4d59c1,_0x374621){var _0x3c5c1=_0x4c6fbb;return _0x56f2bc=_0x56f2bc||'',_0x162ffe=_0x162ffe||'',_0x20f99d=_0x20f99d||'🎆',_0x20f99d['indexOf']('.')>0x0?_0x3c5c1(0x22d)+_0x4d59c1+_0x3c5c1(0x229)+_0x374621+'\x22><img-container><img\x20src=\x22'+_0x20f99d+'\x22\x20id='+_0x20f99d+_0x3c5c1(0x21a)+_0x56f2bc+_0x3c5c1(0x230)+_0x162ffe+_0x3c5c1(0x201):_0x3c5c1(0x22d)+_0x4d59c1+_0x3c5c1(0x229)+_0x374621+_0x3c5c1(0x21c)+_0x20f99d+'</emoji><description><cell-title>'+_0x56f2bc+'</cell-title><cell-subtitle>'+_0x162ffe+_0x3c5c1(0x201);}function setDarkMode(){var _0x4f4bf8=_0x4c6fbb;window[_0x4f4bf8(0x1ed)](_0x4f4bf8(0x1f0))[_0x4f4bf8(0x234)]&&document['body'][_0x4f4bf8(0x21b)]['add'](_0x4f4bf8(0x20e));}function setTitle(){var _0x2053e0=_0x4c6fbb;let _0x7af813=JSON[_0x2053e0(0x1ec)](str)[_0x2053e0(0x1f8)]||_0x2053e0(0x20c);document['getElementsByClassName']('title')[0x0][_0x2053e0(0x1ee)]=_0x7af813,_0x7af813!=''?document[_0x2053e0(0x1f8)]='CMR\x20-\x20'+_0x7af813:document[_0x2053e0(0x1f8)]=_0x2053e0(0x212);}function hideIButton(){var _0x45cc80=_0x4c6fbb;link=='https://collegemont-royal.github.io/files/infos.json'?document['getElementsByClassName']('i')[0x0]['id']=_0x45cc80(0x1f2):document[_0x45cc80(0x1fc)]('i')[0x0]['id']='';}function getUrl(){var _0x231b39=_0x4c6fbb;const _0x1ec789=new URLSearchParams(window[_0x231b39(0x1f1)]['search'])[_0x231b39(0x1f4)](_0x231b39(0x21e));if(history['state']!=null)return history[_0x231b39(0x223)];else return _0x1ec789!=null?_0x1ec789:_0x231b39(0x1fa);}function get(_0x1d0b12){var _0x402980=_0x4c6fbb,_0x3d3a0a=new XMLHttpRequest();return _0x3d3a0a[_0x402980(0x221)](_0x402980(0x218),_0x1d0b12,![]),_0x3d3a0a[_0x402980(0x217)](null),_0x3d3a0a[_0x402980(0x1ea)];}function isEmoji(_0x1a7eab){var _0x1adc18=_0x4c6fbb,_0x129f8f=[_0x1adc18(0x204)];return _0x1a7eab[_0x1adc18(0x227)](_0x129f8f[_0x1adc18(0x21f)]('|'))?!![]:![];}function markDown(_0x51e17){var _0x37564a=_0x4c6fbb;if(_0x51e17){var _0x4d409b=/\*\*(.*?)\*\*/gm,_0x1c5934=_0x51e17[_0x37564a(0x232)](_0x4d409b,_0x37564a(0x1e9)),_0x2166ad=/\*(.*?)\*/gm,_0x43c518=_0x1c5934['replace'](_0x2166ad,_0x37564a(0x1fe)),_0x42c489=_0x43c518[_0x37564a(0x232)](/\n/g,'<br>');return _0x42c489;}}function popupwindow(_0x20894b,_0x7e7024,_0x282b1f,_0x3cf54b){var _0x59bf65=_0x4c6fbb,_0x55a2b4=screen[_0x59bf65(0x228)]/0x2-_0x282b1f/0x2,_0x36c22e=screen[_0x59bf65(0x209)]/0x2-_0x3cf54b/0x2;return window[_0x59bf65(0x221)](_0x20894b,_0x7e7024,_0x59bf65(0x214)+_0x282b1f+_0x59bf65(0x20f)+_0x3cf54b+',\x20top='+_0x36c22e+',\x20left='+_0x55a2b4);}
+
+let link = getUrl();
+let str = get(link);
+
+let slides = false;
+
+loadTableView();
+
+setDarkMode();
+hideIButton();
+
+// EVENTS
+
+window.addEventListener('popstate', e => {
+    parseCells(e.state)
+})
+
+function addClickEvent(i) {
+    var element = document.getElementById(i); //grab the element
+    if (cells[i].link) {
+        element.onclick = function() { //asign a function
+            window.open(cells[i].link);
+        }
+    }
+}
+
+function addNewPageEvent(i) {
+    var element = document.getElementById(i)
+    element.onclick = function() {
+        history.pushState(cells[i].link, cells[i].title, "https://collegemont-royal.github.io?src=" + cells[i].link);
+        slideLeft()
+        slides = true;
+        setTimeout(function() {
+            parseCells(cells[i].link)
+        }, 300)
+    }
+}
+
+function addHoverEvent(i) {
+    var element = document.getElementById(i); //grab the element
+    if (cells[i].link) {
+        element.onmouseover = function() { //asign a function
+            element.classList.remove("mouseOut", "mouseOver")
+            element.classList.add("mouseOver")
+        }
+        element.onmouseout = function() { //asign a function
+            element.classList.remove("mouseOut", "mouseOver")
+            element.classList.add("mouseOut")
+        }
+    }
+}
+
+document.getElementsByClassName("i")[0].onclick = function() {
+    popupwindow("https://collegemont-royal.github.io/?src=https://collegemont-royal.github.io/files/infos.json", 'CMR - Informations', 400, 600)
+};
+
+document.getElementsByClassName("logo")[0].onclick = function() {
+    window.location = "https://collegemont-royal.github.io";
+};
+
+// CELLS
+
+function parseCells(url) {
+    link = getUrl()
+    str = get(link)
+    cells = JSON.parse(str).cells
+    loadTableView();
+}
+
+function loadTableView() {
+
+    try {
+        let cells = JSON.parse(str).cells;
+    } catch {
+        return;
+    }
+
+    document.getElementsByClassName("cells")[0].innerHTML = "";
+
+    setTitle();
+
+    for (let i = 0; i < cells.length; i++) {
+        let classe = "mouseOut"
+        if (cells[i].notification) { classe = classe + " notification" }
+        if (cells[i].article) { classe = classe + " article" }
+        cells[i].subtitle = markDown(cells[i].subtitle)
+
+        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
+        
+        addHoverEvent(i);
+
+        if (cells[i].newPage) {
+            addNewPageEvent(i);
+        } else {
+            addClickEvent(i);
+        }
+    }
+    fadeIn();
+}
+
+function slideLeft() {
+    var elements = document.getElementsByTagName("cell")
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove("transitionLeft", "mouseOver", "mouseOut");
+        elements[i].classList.add("transitionLeft", "mouseOut");
+    }
+}
+
+function fadeIn() {
+    if (slides) {
+        slides = false;
+        var elements = document.getElementsByTagName("cell")
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].classList.remove("fadeIn");
+            elements[i].classList.add("fadeIn");
+        }
+    }
+}
+
+function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
+
+    title = title || ""
+    subtitle = subtitle || ""
+    image = image || "🎆"
+
+    if (image.indexOf(".") > 0) {
+        // IMAGE IS LINK
+        return `<cell id = ${i} class="${cellClass}"><img-container><img src="${image}" id=${image}/></img-container><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+    } else {
+        // IMAGE IS EMOJI
+        return `<cell id = ${i} class="${cellClass}"><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+    }
+}
+
+// UI
+
+function setDarkMode() {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add("dark");
+    }
+}
+
+function setTitle() {
+    let title = JSON.parse(str).title || "Application CMR";
+    document.getElementsByClassName("title")[0].innerHTML = title;
+    if (title != "") {
+        document.title = "CMR - " + title
+    } else {
+        document.title = "CMR"
+    }
+}
+
+function hideIButton() {
+    if (link == "https://collegemont-royal.github.io/files/infos.json") {
+        document.getElementsByClassName("i")[0].id = "hidden";
+    } else {
+        document.getElementsByClassName("i")[0].id = "";
+    }
+}
+
+// UTILITIES
+
+function getUrl() {
+    const src = new URLSearchParams(window.location.search).get('src');
+    if (history.state != null) {
+        return history.state;
+    } else if (src != null) {
+        return src;
+    } else {
+        return 'https://collegemont-royal.github.io/files/cells.json';
+    }
+}
+
+function get(yourUrl) {
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.open("GET",yourUrl,false);
+    Httpreq.send(null);
+    return Httpreq.responseText;          
+}
+
+function isEmoji(str) {
+    var ranges = ['(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|[\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|[\ud83c[\ude32-\ude3a]|[\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])'];
+    if (str.match(ranges.join('|'))) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function markDown(str) {
+    if (str) {
+        var boldParameters = /\*\*(.*?)\*\*/gm;
+        var bold = str.replace(boldParameters, '<b>$1</b>');
+        var italicParameters = /\*(.*?)\*/gm;
+        var italic = bold.replace(italicParameters, '<i>$1</i>');
+        var enters = italic.replace(/\n/g, "<br>");
+        return enters;
+    }
+}
+
+function popupwindow(url, title, w, h) {
+    var left = (screen.width/2)-(w/2);
+    var top = (screen.height/2)-(h/2);
+    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+  } 
