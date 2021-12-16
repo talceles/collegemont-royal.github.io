@@ -1,6 +1,7 @@
 
 let link = getUrl();
 let str = get(link);
+let cells = JSON.parse(str).cells;
 
 let slides = false;
 
@@ -68,12 +69,6 @@ function parseCells(url) {
 }
 
 function loadTableView() {
-
-    try {
-        let cells = JSON.parse(str).cells;
-    } catch {
-        return;
-    }
 
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
