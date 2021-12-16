@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -25,9 +25,12 @@ body.dark {
 div.top {
     color: white;
     position: fixed;
-    
+
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
     z-index: 99;
+
     height: 70px;
     width: 100%;
     margin: 0;
@@ -38,7 +41,6 @@ div.top {
 div.cells {
     position: relative;
     top: 80px;
-    min-height: 100vh;
     margin-bottom: 100px;
 }
 
@@ -78,6 +80,7 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     border-style: none;
+    cursor: pointer;
     margin: 0;
     padding: 0;
 }

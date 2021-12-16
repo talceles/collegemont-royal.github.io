@@ -1,7 +1,9 @@
-let link = getUrl()
-let str = get(link)
-let cells = JSON.parse(str).cells
+
+let link = getUrl();
+let str = get(link);
+
 let slides = false;
+
 loadTableView();
 
 setDarkMode();
@@ -66,6 +68,13 @@ function parseCells(url) {
 }
 
 function loadTableView() {
+
+    try {
+        let cells = JSON.parse(str).cells;
+    } catch {
+        return;
+    }
+
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
     setTitle();
@@ -143,7 +152,6 @@ function setTitle() {
 
 function hideIButton() {
     if (link == "https://collegemont-royal.github.io/files/infos.json") {
-        console.log("hidden");
         document.getElementsByClassName("i")[0].id = "hidden";
     } else {
         document.getElementsByClassName("i")[0].id = "";
