@@ -13,6 +13,7 @@ loadTableView();
 // EVENTS
 
 window.addEventListener('popstate', e => {
+    document.getElementsByClassName("topsub")[0].innerHTML = "Application CMR";
     parseCells(e.state)
 })
 
@@ -28,7 +29,7 @@ function addClickEvent(i) {
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
     element.onclick = function() {
-        document.getElementsByClassName("topsub")[0].innerHTML = "<b>" + document.getElementsByClassName("title")[0].innerText + "</b>";
+        document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "https://collegemont-royal.github.io?src=" + cells[i].link);
         slideLeft()
         slides = true;
