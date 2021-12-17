@@ -279,3 +279,33 @@ cell-subtitle {
     color: rgb(153, 153, 153);
     padding: 5px 0px;
 }
+
+div.retour {
+    display: flex;
+    cursor: pointer;
+}
+
+h2.retour {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    position: relative;
+    
+    margin: 5px 10px;
+    padding: 15px 15px;
+    border-radius: 20px;
+
+    font-size: 30px;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 115%;
+}
+
+button.retour {
+    position: relative;
+    top: 100px;
+    background-image: url("../site/ressources/back.png");
+    top: 0px;
+    left: 15px;
+    height: 80px;
+    width: 80px;
+}
