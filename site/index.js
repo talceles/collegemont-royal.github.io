@@ -40,6 +40,7 @@ function addNewPageEvent(i) {
 function addHoverEvent(i) {
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
+        element.style.cursor = "pointer";
         element.onmouseover = function() { //asign a function
             element.classList.remove("mouseOut", "mouseOver")
             element.classList.add("mouseOver")
