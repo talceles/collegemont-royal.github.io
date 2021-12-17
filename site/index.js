@@ -1,14 +1,14 @@
 
 let link = getUrl();
 let str = get(link);
-let cells = JSON.parse(str).cells;
+let cells = null;
 
 let slides = false;
 
-loadTableView();
-
 setDarkMode();
 hideIButton();
+
+loadTableView();
 
 // EVENTS
 
@@ -69,6 +69,8 @@ function parseCells(url) {
 }
 
 function loadTableView() {
+
+    try { cells = JSON.parse(str).cells; } catch { return };
 
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
