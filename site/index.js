@@ -28,7 +28,7 @@ function addClickEvent(i) {
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
     element.onclick = function() {
-        document.getElementsByClassName("toptitle")[0].innerHTML = "<b>" + document.getElementsByClassName("title")[0].innerHTML + "</b>";
+        document.getElementsByClassName("topsub")[0].innerHTML = "<b>" + document.getElementsByClassName("title")[0].innerText + "</b>";
         history.pushState(cells[i].link, cells[i].title, "https://collegemont-royal.github.io?src=" + cells[i].link);
         slideLeft()
         slides = true;

@@ -68,7 +68,8 @@ h1.title {
     margin: 0;
 }
 
-h5 {
+h5.topsub {
+    font-weight: bold;
     width: 100px;
     display: inline;
     font-size: 10px;
