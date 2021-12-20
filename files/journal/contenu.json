@@ -2,7 +2,12 @@
     "title":"Journal Étudiant",
     "cells":
     [
-        {   
+        {    "title":"Édition 5",
+            "subtitle":"Cette cinquième édition vous plongera dans la magie du temps des fêtes !",
+            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal5.pdf",
+            "UUID":"d178c998-7058-4e79-bb33-fc2a1f8e926e"
+        },{
             "title":"Édition 4",
             "subtitle":"À travers des médiums variés, découvrez de nouvelles idées de contenus audiovisuels !",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
