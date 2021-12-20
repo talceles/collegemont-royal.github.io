@@ -3,7 +3,7 @@ let link = getUrl();
 let str = get(link);
 let cells = null;
 
-let slides = false;
+let shouldAnimate = false;
 
 setDarkMode();
 hideIButton();
@@ -32,7 +32,7 @@ function addNewPageEvent(i) {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "https://collegemont-royal.github.io?src=" + cells[i].link);
         slideLeft()
-        slides = true;
+        shouldAnimate = true;
         setTimeout(function() {
             parseCells(cells[i].link)
         }, 300)
@@ -107,8 +107,8 @@ function slideLeft() {
 }
 
 function fadeIn() {
-    if (slides) {
-        slides = false;
+    if (shouldAnimate) {
+        shouldAnimate = false;
         var elements = document.getElementsByTagName("cell")
         for (let i = 0; i < elements.length; i++) {
             elements[i].classList.remove("fadeIn");
