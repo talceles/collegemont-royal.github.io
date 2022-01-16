@@ -65,15 +65,18 @@ document.getElementsByClassName("logo")[0].onclick = function() {
 // CELLS
 
 function parseCells(url) {
-    link = getUrl()
-    str = get(link)
-    cells = JSON.parse(str).cells
+    link = getUrl();
+    str = get(link);
+    cells = JSON.parse(str).cells;
     loadTableView();
 }
 
 function loadTableView() {
 
-    try { cells = JSON.parse(str).cells; } catch { return };
+    try { cells = JSON.parse(str).cells; } catch(err) { 
+        sendErrorMessage(err.message);
+        return;
+    };
 
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
@@ -160,6 +163,35 @@ function hideIButton() {
 
 // UTILITIES
 
+function sendErrorMessage(errorDescription) {
+    const request = new XMLHttpRequest();
+    request.open("POST", "https://discord.com/api/webhooks/932284802541957140/ewQuD3y_ErSOYKXfuQBYtgf-i3aLPMpm73BRRrMNyxEGO_-m1LrdSnlLiv8ZDR5p4B8S");
+    request.setRequestHeader('Content-type', 'application/json');
+
+    const params = {
+        "content": null,
+        "embeds": [
+            {
+                "title": "Erreur 404",
+                "description": "**Chemin de la page :**\n" + location.pathname,
+                "url": location.href,
+                "color": 15418782,
+                "fields": [
+                    {
+                        "name": "Source de la page",
+                        "value": getSrc()
+                    },{
+                        "name": "Description de l'erreur :",
+                        "value": errorDescription
+                    }
+                ]
+            }
+        ]
+    }
+
+    request.send(JSON.stringify(params));
+}
+
 function getUrl() {
     const src = new URLSearchParams(window.location.search).get('src');
     if (history.state != null) {
@@ -169,6 +201,10 @@ function getUrl() {
     } else {
         return 'https://collegemont-royal.github.io/files/cells.json';
     }
+}
+
+function getSrc() {
+    return new URLSearchParams(window.location.search).get('src');
 }
 
 function get(yourUrl) {

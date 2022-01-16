@@ -32,7 +32,36 @@
         <cell class="dark"><img src="../site/ressources/contact.png"></img><description><cell-title>On s'en occupe !</cell-title><cell-subtitle>Une notification a été envoyée à un administrateur pour régler le problème.</b></cell-subtitle></description></cell>
         
     </div>
-    <script src="../site/index.js"></script>
+    <script>
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add("dark");
+        }
+
+        
+        const request = new XMLHttpRequest();
+        request.open("POST", "https://discord.com/api/webhooks/932284802541957140/ewQuD3y_ErSOYKXfuQBYtgf-i3aLPMpm73BRRrMNyxEGO_-m1LrdSnlLiv8ZDR5p4B8S");
+        request.setRequestHeader('Content-type', 'application/json');
+
+        const params = {
+            "content": null,
+            "embeds": [
+                {
+                    "title": "Erreur 404",
+                    "description": "**Chemin de la page :**\n" + location.pathname,
+                    "url": location.href,
+                    "color": 16705372,
+                    "fields": [
+                        {
+                            "name": "Description de l'erreur :",
+                            "value": "The site configured at this address does not contain the requested file."
+                        }
+                    ]
+                }
+            ]
+        }
+
+        request.send(JSON.stringify(params));
+    </script>
 </body>
 
 </html>
