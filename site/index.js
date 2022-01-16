@@ -178,10 +178,10 @@ function sendErrorMessage(errorDescription) {
                 "color": 15418782,
                 "fields": [
                     {
-                        "name": "Source de la page :",
+                        "name": "**Source de la page :**",
                         "value": getSrc()
                     },{
-                        "name": "Description de l'erreur :",
+                        "name": "**Description de l'erreur :**",
                         "value": errorDescription
                     }
                 ]
@@ -204,7 +204,7 @@ function getUrl() {
 }
 
 function getSrc() {
-    return new URLSearchParams(window.location.search).get('src');
+    return new URLSearchParams(window.location.search).get('src') || "";
 }
 
 function get(yourUrl) {
