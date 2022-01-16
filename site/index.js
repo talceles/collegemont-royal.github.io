@@ -174,7 +174,6 @@ function sendErrorMessage(errorDescription) {
             {
                 "title": "Page WEB non trouvée",
                 "description": "**Chemin de la page :**\n" + location.pathname,
-                "url": location.href,
                 "color": 15418782,
                 "fields": [
                     {
