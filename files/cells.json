@@ -10,7 +10,7 @@
         },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements de l'année scolaire",
-            "image":"https://collegemont-royal.github.io/files/images/infos.png",
+            "image":"https://collegemont-royal.github.io/files/images/inos.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
         },{
@@ -29,7 +29,7 @@
             "title":"Cafétéria",
             "subtitle":"Menu de la cafétéria",
             "image":"https://collegemont-royal.github.io/files/images/cafeteria.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
+            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeeria.pdf"
         },{
             "title":"Journal Étudiant",
             "subtitle":"**Nouveau ∙ **Cinquième édition maintenant disponible !",
