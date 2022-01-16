@@ -165,7 +165,7 @@ function hideIButton() {
 
 function sendErrorMessage(errorDescription) {
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/932284802541957140/ewQuD3y_ErSOYKXfuQBYtgf-i3aLPMpm73BRRrMNyxEGO_-m1LrdSnlLiv8ZDR5p4B8S");
+    request.open("POST", "https://discord.com/api/webhooks/932293700699189310/biqsduw_4XRfmmZS8nfARmkEFOhs9yO4iKfIUxN0FuR04-ytaflP2uBnFyLLEP_8AOKA");
     request.setRequestHeader('Content-type', 'application/json');
 
     const params = {
