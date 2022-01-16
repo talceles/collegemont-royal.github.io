@@ -1,42 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-itunes-app" content="app-id=1522031702">
-    <link rel="icon" href="/site/favicon.png" type="image/png" sizes="16x16">
-    <link rel="apple-touch-icon" href="/site/ressources/favicon.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" type="text/css" href="/site/style.css">
-    <meta name="theme-color" content="#1D2953">
-    <title>CMR</title>
-</head>
-<body id="body">
-    <div class="top">
-        <div class="toptitlenlogo">
-            <button class="logo"></button>
-            <div class="toptitle">
-                <h1 class="title">Page non trouvée !</h1>
-                <h5 class="topsub">Application CMR</h5>
-            </div>
-        </div>
-        <button class="i"></button>
-    </div>
-    <div class="cells">
-        <cell class="dark"><img src="/files/images/404.png"></img><description><cell-title>Page non trouvée.</cell-title><cell-subtitle>Erreur 404 pour l'URL actuelle.</cell-subtitle></description></cell>
-        <div class="retour" onclick='location="https://collegemont-royal.github.io"';>
-            <button class="retour"></button>
-            <h2 class="retour">Retour à l'accueil</h2>
-        </div>
-        <cell class="dark"><img src="/site/ressources/contact.png"></img><description><cell-title>On s'en occupe !</cell-title><cell-subtitle>Une notification a été envoyée à un administrateur pour régler le problème.</b></cell-subtitle></description></cell>
-        
-    </div>
-    <script>
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add("dark");
-        }
 
+<head>
+
+    <script>
         
         const request = new XMLHttpRequest();
         request.open("POST", "https://discord.com/api/webhooks/932293700699189310/biqsduw_4XRfmmZS8nfARmkEFOhs9yO4iKfIUxN0FuR04-ytaflP2uBnFyLLEP_8AOKA");
@@ -62,6 +29,45 @@
 
         request.send(JSON.stringify(params));
     </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-itunes-app" content="app-id=1522031702">
+    <link rel="icon" href="/site/favicon.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/site/ressources/favicon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="/site/style.css">
+    <meta name="theme-color" content="#1D2953">
+    <title>Erreur 404</title>
+</head>
+<body id="body">
+    <div class="top">
+        <div class="toptitlenlogo">
+            <button class="logo"></button>
+            <div class="toptitle">
+                <h1 class="title">Page non trouvée !</h1>
+                <h5 class="topsub">Application CMR</h5>
+            </div>
+        </div>
+        <button class="i"></button>
+    </div>
+    <div class="cells">
+        <cell class="dark"><img src="/files/images/404.png"></img><description><cell-title>Page non trouvée.</cell-title><cell-subtitle>Erreur 404 pour l'URL actuelle.</cell-subtitle></description></cell>
+        <div class="retour" onclick='location="https://collegemont-royal.github.io"';>
+            <button class="retour"></button>
+            <h2 class="retour">Retour à l'accueil</h2>
+        </div>
+        <cell class="dark"><img src="/site/ressources/contact.png"></img><description><cell-title>On s'en occupe !</cell-title><cell-subtitle>Une notification a été envoyée à un administrateur pour régler le problème.</b></cell-subtitle></description></cell>
+        
+    </div>
+
+    <script>
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add("dark");
+        }        
+    </script>
+    
 </body>
 
 </html>
