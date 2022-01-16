@@ -172,13 +172,13 @@ function sendErrorMessage(errorDescription) {
         "content": null,
         "embeds": [
             {
-                "title": "Erreur 404",
+                "title": "Page WEB non trouvée",
                 "description": "**Chemin de la page :**\n" + location.pathname,
                 "url": location.href,
                 "color": 15418782,
                 "fields": [
                     {
-                        "name": "Source de la page",
+                        "name": "Source de la page :",
                         "value": getSrc()
                     },{
                         "name": "Description de l'erreur :",
