@@ -3,17 +3,17 @@
     "cells": [
         {
             "title":"Menu de la semaine",
-            "subtitle":"",
+            "subtitle":"2 choix de repas, soupe et dessert du jour",
             "image":"https://collegemont-royal.github.io/files/images/menu.png",
             "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Liste des prix",
-            "subtitle":"",
+            "subtitle":"Déjeuners, repas chauds, sandwichs, salades, collations et breuvages",
             "image":"https://collegemont-royal.github.io/files/images/listePrix.png",
             "link":"https://collegemont-royal.github.io/files/ecole/prixCafeteria.pdf"
         },{
             "title":"Informations sur le paiement",
-            "subtitle":"",
+            "subtitle":"Service à la cafétéria - Paiement par carte étudiante",
             "image":"https://collegemont-royal.github.io/files/images/infosPay.png",
             "link":"https://collegemont-royal.github.io/files/ecole/informationsCafeteria.pdf"
         }
