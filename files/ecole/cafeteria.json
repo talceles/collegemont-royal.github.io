@@ -4,17 +4,17 @@
         {
             "title":"Menu de la semaine",
             "subtitle":"",
-            "image":"https://collegemont-royal.github.io/files/images/calendrier.png",
+            "image":"https://collegemont-royal.github.io/files/images/menu.png",
             "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
         },{
             "title":"Liste des prix",
             "subtitle":"",
-            "image":"https://collegemont-royal.github.io/files/images/codedevie.png",
+            "image":"https://collegemont-royal.github.io/files/images/listePrix.png",
             "link":"https://collegemont-royal.github.io/files/ecole/prixCafeteria.pdf"
         },{
             "title":"Informations sur le paiement",
             "subtitle":"",
-            "image":"https://collegemont-royal.github.io/files/images/codedevie.png",
+            "image":"https://collegemont-royal.github.io/files/images/infosPay.png",
             "link":"https://collegemont-royal.github.io/files/ecole/informationsCafeteria.pdf"
         }
     ]
