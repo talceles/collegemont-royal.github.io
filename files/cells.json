@@ -27,9 +27,10 @@
             "UUID":"05fefe57-7cef-4ab9-9064-6f0f5b86579d"
         },{
             "title":"Cafétéria",
-            "subtitle":"Menu de la cafétéria",
+            "subtitle":"Informations et menu de la cafétéria",
             "image":"https://collegemont-royal.github.io/files/images/cafeteria.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/menuCafeteria.pdf"
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/ecole/cafeteria.json"
         },{
             "title":"Journal Étudiant",
             "subtitle":"**Nouveau ∙ **Cinquième édition maintenant disponible !",
