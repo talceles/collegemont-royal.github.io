@@ -5,20 +5,20 @@
         {
             "title":"Padlet: Ma bibliothèque animée",
             "subtitle":"Toutes les suggestions de lecture et les critiques littéraires sont disponibles ici.",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/padlet2.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/padlet.png",
             "link":"https://padlet.com/nfaral/pvw6nnnncz94u07w",
             "name":"Ma bibliothèque animée"
         },{
             "title":"Balado littéraire",
             "subtitle":"Le premier balado littéraire du comité de la bibliothèque est disponible !",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/balado.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/balado.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/balado/contenu.json",
             "UUID":"95b7165e-2f40-49b4-91d7-98eff465e45a"
         },{
             "title":"Nouveautés",
             "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/icones/horloge.png",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/horloge.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/bibliotheque/nouveau.json"
         }
