@@ -8,13 +8,6 @@
             "link":"https://collegemont-royal.qc.ca",
             "article":true
         },{
-            "title":"DHMIS",
-            "subtitle":"Test de vidéo YouTube dans l'application 😎",
-            "image":"play.rectangle.fill",
-            "tint":"E62117",
-            "link":"https://www.youtube.com/embed/9C_HReR_McQ",
-            "webView":true
-        },{
             "title":"Application développée par Clément Gauthier",
             "subtitle":"Ancien élève du collège",
             "image":"🙋🏼‍♂️",
