@@ -17,7 +17,8 @@
         },{
             "title":"Application développée par Clément Gauthier",
             "subtitle":"Ancien élève du collège",
-            "image":"ℹ️",
+            "image":"person.crop.circle",
+            "tint":"5856d6",
             "notification":true
         },{
             "title":"Allez voir mes autres applications !",
