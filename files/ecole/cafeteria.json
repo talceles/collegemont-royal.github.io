@@ -11,7 +11,8 @@
             "title":"Liste des prix",
             "subtitle":"Déjeuners, repas chauds, sandwichs, salades, collations et breuvages",
             "image":"https://collegemont-royal.github.io/files/images/listePrix.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/prixCafeteria.pdf"
+            "link":"https://collegemont-royal.github.io/files/ecole/prixCafeteria.pdf",
+            "webView":true
         },{
             "title":"Informations sur le paiement",
             "subtitle":"Service à la cafétéria - Paiement par carte étudiante",
