@@ -18,7 +18,8 @@
             "subtitle":"La liste des applications débloquées sur les iPads durant les heures de classe.",
             "image":"https://collegemont-royal.github.io/files/images/application.png",
             "link":"https://collegemont-royal.github.io/site/mozyle/applications",
-            "openURL":true
+            "openURL":true,
+            "webView":true
         },{
             "title":"Contacter le support technique",
             "subtitle":"Écrivez un courriel au support technique du collège et nous vous répondrons dès que possible.",

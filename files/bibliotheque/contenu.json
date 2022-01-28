@@ -7,7 +7,8 @@
             "subtitle":"Toutes les suggestions de lecture et les critiques littéraires sont disponibles ici.",
             "image":"https://collegemont-royal.github.io/files/bibliotheque/images/padlet.png",
             "link":"https://padlet.com/nfaral/pvw6nnnncz94u07w",
-            "name":"Ma bibliothèque animée"
+            "name":"Ma bibliothèque animée",
+            "webView":true
         },{
             "title":"Balado littéraire",
             "subtitle":"Le premier balado littéraire du comité de la bibliothèque est disponible !",
