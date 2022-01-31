@@ -27,11 +27,11 @@
             "link":"https://collegemont-royal.github.io/files/ecole/cafeteria.json"
         },{
             "title":"Journal Étudiant",
-            "subtitle":"**Nouveau ∙ **Cinquième édition maintenant disponible !",
+            "subtitle":"**Nouveau ∙ **Sixième édition disponible !",
             "image":"https://collegemont-royal.github.io/files/images/journal.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
-            "UUID":"94a1f1e0-655f-46ea-8ae7-1ab479c38078"
+            "UUID":"94a1f1e0-655f-8ae7-1ab479c38078"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
