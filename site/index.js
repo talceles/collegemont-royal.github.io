@@ -86,6 +86,7 @@ function loadTableView() {
         let classe = "mouseOut"
         if (cells[i].notification) { classe = classe + " notification" }
         if (cells[i].article) { classe = classe + " article" }
+        if (cells[i].webView) { classe = classe + " webView" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
         document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
@@ -126,12 +127,20 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     subtitle = subtitle || ""
     image = image || "🎆"
 
+    let imageCode = ""
+
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        return `<cell id = ${i} class="${cellClass}"><img-container><img src="${image}" id=${image}/></img-container><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+        imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
     } else {
         // IMAGE IS EMOJI
-        return `<cell id = ${i} class="${cellClass}"><emoji>${image}</emoji><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+        imageCode = `<emoji>${image}</emoji>`
+    }
+
+    if (cellClass.indexOf("webView") > 0) {
+        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe></cell>`
+    } else {
+        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
 }
 
