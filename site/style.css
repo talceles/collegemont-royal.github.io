@@ -160,10 +160,25 @@ cell {
     left: 0;
     display: block;
 
-    
-
     width: 100%;
     height: min(40vw, 350px);
+}
+
+.webView button {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    height: 35px;
+    width: 90px;
+    border-radius: 12px;
+
+    font-size: 15px;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: inherit;
+
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.23);
+    background-color: inherit;
 }
 
 img {
