@@ -5,6 +5,8 @@ let cells = null;
 
 let shouldAnimate = false;
 
+document.body.style.transform = 'scale(1)';
+
 setDarkMode();
 hideIButton();
 

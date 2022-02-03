@@ -160,6 +160,8 @@ cell {
     left: 0;
     display: block;
 
+    
+
     width: 100%;
     height: min(40vw, 350px);
 }
@@ -349,6 +351,10 @@ cell-subtitle {
 
 .dark cell-subtitle {
     color: rgb(153, 153, 153);
+}
+
+.webView cell-subtitle {
+    padding-top: 1px;
 }
 
 div.retour {
