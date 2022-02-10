@@ -6,6 +6,18 @@
             "image":"https://collegemont-royal.github.io/files/images/video.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/tutoriels.json"
+        },{
+            "title":"Conjugaison en français",
+            "subtitle":"L'application *VerbEx* vous aide à ne plus commettre de fautes de conjugaison.",
+            "image":"https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/4c/e9/84/4ce984ff-9cb9-1bb5-97c3-7331475a7849/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/230x0w.webp",
+            "newPage":true,
+            "link":"https://apps.apple.com/ca/app/verbex/id640298281"
+        },{
+            "title":"Calcul mental en mathématiques",
+            "subtitle":"L'application *Mental Maths* vous permet de vous pratiquer en mathématiques.",
+            "image":"https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/f6/49/30/f64930fd-311a-fcfe-8a71-e4a61ae9f9ac/AppIcon-1-1x_U007emarketing-7-0-85-220.png/230x0w.webp",
+            "newPage":true,
+            "link":"https://apps.apple.com/ca/app/mental-math-cards-games-tips/id500595081"
         }
     ]
 }
