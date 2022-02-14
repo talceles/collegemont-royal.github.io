@@ -3,6 +3,12 @@
     "cells":
     [
         {
+            "title":"Édition spéciale",
+            "subtitle":"Joyeux mois de février à tous!",
+            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
+            "link":"https://collegemont-royal.github.io/files/journal/Journal7.pdf",
+            "UUID":"fad9f96c-2984-49b6-bc9f-04ad008467c"
+        },{
             "title":"Édition 6",
             "subtitle":"Pour commencer 2022 du bon pied, plongez-vous dans cette sixième édition du journal étudiant. Au programme : des évènements et projets à ne pas manquer, une recette rafraîchissante, des nouvelles du comité de la bibliothèque et bien plus!",
             "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
