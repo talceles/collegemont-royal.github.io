@@ -8,11 +8,6 @@
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
         },{
-            "title":"Site du Collège",
-            "subtitle":"Site web officiel du Collège Mont-Royal",
-            "image":"https://collegemont-royal.github.io/files/images/siteweb.png",
-            "link":"https://collegemont-royal.qc.ca/"
-        },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
             "image":"https://collegemont-royal.github.io/files/images/bibliotheque.png",
@@ -38,6 +33,12 @@
             "image":"https://collegemont-royal.github.io/files/images/support.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/contenu.json"
+        },{
+            "title":"Babillard - En travaux 👷🏼‍♂️",
+            "image":"https://collegemont-royal.github.io/files/images/babillard.png",
+            "newPage":true,
+            "babillard":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
         }
     ]
 }
