@@ -33,12 +33,6 @@
             "image":"https://collegemont-royal.github.io/files/images/support.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/contenu.json"
-        },{
-            "title":"Babillard - En travaux 👷🏼‍♂️",
-            "image":"https://collegemont-royal.github.io/files/images/babillard.png",
-            "newPage":true,
-            "babillard":true,
-            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
         }
     ]
 }
