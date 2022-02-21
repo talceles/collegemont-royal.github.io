@@ -175,31 +175,14 @@ function hideIButton() {
 // UTILITIES
 
 function sendErrorMessage(errorDescription) {
-    const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com" + "/api/webhooks/9384120" + "40534511696/WEhbOd_eyjCgATyRcU" + "vnC-4j_FyxHPaFJk3Qen9B7FcgpJYUw0" + "IuVPMI67MMYTmgXOeC");
-    request.setRequestHeader('Content-type', 'application/json');
-
-    const params = {
-        "content": null,
-        "embeds": [
-            {
-                "title": "Page WEB non trouvée",
-                "description": "**Chemin de la page :**\n" + location.pathname,
-                "color": 15418782,
-                "fields": [
-                    {
-                        "name": "**Source de la page :**",
-                        "value": getSrc()
-                    },{
-                        "name": "**Description de l'erreur :**",
-                        "value": errorDescription
-                    }
-                ]
-            }
-        ]
-    }
-
-    request.send(JSON.stringify(params));
+    fetch(
+        "https://webhook-cmr.herokuapp.com/jf?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
+        {
+            method: "POST",
+            headers: { "Content-Type": "text/plain; charset=utf-8" },
+            body: errorDescription,
+        }
+    );  
 }
 
 function getUrl() {
