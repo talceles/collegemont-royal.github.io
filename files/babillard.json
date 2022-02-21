@@ -1,17 +1,15 @@
-{
-    "annonces": [
-        {
-            "title":"Midi Speed-Booking",
-            "contenu":"https://collegemont-royal.github.io/files/annonces/SpeedBooking.jpeg",
-            "expiration":"2021-03-17"
-        },{
-            "title":"Babillard",
-            "contenu":"Annonce super importante ✨",
-            "expiration":"2021-03-25"
-        },{
-            "title":"👀 Titre.txt",
-            "contenu":"https://collegemont-royal.github.io/files/annonces/SpeedBooking.jpeg",
-            "expiration":"2021-03-17"
-        }
-    ]
-}
+[
+    {
+        "title":"Midi Speed-Booking",
+        "contenu":"https://collegemont-royal.github.io/files/annonces/SpeedBooking.jpeg",
+        "expiration":"2021-03-17"
+    },{
+        "title":"Babillard",
+        "contenu":"Annonce super importante ✨",
+        "expiration":"2021-03-25"
+    },{
+        "title":"👀 Titre.txt",
+        "contenu":"https://collegemont-royal.github.io/files/annonces/SpeedBooking.jpeg",
+        "expiration":"2021-03-17"
+    }
+]
