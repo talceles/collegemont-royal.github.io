@@ -4,29 +4,7 @@
 <head>
 
     <script>
-        
-        const request = new XMLHttpRequest();
-        request.open("POST", "https://discord.com" + "/api/webhooks/9384120" + "40534511696/WEhbOd_eyjCgATyRcU" + "vnC-4j_FyxHPaFJk3Qen9B7FcgpJYUw0" + "IuVPMI67MMYTmgXOeC");
-        request.setRequestHeader('Content-type', 'application/json');
-
-        const params = {
-            "content": null,
-            "embeds": [
-                {
-                    "title": "Fichier non trouvé",
-                    "description": "**Chemin du fichier :**\n" + location.pathname,
-                    "color": 16705372,
-                    "fields": [
-                        {
-                            "name": "**Description de l'erreur :**",
-                            "value": "The site configured at this address does not contain the requested file."
-                        }
-                    ]
-                }
-            ]
-        }
-
-        request.send(JSON.stringify(params));
+        fetch("https://webhook-cmr.herokuapp.com/clem?pathname=" + encodeURIComponent(window.location.pathname), { method: 'POST' });
     </script>
 
     <meta charset="UTF-8">
