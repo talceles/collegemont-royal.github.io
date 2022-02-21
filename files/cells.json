@@ -2,6 +2,12 @@
     "version":"1.11",
     "cells": [
         {
+            "title":"Babillard",
+            "subtitle":" 🔨 *En cours de développement par nos excellents développeurs... revenez plus tard...*",
+            "image":"https://collegemont-royal.github.io/files/images/babillard.png",
+            "babillard":true,
+            "link":"https://collegemont-royal.github.io/files/babillard.json"
+        },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements",
             "image":"https://collegemont-royal.github.io/files/images/infos.png",
