@@ -142,17 +142,16 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     }
 
     if (cellClass.indexOf("babillard") > 0) {
-        var src = get(cells[i].link)
-        annonces[i] = JSON.parse(src);
-        annonces[i] = sortAnnonces(annonces[i]);
+        // var src = get(cells[i].link)
+        // annonces[i] = JSON.parse(src);
+        // annonces[i] = sortAnnonces(annonces[i]);
 
-        if (annonces[i].length > 0) {
-            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
-        } else {
-            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
-        }
-
-        var subtitle = annonces[i]
+        // if (annonces[i].length > 0) {
+        //     imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
+        //     subtitle = annonces[i].length + " annonces"
+        // } else {
+        //     imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
+        // }
 
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else if (cellClass.indexOf("webView") > 0) {
