@@ -2,6 +2,7 @@
 let link = getUrl();
 let str = get(link);
 let cells = null;
+let annonces = [];
 
 let shouldAnimate = false;
 
@@ -89,6 +90,7 @@ function loadTableView() {
         if (cells[i].notification) { classe = classe + " notification" }
         if (cells[i].article) { classe = classe + " article" }
         if (cells[i].webView) { classe = classe + " webView" }
+        if (cells[i].babillard) { classe = classe + " babillard" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
         document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
@@ -139,7 +141,21 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
         imageCode = `<emoji>${image}</emoji>`
     }
 
-    if (cellClass.indexOf("webView") > 0) {
+    if (cellClass.indexOf("babillard") > 0) {
+        var src = get(cells[i].link)
+        annonces[i] = JSON.parse(src);
+        annonces[i] = sortAnnonces(annonces[i]);
+
+        if (annonces[i].length > 0) {
+            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
+        } else {
+            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
+        }
+
+        var subtitle = annonces[i]
+
+        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
+    } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
@@ -173,6 +189,24 @@ function hideIButton() {
 }
 
 // UTILITIES
+
+function sortAnnonces(annonces) {
+    annonces.forEach(annonce => {
+        let expiration = Date.parse(annonce.expiration || "2170-02-10")
+        let now = new Date().getTime();
+        if (expiration < now) {
+            annonces = arrayRemove(annonces, annonce)
+            sortAnnonces(annonces)
+        }
+    });
+    console.log(annonces)
+}
+
+function arrayRemove(arr, value) { 
+    return arr.filter(function(ele) {
+        return ele != value;
+    });
+}
 
 function sendErrorMessage(errorDescription) {
     fetch(
