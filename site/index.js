@@ -142,16 +142,18 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     }
 
     if (cellClass.indexOf("babillard") > 0) {
-        // var src = get(cells[i].link)
-        // annonces[i] = JSON.parse(src);
-        // annonces[i] = sortAnnonces(annonces[i]);
+        var src = get(cells[i].link)
+        annonces[i] = JSON.parse(src);
+        annonces[i] = sortAnnonces(annonces[i], i);
 
-        // if (annonces[i].length > 0) {
-        //     imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
-        //     subtitle = annonces[i].length + " annonces"
-        // } else {
-        //     imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
-        // }
+        console.log(annonces)
+
+        if (annonces[i].length > 0) {
+            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
+            subtitle = annonces[i].length + " annonces"
+        } else {
+            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
+        }
 
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
 
@@ -191,16 +193,18 @@ function hideIButton() {
 
 // UTILITIES
 
-function sortAnnonces(annonces) {
-    annonces.forEach(annonce => {
+function sortAnnonces(annoncesATrier, i) {
+    let newAnnonces = annoncesATrier;
+    annoncesATrier.forEach(annonce => {
         let expiration = Date.parse(annonce.expiration || "2170-02-10")
         let now = new Date().getTime();
         if (expiration < now) {
-            annonces = arrayRemove(annonces, annonce)
-            sortAnnonces(annonces)
+            newAnnonces = arrayRemove(newAnnonces, annonce)
+            sortAnnonces(newAnnonces, i)
         }
     });
-    console.log(annonces)
+    console.log(newAnnonces)
+    return newAnnonces
 }
 
 function arrayRemove(arr, value) { 
