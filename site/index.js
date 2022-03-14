@@ -153,7 +153,9 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
         //     imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
         // }
 
-        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
+        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+
+        // return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else {
