@@ -152,6 +152,69 @@ cell {
     background-color: rgb(30, 30, 30);
 }
 
+.babillard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 240);
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.dark .babillard {
+    background-color: rgb(30, 30, 30);
+}
+
+div .annonces {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dark div.annonces {
+    background-color: rgb(0, 0, 0);
+}
+
+annonce {
+    display: flex;
+    align-items: center;
+    height: 215px;
+    width: 150px;
+    margin: 15px 5px;
+    background-color: rgb(235, 235, 240);
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+annonce img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+annonce a {
+    height: 100%-20px;
+    width: 100%-20px;
+    line-clamp: 5;
+    padding: 10px;
+
+    text-align: center;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.dark annonce {
+    background-color: rgb(30, 30, 30);
+}
+
 .webView iframe {
     display: block;
     border-style: none;
@@ -206,6 +269,13 @@ img {
     height: 50px;
 }
 
+.babillard img.pin-image {
+    padding: 5px 5px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
 .mouseOver.article {
     transition: all 0.2s;
     background-color: rgb(220, 220, 230);
@@ -246,6 +316,28 @@ img {
 }
 
 .dark .mouseOut.webView {
+    transition: all 0.2s;
+    background-color: rgb(30, 30, 30);
+}
+
+.mouseOver.babillard {
+    transition: all 0.2s;
+    background-color: rgb(220, 220, 230);
+    padding-left: 0px;
+}
+
+.dark .mouseOver.babillard {
+    transition: all 0.2s;
+    background-color: rgb(40, 40, 40);
+}
+
+.mouseOut.babillard {
+    transition: all 0.2s;
+    background-color: rgb(235, 235, 240);
+    padding-left: 0px;
+}
+
+.dark .mouseOut.babillard {
     transition: all 0.2s;
     background-color: rgb(30, 30, 30);
 }
@@ -335,6 +427,15 @@ description {
     padding: 10px 65px;
 }
 
+.babillard description {
+    padding-left: 5px;
+}
+
+.babillard .babillard-top {
+    display: flex;
+    flex-direction: row;
+}
+
 .article.mouseOver description {
     transition: all, 0.2s;
     padding: 16px 24px;
@@ -354,6 +455,11 @@ cell-title {
 }
 
 .webView cell-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.babillard cell-title {
     font-size: 17px;
     font-weight: 500;
 }

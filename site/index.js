@@ -21,6 +21,7 @@ window.addEventListener('popstate', e => {
 })
 
 function addClickEvent(i) {
+    if (cells[i].babillard) { return };
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
         element.onclick = function() { //asign a function
@@ -97,6 +98,8 @@ function loadTableView() {
         
         addHoverEvent(i);
 
+        if (cells[i].babillard) { populateAnnonces(i); }
+
         if (cells[i].newPage) {
             addNewPageEvent(i);
         } else {
@@ -149,15 +152,13 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
         console.log(annonces)
 
         if (annonces[i].length > 0) {
-            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" id=${image}/></img-container>`
+            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
             subtitle = annonces[i].length + " annonces"
         } else {
             imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard.png" id=${image}/></img-container>`
         }
+        return `<cell id = ${i} class="${cellClass}"><div class=babillard-top>${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></div><div class="annonces" id="annonces${i}"></div></cell>`
 
-        return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
-
-        // return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
     } else {
@@ -203,13 +204,24 @@ function sortAnnonces(annoncesATrier, i) {
             sortAnnonces(newAnnonces, i)
         }
     });
-    console.log(newAnnonces)
     return newAnnonces
 }
 
 function arrayRemove(arr, value) { 
     return arr.filter(function(ele) {
         return ele != value;
+    });
+}
+
+function populateAnnonces(i) {
+    let annoncesDiv = document.getElementById("annonces" + i)
+    annonces[i].forEach(annonce => {
+        if (isImage(annonce.contenu)) {
+            annoncesDiv.insertAdjacentHTML("beforeend", `<annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce>`)
+        } else {
+            annoncesDiv.insertAdjacentHTML("beforeend", `<annonce id=annonce${i}><a>${annonce.contenu}</a></annonce>`)
+        }
+        
     });
 }
 
@@ -254,6 +266,10 @@ function isEmoji(str) {
         return false;
     }
 }
+
+function isImage(url) {
+    return /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
+  }
 
 function markDown(str) {
     if (str) {
