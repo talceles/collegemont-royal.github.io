@@ -217,9 +217,9 @@ function populateAnnonces(i) {
     let annoncesDiv = document.getElementById("annonces" + i)
     annonces[i].forEach(annonce => {
         if (isImage(annonce.contenu)) {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce>`)
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
         } else {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<annonce id=annonce${i}><a>${annonce.contenu}</a></annonce>`)
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i}><a>${annonce.contenu}</a></annonce></div>`)
         }
         
     });
