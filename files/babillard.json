@@ -1,8 +1,7 @@
 [
-    {        
-        "contenu":"Nouveau balado disponible dans l'onglet bibliothèque sur L'étranger d'Albert Camus !"
-    },{        
-        "contenu":"On vous souhaite un très beau congé!"
+    {
+        "contenu":"Nouveau balado disponible dans l'onglet bibliothèque sur L'étranger d'Albert Camus !",
+        "expiration":"2022-03-18"
     },{
         "contenu":"https://collegemont-royal.github.io/files/annonces/Frame2.jpg",
         "expiration":"2022-03-25"
@@ -11,6 +10,6 @@
         "expiration":"2022-03-25"
     },{
         "contenu":"Expiration : AAAA-MM-JJ :",
-        "expiration":"2990-01-21"
+        "expiration":"1990-01-21"
     }
 ]
