@@ -15,9 +15,13 @@
     </div>
     <script>
         const params = new URLSearchParams(window.location.search);
-        document.getElementById("i").src = params.get("i");
-        document.getElementById("s").innerText = params.get("s");
-                
+        if (!params.get("i")) { 
+            document.getElementById("i").remove()
+            document.getElementById("s").innerText = params.get("s");
+        } else {
+            document.getElementById("i").src = params.get("i");
+        }
+        
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.body.classList.add("dark");
         }
