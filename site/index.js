@@ -220,11 +220,16 @@ function populateAnnonces(i) {
         if (isImage(annonce.contenu)) {
             annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
         } else {
-            const id = "t" + Math.floor(Math.random() * 10000);
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text" id="${id}">${annonce.contenu}</div></annonce></div>`)
-            const el = document.getElementById(id);
-            if (el.clientHeight < el.scrollHeight) {
-                el.insertAdjacentHTML("beforeend", '<div class="ellipsis">...</div>');
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text"><textarea rows="1" readonly>${annonce.contenu}</textarea></div></annonce></div>`)
+            const el = annoncesDiv.lastElementChild.querySelector(".annonce-text textarea");
+            while (el.scrollHeight > el.clientHeight) {
+                if (el.rows < 5) {
+                    el.rows++;
+                } else {
+                    const words = el.innerHTML.split(" ");
+                    words.pop();
+                    el.innerText = words.join(" ") + "...";
+                }
             }
         }
         

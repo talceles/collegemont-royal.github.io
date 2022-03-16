@@ -201,32 +201,25 @@ annonce img {
     object-fit: contain;
 }
 
-annonce p {
-    height: 100%-20px;
-    /* width: 100%-20px; */
-    line-clamp: 5;
-
-
-    
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-}
-
 annonce > div.annonce-text {
-    max-height: 5.5em;
-    padding: 10px;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
+    margin: 10px;
 }
 
-annonce > div.annonce-text > div.ellipsis {
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-    height: 1.5rem;
-    background-color: #1E1E1E;
+annonce > div.annonce-text textarea {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    resize: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    font-weight: inherit;
 }
 
 .dark annonce {
