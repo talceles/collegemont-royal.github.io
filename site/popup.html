@@ -10,12 +10,12 @@
     <div class="container">
         <div class="text">
             <span id="s"></span>
-            <img id="i" />
+            <img id="i"/>
         </div>
     </div>
     <script>
         const params = new URLSearchParams(window.location.search);
-        if (!params.get("i")) { 
+        if (!params.has("i")) {
             document.getElementById("i").remove()
             document.getElementById("s").innerText = params.get("s");
         } else {
