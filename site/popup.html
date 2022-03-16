@@ -10,10 +10,23 @@
     <div class="container">
         <div class="text">
             <span id="s"></span>
+            <img id="i"></img>
         </div>
     </div>
     <script>
-        document.getElementById("s").innerText = new URLSearchParams(window.location.search).get("s");
+        if (isImage(new URLSearchParams(window.location.search).get("s"))) {
+            document.getElementById("i").src = new URLSearchParams(window.location.search).get("s");
+        } else {
+            document.getElementById("s").innerText = new URLSearchParams(window.location.search).get("s");
+        }
+        
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add("dark");
+        }
+
+        function isImage(url) {
+            return /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
+        }
     </script>
 </body>
 
@@ -31,6 +44,11 @@
         justify-content: center;
     }
 
+    #i {
+        width: 100%;
+        height: 100%;
+    }
+
     .text {
         margin: 20px;
         text-align: center;
@@ -39,8 +57,15 @@
     }
 
     html, body {
+        background-color: rgb(235, 235, 240);
+        color: black;
         margin: 0;
         min-height: 100vh;
+    }
+
+    body.dark {
+        background-color: rgb(30, 30, 30);
+        color: white;
     }
 </style>
 
