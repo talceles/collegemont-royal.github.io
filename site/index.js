@@ -218,7 +218,7 @@ function populateAnnonces(i) {
     let annoncesDiv = document.getElementById("annonces" + i)
     annonces[i].forEach(annonce => {
         if (isImage(annonce.contenu)) {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
         } else {
             const id = "t" + Math.floor(Math.random() * 10000);
             annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text" id="${id}">${annonce.contenu}</div></annonce></div>`)
@@ -275,7 +275,7 @@ function isEmoji(str) {
 
 function isImage(url) {
     return /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
-  }
+}
 
 function markDown(str) {
     if (str) {
