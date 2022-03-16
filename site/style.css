@@ -24,7 +24,10 @@ body.dark {
 
 div.top {
     color: white;
-    position: fixed;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 
     font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
 
@@ -42,7 +45,7 @@ div.top {
 
 div.cells {
     position: relative;
-    top: 80px;
+    top: 15px;
     margin-bottom: 100px;
 }
 
