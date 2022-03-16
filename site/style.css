@@ -201,18 +201,32 @@ annonce img {
     object-fit: contain;
 }
 
-annonce a {
+annonce p {
     height: 100%-20px;
-    width: 100%-20px;
+    /* width: 100%-20px; */
     line-clamp: 5;
-    padding: 10px;
 
-    text-align: center;
 
-    overflow: hidden;
+    
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+}
+
+annonce > div.annonce-text {
+    max-height: 5.5em;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+annonce > div.annonce-text > div.ellipsis {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    height: 1.5rem;
+    background-color: #1E1E1E;
 }
 
 .dark annonce {

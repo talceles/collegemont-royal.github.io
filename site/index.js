@@ -44,6 +44,7 @@ function addNewPageEvent(i) {
 }
 
 function addHoverEvent(i) {
+    if (cells[i].babillard) { return };
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
         element.style.cursor = "pointer";
@@ -219,7 +220,12 @@ function populateAnnonces(i) {
         if (isImage(annonce.contenu)) {
             annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('${annonce.contenu}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
         } else {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i}><a>${annonce.contenu}</a></annonce></div>`)
+            const id = "t" + Math.floor(Math.random() * 10000);
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text" id="${id}">${annonce.contenu}</div></annonce></div>`)
+            const el = document.getElementById(id);
+            if (el.clientHeight < el.scrollHeight) {
+                el.insertAdjacentHTML("beforeend", '<div class="ellipsis">...</div>');
+            }
         }
         
     });
