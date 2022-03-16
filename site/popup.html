@@ -10,22 +10,16 @@
     <div class="container">
         <div class="text">
             <span id="s"></span>
-            <img id="i"></img>
+            <img id="i" />
         </div>
     </div>
     <script>
-        if (isImage(new URLSearchParams(window.location.search).get("s"))) {
-            document.getElementById("i").src = new URLSearchParams(window.location.search).get("s");
-        } else {
-            document.getElementById("s").innerText = new URLSearchParams(window.location.search).get("s");
-        }
-        
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("i").src = params.get("i");
+        document.getElementById("s").innerText = params.get("s");
+                
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.body.classList.add("dark");
-        }
-
-        function isImage(url) {
-            return /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(url);
         }
     </script>
 </body>
