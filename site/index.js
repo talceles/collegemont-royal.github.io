@@ -218,7 +218,7 @@ function populateAnnonces(i) {
     let annoncesDiv = document.getElementById("annonces" + i)
     annonces[i].forEach(annonce => {
         if (isImage(annonce.contenu)) {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
+            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?i=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
         } else {
             annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text"><textarea rows="1" readonly>${annonce.contenu}</textarea></div></annonce></div>`)
             const el = annoncesDiv.lastElementChild.querySelector(".annonce-text textarea");
