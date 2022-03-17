@@ -195,22 +195,13 @@ function hideIButton() {
 
 // UTILITIES
 
-function sortAnnonces(annoncesATrier, i) {
-    let newAnnonces = annoncesATrier;
-    annoncesATrier.forEach(annonce => {
+function sortAnnonces(annoncesATrier) {
+
+    return annoncesATrier.filter(function(ele) {
+
         let expiration = Date.parse(annonce.expiration || "2170-02-10")
         let now = new Date().getTime();
-        if (expiration < now) {
-            newAnnonces = arrayRemove(newAnnonces, annonce)
-            sortAnnonces(newAnnonces, i)
-        }
-    });
-    return newAnnonces
-}
-
-function arrayRemove(arr, value) { 
-    return arr.filter(function(ele) {
-        return ele != value;
+        return expiration > now;
     });
 }
 
