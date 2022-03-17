@@ -216,7 +216,8 @@ function populateAnnonces(i) {
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
         const resize = () => {
-            annonceElement.style.width = window.visualViewport.width/window.visualViewport.height*215 + "px";
+            const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+            annonceElement.style.width = clamp(window.visualViewport.width/window.visualViewport.height*215, 115, 350) + "px";
             if (annonceTextElement) {
                 annonceTextElement.value = annonce.contenu;
                 annonceTextElement.rows = 1;
