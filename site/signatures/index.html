@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signatures CMR</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .signature {
+            background-color: white;
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <a>Nom de l'employé : </a>
     <input id="name" type="text"></input>
     <a>Poste occupé : </a>
     <input id="poste" type="text"></input>
-    <signature>
+    <div class="signature">
         <table width="550" style="max-width: 100%">
             <tr>
                 <td width="100">
-                    <div style="height: 128px;width:100%">
+                    <div style="height: 128px;width:auto">
                         <img src="https://pluriportail.collegemont-royal.qc.ca/pluriportail/images/signatures/logoSignatureCourriel.jpeg" style="width:100%;display:block;height:auto;"/>
                     </div>
                 </td>
@@ -51,7 +61,7 @@
                 </td>
             </tr>
         </table>
-</signature>
+    </div>
 
 <script src="index.js"></script>
     
