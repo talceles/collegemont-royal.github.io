@@ -215,25 +215,23 @@ function populateAnnonces(i) {
         }
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
-        const resize = () => {
-            const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
-            annonceElement.style.width = clamp(window.visualViewport.width/window.visualViewport.height*215, 115, 350) + "px";
-            if (annonceTextElement) {
-                annonceTextElement.value = annonce.contenu;
-                annonceTextElement.rows = 1;
-                while (annonceTextElement.scrollHeight > annonceTextElement.clientHeight) {
-                    if (annonceTextElement.rows < 5) {
-                        annonceTextElement.rows++;
-                    } else {
-                        const words = annonceTextElement.value.split(" ");
-                        words.pop();
-                        annonceTextElement.value = words.join(" ") + "...";
-                    }
+
+        const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+        annonceElement.style.width = clamp(window.visualViewport.width/window.visualViewport.height*215, 115, 350) + "px";
+
+        if (annonceTextElement) {
+            annonceTextElement.value = annonce.contenu;
+            annonceTextElement.rows = 1;
+            while (annonceTextElement.scrollHeight > annonceTextElement.clientHeight) {
+                if (annonceTextElement.rows < 5) {
+                    annonceTextElement.rows++;
+                } else {
+                    const words = annonceTextElement.value.split(" ");
+                    words.pop();
+                    annonceTextElement.value = words.join(" ") + "...";
                 }
             }
         }
-        window.addEventListener('resize', resize);
-        resize();
     });
 }
 

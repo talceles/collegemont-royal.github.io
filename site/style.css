@@ -73,7 +73,7 @@ h1.title {
 
 h5.topsub {
     font-weight: bold;
-    width: 100px;
+    width: 100%;
     display: inline;
     font-size: 10px;
     padding-left: 2px;
