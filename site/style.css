@@ -206,6 +206,8 @@ annonce img {
 
 annonce > div.annonce-text {
     margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 annonce > div.annonce-text textarea {
