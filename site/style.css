@@ -196,6 +196,7 @@ annonce {
     border-radius: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 annonce img {
@@ -223,6 +224,7 @@ annonce > div.annonce-text textarea {
     font-size: inherit;
     text-align: center;
     font-weight: inherit;
+    cursor: pointer;
 }
 
 .dark annonce {
