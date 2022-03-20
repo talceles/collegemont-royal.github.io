@@ -1,0 +1,67 @@
+{
+    "title":"Nouveautés",
+    "cells":
+    [
+        {
+            "title":"Les nouveautés de la bibliothèque",
+            "subtitle":"Vous pouvez découvrir ici les nouveaux livres de la bibliothèque. Bonne lecture !",
+            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/horloge.png"
+        },{
+            "title":"Mofo",
+            "subtitle":"**Olivuer Simard ∙ Jeunes adultes**\nManu a seize ans et sa mère ne lui parle plus depuis qu'il a coulé son secondaire cinq. Avec ses potes Thierry et Ray, il traîne dans les rues de son quartier et enchaîne les mauvais coups. Un soir, après avoir dévalisé le dépanneur du coin et rempli leurs poches de canettes de bière et de barres de chocolat, les trois amis ont une idée de génie. Un plan grandiose qui pourrait leur permettre de réaliser leur plus grand rêve : coucher avec des filles.\nPorté par des sonorités hip-hop et imprégné de l'odeur des sandwichs aux œufs, MOFO raconte l'histoire de trois adolescents un peu croches qui essaient maladroitement de devenir des hommes.",
+            "image":"https://images.renaud-bray.com/images/PG/3560/3560413-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Derrière l'éclat de ton sourire",
+            "subtitle":"**Sophies Gagnon-Roberge (alias Sophie lit!) ∙ Livre québécois**\nTu es parti\nsans dire au revoir\net je ne sais pas\nsi la douleur\ns'apaisera un jour...",
+            "image":"https://images.renaud-bray.com/images/PG/3483/3483098-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Tout va bien",
+            "subtitle":"**Charlie Genmor ∙ Album**\nEllie débute une première relation amoureuse à 20 ans, lorsque son ami Archimède lui propose de sortir avec lui. Cette histoire d'amour singulière pousse la jeune femme à s'interroger sur l'origine de sa dépression chronique. Elle enquête sur le passé de sa famille afin de tenter de guérir. Un récit autobiographique sur les joies et les peines de la sortie de l'adolescence.",
+            "image":"https://images.renaud-bray.com/images/PG/2804/2804545-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Elle s'appelle Echo, tome 1, La Guerre du Pemmican",
+            "subtitle":"**Katherena Vermette | Al ∙ Album**\nEcho Desjardins est une métisse de 13 ans qui habite Winnipeg, au Manitoba. L’adolescente solitaire, qui vit loin de sa mère, a du mal à s’intégrer à sa nouvelle école. Un jour, lors d’un cours d’histoire donné par monsieur Bee sur la vie des autochtones au début du XIXe siècle, Echo se transporte dans le passé, jusqu’à devenir témoin privilégié de sa propre histoire, l’histoire méconnue des Métis du Canada.\nElle s’appelle Echo est une série à dimension humaine, qui à travers la recherche d’identité d’une jeune Métisse, permet de découvrir ces descendants d’Européens et Autochtones qui se sont battus, et sacrifiés, pour écrire une page importante de l’histoire du Canada.",
+            "image":"https://images.renaud-bray.com/images/PG/3528/3528846-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Laura Dean",
+            "subtitle":"**Mario Tamaki | Rosemar Valero-O'connell  ∙ Album**\nFrederica Riley, alias Freddy, sort avec Laura Dean, la fille la plus populaire du lycée, attirante et drôle. Mais celle-ci devient autocentrée et manipulatrice. Elle ne cesse de quitter Freddy et leur relation s'installe dans le schéma toxique du \"je t'aime, moi non plus\". Laura exerce une véritable emprise sur Freddy, qui cherche peu à peu de l'aide auprès de ses amis et d'autres personnes.",
+            "image":"https://images.renaud-bray.com/images/PG/3095/3095874-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Dans la t^te de Sherlock Holmes",
+            "subtitle":"**Cyril Lieron | Benoît Dahan ∙ Album**\nEn découvrant une poudre mystérieuse sur des vêtements et un ticket de spectacle très particulier, Sherlock Holmes se dit que le patient n'est pas l'unique victime d'un complot de grande ampleur et que l'étrange disparition de Londoniens pourrait trouver son explication dans les représentations d'un magicien chinois. D'autres tickets confirment son intuition.",
+            "image":"https://images.renaud-bray.com/images/PG/2854/2854284-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Le Prince et la couturière",
+            "subtitle":"**Jen Wang ∙ Album**\nAlors que le prince Sébastien revêt des robes et court les nuits parisiennes sous l'identité de Lady Cristallia, ses parents, qui ignorent tout de sa vie nocturne, lui cherchent une fiancée. Une des deux seules personnes à connaître son secret est sa meilleure amie Frances, qui a toujours rêvé de devenir une grande couturière.",
+            "image":"https://images.renaud-bray.com/images/PG/2550/2550982-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Spy X Family tome 5",
+            "subtitle":"**Tatsuya Endo ∙ Manga**\nAprès avoir rapidement déjoué un complot terroriste, la famille Forger s'enrichit d'un nouveau membre, un chien appelé Bond, qui voue une grande affection à Anya et possède un don de prescience. Tandis que l'opération Strix semble enfin lancée, les examens scolaires qu'Anya doit passer pourraient mettre en péril la mission de Loid Forger alias Twilight, le meilleur espion au monde.",
+            "image":"https://images.renaud-bray.com/images/PG/3509/3509407-gf.jpg?404=404RB.gif"
+        },{
+            "title":"La brigade des cauchemars",
+            "subtitle":"**Franck Thillez | Yomgui Dumont ∙ Album**\nTristan et Esteban, deux adolescents de 14 ans, font partie de la brigade des cauchemars. Ils viennent en aide aux enfants et les débarrassent de leurs cauchemars en découvrant la source. Une jeune fille, Sarah, est admise à la clinique et ils doivent intervenir. Mais Tristan est troublé, il l'a déjà vue et ne se souvient pas où.",
+            "image":"https://images.renaud-bray.com/images/PG/2342/2342593-gf.jpg?404=404RB.gif"
+        },{
+            "title":"Le peintre d'aquarelle",
+            "subtitle":"**Micehl Tremblay ∙ Roman québécois adulte**\nÀ soixante-seize ans, Marcel a passé le plus clair de sa vie à l'ombre - enfermé à vingt-trois ans dans l'étrange asile de Nominingue, au fin fond des Laurentides, il est toujours au pied de ses mystérieuses et menaçantes montagnes, plus de cinquante ans plus tard, bien qu'on l'ait laissé sortir. Ces montagnes, il les peint, avec beaucoup de ciel. Il peint aussi la mer, qu'il n'a jamais vue « en vrai ». Et comme dans une tardive tentative de libération, le voilà qui se lance dans un projet inédit : écrire son journal. Remonter le fil d'une folie qui l'a mis à l'isolement - malgré les visites de sa mère morte et de son chat imaginaire.",
+            "image":"https://images.renaud-bray.com/images/PG/2336/2336297-gf.jpg?404=404RB.gif"
+        },{
+            "title":"La servante écarlate",
+            "subtitle":"**Margaret Atwood | Renee Nault ∙ Roman graphique**\nAlors que la natalité ne cesse de baisser, Defred doit mettre au service de la république de Gilead, récemment fondée par des fanatiques religieux, son attribut le plus précieux : sa matrice. A travers le portrait de cette femme qui lutte pour oublier qu'elle était libre, l'auteure dresse un réquisitoire sans appel contre tous les intégrismes. Adaptation en bande dessinée du roman.",
+            "image":"https://images.renaud-bray.com/images/PG/3569/3569261-gf.jpg?404=404RB.gif"
+        },{
+            "title":"C'est quoi l'amour?",
+            "subtitle":"**Lucille de Pesloüan | Geneviève Darling ∙ Album québécois**\nDans cet ouvrage, vous ne trouverez ni la recette du grand amour, ni des coeurs à toutes les pages, encore moins une définition de l'amour. Mais vous y trouverez des réponses, celles qui vous conviennent, et des déclarations d'amour, celles qui vous ressemblent. C'est quoi l'amour? L'amour, c'est...- les autres, tout autour de nous,- le respect de soi,- la nature,- l'art,- la justice sociale.Un roman graphique hybride avec de la poésie, des micro nouvelles, des fragments, des illustrations pleine page ou minimalistes. Une réflexion sur cette notion complexe, subjective et universelle qu'est l'amour.",
+            "image":"https://images.renaud-bray.com/images/PG/3256/3256769-gf.jpg?404=404RB.gif"
+        },{
+            "title":"J'ai mal et pourtant, ça ne se voit pas...",
+            "subtitle":"**Lucille de Pesloüan | Geneviève Darling ∙ Album québécois**\nOn peut souffrir de l'intérieur et n'avoir aucun bleu sur le visage, aucune ecchymose à montrer. Difficile d'imaginer ce qui se passe à l'intérieur, de voir la tempête et les fusées qui traversent nos pensées. Une vingtaine de personnages confient ici, en textes et en images, un petit moment de leur détresse avec le quotidien qui continue, inlassablement, de tourner autour. Un roman graphique qui aborde le thème de la santé mentale de manière intime et sans complaisance avec des illustrations poétiques et métaphoriques qui s'ancrent complètement dans la réalité. Ce livre s'adresse à tous, autant ceux qui souffrent de troubles psychologiques et qui vont se reconnaître dans les personnages, que ceux en bonne santé qui ont du mal à comprendre la réalité des personnes en souffrance.",
+            "image":"https://images.renaud-bray.com/images/PG/2623/2623434-gf.jpg?404=404RB.gif" 
+        },{
+            "title":"Pourquoi les filles ont mal au ventre?",
+            "subtitle":"**Lucille de Pesloüan | Geneviève Darling ∙ Album québécois**\nPourquoi les filles ont mal au ventre ? est un manifeste féministe qui dénonce les malaises que ressentent les femmes, de l'enfance à l'âge adulte, dans une société qui ne les ménage pas. Lucile de Pesloüan a écrit ce texte sous forme de fanzine en 2014. Plusieurs centaines d'exemplaires vendus plus tard, l'ouvrage est édité en livre illustré avec un texte enrichi, appuyé par des illustrations réalistes et percutantes de Geneviève Darling. Pourquoi les filles ont mal au ventre ? invite les adolescents à se questionner sur les situations de sexisme que les filles vivent au quotidien. Le livre sensibilise aux inégalités que subissent les femmes dans le monde, ici ou ailleurs avec des illustrations sans tabou, qui racontent une réalité complexe et hétérogène.",
+            "image":"https://images.renaud-bray.com/images/PG/2294/2294884-gf.jpg?404=404RB.gif"    
+          }    
+    ]
+}
