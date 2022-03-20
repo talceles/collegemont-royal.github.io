@@ -1,4 +1,4 @@
-name: Build
+name: Transpile & Minify
 on:
   push:
     branches:
