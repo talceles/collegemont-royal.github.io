@@ -13,10 +13,19 @@ jobs:
       - name: Create directory structure
         run: |
           mkdir dist
-          find . -type d -not -path "./.git" -not -path "./.github" -not -path "./dist" -exec mkdir "dist/{}" \;
+          find . \
+            -type d \
+            -not -path "./.git" \
+            -not -path "./.github" \
+            -not -path "./dist" \
+            -exec mkdir "dist/{}" \;
       - name: Copy files
         run: |
-          find . -type f -not -name ".gitignore" -not -path "./dist/*" -exec cp "{}" "dist/{}" \;
+          find . \
+            -type f \
+            -not -name ".gitignore" \
+            -not -path "./dist/*" \
+            -exec cp "{}" "dist/{}" \;
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -24,10 +33,19 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install --save-dev @babel/cli @babel/core @babel/preset-env babel-preset-minify gh-pages
+          npm install --save-dev browserify babelify @babel/core @babel/preset-env core-js@3 uglify-js gh-pages
       - name: Transpile JavaScript code
         run: |
-          npx babel . --ignore site/GeoGendron,dist,node_modules --presets @babel/preset-env,minify --out-dir dist
+          echo '{"presets":[["@babel/preset-env",{"targets":{"ie":"9"},"corejs":"3","useBuiltIns":"usage"}]]}' > babel.config.json
+          find . \
+            -type f \
+            -not -path "./.git/*" \
+            -not -path "./.github/*" \
+            -not -path "./dist/*" \
+            -not -path "./node_modules/*" \
+            -not -path "./site/GeoGendron/*" \
+            -name "*.js" \
+            -exec echo 'npx browserify "{}" -t babelify | npx uglifyjs -m -c > "dist/{}"' \; | bash
       - name: Deploy website
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
