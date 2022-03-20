@@ -115,6 +115,7 @@ function slideLeft() {
 }
 
 function fadeIn() {
+    window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
         var elements = document.getElementsByTagName("cell")
