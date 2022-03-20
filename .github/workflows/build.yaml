@@ -1,0 +1,36 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Create directory structure
+        run: |
+          mkdir dist
+          find . -type d -not -path "./.git" -not -path "./.github" -not -path "./dist" -exec mkdir "dist/{}" \;
+      - name: Copy files
+        run: |
+          find . -type f -not -name ".gitignore" -not -path "./dist/*" -exec cp "{}" "dist/{}" \;
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install --save-dev @babel/cli @babel/core @babel/preset-env babel-preset-minify gh-pages
+      - name: Transpile JavaScript code
+        run: |
+          npx babel . --ignore site/GeoGendron,dist,node_modules --presets @babel/preset-env,minify --out-dir dist
+      - name: Deploy website
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
