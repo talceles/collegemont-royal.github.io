@@ -63,10 +63,6 @@ document.getElementsByClassName("i")[0].onclick = function() {
     popupwindow("/?src=/files/infos.json", 'CMR - Informations', 400, 600)
 };
 
-document.getElementsByClassName("logo")[0].onclick = function() {
-    window.location = "https://collegemont-royal.github.io";
-};
-
 // CELLS
 
 function parseCells(url) {
