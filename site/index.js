@@ -34,7 +34,7 @@ function addNewPageEvent(i) {
     var element = document.getElementById(i)
     element.onclick = function() {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
-        history.pushState(cells[i].link, cells[i].title, "https://collegemont-royal.github.io?src=" + cells[i].link);
+        history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
         slideLeft()
         shouldAnimate = true;
         setTimeout(function() {
@@ -60,11 +60,7 @@ function addHoverEvent(i) {
 }
 
 document.getElementsByClassName("i")[0].onclick = function() {
-    popupwindow("https://collegemont-royal.github.io/?src=https://collegemont-royal.github.io/files/infos.json", 'CMR - Informations', 400, 600)
-};
-
-document.getElementsByClassName("logo")[0].onclick = function() {
-    window.location.assign("https://collegemont-royal.github.io");
+    popupwindow("/?src=/files/infos.json", 'CMR - Informations', 400, 600)
 };
 
 // CELLS
@@ -119,6 +115,7 @@ function slideLeft() {
 }
 
 function fadeIn() {
+    window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
         var elements = document.getElementsByTagName("cell")
@@ -153,7 +150,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
         console.log(annonces)
 
         if (annonces[i].length > 0) {
-            imageCode = imageCode = `<img-container><img src="https://collegemont-royal.github.io/files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
+            imageCode = imageCode = `<img-container><img src="/files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
             subtitle = annonces[i].length + " annonces"
         } else {
             cellClass = cellClass.replaceAll('babillard', '');
@@ -187,7 +184,7 @@ function setTitle() {
 }
 
 function hideIButton() {
-    if (link == "https://collegemont-royal.github.io/files/infos.json") {
+    if (link == "/files/infos.json") {
         document.getElementsByClassName("i")[0].id = "hidden";
     } else {
         document.getElementsByClassName("i")[0].id = "";
@@ -254,7 +251,7 @@ function getUrl() {
     } else if (src != null) {
         return src;
     } else {
-        return 'https://collegemont-royal.github.io/files/cells.json';
+        return '/files/cells.json';
     }
 }
 

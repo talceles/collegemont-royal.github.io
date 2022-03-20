@@ -2,8 +2,12 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
     margin: 0;
-    margin-bottom: 10px;
+    padding: 0;
 }
 
 body.dark {
