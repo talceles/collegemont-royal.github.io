@@ -215,7 +215,7 @@ function populateAnnonces(i) {
         const annonceTextElement = annonceElement.querySelector("textarea");
 
         const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
-        annonceElement.style.width = clamp(window.visualViewport.width/window.visualViewport.height*215, 115, 350) + "px";
+        annonceElement.style.width = clamp(window.innerWidth/window.innerHeight*215, 115, 350) + "px";
 
         if (annonceTextElement) {
             annonceTextElement.value = annonce.contenu;
