@@ -64,7 +64,7 @@ document.getElementsByClassName("i")[0].onclick = function() {
 };
 
 document.getElementsByClassName("logo")[0].onclick = function() {
-    window.location = "https://collegemont-royal.github.io";
+    window.location.assign("https://collegemont-royal.github.io");
 };
 
 // CELLS
