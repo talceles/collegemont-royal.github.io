@@ -5,11 +5,19 @@
         {
             "title":"Groupe 10 : 34 livres",
             "subtitle":"Thomas B. : **11 livres**\nMathilde S. : **8 livres**\nYoussef U. : **3 livres**",
-            "image":"🔟"
+            "image":"0️⃣"
         },{
             "title":"Groupe 11 : 42 livres",
             "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
-            "image":"🔟"
+            "image":"1️⃣"
+        },{
+            "title":"Groupe 12 : 61 livres",
+            "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
+            "image":"2️⃣"
+        },{
+            "title":"Groupe 13 : 12 livres",
+            "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
+            "image":"3️⃣"
         }
     ]
 }
