@@ -1,44 +1,44 @@
 {
-    "version":"1.12.2",
+    "version":"1.12.1",
     "cells": [
         {
             "title":"Babillard",
             "subtitle":"Aucune annonce. À bientôt !",
-            "image":"/files/images/babillard.png",
+            "image":"https://collegemont-royal.github.io/files/images/babillard.png",
             "babillard":true,
-            "link":"/files/babillard.json"
+            "link":"https://collegemont-royal.github.io/files/babillard.json"
         },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements\n**Nouveau · **Signalez une absence et contactez le collège ici.",
-            "image":"/files/images/infos.png",
+            "image":"https://collegemont-royal.github.io/files/images/infos.png",
             "newPage":true,
-            "link":"/files/ecole/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
-            "image":"/files/images/bibliotheque.png",
+            "image":"https://collegemont-royal.github.io/files/images/bibliotheque.png",
             "newPage":true,
-            "link":"/files/bibliotheque/contenu.json",
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json",
             "UUID":"05fefe57-7cef-9064-6f0f5b86579d"
         },{
             "title":"Cafétéria",
             "subtitle":"Informations et menu de la cafétéria",
-            "image":"/files/images/cafeteria.png",
+            "image":"https://collegemont-royal.github.io/files/images/cafeteria.png",
             "newPage":true,
-            "link":"/files/ecole/cafeteria.json"
+            "link":"https://collegemont-royal.github.io/files/ecole/cafeteria.json"
         },{
             "title":"Journal Étudiant",
             "subtitle":"**Nouveau ∙ **L'édition du mois de mars est maintenant disponible !",
-            "image":"/files/images/journal.png",
+            "image":"https://collegemont-royal.github.io/files/images/journal.png",
             "newPage":true,
-            "link":"/files/journal/contenu.json",
+            "link":"https://collegemont-royal.github.io/files/journal/contenu.json",
             "UUID":"8bc3bf03-16a0-425b-a661-74dac3486d6d"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
-            "image":"/files/images/support.png",
+            "image":"https://collegemont-royal.github.io/files/images/support.png",
             "newPage":true,
-            "link":"/files/support/contenu.json"
+            "link":"https://collegemont-royal.github.io/files/support/contenu.json"
         }
     ]
 }
