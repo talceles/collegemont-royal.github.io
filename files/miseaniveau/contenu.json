@@ -4,21 +4,32 @@
         {
             "title":"Tutoriels iPad",
             "subtitle":"Apprenez à utiliser votre tablette comme un pro!",
-            "image":"https://collegemont-royal.github.io/files/images/video.png",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/video.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/support/tutoriels.json"
         },{
             "title":"Conjugaison en français",
-            "subtitle":"L'application *VerbEx* vous aide à ne plus commettre de fautes de conjugaison.",
-            "image":"https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/4c/e9/84/4ce984ff-9cb9-1bb5-97c3-7331475a7849/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/230x0w.webp",
+            "subtitle":"**Conjugo** est un jeu interractif pour apprendre la conjugaison tout en s'amusant!\nEntrez le code **0844VEY** pour une liste de verbes à étudier.",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/conjugo.png",
             "openURL":true,
-            "link":"https://apps.apple.com/ca/app/verbex/id640298281"
+            "link":"https://www.alloprof.qc.ca/fr/eleves/bv/jeux/conjugo"
+        },{
+            "title":"Lecture quotidienne 15 minutes par jour",
+            "subtitle":"On vous recommande de lire un minimum de 15 minutes tous les jours et de répondre à ces questions de lecture.",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/lecture.png",
+            "link":"https://cms.alloprof.qc.ca/sites/default/files/documents-parents/24-questions-comprendre-lecture.pdf"
         },{
             "title":"Calcul mental en mathématiques",
-            "subtitle":"L'application *Mental Maths* vous permet de vous pratiquer en mathématiques.",
-            "image":"https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/f6/49/30/f64930fd-311a-fcfe-8a71-e4a61ae9f9ac/AppIcon-1-1x_U007emarketing-7-0-85-220.png/230x0w.webp",
+            "subtitle":"**FinLapin** vous permet de vous pratiquer en mathématiques. Soyez le plus rapide pour gagner la course!",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/finlapin.png",
             "openURL":true,
-            "link":"https://apps.apple.com/ca/app/mental-math-cards-games-tips/id500595081"
+            "link":"https://www.alloprof.qc.ca/fr/eleves/bv/jeux/fin-lapin-3"
+        },{
+            "title":"Lecture de livres en anglais",
+            "subtitle":"**Epic!** est une app très amusante pour les enfants et elle facilite l'apprentissage des langues. Vous avez accès à un livre par jour.",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/epic.png",
+            "openURL":true,
+            "link":"https://getepic.com"
         }
     ]
 }
