@@ -2,12 +2,6 @@
     "title":"Mise à niveau",
     "cells": [
         {
-            "title":"Tutoriels iPad",
-            "subtitle":"Apprenez à utiliser votre tablette comme un pro!",
-            "image":"https://collegemont-royal.github.io/files/miseaniveau/video.png",
-            "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/support/tutoriels.json"
-        },{
             "title":"Conjugaison en français",
             "subtitle":"**Conjugo** est un jeu interractif pour apprendre la conjugaison tout en s'amusant!\nEntrez le code **0844VEY** pour une liste de verbes à étudier.",
             "image":"https://collegemont-royal.github.io/files/miseaniveau/conjugo.png",
@@ -30,6 +24,12 @@
             "image":"https://collegemont-royal.github.io/files/miseaniveau/epic.png",
             "openURL":true,
             "link":"https://getepic.com"
+        },{
+            "title":"Tutoriels iPad",
+            "subtitle":"Apprenez à utiliser votre tablette comme un pro!",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/video.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/support/tutoriels.json"
         }
     ]
 }
