@@ -17,11 +17,6 @@ body.dark {
 
 @font-face {
     font-family: CenturyGothic;
-    src: url(../site/ressources/fonts/GOTHIC.woff);
-}
-
-@font-face {
-    font-family: CenturyGothic;
     font-weight: bold;
     src: url(../site/ressources/fonts/GOTHICB.woff);
 }
