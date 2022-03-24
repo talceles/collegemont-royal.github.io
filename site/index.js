@@ -132,18 +132,23 @@ function fadeIn() {
 
 function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
+    image = image || ""
+
     title = title || ""
     subtitle = subtitle || ""
-    image = image || "🎆"
+    image = image
 
     let imageCode = ""
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
         imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
-    } else {
+    } else if (image.length == 1) {
         // IMAGE IS EMOJI
         imageCode = `<emoji>${image}</emoji>`
+    } else {
+        // IMAGE IS EMPTY
+        imageCode = ""
     }
 
     if (cellClass.indexOf("babillard") > 0) {
@@ -164,6 +169,8 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
+    } else if (isCategorie(image)) {
+        return `<p class="categorie">${title}</p>`
     } else {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
@@ -235,6 +242,13 @@ function populateAnnonces(i) {
             }
         }
     });
+}
+
+function isCategorie(image) {
+    if (!image || image === "") {
+        return true
+    }
+    return false
 }
 
 function sendErrorMessage(errorDescription) {

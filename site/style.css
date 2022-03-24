@@ -21,6 +21,19 @@ body.dark {
     src: url(../site/ressources/fonts/GOTHICB.woff);
 }
 
+p.categorie {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+
+    margin: 0;
+
+    font-weight: bold;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+}
+
 div.top {
     color: white;
 
