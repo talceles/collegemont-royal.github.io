@@ -2,6 +2,8 @@
     "version":"1.12.2",
     "cells": [
         {
+            "title":"Babillard"
+        },{
             "title":"Babillard",
             "subtitle":"Aucune annonce. À bientôt !",
             "image":"https://collegemont-royal.github.io/files/images/babillard.png",
@@ -13,6 +15,8 @@
             "image":"https://collegemont-royal.github.io/files/images/infos.png",
             "newPage":true,
             "link":"https://collegemont-royal.github.io/files/ecole/contenu.json"
+        },{
+            "title":"Services du collège"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires et activités",
