@@ -143,7 +143,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
         imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
-    } else if (image.length == 1) {
+    } else if (image) {
         // IMAGE IS EMOJI
         imageCode = `<emoji>${image}</emoji>`
     } else {
