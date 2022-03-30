@@ -55,10 +55,6 @@ div.top {
     border-radius: 0 0 15px 15px;
 }
 
-.soyezpret div.top {
-    background-color: #099DE1;
-}
-
 div.cells {
     position: relative;
     top: 15px;

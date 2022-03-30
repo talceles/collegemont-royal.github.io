@@ -82,6 +82,7 @@ function loadTableView() {
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
     setTitles();
+    setHeaderColor();
 
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
@@ -115,10 +116,6 @@ function slideLeft() {
 }
 
 function fadeIn() {
-    if (new URLSearchParams(window.location.search).get('src') == "https://collegemont-royal.github.io/files/soyezpret/contenu.json") {
-        document.body.classList += (" soyezpret")
-        document.querySelector("meta[name=theme-color]").setAttribute("content", "#099DE1");
-    }
     window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
@@ -197,6 +194,15 @@ function setTitles() {
         document.title = "CMR - " + title
     } else {
         document.title = "CMR"
+    }
+}
+
+function setHeaderColor() {
+    header = document.querySelector("div.top");
+    let color = JSON.parse(str).header_color;
+    if (color) {
+        document.querySelector("meta[name=theme-color]").setAttribute("content", color);
+        header.style.backgroundColor = color;
     }
 }
 
