@@ -198,7 +198,7 @@ function setTitles() {
 }
 
 function setHeaderColor() {
-    header = document.querySelector("div.top");
+    let header = document.querySelector("div.top");
     let color = JSON.parse(str).header_color;
     if (color) {
         document.querySelector("meta[name=theme-color]").setAttribute("content", color);
