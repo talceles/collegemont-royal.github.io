@@ -81,7 +81,7 @@ function loadTableView() {
 
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
-    setTitle();
+    setTitles();
 
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
@@ -184,9 +184,15 @@ function setDarkMode() {
     }
 }
 
-function setTitle() {
+function setTitles() {
     let title = JSON.parse(str).title || "Application CMR";
     document.getElementsByClassName("title")[0].innerHTML = title;
+    
+    let topsubtitle = JSON.parse(str).topsubtitle;
+    if (topsubtitle) {
+        document.getElementsByClassName("topsub")[0].innerHTML = topsubtitle;
+    }
+
     if (title != "") {
         document.title = "CMR - " + title
     } else {
