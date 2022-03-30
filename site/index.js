@@ -115,8 +115,8 @@ function slideLeft() {
 }
 
 function fadeIn() {
-    if (new URLSearchParams(window.location.search).get('src') == "https://collegemont-royal.github.io/files/miseaniveau/contenu.json") {
-        document.body.classList += (" miseaniveau")
+    if (new URLSearchParams(window.location.search).get('src') == "https://collegemont-royal.github.io/files/soyezpret/contenu.json") {
+        document.body.classList += (" soyezpret")
         document.querySelector("meta[name=theme-color]").setAttribute("content", "#099DE1");
     }
     window.scrollTo(0, 0);
