@@ -2,12 +2,6 @@
     "title":"Informations générales",
     "cells": [
         {
-            "title":"Nous joindre",
-            "subtitle":"Signaler une absence et contacter le collège",
-            "image":"https://collegemont-royal.github.io/files/images/telephone.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/contact.json",
-            "newPage":true
-        },{
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire pour l'année scolaire 2021-2022",
             "image":"https://collegemont-royal.github.io/files/images/calendrier.png",
@@ -21,6 +15,12 @@
             "title":"Code de vie",
             "image":"https://collegemont-royal.github.io/files/images/codedevie.png",
             "link":"https://collegemont-royal.github.io/files/ecole/reglements.json",
+            "newPage":true
+        },{
+            "title":"Nous joindre",
+            "subtitle":"Signaler une absence et contacter le collège",
+            "image":"https://collegemont-royal.github.io/files/images/telephone.png",
+            "link":"https://collegemont-royal.github.io/files/ecole/contact.json",
             "newPage":true
         }
     ]
