@@ -1,0 +1,34 @@
+{
+    "title":"Mise à niveau",
+    "cells": [
+        {
+            "title":"Jeux pour te pratiquer"
+        },{
+            "title":"Jeu conjugaison",
+            "subtitle":"**Conjugo** : apprendre la conjugaison tout en s'amusant !\nEntrez le code **CODE À CONFIRMER** pour une liste de verbes à étudier.",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/conjugo.png",
+            "openURL":true,
+            "link":"https://www.alloprof.qc.ca/fr/eleves/bv/jeux/conjugo"
+        },{
+            "title":"Pratique tes maths !",
+            "subtitle":"**FinLapin** t'aide à être plus rapide pour gagner la course !",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/finlapin.png",
+            "openURL":true,
+            "link":"https://www.alloprof.qc.ca/fr/eleves/bv/jeux/fin-lapin-3"
+        },{
+            "title":"Utile pour ton anglais",
+            "subtitle":"**Epic!** est une app très amusante pour les enfants et elle facilite l'apprentissage des langues. Vous avez accès à un livre par jour.",
+            "image":"https://collegemont-royal.github.io/files/miseaniveau/epic.png",
+            "openURL":true,
+            "link":"https://getepic.com"
+        },{
+            "title":"Le collège"
+        },{
+            "title":"Ta bibliothèque",
+            "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
+            "image":"https://collegemont-royal.github.io/files/images/bibliotheque.png",
+            "newPage":true,
+            "link":"https://collegemont-royal.github.io/files/bibliotheque/contenu.json"
+        }
+    ]
+}
