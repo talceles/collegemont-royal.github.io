@@ -6,7 +6,7 @@
         {
             "title":"Jeux pour te pratiquer"
         },{
-            "title":"Jeu conjugaison",
+            "title":"Jeux de conjugaison",
             "subtitle":"**Conjugo** : apprendre la conjugaison tout en s'amusant !\nEntrez le code **CODE À CONFIRMER** pour une liste de verbes à étudier.",
             "image":"https://collegemont-royal.github.io/files/soyezprets/conjugo.png",
             "openURL":true,
@@ -24,7 +24,7 @@
             "openURL":true,
             "link":"https://getepic.com"
         },{
-            "title":"Le collège"
+            "title":"Au collège"
         },{
             "title":"Ta bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
