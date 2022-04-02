@@ -60,7 +60,7 @@ function addHoverEvent(i) {
 }
 
 document.getElementsByClassName("i")[0].onclick = function() {
-    window.popupwindow("/?src=/files/infos.json", 'CMR - Informations', 400, 600)
+    window.popupwindow("/?src=/files/infos.json", 'Application CMR - Informations', 400, 600)
 };
 
 // CELLS
@@ -190,9 +190,9 @@ function setTitles() {
     }
 
     if (title != "") {
-        document.title = "CMR - " + title
+        document.title = "Application CMR - " + title
     } else {
-        document.title = "CMR"
+        document.title = "Application CMR | Collège Mont-Royal"
     }
 }
 
