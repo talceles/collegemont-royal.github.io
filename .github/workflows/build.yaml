@@ -79,7 +79,7 @@ jobs:
             -name "*.css" \
             -exec echo 'npx postcss "{}" > "dist/{}"' \; | bash
       - name: Build Sitemap
-        run: node scripts/sitemap.js files/cells.json > dist/sitemap.xml
+        run: node ./.github/sitemap.js files/cells.json > dist/sitemap.xml
       - name: Deploy website
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
