@@ -4,23 +4,23 @@
         {
             "title":"Calendrier",
             "subtitle":"Calendrier scolaire pour l'année scolaire 2021-2022",
-            "image":"https://collegemont-royal.github.io/files/images/calendrier.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/calendrier.pdf"
+            "image":"/files/images/calendrier.png",
+            "link":"/files/ecole/calendrier.pdf"
         },{
             "title":"Horaire des cycles",
             "subtitle":"Horaire des cycles pour l'année scolaire 2021-2022",
-            "image":"https://collegemont-royal.github.io/files/images/horaire.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/horairecycles.pdf"
+            "image":"/files/images/horaire.png",
+            "link":"/files/ecole/horairecycles.pdf"
         },{
             "title":"Code de vie",
-            "image":"https://collegemont-royal.github.io/files/images/codedevie.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/codedevie.json",
+            "image":"/files/images/codedevie.png",
+            "link":"/files/ecole/codedevie.json",
             "newPage":true
         },{
             "title":"Nous joindre",
             "subtitle":"Signaler une absence et contacter le collège",
-            "image":"https://collegemont-royal.github.io/files/images/telephone.png",
-            "link":"https://collegemont-royal.github.io/files/ecole/contact.json",
+            "image":"/files/images/telephone.png",
+            "link":"/files/ecole/contact.json",
             "newPage":true
         }
     ]

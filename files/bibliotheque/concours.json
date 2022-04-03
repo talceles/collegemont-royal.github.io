@@ -5,19 +5,19 @@
         {
             "title":"Groupe 10 : 34 livres",
             "subtitle":"Thomas B. : **11 livres**\nMathilde S. : **8 livres**\nYoussef U. : **3 livres**",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/groupe10.png"
+            "image":"/files/bibliotheque/images/groupe10.png"
         },{
             "title":"Groupe 11 : 42 livres",
             "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/groupe11.png"
+            "image":"/files/bibliotheque/images/groupe11.png"
         },{
             "title":"Groupe 12 : 61 livres",
             "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/groupe12.png"
+            "image":"/files/bibliotheque/images/groupe12.png"
         },{
             "title":"Groupe 13 : 12 livres",
             "subtitle":"Thomas B. : **13 livres**\nMathilde S. : **12 livres**\nYoussef U. : **6 livres**",
-            "image":"https://collegemont-royal.github.io/files/bibliotheque/images/groupe13.png"
+            "image":"/files/bibliotheque/images/groupe13.png"
         }
     ]
 }
