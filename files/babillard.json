@@ -5,8 +5,8 @@
         "contenu":"Test Babillard 2",
         "link":"https://collegemont-royal.github.io"
     },{
-        "contenu":"https://collegemont-royal.github.io/files/images/404.png",
-        "link":"https://collegemont-royal.github.io/files/images/404.png"
+        "contenu":"/files/images/404.png",
+        "link":"/files/images/404.png"
     },{
         "contenu":"Expiration : AAAA-MM-JJ :",
         "expiration":"1990-01-21"
