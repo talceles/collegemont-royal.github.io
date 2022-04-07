@@ -3,6 +3,12 @@
     "cells":
     [
         {
+            "title":"Concours de lecture",
+            "subtitle":"Lisez le plus de livres possible pour gagner le concours !",
+            "image":"/files/bibliotheque/images/etoile.png",
+            "newPage":true,
+            "link":"/files/bibliotheque/concours.json"
+        },{
             "title":"Ma bibliothèque animée",
             "subtitle":"Suggestions de lecture et critiques littéraires",
             "image":"/files/bibliotheque/images/padlet.png",
