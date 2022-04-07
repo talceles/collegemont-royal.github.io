@@ -2,8 +2,8 @@
     {
         "contenu":"Test Babillard"
     },{
-        "contenu":"Test Babillard 2",
-        "link":"https://collegemont-royal.github.io"
+        "contenu":"Nouveau balado disponible (test)",
+        "link":"/files/balado/contenu.json"
     },{
         "contenu":"/files/images/404.png",
         "link":"/files/images/404.png"
