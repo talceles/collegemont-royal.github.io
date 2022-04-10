@@ -228,11 +228,25 @@ function sortAnnonces(annoncesATrier) {
 function populateAnnonces(i) {
     let annoncesDiv = document.getElementById("annonces" + i)
     annonces[i].forEach(annonce => {
+
+        let popUpCode = ""
+        let contentCode = ""
+
         if (isImage(annonce.contenu)) {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?i=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
+            popUpCode += `i=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}`
+            contentCode = `<img src="${annonce.contenu}"/>`
         } else {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text"><textarea rows="1" readonly></textarea></div></annonce></div>`)
+            popUpCode += `s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}`
+            contentCode = `<div class="annonce-text"><textarea rows="1" readonly></textarea></div>`
         }
+
+        if (annonce.link) {
+            popUpCode += `&l=${encodeURIComponent(annonce.link).replaceAll("'", "\\'")}`
+            contentCode += `<img class="openlink" src="site/ressources/openLink.png"/>`
+        }
+
+        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
+
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
 

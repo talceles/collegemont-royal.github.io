@@ -11,6 +11,7 @@
         <div class="text">
             <span id="s"></span>
             <img id="i"/>
+            <button id="l">Ouvrir le lien</button>
         </div>
     </div>
     <script>
@@ -20,6 +21,16 @@
             document.getElementById("s").innerText = params.get("s");
         } else {
             document.getElementById("i").src = params.get("i");
+        }
+
+        if (!params.has("l")) {
+            document.getElementById("l").remove()
+        } else {
+            document.getElementById("l").onclick = () => {
+                let urlToOpen = params.get("l")
+                if (urlToOpen.endsWith(".json")) urlToOpen = `/?src=${urlToOpen}`
+                window.open(urlToOpen, '_blank').focus()
+            }
         }
         
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -54,6 +65,22 @@
         font-size: 16pt;
     }
 
+    #l {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 130px;
+        height: 40px;
+
+        background-color: rgba(127, 127, 127, 0.15);
+        color: rgb(0, 122, 255);
+        border: none;
+        border-radius: 8px;
+
+        font-size: 15px;
+        font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
     html, body {
         background-color: rgb(235, 235, 240);
         color: black;
@@ -64,6 +91,12 @@
     body.dark {
         background-color: rgb(30, 30, 30);
         color: white;
+    }
+
+    @font-face {
+        font-family: CenturyGothic;
+        font-weight: bold;
+        src: url(/site/ressources/fonts/GOTHICB.woff);
     }
 </style>
 

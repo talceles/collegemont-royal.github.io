@@ -198,6 +198,7 @@ div.annonce-wrapper {
 }
 
 annonce {
+    position: relative;
     display: flex;
     align-items: center;
     height: 215px;
@@ -213,6 +214,14 @@ annonce img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+annonce img.openlink {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 25px;
+    width: 25px;
 }
 
 annonce > div.annonce-text {
