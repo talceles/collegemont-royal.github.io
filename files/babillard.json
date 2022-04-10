@@ -1,5 +1,13 @@
 [
     {
+        "contenu":"Test Babillard"
+    },{
+        "contenu":"Nouveau balado disponible (test)",
+        "link":"/files/bibliotheque/balado/contenu.json"
+    },{
+        "contenu":"/files/images/404.png",
+        "link":"/files/images/404.png"
+    },{
         "contenu":"Expiration : AAAA-MM-JJ :",
         "expiration":"1990-01-21"
     }
