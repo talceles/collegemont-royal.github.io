@@ -14,9 +14,9 @@
             "notification":true
         },{
             "title":"Tester la version bêta",
-            "subtitle":"**Disponible bientôt !**\nObtenez la version la plus récente et signalez les bogues !",
+            "subtitle":"Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
             "image":"/files/images/betaappicon.png",
-            "link":"",
+            "link":"https://testflight.apple.com/join/QkygnW3M",
             "openURL":true
         },{
             "title":"Allez voir mes autres applications !",
