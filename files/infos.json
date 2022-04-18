@@ -13,6 +13,12 @@
             "image":"🙋🏼‍♂️",
             "notification":true
         },{
+            "title":"Tester la version bêta",
+            "subtitle":"**Disponible bientôt !**\nObtenez la version la plus récente et signalez les bogues !",
+            "image":"/files/images/betaappicon.png",
+            "link":"",
+            "openURL":true
+        },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Ouvrir l'App Store",
             "image":"/files/images/appstore.png",
