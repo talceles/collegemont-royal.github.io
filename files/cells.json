@@ -10,7 +10,7 @@
             "link":"/files/babillard.json"
         },{
             "title":"Informations générales",
-            "subtitle":"Informations et règlements\n**Nouveau · **Code de vie mis à jour",
+            "subtitle":"Informations et règlements",
             "image":"/files/images/infos.png",
             "newPage":true,
             "link":"/files/ecole/contenu.json"
@@ -29,7 +29,7 @@
             "link":"/files/ecole/cafeteria.json"
         },{
             "title":"Journal Étudiant",
-            "subtitle":"**Nouveau ∙ **L'édition du mois de mars est maintenant disponible !",
+            "subtitle":"Consultez notre journal étudiant!",
             "image":"/files/images/journal.png",
             "newPage":true,
             "link":"/files/journal/contenu.json",
