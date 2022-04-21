@@ -5,39 +5,39 @@
         {
             "title":"Première secondaire"
         },{
-            "title":"Groupe 13 : 127 points",
+            "title":"Groupe 13 : 139 points",
             "subtitle":"1re place!",
             "image":"/files/bibliotheque/images/groupes/gr13.png"
         },{
-            "title":"Groupe 10 : 66 points",
+            "title":"Groupe 10 : 104 points",
             "subtitle":"2e place!",
             "image":"/files/bibliotheque/images/groupes/gr10.png"
         },{
-            "title":"Groupe 12 : 70 points",
+            "title":"Groupe 12 : 99 points",
             "subtitle":"3e place!",
             "image":"/files/bibliotheque/images/groupes/gr12.png"
         },{
-            "title":"Groupe 11 : 39 points",
+            "title":"Groupe 11 : 50 points",
             "subtitle":"4e place!",
             "image":"/files/bibliotheque/images/groupes/gr11.png"
         },{
             "title":"Deuxième secondaire"
         },{
-            "title":"Groupe 23 : 5 points",
+            "title":"Groupe 22 : 16 points",
             "subtitle":"1re place!",
-            "image":"/files/bibliotheque/images/groupes/gr23.png"
-        },{
-            "title":"Groupe 22 : 3 points",
-            "subtitle":"2e place!",
             "image":"/files/bibliotheque/images/groupes/gr22.png"
         },{
-            "title":"Groupe 20 : 0 points",
-            "subtitle":"3e place!",
+            "title":"Groupe 20 : 10 points",
+            "subtitle":"2e place!",
             "image":"/files/bibliotheque/images/groupes/gr20.png"
         },{
-            "title":"Groupe 21 : 0 points",
+            "title":"Groupe 21 : 5 points",
             "subtitle":"3e place!",
             "image":"/files/bibliotheque/images/groupes/gr21.png"
+        },{
+            "title":"Groupe 23 : -- points",
+            "subtitle":"Classement à venir",
+            "image":"/files/bibliotheque/images/groupes/gr23.png"
         }
     ]
 }
