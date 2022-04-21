@@ -3,12 +3,6 @@
     "version":"1.12.3",
     "cells": [
         {
-            "title":"Babillard",
-            "subtitle":"Aucune annonce. À bientôt !",
-            "image":"/files/images/babillard.png",
-            "babillard":true,
-            "link":"/files/babillard.json"
-        },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements",
             "image":"/files/images/infos.png",
