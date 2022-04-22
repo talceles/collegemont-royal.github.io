@@ -17,5 +17,5 @@ jobs:
           git config user.name "github-actions-bot"
           git config user.email "support+actions@github.com"
           git fetch
-          git merge origin/main
+          git merge origin/main --allow-unrelated-histories
           git push
