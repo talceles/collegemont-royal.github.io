@@ -3,9 +3,10 @@
     "cells": [
         {
             "title":"Menu de la semaine",
-            "subtitle":"**Indisponible pour l'instant**\n2 choix de repas, soupe et dessert du jour",
+            "subtitle":"2 choix de repas, soupe et dessert du jour",
             "image":"/files/images/menu.png",
-            "tint":"#808080"
+            "link":"/files/ecole/menuCafeteria.pdf",
+            "webView":true
         },{
             "title":"Liste des prix",
             "subtitle":"Déjeuners, repas chauds, sandwichs, salades, collations et breuvages",
