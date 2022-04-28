@@ -10,7 +10,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0460-052F, U + 1C80-1C88, U + 20B4, U + 2DE0-2DFF, U + A640-A69F, U + FE2E-FE2F
 }
 
@@ -18,7 +18,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0400-045F, U + 0490-0491, U + 04B0-04B1, U + 2116
 }
 
@@ -26,7 +26,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 1F00-1FFF
 }
 
@@ -34,7 +34,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0370-03FF
 }
 
@@ -42,7 +42,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0102-0103, U + 0110-0111, U + 1EA0-1EF9, U + 20AB
 }
 
@@ -50,7 +50,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0100-024F, U + 0259, U + 1E00-1EFF, U + 2020, U + 20A0-20AB, U + 20AD-20CF, U + 2113, U + 2C60-2C7F, U + A720-A7FF
 }
 
@@ -58,7 +58,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), local("OpenSans-Light"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format("woff2");
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format("woff2");
     unicode-range:U + 0000-00FF, U + 0131, U + 0152-0153, U + 02BB-02BC, U + 02C6, U + 02DA, U + 02DC, U + 2000-206F, U + 2074, U + 20AC, U + 2122, U + 2191, U + 2193, U + 2212, U + 2215, U + FEFF, U + FFFD
 }
 
@@ -66,7 +66,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 0460-052F, U + 1C80-1C88, U + 20B4, U + 2DE0-2DFF, U + A640-A69F, U + FE2E-FE2F
 }
 
@@ -74,7 +74,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 0400-045F, U + 0490-0491, U + 04B0-04B1, U + 2116
 }
 
@@ -82,7 +82,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 1F00-1FFF
 }
 
@@ -90,7 +90,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 0370-03FF
 }
 
@@ -98,7 +98,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 0102-0103, U + 0110-0111, U + 1EA0-1EF9, U + 20AB
 }
 
@@ -106,7 +106,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format("woff2");
     unicode-range:U + 0100-024F, U + 0259, U + 1E00-1EFF, U + 2020, U + 20A0-20AB, U + 20AD-20CF, U + 2113, U + 2C60-2C7F, U + A720-A7FF
 }
 
@@ -114,7 +114,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../fonts/OpenSans/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
+    src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/OpenSans/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
     unicode-range:U + 0000-00FF, U + 0131, U + 0152-0153, U + 02BB-02BC, U + 02C6, U + 02DA, U + 02DC, U + 2000-206F, U + 2074, U + 20AC, U + 2122, U + 2191, U + 2193, U + 2212, U + 2215, U + FEFF, U + FFFD
 }
 
@@ -122,7 +122,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0460-052F, U + 1C80-1C88, U + 20B4, U + 2DE0-2DFF, U + A640-A69F, U + FE2E-FE2F
 }
 
@@ -130,7 +130,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0400-045F, U + 0490-0491, U + 04B0-04B1, U + 2116
 }
 
@@ -138,7 +138,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 1F00-1FFF
 }
 
@@ -146,7 +146,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0370-03FF
 }
 
@@ -154,7 +154,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0102-0103, U + 0110-0111, U + 1EA0-1EF9, U + 20AB
 }
 
@@ -162,7 +162,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0100-024F, U + 0259, U + 1E00-1EFF, U + 2020, U + 20A0-20AB, U + 20AD-20CF, U + 2113, U + 2C60-2C7F, U + A720-A7FF
 }
 
@@ -170,7 +170,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");
+    src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");
     unicode-range:U + 0000-00FF, U + 0131, U + 0152-0153, U + 02BB-02BC, U + 02C6, U + 02DA, U + 02DC, U + 2000-206F, U + 2074, U + 20AC, U + 2122, U + 2191, U + 2193, U + 2212, U + 2215, U + FEFF, U + FFFD
 }
 
@@ -178,7 +178,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0460-052F, U + 1C80-1C88, U + 20B4, U + 2DE0-2DFF, U + A640-A69F, U + FE2E-FE2F
 }
 
@@ -186,7 +186,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0400-045F, U + 0490-0491, U + 04B0-04B1, U + 2116
 }
 
@@ -194,7 +194,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 1F00-1FFF
 }
 
@@ -202,7 +202,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0370-03FF
 }
 
@@ -210,7 +210,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0102-0103, U + 0110-0111, U + 1EA0-1EF9, U + 20AB
 }
 
@@ -218,7 +218,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format("woff2");
     unicode-range:U + 0100-024F, U + 0259, U + 1E00-1EFF, U + 2020, U + 20A0-20AB, U + 20AD-20CF, U + 2113, U + 2C60-2C7F, U + A720-A7FF
 }
 
@@ -226,7 +226,7 @@ titre {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/OpenSans/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");
     unicode-range:U + 0000-00FF, U + 0131, U + 0152-0153, U + 02BB-02BC, U + 02C6, U + 02DA, U + 02DC, U + 2000-206F, U + 2074, U + 20AC, U + 2122, U + 2191, U + 2193, U + 2212, U + 2215, U + FEFF, U + FFFD
 }
 
@@ -700,7 +700,7 @@ i, em {
 }
 
 #loading-appstatus .app-loading .circle-loader {
-    background-image: url("../images/loading/loading-spin.png");
+    background-image: url("images/loading/loading-spin.png");
     width: 100%;
     height: 100%;
     background-size: 50%;
@@ -735,12 +735,12 @@ i, em {
     height: 120px;
     padding: 8px;
     position: relative;
-    background: url(../images/loading/paper-loading.svg) no-repeat center;
+    background: url(images/loading/paper-loading.svg) no-repeat center;
     background-size:contain
 }
 
 #loading-profilestatus .profile-loading .circle-loader {
-    background-image: url("../images/loading/loading-spin.png");
+    background-image: url("images/loading/loading-spin.png");
     width: 100%;
     height: 100%;
     background-size: 25%;
@@ -871,29 +871,29 @@ i, em {
 }
 
 .input.icon.icon-creditcard, input[type=text].icon.icon-creditcard, input[type=email].icon.icon-creditcard, input[type=search].icon.icon-creditcard, input[type=url].icon.icon-creditcard, input[type=password].icon.icon-creditcard, input[type=number].icon.icon-creditcard, textarea.icon.icon-creditcard, select.icon.icon-creditcard {
-    background-image: url("../icons-utils/3AA99E/icon54/solid/basic-icons/credit-card.svg")
+    background-image: url("icons-utils/3AA99E/icon54/solid/basic-icons/credit-card.svg")
 }
 
 .input.icon.icon-user, input[type=text].icon.icon-user, input[type=email].icon.icon-user, input[type=search].icon.icon-user, input[type=url].icon.icon-user, input[type=password].icon.icon-user, input[type=number].icon.icon-user, textarea.icon.icon-user, select.icon.icon-user {
-    background-image: url("../icons-utils/3AA99E/icon54/solid/basic-icons/user-1.svg")
+    background-image: url("icons-utils/3AA99E/icon54/solid/basic-icons/user-1.svg")
 }
 
 .input.icon.icon-pin, input[type=text].icon.icon-pin, input[type=email].icon.icon-pin, input[type=search].icon.icon-pin, input[type=url].icon.icon-pin, input[type=password].icon.icon-pin, input[type=number].icon.icon-pin, textarea.icon.icon-pin, select.icon.icon-pin {
-    background-image: url("../icons-utils/3AA99E/icon54/solid/basic-icons/pin-1.svg")
+    background-image: url("icons-utils/3AA99E/icon54/solid/basic-icons/pin-1.svg")
 }
 
 .input.icon.icon-secure, input[type=text].icon.icon-secure, input[type=email].icon.icon-secure, input[type=search].icon.icon-secure, input[type=url].icon.icon-secure, input[type=password].icon.icon-secure, input[type=number].icon.icon-secure, textarea.icon.icon-secure, select.icon.icon-secure {
-    background-image: url("../icons-utils/3AA99E/icon54/solid/basic-icons/lock.svg")
+    background-image: url("icons-utils/3AA99E/icon54/solid/basic-icons/lock.svg")
 }
 
 input[type=search] {
-    background: #fff url("../icons-utils/78838e/mosyle-icons/basic-icons/search.svg") no-repeat 10px center;
+    background: #fff url("icons-utils/78838e/mosyle-icons/basic-icons/search.svg") no-repeat 10px center;
     background-size: 14px;
     padding-left:30px
 }
 
 select {
-    background: #fff url("../icons-utils/37474F/icon54/solid/arrows/down-6.svg") no-repeat right 12px center;
+    background: #fff url("icons-utils/37474F/icon54/solid/arrows/down-6.svg") no-repeat right 12px center;
     padding-right: 25px;
     background-size:8px
 }
@@ -978,7 +978,7 @@ select {
 }
 
 .button.whiteupload, button:not(.btn).whiteupload, input[type=button].whiteupload, input[type=submit].whiteupload {
-    background-image: url("../icons-utils/FFF/mosyle-icons/basic-icons/upload-1.svg");
+    background-image: url("icons-utils/FFF/mosyle-icons/basic-icons/upload-1.svg");
     background-repeat: no-repeat;
     background-position: left 10px center;
     background-size: 16px;
@@ -986,7 +986,7 @@ select {
 }
 
 .button.blackupload, button:not(.btn).blackupload, input[type=button].blackupload, input[type=submit].blackupload {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/upload-1.svg");
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/upload-1.svg");
     background-repeat: no-repeat;
     background-position: left 10px center;
     background-size: 16px;
@@ -994,7 +994,7 @@ select {
 }
 
 .button.search_button, button:not(.btn).search_button, input[type=button].search_button, input[type=submit].search_button {
-    background-image: url("../icons-utils/FFF/mosyle-icons/basic-icons/search.svg") !important;
+    background-image: url("icons-utils/FFF/mosyle-icons/basic-icons/search.svg") !important;
     background-size: 19px !important;
     background-position: center 8px !important;
     background-repeat: no-repeat !important;
@@ -1006,7 +1006,7 @@ select {
 .button.search-white, button:not(.btn).search-white, input[type=button].search-white, input[type=submit].search-white {
     background-color: #fff;
     border: 1px solid #d1d8da;
-    background-image: url("../icons-utils/76838F/mosyle-icons/basic-icons/search.svg") !important;
+    background-image: url("icons-utils/76838F/mosyle-icons/basic-icons/search.svg") !important;
     background-size: 19px !important;
     background-position: center 8px !important;
     background-repeat: no-repeat !important;
@@ -1121,7 +1121,7 @@ input[type=checkbox].mini {
 
 input[type=checkbox]:checked {
     border-color: #3aa99e !important;
-    background: #3aa99e url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
+    background: #3aa99e url("icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
     background-size:60%
 }
 
@@ -1154,7 +1154,7 @@ input[type=radio].mini {
 
 input[type=radio]:checked {
     border-color: #3aa99e !important;
-    background: #3aa99e url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/circle.svg") no-repeat center;
+    background: #3aa99e url("icons-utils/FFFFFF/mosyle-icons/basic-icons/circle.svg") no-repeat center;
     background-size:45%
 }
 
@@ -1571,7 +1571,7 @@ body.hideuserbar #userbar {
 }
 
 #bar #bar-table .table-item.screenguide {
-    background-image: url("../images/icons_colorful/screenguide_label.svg");
+    background-image: url("images/icons_colorful/screenguide_label.svg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size:30px
@@ -1635,23 +1635,23 @@ body.hideuserbar #userbar {
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform.android {
-    background-image: url("../images/platforms/android.svg")
+    background-image: url("images/platforms/android.svg")
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform.chrome {
-    background-image: url("../images/platforms/chrome.svg")
+    background-image: url("images/platforms/chrome.svg")
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform.mac {
-    background-image: url("../images/platforms/mac.svg")
+    background-image: url("images/platforms/mac.svg")
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform.tvos {
-    background-image: url("../images/platforms/tvos.svg")
+    background-image: url("images/platforms/tvos.svg")
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform.ios {
-    background-image: url("../images/platforms/ios.svg")
+    background-image: url("images/platforms/ios.svg")
 }
 
 #bar #bar-table .table-item#menu_chooseplatform > .item-content > .chooseplatform:after {
@@ -1690,7 +1690,7 @@ body.hideuserbar #userbar {
     vertical-align: top;
     margin-top: 4px;
     margin-left: 5px;
-    background: url("../icons-utils/89949a/icon54/solid/arrows/down-6.svg") no-repeat center;
+    background: url("icons-utils/89949a/icon54/solid/arrows/down-6.svg") no-repeat center;
     background-size:contain
 }
 
@@ -1806,23 +1806,23 @@ body.hideuserbar #userbar {
 }
 
 #chooseplatform-content .white-box .option.android {
-    background-image: url("../images/platforms/android.svg")
+    background-image: url("images/platforms/android.svg")
 }
 
 #chooseplatform-content .white-box .option.chrome {
-    background-image: url("../images/platforms/chrome.svg")
+    background-image: url("images/platforms/chrome.svg")
 }
 
 #chooseplatform-content .white-box .option.mac {
-    background-image: url("../images/platforms/mac.svg")
+    background-image: url("images/platforms/mac.svg")
 }
 
 #chooseplatform-content .white-box .option.ios {
-    background-image: url("../images/platforms/ios.svg")
+    background-image: url("images/platforms/ios.svg")
 }
 
 #chooseplatform-content .white-box .option.tvos {
-    background-image: url("../images/platforms/tvos.svg")
+    background-image: url("images/platforms/tvos.svg")
 }
 
 #chooseplatform-content .white-box .option.enabled {
@@ -2088,16 +2088,16 @@ body.hideuserbar #userbar {
 
 .column1.window > .bar > .bar-button.close, .column2.window > .bar > .bar-button.close, .lateral.window > .bar > .bar-button.close, .principal.window > .bar > .bar-button.close {
     order: 99;
-    background-image: url("../icons-utils/FF555D/mosyle-icons/basic-icons/close-3.svg")
+    background-image: url("icons-utils/FF555D/mosyle-icons/basic-icons/close-3.svg")
 }
 
 .column1.window > .bar > .bar-button.edit, .column2.window > .bar > .bar-button.edit, .lateral.window > .bar > .bar-button.edit, .principal.window > .bar > .bar-button.edit {
     float: left;
-    background-image: url("../icons-utils/5FAAD6/mosyle-icons/basic-icons/edit.svg")
+    background-image: url("icons-utils/5FAAD6/mosyle-icons/basic-icons/edit.svg")
 }
 
 .column1.window > .bar > .bar-button.back, .column2.window > .bar > .bar-button.back, .lateral.window > .bar > .bar-button.back, .principal.window > .bar > .bar-button.back {
-    background-image: url("../icons-utils/5FAAD6/mosyle-icons/basic-icons/left-3.svg")
+    background-image: url("icons-utils/5FAAD6/mosyle-icons/basic-icons/left-3.svg")
 }
 
 .column1.window > .bar > .button, .column2.window > .bar > .button, .lateral.window > .bar > .button, .principal.window > .bar > .button {
@@ -2367,7 +2367,7 @@ body.hideuserbar #userbar {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url("../icons-utils/2196F3/mosyle-icons/basic-icons/information.svg") no-repeat;
+    background: url("icons-utils/2196F3/mosyle-icons/basic-icons/information.svg") no-repeat;
     background-size: contain;
     margin-right: 4px;
     margin-top: -2px;
@@ -2384,7 +2384,7 @@ body.hideuserbar #userbar {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url("../icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat;
+    background: url("icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat;
     background-size: contain;
     margin-right: 4px;
     margin-top: -2px;
@@ -2401,7 +2401,7 @@ body.hideuserbar #userbar {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/alert.svg") no-repeat;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/alert.svg") no-repeat;
     background-size: contain;
     margin-right: 4px;
     margin-top: -2px;
@@ -2446,11 +2446,11 @@ body.hideuserbar #userbar {
 }
 
 .lista li .sessiontime-status.enabled {
-    background-image: url("../icons-utils/3AA99E/mosyle-icons/basic-icons/time-2.svg")
+    background-image: url("icons-utils/3AA99E/mosyle-icons/basic-icons/time-2.svg")
 }
 
 .lista li .sessiontime-status:not(.enabled) {
-    background-image: url("../icons-utils/76838F/mosyle-icons/basic-icons/time-2.svg");
+    background-image: url("icons-utils/76838F/mosyle-icons/basic-icons/time-2.svg");
     opacity:.5
 }
 
@@ -2606,7 +2606,7 @@ body.is_sandbox .lista div:not(.lista) .empty:after, .lista div:not(.lista) .emp
     width: 12px;
     height: 12px;
     display: inline-block;
-    background: url("../icons-utils/78838E/mosyle-icons/basic-icons/add.svg") no-repeat center;
+    background: url("icons-utils/78838E/mosyle-icons/basic-icons/add.svg") no-repeat center;
     background-size:contain
 }
 
@@ -3006,7 +3006,7 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .lista-configuracoes-vert .platform-label .platform-background:before {
-    background-image: url("../images/backgrounds/clouds_gradient.png");
+    background-image: url("images/backgrounds/clouds_gradient.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 260px 50px;
@@ -3054,7 +3054,7 @@ table.fixed-header.style-basic .empty-message {
     height: 21px;
     top: 7px;
     right: 7px;
-    background: transparent url("../icons-utils/37474F/icon54/line/basic-icons/star.svg") no-repeat center;
+    background: transparent url("icons-utils/37474F/icon54/line/basic-icons/star.svg") no-repeat center;
     background-size: 75%;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
@@ -3067,7 +3067,7 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .lista-configuracoes-vert #management_profiles .is-favorite .btn-favorite {
-    background-image: url("../icons-utils/FBC02D/icon54/solid/basic-icons/star.svg")
+    background-image: url("icons-utils/FBC02D/icon54/solid/basic-icons/star.svg")
 }
 
 .lista-configuracoes-vert img.alert {
@@ -3266,18 +3266,18 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .label_warning.no-bg {
-    background: transparent url("../icons-utils/f2a654/mosyle-icons/basic-icons/alert.svg") no-repeat top left;
+    background: transparent url("icons-utils/f2a654/mosyle-icons/basic-icons/alert.svg") no-repeat top left;
     background-size: 16px;
     border: 0;
     padding:0 0 0 23px
 }
 
 .label_warning.no-bg.red {
-    background-image: url("../icons-utils/C05353/mosyle-icons/basic-icons/alert.svg")
+    background-image: url("icons-utils/C05353/mosyle-icons/basic-icons/alert.svg")
 }
 
 .label_warning.no-bg.green {
-    background-image: url("../icons-utils/3c763d/mosyle-icons/basic-icons/checkbox-checked.svg")
+    background-image: url("icons-utils/3c763d/mosyle-icons/basic-icons/checkbox-checked.svg")
 }
 
 .aviso_alerta {
@@ -3314,7 +3314,7 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .btn-view-tip {
-    background: url("../icons-utils/3AA99E/mosyle-icons/basic-icons/information.svg") no-repeat center;
+    background: url("icons-utils/3AA99E/mosyle-icons/basic-icons/information.svg") no-repeat center;
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -3605,7 +3605,7 @@ table.fixed-header.style-basic .empty-message {
 
 .not-configured:before {
     content: "";
-    background: url("../icons-utils/cccccc/mosyle-icons/basic-icons/checkbox-unchecked.svg") no-repeat center;
+    background: url("icons-utils/cccccc/mosyle-icons/basic-icons/checkbox-unchecked.svg") no-repeat center;
     background-size: contain;
     display: block;
     width: 18px;
@@ -3617,7 +3617,7 @@ table.fixed-header.style-basic .empty-message {
 
 .configured:before {
     content: "";
-    background: url("../icons-utils/3aa99e/mosyle-icons/basic-icons/checkbox-checked.svg") no-repeat center;
+    background: url("icons-utils/3aa99e/mosyle-icons/basic-icons/checkbox-checked.svg") no-repeat center;
     background-size: contain;
     display: block;
     width: 18px;
@@ -3629,7 +3629,7 @@ table.fixed-header.style-basic .empty-message {
 
 .configured.warning:after {
     content: "";
-    background: url("../icons-utils/FF9800/mosyle-icons/basic-icons/alert.svg") no-repeat center;
+    background: url("icons-utils/FF9800/mosyle-icons/basic-icons/alert.svg") no-repeat center;
     background-size: contain;
     display: block;
     width: 15px;
@@ -3641,7 +3641,7 @@ table.fixed-header.style-basic .empty-message {
 
 .configured.error:after {
     content: "";
-    background: url("../icons-utils/e04f42/mosyle-icons/basic-icons/alert.svg") no-repeat center;
+    background: url("icons-utils/e04f42/mosyle-icons/basic-icons/alert.svg") no-repeat center;
     background-size: contain;
     display: block;
     width: 15px;
@@ -3652,7 +3652,7 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .return-btn {
-    background: #f1f4f5 url("../icons-utils/333333/icon54/line/arrows/left-2.svg") no-repeat center left 8px;
+    background: #f1f4f5 url("icons-utils/333333/icon54/line/arrows/left-2.svg") no-repeat center left 8px;
     background-size: auto 50%;
     display: inline-block;
     padding: 5px 13px 5px 22px;
@@ -3664,7 +3664,7 @@ table.fixed-header.style-basic .empty-message {
 }
 
 .return-btn.arrow-down {
-    background-image: url("../icons-utils/333333/icon54/line/arrows/down-2.svg")
+    background-image: url("icons-utils/333333/icon54/line/arrows/down-2.svg")
 }
 
 .return-btn.padding-column {
@@ -3678,7 +3678,7 @@ table.fixed-header.style-basic .empty-message {
 span.img-toggle-password {
     clear: both;
     right: 10px;
-    background: url("../icons-utils/76838F/icon54/solid/basic-icons/eye.svg") no-repeat center;
+    background: url("icons-utils/76838F/icon54/solid/basic-icons/eye.svg") no-repeat center;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -3822,7 +3822,7 @@ span.img-toggle-password.mini {
 .mosyle-selector.filter-style:before {
     content: "";
     display: inline-block;
-    background: url("../icons-utils/76838F/icon54/solid/objects/filter.svg") no-repeat center;
+    background: url("icons-utils/76838F/icon54/solid/objects/filter.svg") no-repeat center;
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -3903,7 +3903,7 @@ span.img-toggle-password.mini {
 .ms-table > .ms-form .multi-filter > .mf-funnel {
     display: table-cell;
     width: 40px;
-    background: #f1f4f5 url("../icons-utils/76838F/icon54/solid/objects/filter.svg") no-repeat center;
+    background: #f1f4f5 url("icons-utils/76838F/icon54/solid/objects/filter.svg") no-repeat center;
     background-size: 20px;
     border-radius: 5px;
     cursor:pointer
@@ -4147,7 +4147,7 @@ span.img-toggle-password.mini {
 
 #appselector #as-head .as-options:not(.opened) > .as-option.selected {
     color: #fff;
-    background: rgba(255, 255, 255, .1) url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/down-2.svg") no-repeat center right 10px;
+    background: rgba(255, 255, 255, .1) url("icons-utils/FFFFFF/mosyle-icons/basic-icons/down-2.svg") no-repeat center right 10px;
     background-size:16px
 }
 
@@ -4266,7 +4266,7 @@ span.img-toggle-password.mini {
 }
 
 #appselector.list .app.selected:before {
-    background: url("../icons-utils/3AA99E/mosyle-icons/basic-icons/checkbox.svg") no-repeat;
+    background: url("icons-utils/3AA99E/mosyle-icons/basic-icons/checkbox.svg") no-repeat;
     background-size: contain;
     border-color: transparent;
     border-radius:0
@@ -4327,7 +4327,7 @@ span.img-toggle-password.mini {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(../icons-utils/FFD464/icon54/solid/basic-icons/error-mark.svg) no-repeat;
+    background: url(icons-utils/FFD464/icon54/solid/basic-icons/error-mark.svg) no-repeat;
     background-size: contain;
     margin-right: 6px;
     vertical-align:top
@@ -4532,7 +4532,7 @@ span.img-toggle-password.mini {
 
 #appselector.app-catalog .app.selected:before {
     content: "";
-    background-image: url("../images/icons_white/checkbox-white.svg");
+    background-image: url("images/icons_white/checkbox-white.svg");
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -4613,7 +4613,7 @@ span.img-toggle-password.mini {
 }
 
 #app-permissions input[type=checkbox] {
-    background-image: url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg")
+    background-image: url("icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg")
 }
 
 .appselector_grid .app {
@@ -4627,7 +4627,7 @@ span.img-toggle-password.mini {
 .appselector_grid .app[is_paid="1"]:before {
     content: "";
     position: absolute;
-    background: #fff url("../icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
+    background: #fff url("icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
     border-radius: 100px;
     background-size: cover;
     display: block;
@@ -4731,7 +4731,7 @@ span.img-toggle-password.mini {
 .appselector_list .app[is_paid="1"]:before {
     content: "";
     position: absolute;
-    background: #fff url("../icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
+    background: #fff url("icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
     border-radius: 100px;
     background-size: cover;
     width: 16px;
@@ -4918,7 +4918,7 @@ span.img-toggle-password.mini {
 }
 
 #login .sombra_bg {
-    background: transparent url("../imagens/sombra_bg.png") no-repeat;
+    background: transparent url("imagens/sombra_bg.png") no-repeat;
     background-size: 100%;
     margin: 0 auto;
     max-width: 442px;
@@ -4942,7 +4942,7 @@ span.img-toggle-password.mini {
 
 #login #sso_link .sso-item {
     padding: 12px 10px 12px 22px;
-    background: url("../icons-utils/76838F/mosyle-icons/basic-icons/save.svg") no-repeat;
+    background: url("icons-utils/76838F/mosyle-icons/basic-icons/save.svg") no-repeat;
     background-size: 10px;
     background-position:5px center
 }
@@ -5431,7 +5431,7 @@ span.img-toggle-password.mini {
     margin-bottom: 5px;
     color: #37474f;
     clear: both;
-    background: #fff url("../imagens/select-seta.png") no-repeat right center;
+    background: #fff url("imagens/select-seta.png") no-repeat right center;
     display: inline-block;
     padding: 8px 45px 8px 15px;
     border-radius: 5px;
@@ -5493,7 +5493,7 @@ span.img-toggle-password.mini {
     position: absolute;
     right: 32px;
     top: 6px;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/close-2.svg") no-repeat center;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/close-2.svg") no-repeat center;
     background-size:12px
 }
 
@@ -5703,7 +5703,7 @@ span.img-toggle-password.mini {
     height: 16px;
     vertical-align: top;
     margin: 1px 0 0 3px;
-    background: #f1f4f5 url("../icons-utils/37474F/mosyle-icons/basic-icons/pencil.svg") no-repeat center;
+    background: #f1f4f5 url("icons-utils/37474F/mosyle-icons/basic-icons/pencil.svg") no-repeat center;
     background-size: 10px;
     border-radius:3px
 }
@@ -5963,7 +5963,7 @@ span.img-toggle-password.mini {
     padding: 10px 10px 10px 40px;
     display: block;
     cursor: pointer;
-    background: url("../icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
+    background: url("icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
     background-size:21px
 }
 
@@ -5990,7 +5990,7 @@ span.img-toggle-password.mini {
     padding: 15px 10px 15px 40px;
     display: block;
     cursor: pointer;
-    background: url("../icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
+    background: url("icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
     background-size:21px
 }
 
@@ -6118,23 +6118,23 @@ span.img-toggle-password.mini {
 
 #content_helpcenter .article.section {
     padding-left: 30px;
-    background: url("../icons-utils/76838F/mosyle-icons/basic-icons/right-2.svg") no-repeat;
+    background: url("icons-utils/76838F/mosyle-icons/basic-icons/right-2.svg") no-repeat;
     background-position: 12px 21px;
     background-size:10px
 }
 
 #content_helpcenter .article.section.showing_children {
-    background-image: url("../icons-utils/76838F/mosyle-icons/basic-icons/down-2.svg")
+    background-image: url("icons-utils/76838F/mosyle-icons/basic-icons/down-2.svg")
 }
 
 #content_helpcenter .article.page {
     padding-left: 40px;
-    background: url("../icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
+    background: url("icons-utils/37474F/icon54/line/basic-icons/file-1.svg") no-repeat 10px;
     background-size:21px
 }
 
 #content_helpcenter .article.page:hover {
-    background-image: url("../icons-utils/37474F/icon54/line/basic-icons/file-1.svg")
+    background-image: url("icons-utils/37474F/icon54/line/basic-icons/file-1.svg")
 }
 
 #content_helpcenter .article:not(:last-child) {
@@ -6250,7 +6250,7 @@ span.img-toggle-password.mini {
 .container_teacher .container_classperiods .classperiod .remove {
     clear: both;
     float: right;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat;
     background-size: 16px;
     height: 16px;
     width: 16px;
@@ -6409,7 +6409,7 @@ span.img-toggle-password.mini {
     height: 370px;
     overflow: hidden;
     position: relative;
-    background: url("../images/wallpapers/mac-sierra.jpg") no-repeat center center;
+    background: url("images/wallpapers/mac-sierra.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 5px;
     border:1px solid #333
@@ -6548,7 +6548,7 @@ span.img-toggle-password.mini {
     left: 0;
     width: 16px;
     height: 16px;
-    background: #000 url("../icons-utils/FFFFFF/icon54/solid/basic-icons/preferences-1.svg") no-repeat center;
+    background: #000 url("icons-utils/FFFFFF/icon54/solid/basic-icons/preferences-1.svg") no-repeat center;
     background-size: 55%;
     color: #fff;
     font-size: .9em;
@@ -6821,13 +6821,13 @@ li.ui-widget-content_device {
 }
 
 .item_aplicativo.selecionado {
-    background: #f2f5ea url("../imagens/check_big.png") no-repeat;
+    background: #f2f5ea url("imagens/check_big.png") no-repeat;
     background-position: 99% center;
     background-size:32px
 }
 
 .item_aplicativo.bloqueado {
-    background: #f2dede url("../imagens/lock_big.png") no-repeat;
+    background: #f2dede url("imagens/lock_big.png") no-repeat;
     background-position: 99% center;
     background-size:32px
 }
@@ -7114,7 +7114,7 @@ li.ui-widget-content_device {
 .profile_apps .aplicativo.ispaid:before {
     content: "";
     position: absolute;
-    background: url("../icons-utils/3AA99E/icon54/solid/money/dollar-1.svg") no-repeat center;
+    background: url("icons-utils/3AA99E/icon54/solid/money/dollar-1.svg") no-repeat center;
     background-size: cover;
     display: block;
     width: 23px;
@@ -7141,7 +7141,7 @@ li.ui-widget-content_device {
     top: 0;
     left: 0;
     opacity: .8;
-    background: #000 url("../icons-utils/FFFFFF/icon54/solid/money/trash.svg") no-repeat center;
+    background: #000 url("icons-utils/FFFFFF/icon54/solid/money/trash.svg") no-repeat center;
     background-size: 16px;
     width: 28px;
     height: 28px;
@@ -7306,7 +7306,7 @@ li.ui-widget-content_device {
 .profile_apps_list .aplicativo.ispaid:before {
     content: "";
     position: absolute;
-    background: #fff url("../icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
+    background: #fff url("icons-utils/3AA99E/icon54/solid/money/dollar-2.svg") no-repeat center;
     border-radius: 100px;
     background-size: cover;
     width: 16px;
@@ -7536,7 +7536,7 @@ li.ui-widget-content_device {
 
 .schedule_times .hora .excluirHorario, .schedule_times .horario .excluirHorario {
     float: right;
-    background: transparent url("../imagens/close.png") no-repeat center right;
+    background: transparent url("imagens/close.png") no-repeat center right;
     background-size: 12px;
     width: 12px;
     height:12px
@@ -7616,7 +7616,7 @@ li.ui-widget-content_device {
 }
 
 #lista_restricoes .item_aplicativo.selecionado {
-    background: #f0fbff url("../icons-utils/37474F/mosyle-icons/basic-icons/checkbox.svg") no-repeat;
+    background: #f0fbff url("icons-utils/37474F/mosyle-icons/basic-icons/checkbox.svg") no-repeat;
     background-position: 98% 20px;
     background-size:24px
 }
@@ -7652,7 +7652,7 @@ li.ui-widget-content_device {
     display: inline;
     font-size: .8em;
     font-weight: normal;
-    background: #edf4f9 url(../images/logos/user-enrollment.svg) no-repeat 0 0;
+    background: #edf4f9 url(images/logos/user-enrollment.svg) no-repeat 0 0;
     background-size: auto 100%;
     color: #0e7ff9;
     padding: 3px 7px 3px 25px;
@@ -7669,7 +7669,7 @@ li.ui-widget-content_device {
     font-size: .9em;
     color: #f2a654;
     margin: 5px 0;
-    background: url("../icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat;
+    background: url("icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat;
     background-size: 20px;
     background-position: 35px 0px;
     min-height:20px
@@ -7912,7 +7912,7 @@ li.ui-widget-content_device {
 }
 
 .stickylist > ul > li > ul > li.warning {
-    background: url("../icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat right 10px center;
+    background: url("icons-utils/FFD464/mosyle-icons/basic-icons/alert.svg") no-repeat right 10px center;
     background-size:21px
 }
 
@@ -7929,7 +7929,7 @@ li.ui-widget-content_device {
 }
 
 .stickylist .teacher_name {
-    background: url("../icons-utils/37474F/icon54/solid/back-to-school/graduation-hat.svg") no-repeat;
+    background: url("icons-utils/37474F/icon54/solid/back-to-school/graduation-hat.svg") no-repeat;
     background-size: 18px;
     padding-left: 23px;
     font-size:.9em
@@ -7998,7 +7998,7 @@ li.ui-widget-content_device {
     height: 417px;
     margin: 0 auto;
     padding: 47px 28px 46px;
-    background: url("../images/kiosk_screen/device.png") no-repeat center;
+    background: url("images/kiosk_screen/device.png") no-repeat center;
     background-size:100%
 }
 
@@ -8013,7 +8013,7 @@ li.ui-widget-content_device {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url("../images/kiosk_screen/bg_default.png") no-repeat center;
+    background: url("images/kiosk_screen/bg_default.png") no-repeat center;
     background-size:cover
 }
 
@@ -8022,7 +8022,7 @@ li.ui-widget-content_device {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background: url("../images/kiosk_screen/screen.png") no-repeat center;
+    background: url("images/kiosk_screen/screen.png") no-repeat center;
     background-size:cover
 }
 
@@ -8230,7 +8230,7 @@ li.ui-widget-content_device {
     height: 100%;
     vertical-align: middle;
     text-align: center;
-    background: url("../images/backgrounds/edu_pattern.svg");
+    background: url("images/backgrounds/edu_pattern.svg");
     background-size:620px
 }
 
@@ -8320,7 +8320,7 @@ li.ui-widget-content_device {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: url("../images/backgrounds/edu_pattern.svg");
+    background: url("images/backgrounds/edu_pattern.svg");
     background-size:620px
 }
 
@@ -8592,7 +8592,7 @@ li.ui-widget-content_device {
 }
 
 #form_certificateinstall .file_upload_box .cancel_upload {
-    background: transparent url("../imagens/close.png") no-repeat center;
+    background: transparent url("imagens/close.png") no-repeat center;
     background-size: 16px;
     position: absolute;
     top: 0;
@@ -8604,7 +8604,7 @@ li.ui-widget-content_device {
 
 #form_certificateinstall .file_upload_box .retry_upload {
     display: inline-block;
-    background: transparent url("../icons-utils/37474F/mosyle-icons/basic-icons/refresh-2.svg") no-repeat center;
+    background: transparent url("icons-utils/37474F/mosyle-icons/basic-icons/refresh-2.svg") no-repeat center;
     background-size: 18px;
     width: 28px;
     height: 28px;
@@ -8700,7 +8700,7 @@ li.ui-widget-content_device {
 }
 
 #form_bookinstall .file_upload_box .cancel_upload {
-    background: transparent url("../imagens/close.png") no-repeat center;
+    background: transparent url("imagens/close.png") no-repeat center;
     background-size: 16px;
     position: absolute;
     top: 0;
@@ -8712,7 +8712,7 @@ li.ui-widget-content_device {
 
 #form_bookinstall .file_upload_box .retry_upload {
     display: inline-block;
-    background: transparent url("../icons-utils/37474F/mosyle-icons/basic-icons/refresh-2.svg") no-repeat center;
+    background: transparent url("icons-utils/37474F/mosyle-icons/basic-icons/refresh-2.svg") no-repeat center;
     background-size: 18px;
     width: 28px;
     height: 28px;
@@ -8784,7 +8784,7 @@ li.ui-widget-content_device {
 }
 
 #uploaded_files .file_upload_box .cancel_upload {
-    background: transparent url("../imagens/close.png") no-repeat center;
+    background: transparent url("imagens/close.png") no-repeat center;
     background-size: 16px;
     position: absolute;
     top: 0;
@@ -8862,7 +8862,7 @@ li.ui-widget-content_device {
 }
 
 .uploaded_files .file_upload_box .cancel_upload {
-    background: transparent url("../imagens/close.png") no-repeat center;
+    background: transparent url("imagens/close.png") no-repeat center;
     background-size: 16px;
     position: absolute;
     top: 0;
@@ -9419,7 +9419,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     float: left;
     width: 55px;
     height: 55px;
-    background: transparent url("../images/app_icons/default_icon.png");
+    background: transparent url("images/app_icons/default_icon.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center
@@ -9732,7 +9732,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     width: 44px;
     height: 44px;
     cursor: pointer;
-    background: url("../icons-utils/37474F/mosyle-icons/basic-icons/down-2.svg") no-repeat;
+    background: url("icons-utils/37474F/mosyle-icons/basic-icons/down-2.svg") no-repeat;
     background-size: 21px;
     background-position: center;
     -moz-transition: all .2s;
@@ -9817,12 +9817,12 @@ table.pricing_table tr:last-child td:not(:first-child) {
 .printerslist .printer {
     clear: both;
     padding: 12px 15px 12px 40px;
-    background: url("../icons-utils/37474F/icon54/solid/basic-icons/print.svg") no-repeat left 15px top 13px;
+    background: url("icons-utils/37474F/icon54/solid/basic-icons/print.svg") no-repeat left 15px top 13px;
     background-size:16px
 }
 
 .printerslist .printer.font {
-    background-image: url("../icons-utils/37474F/icon54/solid/text-editor/text-box.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/text-editor/text-box.svg")
 }
 
 .printerslist .printer:not(:last-child) {
@@ -9836,7 +9836,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     height: 32px;
     margin-top: -6px;
     cursor: pointer;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
     background-size:16px
 }
 
@@ -9847,7 +9847,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     height: 32px;
     margin-top: 6px;
     cursor: pointer;
-    background: url("../icons-utils/37474F/icon54/line/basic-icons/add.svg") no-repeat center;
+    background: url("icons-utils/37474F/icon54/line/basic-icons/add.svg") no-repeat center;
     background-size:16px
 }
 
@@ -9896,7 +9896,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     height: 32px;
     margin-top: 6px;
     cursor: pointer;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
     background-size:16px
 }
 
@@ -9907,13 +9907,13 @@ table.pricing_table tr:last-child td:not(:first-child) {
     height: 32px;
     margin-top: 6px;
     cursor: pointer;
-    background: url("../icons-utils/37474F/icon54/line/basic-icons/add.svg") no-repeat center;
+    background: url("icons-utils/37474F/icon54/line/basic-icons/add.svg") no-repeat center;
     background-size:16px
 }
 
 .appletvslist .appletv-name {
     padding: 12px 15px 12px 40px;
-    background: url("../icons-utils/37474F/mosyle-icons/basic-icons/tv-os.svg") no-repeat left 15px top 13px;
+    background: url("icons-utils/37474F/mosyle-icons/basic-icons/tv-os.svg") no-repeat left 15px top 13px;
     background-size:16px
 }
 
@@ -9940,7 +9940,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     float: left;
     height: 50px;
     width: 40px;
-    background: #f1f4f5 url("../icons-utils/37474F/icon54/solid/objects/filter.svg");
+    background: #f1f4f5 url("icons-utils/37474F/icon54/solid/objects/filter.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
@@ -10306,7 +10306,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     width: 32px;
     height: 32px;
     cursor: pointer;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/trash.svg") no-repeat center;
     background-size:16px
 }
 
@@ -10377,7 +10377,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 .appinstall-manager .error-msg {
     display: block;
     font-size: .9em;
-    background: url("../icons-utils/FF555D/mosyle-icons/basic-icons/alert.svg") no-repeat;
+    background: url("icons-utils/FF555D/mosyle-icons/basic-icons/alert.svg") no-repeat;
     border-radius: 5px;
     padding-left: 20px;
     min-height: 16px;
@@ -10593,7 +10593,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
 
 #cm_periodslist .cm_course_classperiods .cm_classperiod.cm_imteacher .cm_teacher_photo:before {
     content: "";
-    background: url("../icons-utils/37474F/mosyle-icons/basic-icons/graduation-hat.svg");
+    background: url("icons-utils/37474F/mosyle-icons/basic-icons/graduation-hat.svg");
     background-size: cover;
     width: 24px;
     height: 24px;
@@ -10682,7 +10682,7 @@ table.pricing_table tr:last-child td:not(:first-child) {
     display: block;
     width: 36px;
     height: 36px;
-    background: #0390ea url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
+    background: #0390ea url("icons-utils/FFFFFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
     background-size: 16px;
     position: absolute;
     border: 3px solid #fff;
@@ -10779,7 +10779,7 @@ input[type=range]::-webkit-slider-thumb {
     border: none;
     height: 44px;
     width: 52px;
-    background: transparent url("../imagens/classmanager/range_button.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button.png") no-repeat center;
     background-size:contain
 }
 
@@ -10799,7 +10799,7 @@ input[type=range]::-moz-range-thumb {
     border: none;
     height: 44px;
     width: 52px;
-    background: transparent url("../imagens/classmanager/range_button.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button.png") no-repeat center;
     background-size:contain
 }
 
@@ -10816,12 +10816,12 @@ input[type=range]:disabled {
 }
 
 input[type=range]:disabled::-webkit-slider-thumb {
-    background: transparent url("../imagens/classmanager/range_button_disabled.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button_disabled.png") no-repeat center;
     background-size:contain
 }
 
 input[type=range]:disabled::-moz-range-thumb {
-    background: transparent url("../imagens/classmanager/range_button_disabled.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button_disabled.png") no-repeat center;
     background-size:contain
 }
 
@@ -10900,67 +10900,67 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_settings {
-    background-image: url("../icons-utils/37474F/icon54/solid/setting/gear-2.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/setting/gear-2.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_addapp {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/app-add.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/app-add.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_classfeed {
-    background-image: url("../icons-utils/37474F/icon54/line/speach-bubbles/speach-bubbles-9.svg")
+    background-image: url("icons-utils/37474F/icon54/line/speach-bubbles/speach-bubbles-9.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_classhistory {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/list.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/list.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_behaviors {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/student-table.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/student-table.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_class {
-    background-image: url("../icons-utils/37474F/icon54/solid/back-to-school/school-board-1.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/back-to-school/school-board-1.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_studyapps {
-    background-image: url("../icons-utils/37474F/icon54/solid/logos-brands/appstore-2.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/logos-brands/appstore-2.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_studysites {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_headsup {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/headsup.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/headsup.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_safetest {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/safetest.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/safetest.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_applock {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/applock.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/applock.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_quickpoll {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/quickpoll.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/quickpoll.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_tabletsstatus {
-    background-image: url("../icons-utils/37474F/icon54/solid/basic-icons/eye.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/basic-icons/eye.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_tabletsscreen {
-    background-image: url("../icons-utils/37474F/icon54/solid/basic-icons/eye.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/basic-icons/eye.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_classroomapp {
-    background-image: url("../images/icons_black/classroom_app.svg")
+    background-image: url("images/icons_black/classroom_app.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_trainingcenter {
-    background-image: url("../images/icons_colorful/projector.svg")
+    background-image: url("images/icons_colorful/projector.svg")
 }
 
 .classmanager #cm_classperiod_itens .cm_option.cmicon_trainingcenter {
@@ -10987,7 +10987,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 100%;
     float: left;
     cursor: pointer;
-    background: url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/left-2.svg") no-repeat center;
+    background: url("icons-utils/FFFFFF/mosyle-icons/basic-icons/left-2.svg") no-repeat center;
     background-size:32px
 }
 
@@ -11067,7 +11067,7 @@ input[type=range]:disabled::-moz-range-thumb {
     position: absolute;
     top: -10px;
     right: -6px;
-    background: #fff url("../icons-utils/FF5555D/mosyle-icons/basic-icons/close-3.svg");
+    background: #fff url("icons-utils/FF5555D/mosyle-icons/basic-icons/close-3.svg");
     width: 25px;
     height: 25px;
     border-radius: 100px;
@@ -11238,12 +11238,12 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     display: inline-block;
     margin: 0 2px;
-    background: url("../imagens/classmanager/wifi_on.png") no-repeat center;
+    background: url("imagens/classmanager/wifi_on.png") no-repeat center;
     background-size:contain
 }
 
 .cm_main > .cm_content > .cm_userlist .cm_user > .cm_inside > .cm_userbar > .cm_connection.cm_off {
-    background-image: url("../imagens/classmanager/wifi_off.png")
+    background-image: url("imagens/classmanager/wifi_off.png")
 }
 
 .cm_main > .cm_content > .cm_userlist .cm_user > .cm_inside > .cm_userbar > .cm_nomdm {
@@ -11251,7 +11251,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     margin: 0 3px;
     display: inline-block;
-    background: url("../images/icons_general/no_mdm.png");
+    background: url("images/icons_general/no_mdm.png");
     background-size:100%
 }
 
@@ -11260,7 +11260,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     margin: 0 3px;
     display: inline-block;
-    background: url("../images/icons_general/no_supervision.png");
+    background: url("images/icons_general/no_supervision.png");
     background-size:100%
 }
 
@@ -11388,7 +11388,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 24px;
     margin-top: 44px;
     margin-left: 44px;
-    background: #3aa99e url("../icons-utils/FFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
+    background: #3aa99e url("icons-utils/FFF/mosyle-icons/basic-icons/checkbox.svg") no-repeat center;
     background-size: 60%;
     border-radius:100%
 }
@@ -11402,7 +11402,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .cm_main > .cm_content > .cm_userlist.startclass .cm_user.selected > .cm_inside > .cm_userphoto:after {
-    background: #e1e7ec url("../icons-utils/FF555D/mosyle-icons/basic-icons/close.svg") no-repeat center;
+    background: #e1e7ec url("icons-utils/FF555D/mosyle-icons/basic-icons/close.svg") no-repeat center;
     background-size:50%
 }
 
@@ -11598,7 +11598,7 @@ input[type=range]:disabled::-moz-range-thumb {
     position: relative;
     height: 68px;
     padding: 10px;
-    background: #fff url("../imagens/classmanager/select_arrow.png") no-repeat right 15px top 28px;
+    background: #fff url("imagens/classmanager/select_arrow.png") no-repeat right 15px top 28px;
     background-size: 16px 10px;
     cursor: pointer;
     border-radius: 6px;
@@ -11927,19 +11927,19 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 .change_view > .change_type > img.grid {
-    background: url("../icons-utils/76838F/mosyle-icons/basic-icons/grid.svg") no-repeat
+    background: url("icons-utils/76838F/mosyle-icons/basic-icons/grid.svg") no-repeat
 }
 
 .change_view > .change_type > img.list {
-    background: url("../icons-utils/76838F/mosyle-icons/basic-icons/list.svg") no-repeat
+    background: url("icons-utils/76838F/mosyle-icons/basic-icons/list.svg") no-repeat
 }
 
 .change_view > .change_type.selected > img.grid {
-    background: url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/grid.svg") no-repeat
+    background: url("icons-utils/FFFFFF/mosyle-icons/basic-icons/grid.svg") no-repeat
 }
 
 .change_view > .change_type.selected > img.list {
-    background: url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/grid.svg") no-repeat
+    background: url("icons-utils/FFFFFF/mosyle-icons/basic-icons/grid.svg") no-repeat
 }
 
 .cm_main > .cm_content > .cm_options_applyorremove {
@@ -12098,23 +12098,23 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #form_startclass > .sc_option.scicon_classroomapp {
-    background-image: url("../images/icons_black/classroom_app.svg")
+    background-image: url("images/icons_black/classroom_app.svg")
 }
 
 #form_startclass > .sc_option.scicon_studyapps {
-    background-image: url("../icons-utils/37474F/icon54/solid/basic-icons/appstore-2.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/basic-icons/appstore-2.svg")
 }
 
 #form_startclass > .sc_option.scicon_studysites {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
 }
 
 #form_startclass > .sc_option.scicon_muteapps {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/mute.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/mute.svg")
 }
 
 #form_startclass > .sc_option.scicon_bluetooth {
-    background-image: url("../icons-utils/37474F/icon54/solid/basic-icons/bluetooth.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/basic-icons/bluetooth.svg")
 }
 
 .sc_duration_startclass_bar {
@@ -13125,27 +13125,27 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_classroomapp {
-    background-image: url("../images/icons_black/classroom_app.svg")
+    background-image: url("images/icons_black/classroom_app.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_force_observation {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/viewscreen.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/viewscreen.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_studyapps {
-    background-image: url("../icons-utils/37474F/icon54/solid/logos-brands/appstore-2.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/logos-brands/appstore-2.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_studysites {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/secure-web.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_muteapps {
-    background-image: url("../icons-utils/37474F/mosyle-icons/basic-icons/mute.svg")
+    background-image: url("icons-utils/37474F/mosyle-icons/basic-icons/mute.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-option.scicon_bluetooth {
-    background-image: url("../icons-utils/37474F/icon54/solid/basic-icons/bluetooth.svg")
+    background-image: url("icons-utils/37474F/icon54/solid/basic-icons/bluetooth.svg")
 }
 
 #cm_startclass .cm-startclass-options .cm-list .sc-duration-startclass-bar {
@@ -13214,7 +13214,7 @@ input[type=range]:disabled::-moz-range-thumb {
     border: none;
     height: 44px;
     width: 52px;
-    background: transparent url("../imagens/classmanager/range_button.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button.png") no-repeat center;
     background-size:contain
 }
 
@@ -13234,7 +13234,7 @@ input[type=range]:disabled::-moz-range-thumb {
     border: none;
     height: 44px;
     width: 52px;
-    background: transparent url("../imagens/classmanager/range_button.png") no-repeat center;
+    background: transparent url("imagens/classmanager/range_button.png") no-repeat center;
     background-size:contain
 }
 
@@ -13591,7 +13591,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     display: inline-block;
     margin: 0 2px;
-    background: url("../imagens/classmanager/wifi_on.png") no-repeat center;
+    background: url("imagens/classmanager/wifi_on.png") no-repeat center;
     background-size:contain
 }
 
@@ -13600,16 +13600,16 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     display: inline-block;
     margin: 0 2px;
-    background: url("../images/icons_general/bluetooth_undefined.png") no-repeat center;
+    background: url("images/icons_general/bluetooth_undefined.png") no-repeat center;
     background-size:contain
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_bluetooth[type=ON] {
-    background-image: url("../images/icons_general/bluetooth.png")
+    background-image: url("images/icons_general/bluetooth.png")
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_bluetooth[type=OFF] {
-    background-image: url("../images/icons_general/no_bluetooth.png")
+    background-image: url("images/icons_general/no_bluetooth.png")
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_camera_restricted {
@@ -13623,15 +13623,15 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_camera_restricted[type="1"] {
-    background-image: url("../images/icons_general/camera-allowed.png")
+    background-image: url("images/icons_general/camera-allowed.png")
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_camera_restricted[type="0"] {
-    background-image: url("../images/icons_general/camera-blocked.png")
+    background-image: url("images/icons_general/camera-blocked.png")
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_connection.cm_off {
-    background-image: url("../imagens/classmanager/wifi_off.png")
+    background-image: url("imagens/classmanager/wifi_off.png")
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewstatus .cm_user > .cm_inside > .cm_userbar > .cm_nomdm {
@@ -13639,7 +13639,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     margin: 0 3px;
     display: inline-block;
-    background: url("../images/icons_general/no_mdm.png");
+    background: url("images/icons_general/no_mdm.png");
     background-size:100%
 }
 
@@ -13648,7 +13648,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 16px;
     margin: 0 3px;
     display: inline-block;
-    background: url("../images/icons_general/no_supervision.png");
+    background: url("images/icons_general/no_supervision.png");
     background-size:100%
 }
 
@@ -13828,22 +13828,22 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_screenshare > .cm_screenshare_preview.imac {
-    background-image: url("../images/mockups/livescreen_imac.png");
+    background-image: url("images/mockups/livescreen_imac.png");
     padding:9px 7px 55px
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_screenshare > .cm_screenshare_preview.macmini {
-    background-image: url("../images/mockups/livescreen_macmini.png");
+    background-image: url("images/mockups/livescreen_macmini.png");
     padding:16px 8px 38px
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_screenshare > .cm_screenshare_preview.macbook {
-    background-image: url("../images/mockups/livescreen_macbook.png");
+    background-image: url("images/mockups/livescreen_macbook.png");
     padding:59px 26px 17px
 }
 
 #cm_startedclass #cm_startedclass_content #cm_viewscreen .cm_user > .cm_inside > .cm_screenshare > .cm_screenshare_preview.macbookair {
-    background-image: url("../images/mockups/livescreen_macbookair.png");
+    background-image: url("images/mockups/livescreen_macbookair.png");
     padding:59px 26px 17px
 }
 
@@ -14473,7 +14473,7 @@ input[type=range]:disabled::-moz-range-thumb {
     height: 100%;
     float: left;
     cursor: pointer;
-    background: url("../icons-utils/FFFFFF/mosyle-icons/basic-icons/left-2.svg") no-repeat center;
+    background: url("icons-utils/FFFFFF/mosyle-icons/basic-icons/left-2.svg") no-repeat center;
     background-size:32px
 }
 
@@ -14672,7 +14672,7 @@ input[type=range]:disabled::-moz-range-thumb {
     font-size: .9em;
     color: #aaa;
     padding-right: 18px;
-    background: url("../icons-utils/76838F/icon54/solid/basic-icons/save.svg") no-repeat right 2px;
+    background: url("icons-utils/76838F/icon54/solid/basic-icons/save.svg") no-repeat right 2px;
     background-size:12px
 }
 
@@ -14905,7 +14905,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #screenguide_schedule ul li.selected {
-    background: #71cef5 url("../images/logos/screenguide.svg") no-repeat center;
+    background: #71cef5 url("images/logos/screenguide.svg") no-repeat center;
     background-size:contain
 }
 
@@ -16080,7 +16080,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-icon.ipad {
-    background-image: url("../images/mockups/selfservice-ipad.png")
+    background-image: url("images/mockups/selfservice-ipad.png")
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-icon.ipad:after {
@@ -16094,7 +16094,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-icon.iphone {
-    background-image: url("../images/mockups/selfservice-iphone.png")
+    background-image: url("images/mockups/selfservice-iphone.png")
 }
 
 #sec_deviceslist .sec_devices .sec_device .device-icon.iphone:after {
@@ -16548,7 +16548,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #page_payment .banner_mkt:after {
     content: "";
-    background-image: url("./../images/subscription/rocket.png");
+    background-image: url("./images/subscription/rocket.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 426px;
@@ -16613,7 +16613,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #page_payment .main_container section.price .benefits ul li:before {
     content: "";
-    background-image: url("./../images/subscription/check.svg");
+    background-image: url("./images/subscription/check.svg");
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -16796,7 +16796,7 @@ input[type=range]:disabled::-moz-range-thumb {
 
 #page_payment .main_container section.features .features-list ul li:before {
     content: "";
-    background-image: url("./../images/subscription/check.svg");
+    background-image: url("./images/subscription/check.svg");
     background-repeat: no-repeat;
     position: absolute;
     background-size: 80%;
@@ -17396,7 +17396,7 @@ input[type=range]:disabled::-moz-range-thumb {
     vertical-align: top;
     height: 38px;
     width: 38px;
-    background: #f4f5f7 url(../images/compliance/icon-order.png) no-repeat center;
+    background: #f4f5f7 url(images/compliance/icon-order.png) no-repeat center;
     background-size: 45%;
     border-radius: 5px;
     margin-right:2px
@@ -18260,7 +18260,7 @@ input[type=range]:disabled::-moz-range-thumb {
     vertical-align: top;
     height: 38px;
     width: 38px;
-    background: #f4f5f7 url(../images/compliance/icon-order.png) no-repeat center;
+    background: #f4f5f7 url(images/compliance/icon-order.png) no-repeat center;
     background-size: 45%;
     border-radius: 5px;
     margin-right:2px
@@ -18272,7 +18272,7 @@ input[type=range]:disabled::-moz-range-thumb {
     vertical-align: top;
     height: 38px;
     width: 38px;
-    background: #f4f5f7 url(../icons-utils/76838F/mosyle-icons/basic-icons/search.svg) no-repeat center;
+    background: #f4f5f7 url(icons-utils/76838F/mosyle-icons/basic-icons/search.svg) no-repeat center;
     background-size: 45%;
     border-radius: 5px;
     margin-right:2px
@@ -18793,7 +18793,7 @@ input[type=range]:disabled::-moz-range-thumb {
     display: inline-block;
     height: 25px;
     width: 25px;
-    background: #f4f5f7 url(../images/compliance/icon-order.png) no-repeat center;
+    background: #f4f5f7 url(images/compliance/icon-order.png) no-repeat center;
     background-size: 45%;
     border-radius: 5px;
     position: absolute;
@@ -18801,7 +18801,7 @@ input[type=range]:disabled::-moz-range-thumb {
 }
 
 #table_overview .icon-ordering.down, #table_overview .icon-ordering.up {
-    background: #f4f5f7 url(../images/icons_black/new-download-arrow.svg) no-repeat center;
+    background: #f4f5f7 url(images/icons_black/new-download-arrow.svg) no-repeat center;
     background-size:55%
 }
 
