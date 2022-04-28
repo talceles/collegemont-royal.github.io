@@ -150,9 +150,10 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
     }
 
     if (cellClass.indexOf("babillard") > 0) {
-        var src = get(cells[i].link)
+        var src = cells[i].link
         src = removeFirstSlashOfLink(src);
-        annonces[i] = JSON.parse(src);
+        var content = get(src);
+        annonces[i] = JSON.parse(content);
         annonces[i] = sortAnnonces(annonces[i], i);
 
         console.log(annonces)
