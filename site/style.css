@@ -18,7 +18,7 @@ body.dark {
 @font-face {
     font-family: CenturyGothic;
     font-weight: bold;
-    src: url(../site/ressources/fonts/GOTHICB.woff);
+    src: url(/site/ressources/fonts/GOTHICB.woff);
 }
 
 p.categorie {
@@ -112,7 +112,7 @@ button.i {
 }
 
 button.logo {
-    background-image: url("../site/ressources/logo.png");
+    background-image: url("/site/ressources/logo.png");
     top: 10px;
     left: 10px;
     height: 50px;
@@ -540,7 +540,7 @@ h2.retour {
 button.retour {
     position: relative;
     top: 100px;
-    background-image: url("../site/ressources/back.png");
+    background-image: url("/site/ressources/back.png");
     top: 0px;
     left: 15px;
     height: 80px;
