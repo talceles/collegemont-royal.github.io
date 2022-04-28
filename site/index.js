@@ -24,6 +24,9 @@ function addClickEvent(i) {
     if (cells[i].babillard) { return }
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
+        if (cells[i].link.charAt(0) == '/') {
+            cells[i].link = cells[i].link.substring(1);
+        }
         element.onclick = function() { //asign a function
             window.open(cells[i].link);
         }
@@ -32,6 +35,9 @@ function addClickEvent(i) {
 
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
+    if (cells[i].link.charAt(0) == '/') {
+        cells[i].link = cells[i].link.substring(1);
+    }
     element.onclick = function() {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
@@ -60,7 +66,7 @@ function addHoverEvent(i) {
 }
 
 document.getElementsByClassName("i")[0].onclick = function() {
-    window.popupwindow("/?src=/files/infos.json", 'Application CMR - Informations', 400, 600)
+    window.popupwindow("/?src=files/infos.json", 'Application CMR - Informations', 400, 600)
 };
 
 // CELLS
@@ -155,7 +161,7 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
         console.log(annonces)
 
         if (annonces[i].length > 0) {
-            imageCode = imageCode = `<img-container><img src="/files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
+            imageCode = imageCode = `<img-container><img src="files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
             subtitle = annonces[i].length + " annonces"
         } else {
             cellClass = cellClass.replaceAll('babillard', '');
@@ -206,7 +212,7 @@ function setHeaderColor() {
 }
 
 function hideIButton() {
-    if (link == "/files/infos.json") {
+    if (link == "files/infos.json") {
         document.getElementsByClassName("i")[0].id = "hidden";
     } else {
         document.getElementsByClassName("i")[0].id = "";
@@ -294,7 +300,7 @@ function getUrl() {
     } else if (src != null) {
         return src;
     } else {
-        return '/files/cells.json';
+        return 'files/cells.json';
     }
 }
 
