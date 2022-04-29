@@ -5,39 +5,39 @@
         {
             "title":"Première secondaire"
         },{
-            "title":"Groupe 13 : 139 points",
+            "title":"Groupe 13 : 172 points",
             "subtitle":"1re place!",
             "image":"/files/bibliotheque/images/groupes/gr13.png"
         },{
-            "title":"Groupe 10 : 104 points",
+            "title":"Groupe 10 : 142 points",
             "subtitle":"2e place!",
             "image":"/files/bibliotheque/images/groupes/gr10.png"
         },{
-            "title":"Groupe 12 : 99 points",
+            "title":"Groupe 12 : 122 points",
             "subtitle":"3e place!",
             "image":"/files/bibliotheque/images/groupes/gr12.png"
         },{
-            "title":"Groupe 11 : 50 points",
+            "title":"Groupe 11 : 63 points",
             "subtitle":"4e place!",
             "image":"/files/bibliotheque/images/groupes/gr11.png"
         },{
             "title":"Deuxième secondaire"
         },{
-            "title":"Groupe 22 : 16 points",
+            "title":"Groupe 23 : 82 points",
             "subtitle":"1re place!",
-            "image":"/files/bibliotheque/images/groupes/gr22.png"
+            "image":"/files/bibliotheque/images/groupes/gr23.png"
         },{
-            "title":"Groupe 20 : 10 points",
+            "title":"Groupe 20 : 60 points",
             "subtitle":"2e place!",
             "image":"/files/bibliotheque/images/groupes/gr20.png"
         },{
-            "title":"Groupe 21 : 5 points",
+            "title":"Groupe 22 : 40 points",
             "subtitle":"3e place!",
-            "image":"/files/bibliotheque/images/groupes/gr21.png"
+            "image":"/files/bibliotheque/images/groupes/gr22.png"
         },{
-            "title":"Groupe 23 : -- points",
-            "subtitle":"Classement à venir",
-            "image":"/files/bibliotheque/images/groupes/gr23.png"
+            "title":"Groupe 21 : 7 points",
+            "subtitle":"4e place!",
+            "image":"/files/bibliotheque/images/groupes/gr21.png"
         }
     ]
 }
