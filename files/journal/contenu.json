@@ -12,56 +12,56 @@
             
             "title":"Édition 8",
             "subtitle":"Célébrez l'arrivée du printemps en découvrant les nouveautés au collège, ainsi que de nombreuses suggestions musicales, cinématographiques et littéraires!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal8.pdf",
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal8.pdf",
             "UUID":"abc1b959-99f3-4ab2-b1b6-ec57c52f281a"
         },{
             "title":"Édition spéciale",
             "subtitle":"Joyeux mois de février à tous!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal7.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal7.pdf"
         },{
             "title":"Édition 6",
             "subtitle":"Pour commencer 2022 du bon pied, plongez-vous dans cette sixième édition du journal étudiant. Au programme : des évènements et projets à ne pas manquer, une recette rafraîchissante, des nouvelles du comité de la bibliothèque et bien plus!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal62.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal62.pdf"
         },{
             "title":"Édition 5",
             "subtitle":"Cette cinquième édition vous plongera dans la magie du temps des fêtes !",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal52.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal52.pdf"
         },{
             "title":"Édition 4",
             "subtitle":"À travers des médiums variés, découvrez de nouvelles idées de contenus audiovisuels !",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal4.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal4.pdf"
         },{
             "title":"Édition 3",
             "subtitle":"Édition spéciale Halloween!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal3.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal3.pdf"
         },{
             "title":"Entrevue avec les présidentes du Collège Mont-Royal",
             "subtitle":"Salma Sévigny et Coralie Paul nous expliquent leurs motivations pour devenir présidentes.",
-            "image":"https://collegemont-royal.github.io/files/journal/images/video-presidentes.png",
+            "image":"/files/journal/images/video-presidentes.png",
             "link":"https://youtu.be/wX8VrXCFJro",
             "openURL":true
         },{
             "title":"Édition 2",
             "subtitle":"Deuxième édition du journal étudiant mettant la vie étudiante au coeur du Collège!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal2.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal2.pdf"
         },{
             "title":"Édition 1",
             "subtitle":"Première édition de l'année 2021-2022!",
-            "image":"https://collegemont-royal.github.io/files/journal/images/basic.png",
-            "link":"https://collegemont-royal.github.io/files/journal/Journal1.pdf"
+            "image":"/files/journal/images/basic.png",
+            "link":"/files/journal/Journal1.pdf"
         },{
             "title":"Archives",
             "subtitle":"",
             "image":"🗄",
             "newPage":true,
-            "link":"https://collegemont-royal.github.io/files/journal/archives/contenu.json"
+            "link":"/files/journal/archives/contenu.json"
         }
     ]
 }

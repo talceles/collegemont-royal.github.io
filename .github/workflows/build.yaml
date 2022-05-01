@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - beta
 jobs:
   build:
     name: Build
@@ -10,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Create directory structure
         run: |
           mkdir dist
@@ -78,9 +81,17 @@ jobs:
             -not -path "./node_modules/*" \
             -name "*.css" \
             -exec echo 'npx postcss "{}" > "dist/{}"' \; | bash
-      - name: Deploy website
-        run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
+      - name: Build Sitemap
+        run: node ./.github/sitemap.js files/cells.json > dist/sitemap.xml
+      - name: Set Remote
+        if: ${{ github.ref_name == 'beta' }}
+        run: git remote set-url origin https://clem2004:${GITHUB_TOKEN}@github.com/${{ github.repository_owner }}/beta.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Set Remote
+        if: ${{ github.ref_name != 'beta' }}
+        run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy website
+        run: npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"

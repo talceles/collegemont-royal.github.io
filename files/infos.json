@@ -4,7 +4,7 @@
         {
             "title":"Le collège",
             "subtitle":"Le Collège Mont-Royal est une institution privée, mixte, titulaire d’un permis d’enseignement pour la formation générale de niveau secondaire. Il offre un enseignement en français conduisant à l’obtention d’un diplôme d’études secondaires.\n**Site web du Collège Mont-Royal ➜**",
-            "image":"https://collegemont-royal.github.io/files/images/ecole.png",
+            "image":"/files/images/lecollege.png",
             "link":"https://collegemont-royal.qc.ca",
             "article":true
         },{
@@ -13,9 +13,15 @@
             "image":"🙋🏼‍♂️",
             "notification":true
         },{
+            "title":"Tester la version bêta",
+            "subtitle":"Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
+            "image":"/files/images/betaicon2.png",
+            "link":"https://testflight.apple.com/join/QkygnW3M",
+            "openURL":true
+        },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Ouvrir l'App Store",
-            "image":"https://collegemont-royal.github.io/files/images/appstore.png",
+            "image":"/files/images/appstore.png",
             "link":"https://apps.apple.com/developer/stephane-gauthier/id1489666753",
             "openURL":true
         },{

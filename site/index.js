@@ -15,15 +15,16 @@ loadTableView();
 
 // EVENTS
 
-window.addEventListener('popstate', e => {
+window.addEventListener('popstate', () => {
     document.getElementsByClassName("topsub")[0].innerHTML = "Application CMR";
-    parseCells(e.state)
+    parseCells()
 })
 
 function addClickEvent(i) {
-    if (cells[i].babillard) { return };
+    if (cells[i].babillard) { return }
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
+        cells[i].link = removeFirstSlashOfLink(cells[i].link);
         element.onclick = function() { //asign a function
             window.open(cells[i].link);
         }
@@ -32,19 +33,20 @@ function addClickEvent(i) {
 
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
+    cells[i].link = removeFirstSlashOfLink(cells[i].link);
     element.onclick = function() {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
         slideLeft()
         shouldAnimate = true;
         setTimeout(function() {
-            parseCells(cells[i].link)
+            parseCells()
         }, 300)
     }
 }
 
 function addHoverEvent(i) {
-    if (cells[i].babillard) { return };
+    if (cells[i].babillard) { return }
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
         element.style.cursor = "pointer";
@@ -60,12 +62,12 @@ function addHoverEvent(i) {
 }
 
 document.getElementsByClassName("i")[0].onclick = function() {
-    popupwindow("/?src=/files/infos.json", 'CMR - Informations', 400, 600)
+    window.popupwindow("/?src=files/infos.json", 'Application CMR - Informations', 400, 600)
 };
 
 // CELLS
 
-function parseCells(url) {
+function parseCells() {
     link = getUrl();
     str = get(link);
     cells = JSON.parse(str).cells;
@@ -77,11 +79,12 @@ function loadTableView() {
     try { cells = JSON.parse(str).cells; } catch(err) { 
         sendErrorMessage(err.message);
         return;
-    };
+    }
 
     document.getElementsByClassName("cells")[0].innerHTML = "";
 
-    setTitle();
+    setTitles();
+    setHeaderColor();
 
     for (let i = 0; i < cells.length; i++) {
         let classe = "mouseOut"
@@ -115,10 +118,6 @@ function slideLeft() {
 }
 
 function fadeIn() {
-    if (new URLSearchParams(window.location.search).get('src') == "https://collegemont-royal.github.io/files/miseaniveau/contenu.json") {
-        document.body.classList += (" miseaniveau")
-        document.querySelector("meta[name=theme-color]").setAttribute("content", "#099DE1");
-    }
     window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
@@ -132,29 +131,35 @@ function fadeIn() {
 
 function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
+    image = image || ""
+
     title = title || ""
     subtitle = subtitle || ""
-    image = image || "🎆"
 
     let imageCode = ""
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
         imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
-    } else {
+    } else if (image) {
         // IMAGE IS EMOJI
         imageCode = `<emoji>${image}</emoji>`
+    } else {
+        // IMAGE IS EMPTY
+        imageCode = ""
     }
 
     if (cellClass.indexOf("babillard") > 0) {
-        var src = get(cells[i].link)
-        annonces[i] = JSON.parse(src);
+        var src = cells[i].link
+        src = removeFirstSlashOfLink(src);
+        var content = get(src);
+        annonces[i] = JSON.parse(content);
         annonces[i] = sortAnnonces(annonces[i], i);
 
         console.log(annonces)
 
         if (annonces[i].length > 0) {
-            imageCode = imageCode = `<img-container><img src="/files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
+            imageCode = imageCode = `<img-container><img src="files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
             subtitle = annonces[i].length + " annonces"
         } else {
             cellClass = cellClass.replaceAll('babillard', '');
@@ -164,6 +169,8 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
+    } else if (isCategorie(image)) {
+        return `<p class="categorie">${title}</p>`
     } else {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
@@ -177,18 +184,33 @@ function setDarkMode() {
     }
 }
 
-function setTitle() {
+function setTitles() {
     let title = JSON.parse(str).title || "Application CMR";
     document.getElementsByClassName("title")[0].innerHTML = title;
+    
+    let topsubtitle = JSON.parse(str).topsubtitle;
+    if (topsubtitle) {
+        document.getElementsByClassName("topsub")[0].innerHTML = topsubtitle;
+    }
+
     if (title != "") {
-        document.title = "CMR - " + title
+        document.title = "Application CMR - " + title
     } else {
-        document.title = "CMR"
+        document.title = "Application CMR | Collège Mont-Royal"
+    }
+}
+
+function setHeaderColor() {
+    let header = document.querySelector("div.top");
+    let color = JSON.parse(str).header_color;
+    if (color) {
+        document.querySelector("meta[name=theme-color]").setAttribute("content", color);
+        header.style.backgroundColor = color;
     }
 }
 
 function hideIButton() {
-    if (link == "/files/infos.json") {
+    if (link == "files/infos.json") {
         document.getElementsByClassName("i")[0].id = "hidden";
     } else {
         document.getElementsByClassName("i")[0].id = "";
@@ -197,10 +219,15 @@ function hideIButton() {
 
 // UTILITIES
 
+function removeFirstSlashOfLink(link) {
+    if (link.charAt(0) == '/') {
+        return link.substring(1);
+    }
+    return link;
+}
+
 function sortAnnonces(annoncesATrier) {
-
     return annoncesATrier.filter(function(annonce) {
-
         let expiration = Date.parse(annonce.expiration || "2170-02-10")
         let now = new Date().getTime();
         return expiration > now;
@@ -210,11 +237,26 @@ function sortAnnonces(annoncesATrier) {
 function populateAnnonces(i) {
     let annoncesDiv = document.getElementById("annonces" + i)
     annonces[i].forEach(annonce => {
+
+        let popUpCode = ""
+        let contentCode = ""
+
         if (isImage(annonce.contenu)) {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?i=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><img src=${annonce.contenu}></img></annonce></div>`)
+            popUpCode += `i=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}`
+            contentCode = `<img src="${annonce.contenu}"/>`
         } else {
-            annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}', 'Babillard', 500, 500);"><div class="annonce-text"><textarea rows="1" readonly></textarea></div></annonce></div>`)
+            popUpCode += `s=${encodeURIComponent(annonce.contenu).replaceAll("'", "\\'")}`
+            contentCode = `<div class="annonce-text"><textarea rows="1" readonly></textarea></div>`
         }
+
+        if (annonce.link) {
+            annonce.link = removeFirstSlashOfLink(annonce.link);
+            popUpCode += `&l=${encodeURIComponent(annonce.link).replaceAll("'", "\\'")}`
+            contentCode += `<img class="openlink" src="site/ressources/openLink.png"/>`
+        }
+
+        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
+
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
 
@@ -237,6 +279,13 @@ function populateAnnonces(i) {
     });
 }
 
+function isCategorie(image) {
+    if (!image || image === "") {
+        return true
+    }
+    return false
+}
+
 function sendErrorMessage(errorDescription) {
     fetch(
         "https://webhook-cmr.herokuapp.com/jf?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
@@ -255,7 +304,7 @@ function getUrl() {
     } else if (src != null) {
         return src;
     } else {
-        return '/files/cells.json';
+        return 'files/cells.json';
     }
 }
 
@@ -270,6 +319,7 @@ function get(yourUrl) {
     return Httpreq.responseText;          
 }
 
+// eslint-disable-next-line no-unused-vars
 function isEmoji(str) {
     var ranges = ['(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|[\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|[\ud83c[\ude32-\ude3a]|[\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])'];
     if (str.match(ranges.join('|'))) {
