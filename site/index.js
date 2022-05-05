@@ -110,7 +110,7 @@ function loadTableView() {
 }
 
 function slideLeft() {
-    var elements = document.getElementsByTagName("cell")
+    var elements = [...document.getElementsByTagName("cell"), ...document.getElementsByClassName("categorie")];
     for (let i = 0; i < elements.length; i++) {
         elements[i].classList.remove("transitionLeft", "mouseOver", "mouseOut");
         elements[i].classList.add("transitionLeft", "mouseOut");
@@ -121,7 +121,7 @@ function fadeIn() {
     window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
-        var elements = document.getElementsByTagName("cell")
+        var elements = [...document.getElementsByTagName("cell"), ...document.getElementsByClassName("categorie")];
         for (let i = 0; i < elements.length; i++) {
             elements[i].classList.remove("fadeIn");
             elements[i].classList.add("fadeIn");
