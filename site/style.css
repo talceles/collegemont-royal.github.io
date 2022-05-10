@@ -23,9 +23,11 @@ body.dark {
 
 p.categorie {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-bottom: 10px;
     padding-right: 30px;
+
+    position: relative;
 
     margin: 0;
 

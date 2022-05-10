@@ -24,7 +24,6 @@ function addClickEvent(i) {
     if (cells[i].babillard) { return }
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
-        cells[i].link = removeFirstSlashOfLink(cells[i].link);
         element.onclick = function() { //asign a function
             window.open(cells[i].link);
         }
@@ -33,7 +32,6 @@ function addClickEvent(i) {
 
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
-    cells[i].link = removeFirstSlashOfLink(cells[i].link);
     element.onclick = function() {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
@@ -110,7 +108,7 @@ function loadTableView() {
 }
 
 function slideLeft() {
-    var elements = document.getElementsByTagName("cell")
+    var elements = [...document.getElementsByTagName("cell"), ...document.getElementsByClassName("categorie")];
     for (let i = 0; i < elements.length; i++) {
         elements[i].classList.remove("transitionLeft", "mouseOver", "mouseOut");
         elements[i].classList.add("transitionLeft", "mouseOut");
@@ -121,7 +119,7 @@ function fadeIn() {
     window.scrollTo(0, 0);
     if (shouldAnimate) {
         shouldAnimate = false;
-        var elements = document.getElementsByTagName("cell")
+        var elements = [...document.getElementsByTagName("cell"), ...document.getElementsByClassName("categorie")];
         for (let i = 0; i < elements.length; i++) {
             elements[i].classList.remove("fadeIn");
             elements[i].classList.add("fadeIn");
@@ -151,7 +149,6 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
     if (cellClass.indexOf("babillard") > 0) {
         var src = cells[i].link
-        src = removeFirstSlashOfLink(src);
         var content = get(src);
         annonces[i] = JSON.parse(content);
         annonces[i] = sortAnnonces(annonces[i], i);
@@ -219,13 +216,6 @@ function hideIButton() {
 
 // UTILITIES
 
-function removeFirstSlashOfLink(link) {
-    if (link.charAt(0) == '/') {
-        return link.substring(1);
-    }
-    return link;
-}
-
 function sortAnnonces(annoncesATrier) {
     return annoncesATrier.filter(function(annonce) {
         let expiration = Date.parse(annonce.expiration || "2170-02-10")
@@ -250,7 +240,6 @@ function populateAnnonces(i) {
         }
 
         if (annonce.link) {
-            annonce.link = removeFirstSlashOfLink(annonce.link);
             popUpCode += `&l=${encodeURIComponent(annonce.link).replaceAll("'", "\\'")}`
             contentCode += `<img class="openlink" src="site/ressources/openLink.png"/>`
         }

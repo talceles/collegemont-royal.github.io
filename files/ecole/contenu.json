@@ -7,8 +7,13 @@
             "image":"/files/images/calendrier.png",
             "link":"/files/ecole/calendrier.pdf"
         },{
+            "title":"Calendrier 2022-2023",
+            "subtitle":"Calendrier scolaire pour l'année scolaire 2022-2023",
+            "image":"/files/images/calendrier.png",
+            "link":"/files/ecole/calendrier_22_23.pdf"
+        },{
             "title":"Horaire des cycles",
-            "subtitle":"Horaire des cycles pour l'année scolaire 2021-2022",
+            "subtitle":"Heures des cours et des pauses pour les deux cycles",
             "image":"/files/images/horaire.png",
             "link":"/files/ecole/horairecycles.pdf"
         },{
@@ -22,11 +27,6 @@
             "image":"/files/images/telephone.png",
             "link":"/files/ecole/contact.json",
             "newPage":true
-        },{
-            "title":"Calendrier 2022-2023",
-            "subtitle":"Calendrier scolaire pour l'année scolaire 2022-2023",
-            "image":"/files/images/calendrier.png",
-            "link":"/files/ecole/calendrier22-23.pdf"
         }
     ]
 }
