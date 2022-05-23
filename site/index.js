@@ -177,7 +177,13 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
 function setDarkMode() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add("dark");
+        let root = document.documentElement.style;
+        root.setProperty('--background', '#000000');
+        root.setProperty('--text', '#ffffff');
+        root.setProperty('--subtext', '#a4a4a4');
+        root.setProperty('--hover', '#161616');
+        root.setProperty('--accent', '#161616');
+        root.setProperty('--hilight', '#282828');
     }
 }
 

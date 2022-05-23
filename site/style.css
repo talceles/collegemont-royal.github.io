@@ -1,6 +1,15 @@
+:root {
+    --background: #ffffff;
+    --text: #000000;
+    --subtext: #666666;
+    --hover: #f0f0f0;
+    --accent: #f0f0f0;
+    --hilight: #e5e5e5;
+}
+
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--background);
+    color: var(--text);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -8,11 +17,6 @@ html, body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-}
-
-body.dark {
-    background-color: black;
-    color: white;
 }
 
 @font-face {
@@ -143,43 +147,36 @@ cell {
     -webkit-text-size-adjust: 115%;
 }
 
+.notification {
+    background-color: var(--accent);
+    margin-bottom: 5px;
+}
+
 .article {
     display: block;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding: 0;
     overflow: hidden;
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
-.dark .article {
-    background-color: rgb(30, 30, 30);
-}
-
 .webView {
     display: flex;
     flex-direction: column;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding: 0;
     overflow: hidden;
     margin-bottom: 5px;
-}
-
-.dark .webView {
-    background-color: rgb(30, 30, 30);
 }
 
 .babillard {
     display: flex;
     flex-direction: column;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding: 0;
     overflow: hidden;
     margin-bottom: 5px;
-}
-
-.dark .babillard {
-    background-color: rgb(30, 30, 30);
 }
 
 div .annonces {
@@ -188,11 +185,7 @@ div .annonces {
     overflow: auto;
     height: auto;
     width: auto;
-    background-color: rgb(255, 255, 255);
-}
-
-.dark div.annonces {
-    background-color: rgb(0, 0, 0);
+    background-color: var(--background);
 }
 
 div.annonce-wrapper {
@@ -206,7 +199,7 @@ annonce {
     height: 215px;
     width: 150px;
     margin: 15px 5px;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     border-radius: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -251,10 +244,6 @@ annonce > div.annonce-text textarea {
 
 annonce, annonce * {
     cursor: pointer;
-}
-
-.dark annonce {
-    background-color: rgb(30, 30, 30);
 }
 
 .webView iframe {
@@ -320,111 +309,60 @@ img {
 
 .mouseOver.article {
     transition: all 0.2s;
-    background-color: rgb(220, 220, 230);
+    background-color: var(--hilight);
     padding-left: 0px;
-}
-
-.dark .mouseOver.article {
-    transition: all 0.2s;
-    background-color: rgb(40, 40, 40);
 }
 
 .mouseOut.article {
     transition: all 0.2s;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding-left: 0px;
-}
-
-.dark .mouseOut.article {
-    transition: all 0.2s;
-    background-color: rgb(30, 30, 30);
 }
 
 .mouseOver.webView {
     transition: all 0.2s;
-    background-color: rgb(220, 220, 230);
+    background-color: var(--hilight);
     padding-left: 0px;
-}
-
-.dark .mouseOver.webView {
-    transition: all 0.2s;
-    background-color: rgb(40, 40, 40);
 }
 
 .mouseOut.webView {
     transition: all 0.2s;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding-left: 0px;
-}
-
-.dark .mouseOut.webView {
-    transition: all 0.2s;
-    background-color: rgb(30, 30, 30);
 }
 
 .mouseOver.babillard {
     transition: all 0.2s;
-    background-color: rgb(220, 220, 230);
+    background-color: var(--hilight);
     padding-left: 0px;
-}
-
-.dark .mouseOver.babillard {
-    transition: all 0.2s;
-    background-color: rgb(40, 40, 40);
 }
 
 .mouseOut.babillard {
     transition: all 0.2s;
-    background-color: rgb(235, 235, 240);
+    background-color: var(--accent);
     padding-left: 0px;
-}
-
-.dark .mouseOut.babillard {
-    transition: all 0.2s;
-    background-color: rgb(30, 30, 30);
-}
-
-.notification {
-    background-color: rgb(235, 235, 240);
-    margin-bottom: 5px;
-}
-
-.dark .notification {
-    background-color: rgb(30, 30, 30);
-    margin-bottom: 5px;
 }
 
 .mouseOver.notification {
     transition: all 0.2s;
-    background-color: rgb(220, 220, 230);
-}
-
-.dark .mouseOver.notification {
-    transition: all 0.2s;
-    background-color: rgb(40, 40, 40);
+    background-color: var(--hilight);
 }
 
 .mouseOut.notification {
     transition: all 0.2s;
-    background-color: rgb(235, 235, 240);
-    padding-left: 10px;
-}
-
-.dark .mouseOut.notification {
-    transition: all 0.2s;
-    background-color: rgb(30, 30, 30);
+    background-color: var(--accent);
     padding-left: 10px;
 }
 
 .mouseOver {
     transition: all 0.2s;
-    background-color: rgba(160, 160, 160, 0.15);
+    background-color: var(--hover);
     padding-left: 18px;
 }
 
 .mouseOut {
     transition: all 0.2s;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     padding-left: 10px;
 }
 
@@ -508,12 +446,8 @@ cell-title {
 
 cell-subtitle {
     font-size: 12px;
-    color: rgb(102, 102, 102);
+    color: var(--subtext);
     padding: 5px 0px;
-}
-
-.dark cell-subtitle {
-    color: rgb(153, 153, 153);
 }
 
 .webView cell-subtitle {
