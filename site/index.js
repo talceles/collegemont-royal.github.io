@@ -160,7 +160,8 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
             subtitle = annonces[i].length + " annonces"
         } else {
             cellClass = cellClass.replaceAll('babillard', '');
-            return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
+            image = "files/images/babillard.png"
+            return `<cell id = ${i} class="${cellClass}"><img-container><img src="${image}" id=${image}/></img-container><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
         }
         return `<cell id = ${i} class="${cellClass}"><div class=babillard-top>${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></div><div class="annonces" id="annonces${i}"></div></cell>`
 

@@ -15,7 +15,7 @@
         },{
             "title":"Tester la version bêta",
             "subtitle":"Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
-            "image":"/files/images/betaicon2.png",
+            "image":"/files/images/testflight.png",
             "link":"https://testflight.apple.com/join/QkygnW3M",
             "openURL":true
         },{
@@ -25,8 +25,8 @@
             "link":"https://apps.apple.com/developer/stephane-gauthier/id1489666753",
             "openURL":true
         },{
-            "title":"Signaler un bug",
-            "subtitle":"cgauthier@collegemont-royal.qc.ca",
+            "title":"Contacter le développeur",
+            "subtitle":"Signaler un bogue, suggestions, etc.\n**cgauthier@collegemont-royal.qc.ca**",
             "image":"📨",
             "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
             "openURL":true
