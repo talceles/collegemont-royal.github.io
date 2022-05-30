@@ -71,19 +71,20 @@ div.toptitle {
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-    top: 12px;
     left: 75px;
     width: auto;
 }
 
 div.toptitlenlogo {
     position: absolute;
+    display: flex;
+    align-items: center;
+    height: 70px;
     left: 0px;
 }
 
 h1.title {
     display: inline;
-    padding-bottom: 10px;
     font-size: min(5.5vw, 30px);
     font-weight: bold;
     margin: 0;
@@ -93,7 +94,7 @@ h5.topsub {
     font-weight: bold;
     width: 100%;
     display: inline;
-    font-size: 10px;
+    font-size: min(3.5vw, 11px);
     padding-left: 2px;
     margin: 0;
 }
