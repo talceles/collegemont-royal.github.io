@@ -131,11 +131,11 @@ function fadeIn() {
 
 function GenerateHTMLCell(cell, i, cellClass) {
 
-    image = cell.image || ""
-    imageTint = cell.tint || "";
+    let image = cell.image || ""
+    let imageTint = cell.tint || "";
 
-    title = cell.title || ""
-    subtitle = cell.subtitle || ""
+    let title = cell.title || ""
+    let subtitle = cell.subtitle || ""
 
     let imageCode = ""
 
