@@ -64,7 +64,7 @@ div.top {
 div.cells {
     position: relative;
     top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 div.toptitle {
@@ -280,6 +280,8 @@ img {
     width: 80px;
     height: 80px;
     object-fit: contain;
+    background-size: contain;
+    mask-size: cover;
 }
 
 .article img {

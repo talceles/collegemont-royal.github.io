@@ -1,3 +1,4 @@
+const emptyImage = "data:image/gif;base64,R0lGODlhAQABAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAABAAEAAAgEAP8FBAA7";
 
 let link = getUrl();
 let str = get(link);
@@ -93,7 +94,7 @@ function loadTableView() {
         if (cells[i].babillard) { classe = classe + " babillard" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
-        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
+        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i], i, classe));
 
         addHoverEvent(i);
 
@@ -128,18 +129,23 @@ function fadeIn() {
     }
 }
 
-function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
+function GenerateHTMLCell(cell, i, cellClass) {
 
-    image = image || ""
+    image = cell.image || ""
+    imageTint = cell.tint || "";
 
-    title = title || ""
-    subtitle = subtitle || ""
+    title = cell.title || ""
+    subtitle = cell.subtitle || ""
 
     let imageCode = ""
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
+        if (imageTint != "") {
+            imageCode = `<img-container><img class="maskedimage" src="${emptyImage}" style="mask-image: url(${image}); background-color: ${imageTint};" id=${image}/></img-container>`
+        } else {
+            imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
+        }
     } else if (image) {
         // IMAGE IS EMOJI
         imageCode = `<emoji>${image}</emoji>`
