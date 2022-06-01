@@ -4,19 +4,19 @@
         {
             "title":"Menu de la semaine",
             "subtitle":"2 choix de repas, soupe et dessert du jour",
-            "image":"/files/images/menu.png",
-            "link":"/files/ecole/menuCafeteria.pdf",
+            "image":"files/images/menu.png",
+            "link":"files/ecole/menuCafeteria.pdf",
             "webView":true
         },{
             "title":"Liste des prix",
             "subtitle":"Déjeuners, repas chauds, sandwichs, salades, collations et breuvages",
-            "image":"/files/images/listePrix.png",
-            "link":"/files/ecole/prixCafeteria.pdf"
+            "image":"files/images/listePrix.png",
+            "link":"files/ecole/prixCafeteria.pdf"
         },{
             "title":"Informations sur le paiement",
             "subtitle":"Service à la cafétéria - Paiement par carte étudiante",
-            "image":"/files/images/infosPay.png",
-            "link":"/files/ecole/informationsCafeteria.pdf"
+            "image":"files/images/infosPay.png",
+            "link":"files/ecole/informationsCafeteria.pdf"
         }
     ]
 }

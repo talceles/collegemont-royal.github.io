@@ -10,14 +10,14 @@
         },{
             "title":"Édition 2020-2021",
             "subtitle":"",
-            "image":"/files/journal/archives/2020-2021/images/basic.png",
-            "link":"/files/journal/archives/2020-2021/contenu.json",
+            "image":"files/journal/archives/2020-2021/images/basic.png",
+            "link":"files/journal/archives/2020-2021/contenu.json",
             "newPage":true
         },{
             "title":"Édition COVID-19",
             "subtitle":"2020",
-            "image":"/files/journal/archives/covid2020/covid.png",
-            "link":"/files/journal/archives/covid2020/contenu.json",
+            "image":"files/journal/archives/covid2020/covid.png",
+            "link":"files/journal/archives/covid2020/contenu.json",
             "newPage":true
         }
     ]

@@ -3,35 +3,40 @@
     "version":"1.153",
     "cells": [
         {
+            "title":"Babillard",
+             "subtitle":"Aucune annonce. À bientôt !",
+             "babillard":true,
+             "link":"files/babillard.json"
+        },{
             "title":"Informations générales",
             "subtitle":"Informations et règlements",
-            "image":"/files/images/infos.png",
+            "image":"files/images/infos.png",
             "newPage":true,
-            "link":"/files/ecole/contenu.json"
+            "link":"files/ecole/contenu.json"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
-            "image":"/files/images/bibliotheque.png",
+            "image":"files/images/bibliotheque.png",
             "newPage":true,
-            "link":"/files/bibliotheque/contenu.json"
+            "link":"files/bibliotheque/contenu.json"
         },{
             "title":"Cafétéria",
             "subtitle":"Informations et menu de la cafétéria",
-            "image":"/files/images/cafeteria.png",
+            "image":"files/images/cafeteria.png",
             "newPage":true,
-            "link":"/files/ecole/cafeteria.json"
+            "link":"files/ecole/cafeteria.json"
         },{
             "title":"Journal Étudiant",
             "subtitle":"Consultez notre journal étudiant!",
-            "image":"/files/images/journal.png",
+            "image":"files/images/journal.png",
             "newPage":true,
-            "link":"/files/journal/contenu.json"
+            "link":"files/journal/contenu.json"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
-            "image":"/files/images/support.png",
+            "image":"files/images/support.png",
             "newPage":true,
-            "link":"/files/support/contenu.json"
+            "link":"files/support/contenu.json"
         }
     ]
 }
