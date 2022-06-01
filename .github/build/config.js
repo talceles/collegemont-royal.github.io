@@ -8,6 +8,7 @@ const config = {
       "package-lock.json",
       "node_modules/",
       "dist/",
+      "deployments/",
     ],
     noTransform: ["site/GeoGendron/"],
   },
