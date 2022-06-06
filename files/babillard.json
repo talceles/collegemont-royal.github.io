@@ -1,18 +1,1 @@
-[
-    {
-        "contenu":"https://collegemont-royal.github.io/files/annonces/plantation.png",
-        "expiration":"2022-03-25"
-    },{
-        "contenu":"https://collegemont-royal.github.io/files/bibliotheque/balado/images/balado5.png",
-        "expiration":"2022-03-30"
-    },{
-        "contenu":"https://collegemont-royal.github.io/files/annonces/Frame2.jpg",
-        "expiration":"2022-03-25"
-    },{
-        "contenu":"https://collegemont-royal.github.io/files/annonces/Logo-CMtRoyal-2021-Rond-Bleu-RGB-1_25_po.png",
-        "expiration":"2022-03-25"
-    },{
-        "contenu":"Expiration : AAAA-MM-JJ :",
-        "expiration":"1990-01-21"
-    }
-]
+[{"contenu":"Pour qu'une annonce expire automatiquement : expiration : AAAA-MM-JJ","expiration":"1990-01-21"}]
