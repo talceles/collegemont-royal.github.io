@@ -1,3 +1,4 @@
+const emptyImage = "data:image/gif;base64,R0lGODlhAQABAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAABAAEAAAgEAP8FBAA7";
 
 let link = getUrl();
 let str = get(link);
@@ -8,7 +9,8 @@ let shouldAnimate = false;
 
 document.body.style.transform = 'scale(1)';
 
-setDarkMode();
+setColorMode();
+addDarkModeEventListener();
 hideIButton();
 
 loadTableView();
@@ -24,20 +26,26 @@ function addClickEvent(i) {
     if (cells[i].babillard) { return }
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
-        element.onclick = function() { //asign a function
-            window.open(cells[i].link);
+        element.onclick = function () { //asign a function
+            let link = cells[i].link;
+            if (!cells[i].openURL) {
+                window.open(`/site/fileview/?t=${cells[i].title}&s=${cells[i].link}`);
+            } else {
+                window.open(cells[i].link);
+            }
+            
         }
     }
 }
 
 function addNewPageEvent(i) {
     var element = document.getElementById(i)
-    element.onclick = function() {
+    element.onclick = function () {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
         history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
         slideLeft()
         shouldAnimate = true;
-        setTimeout(function() {
+        setTimeout(function () {
             parseCells()
         }, 300)
     }
@@ -48,18 +56,18 @@ function addHoverEvent(i) {
     var element = document.getElementById(i); //grab the element
     if (cells[i].link) {
         element.style.cursor = "pointer";
-        element.onmouseover = function() { //asign a function
+        element.onmouseover = function () { //asign a function
             element.classList.remove("mouseOut", "mouseOver")
             element.classList.add("mouseOver")
         }
-        element.onmouseout = function() { //asign a function
+        element.onmouseout = function () { //asign a function
             element.classList.remove("mouseOut", "mouseOver")
             element.classList.add("mouseOut")
         }
     }
 }
 
-document.getElementsByClassName("i")[0].onclick = function() {
+document.getElementsByClassName("i")[0].onclick = function () {
     window.popupwindow("/?src=files/infos.json", 'Application CMR - Informations', 400, 600)
 };
 
@@ -74,7 +82,7 @@ function parseCells() {
 
 function loadTableView() {
 
-    try { cells = JSON.parse(str).cells; } catch(err) { 
+    try { cells = JSON.parse(str).cells; } catch (err) {
         sendErrorMessage(err.message);
         return;
     }
@@ -92,8 +100,8 @@ function loadTableView() {
         if (cells[i].babillard) { classe = classe + " babillard" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
-        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i].title, cells[i].subtitle, cells[i].image, i, classe));
-        
+        document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i], i, classe));
+
         addHoverEvent(i);
 
         if (cells[i].babillard) { populateAnnonces(i); }
@@ -127,18 +135,23 @@ function fadeIn() {
     }
 }
 
-function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
+function GenerateHTMLCell(cell, i, cellClass) {
 
-    image = image || ""
+    let image = cell.image || ""
+    let imageTint = cell.tint || "";
 
-    title = title || ""
-    subtitle = subtitle || ""
+    let title = cell.title || ""
+    let subtitle = cell.subtitle || ""
 
     let imageCode = ""
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
+        if (imageTint != "") {
+            imageCode = `<img-container><img class="maskedimage" src="${emptyImage}" style="-webkit-mask-image: url(${image}); mask-image: url(${image}); background-color: ${imageTint};" id=${image}/></img-container>`
+        } else {
+            imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
+        }
     } else if (image) {
         // IMAGE IS EMOJI
         imageCode = `<emoji>${image}</emoji>`
@@ -176,28 +189,45 @@ function GenerateHTMLCell(title, subtitle, image, i, cellClass) {
 
 // UI
 
-function setDarkMode() {
+function addDarkModeEventListener() {
+    window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", function () {
+            setColorMode();
+        });
+}
+
+function setColorMode() {
+    let root = document.documentElement.style;
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        let root = document.documentElement.style;
+        // DARK
         root.setProperty('--background', '#000000');
         root.setProperty('--text', '#ffffff');
         root.setProperty('--subtext', '#a4a4a4');
         root.setProperty('--hover', '#161616');
         root.setProperty('--accent', '#161616');
         root.setProperty('--hilight', '#282828');
+    } else {
+        // LIGHT
+        root.setProperty('--background', '#ffffff');
+        root.setProperty('--text', '#000000');
+        root.setProperty('--subtext', '#666666');
+        root.setProperty('--hover', '#f0f0f0');
+        root.setProperty('--accent', '#f0f0f0');
+        root.setProperty('--hilight', '#e5e5e5');
     }
 }
 
 function setTitles() {
     let title = JSON.parse(str).title || "Application CMR";
     document.getElementsByClassName("title")[0].innerHTML = title;
-    
+
     let topsubtitle = JSON.parse(str).topsubtitle;
     if (topsubtitle) {
         document.getElementsByClassName("topsub")[0].innerHTML = topsubtitle;
     }
 
-    if (title != "") {
+    if (title != "" && title != "Application CMR") {
         document.title = "Application CMR - " + title
     } else {
         document.title = "Application CMR | Collège Mont-Royal"
@@ -224,7 +254,7 @@ function hideIButton() {
 // UTILITIES
 
 function sortAnnonces(annoncesATrier) {
-    return annoncesATrier.filter(function(annonce) {
+    return annoncesATrier.filter(function (annonce) {
         let expiration = Date.parse(annonce.expiration || "2170-02-10")
         let now = new Date().getTime();
         return expiration > now;
@@ -251,13 +281,13 @@ function populateAnnonces(i) {
             contentCode += `<img class="openlink" src="site/ressources/openLink.png"/>`
         }
 
-        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup.html?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
+        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup/?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
 
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
 
         const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
-        annonceElement.style.width = clamp(window.innerWidth/window.innerHeight*215, 115, 350) + "px";
+        annonceElement.style.width = clamp(window.innerWidth / window.innerHeight * 215, 115, 350) + "px";
 
         if (annonceTextElement) {
             annonceTextElement.value = annonce.contenu;
@@ -290,7 +320,7 @@ function sendErrorMessage(errorDescription) {
             headers: { "Content-Type": "text/plain; charset=utf-8" },
             body: errorDescription,
         }
-    );  
+    );
 }
 
 function getUrl() {
@@ -310,9 +340,9 @@ function getSrc() {
 
 function get(yourUrl) {
     var Httpreq = new XMLHttpRequest(); // a new request
-    Httpreq.open("GET",yourUrl,false);
+    Httpreq.open("GET", yourUrl, false);
     Httpreq.send(null);
-    return Httpreq.responseText;          
+    return Httpreq.responseText;
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -341,7 +371,7 @@ function markDown(str) {
 }
 
 window.popupwindow = function (url, title, w, h) {
-    var left = (screen.width/2)-(w/2);
-    var top = (screen.height/2)-(h/2);
-    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+    var left = (screen.width / 2) - (w / 2);
+    var top = (screen.height / 2) - (h / 2);
+    return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
 } 
