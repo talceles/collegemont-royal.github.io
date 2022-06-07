@@ -28,12 +28,12 @@ function addClickEvent(i) {
     if (cells[i].link) {
         element.onclick = function () { //asign a function
             let link = cells[i].link;
-            if (!cells[i].openURL) {
+            if (!cells[i].openURL && !iOS()) {
                 window.open(`/site/fileview/?t=${cells[i].title}&s=${cells[i].link}`);
             } else {
                 window.open(cells[i].link);
             }
-            
+
         }
     }
 }
@@ -304,6 +304,20 @@ function populateAnnonces(i) {
         }
     });
 }
+
+function iOS() {
+    console.log(navigator.userAgent)
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
 
 function isCategorie(image) {
     if (!image || image === "") {
