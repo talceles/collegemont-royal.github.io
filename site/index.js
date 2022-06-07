@@ -166,8 +166,6 @@ function GenerateHTMLCell(cell, i, cellClass) {
         annonces[i] = JSON.parse(content);
         annonces[i] = sortAnnonces(annonces[i], i);
 
-        console.log(annonces)
-
         if (annonces[i].length > 0) {
             imageCode = imageCode = `<img-container><img src="files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
             subtitle = annonces[i].length + " annonces"
