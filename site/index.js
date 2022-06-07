@@ -306,18 +306,18 @@ function populateAnnonces(i) {
 }
 
 function iOS() {
-    console.log(navigator.userAgent)
-    return [
-      'iPad Simulator',
-      'iPhone Simulator',
-      'iPod Simulator',
-      'iPad',
-      'iPhone',
-      'iPod'
-    ].includes(navigator.platform)
-    // iPad on iOS 13 detection
-    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-  }
+    if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+        return true;
+    } else if (isIpadOS()) {
+        return true;
+    } else {
+        return navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform);
+    }
+}
+
+function isIpadOS() {
+    return navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform);
+}
 
 function isCategorie(image) {
     if (!image || image === "") {
