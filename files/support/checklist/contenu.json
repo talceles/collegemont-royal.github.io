@@ -7,12 +7,14 @@
             "subtitle":"Connectez-vous à votre compte iCloud du collège pour bénéficier de 200 Go de stockage gratuitement. Vérifiez aussi ces étapes si vous avez de la difficulté à installer des applications.\n**Voir comment faire ➜**",
             "image":"/files/support/checklist/images/cl11.png",
             "newPage":true,
-            "link":"",
+            "link":"/files/support/checklist/icloud.json",
             "article":true
         },{
             "title":"Mots de passe",
             "subtitle":"Notez vos mots de passe le plus fréquemment possible pour ne pas les oublier. On vous suggère quelques trucs pour vous faciliter la vie!\n**Voir les astuces ➜**",
             "image":"/files/support/checklist/images/cl21.png",
+            "newPage":true,
+            "link":"/files/support/checklist/passwords.json",
             "article":true
         },{
             "title":"Réseau WiFi au collège",
@@ -23,6 +25,8 @@
             "title":"Sauvegardes Notability",
             "subtitle":"L'application Notability permet de sauvegarder ses notes de plusieurs façons. Nous recommandons d'en utiliser deux. Vérifiez que vous utilisez iCloud et Google Drive pour la sauvegarde automatique.\n**Voir comment faire ➜**",
             "image":"/files/support/checklist/images/cl31.png",
+            "newPage":true,
+            "link":"/files/support/checklist/notability.json",
             "article":true
         }
     ]
