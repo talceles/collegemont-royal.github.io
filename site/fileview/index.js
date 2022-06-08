@@ -43,7 +43,7 @@ function setContent() {
 }
 
 function addSlashIfNeeded(url) {
-    if (!url.startsWith("/")) {
+    if (!url.startsWith("/") && !url.startsWith("http")) {
         return "/" + url;
     }
     return url;
