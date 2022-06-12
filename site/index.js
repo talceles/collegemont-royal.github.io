@@ -29,7 +29,7 @@ function addClickEvent(i) {
         element.onclick = function () { //asign a function
             let link = cells[i].link;
             if (!cells[i].openURL && !iOS()) {
-                window.open(`/site/fileview/?t=${cells[i].title}&s=${cells[i].link}`);
+                window.open(`./site/fileview/?t=${cells[i].title}&s=${cells[i].link}`);
             } else {
                 window.open(cells[i].link);
             }
@@ -42,7 +42,7 @@ function addNewPageEvent(i) {
     var element = document.getElementById(i)
     element.onclick = function () {
         document.getElementsByClassName("topsub")[0].innerHTML = document.getElementsByClassName("title")[0].innerText;
-        history.pushState(cells[i].link, cells[i].title, "/?src=" + cells[i].link);
+        history.pushState(cells[i].link, cells[i].title, "./?src=" + cells[i].link);
         slideLeft()
         shouldAnimate = true;
         setTimeout(function () {
@@ -68,7 +68,7 @@ function addHoverEvent(i) {
 }
 
 document.getElementsByClassName("i")[0].onclick = function () {
-    window.popupwindow("/?src=files/infos.json", 'Application CMR - Informations', 400, 600)
+    window.popupwindow("./?src=files/infos.json", 'Application CMR - Informations', 400, 600)
 };
 
 // CELLS
@@ -279,7 +279,7 @@ function populateAnnonces(i) {
             contentCode += `<img class="openlink" src="site/ressources/openLink.png"/>`
         }
 
-        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('/site/popup/?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
+        annoncesDiv.insertAdjacentHTML("beforeend", `<div class="annonce-wrapper"><annonce id=annonce${i} onclick="popupwindow('./site/popup/?${popUpCode}', 'Babillard', 500, 500);">${contentCode}</annonce></div>`)
 
         const annonceElement = annoncesDiv.lastElementChild.firstElementChild;
         const annonceTextElement = annonceElement.querySelector("textarea");
