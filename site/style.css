@@ -294,8 +294,9 @@ img {
 .article img {
     position: inherit;
     height: auto;
-    padding: 0px 0px;
     width: 100%;
+    max-height: 35vw;
+    padding: 0px 0px;
     display: block;
 }
 
