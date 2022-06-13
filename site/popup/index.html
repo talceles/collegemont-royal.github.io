@@ -29,7 +29,7 @@
             document.getElementById("l").onclick = () => {
                 let urlToOpen = params.get("l")
                 if (urlToOpen.endsWith(".json")) {
-                    urlToOpen = `/?src=${urlToOpen}`
+                    urlToOpen = `./?src=${urlToOpen}`
                 }
                 console.log(addSlashIfNeeded(urlToOpen))
                 window.open(addSlashIfNeeded(urlToOpen), '_blank').focus()
