@@ -6,16 +6,16 @@
             "title":"Section jeunesse"
         },{
             "title":"Romans jeunesse",
-            "image":"/files/bibliotheque/images/onaime.png",
+            "image":"files/bibliotheque/images/onaime.png",
             "newPage":true,
-            "link":"/files/bibliotheque/suggestions/jeunesse.json"
+            "link":"files/bibliotheque/suggestions/jeunesse.json"
         },{
             "title":"Section adulte"
         },{
             "title":"Romans adulte",
-            "image":"/files/bibliotheque/images/onaime.png",
+            "image":"files/bibliotheque/images/onaime.png",
             "newPage":true,
-            "link":"/files/bibliotheque/suggestions/adulte.json"
+            "link":"files/bibliotheque/suggestions/adulte.json"
         }
     ]
 }
