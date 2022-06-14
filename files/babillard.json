@@ -1,9 +1,9 @@
 [
     {
+        "contenu":"files/annonces/CineParc.png",
+        "expiration":"2022-06-18"
+    },{
         "contenu":"files/annonces/suggestionsAnnonce.png",
         "link":"files/bibliotheque/suggestions/contenu.json"
-    },{
-        "contenu":"Pour qu'une annonce expire automatiquement : expiration : AAAA-MM-JJ",
-        "expiration":"1990-01-21"
     }
 ]
