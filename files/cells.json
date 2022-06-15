@@ -30,7 +30,7 @@
             "subtitle":"Consultez notre journal étudiant!",
             "image":"files/images/journal.png",
             "newPage":true,
-            "link":"files/journal/contenu.json"
+            "link":"files/journal/2021-2022.json"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
