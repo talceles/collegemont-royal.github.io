@@ -10,20 +10,20 @@
         },{
             "title":"Édition 2021-2022",
             "subtitle":"",
-            "image":"files/journal/2021-2022/images/basic.png",
-            "link":"files/journal/2021-2022/contenu.json",
+            "image":"https://collegemont-royal.github.io/archives/journal/2021-2022/images/basic.png",
+            "link":"https://collegemont-royal.github.io/archives/journal/2021-2022.json",
             "newPage":true
         },{
             "title":"Édition 2020-2021",
             "subtitle":"",
-            "image":"files/journal/2020-2021/images/basic.png",
-            "link":"files/journal/2020-2021/contenu.json",
+            "image":"https://collegemont-royal.github.io/archives/journal/2020-2021/images/basic.png",
+            "link":"https://collegemont-royal.github.io/archives/journal/2020-2021.json",
             "newPage":true
         },{
             "title":"Édition COVID-19",
             "subtitle":"2020",
-            "image":"files/journal/covid2020/covid.png",
-            "link":"files/journal/covid2020/contenu.json",
+            "image":"https://collegemont-royal.github.io/archives/journal/covid2020/covid.png",
+            "link":"https://collegemont-royal.github.io/archives/journal/covid2020.json",
             "newPage":true
         }
     ]
