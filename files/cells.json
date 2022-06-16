@@ -21,10 +21,9 @@
             "link":"files/bibliotheque/contenu.json"
         },{
             "title":"Cafétéria",
-            "subtitle":"Informations et menu de la cafétéria",
+            "subtitle":"À l'an prochain !",
             "image":"files/images/cafeteria.png",
-            "newPage":true,
-            "link":"files/ecole/cafeteria.json"
+            "tint":"#808080"
         },{
             "title":"Journal Étudiant",
             "subtitle":"Consultez notre journal étudiant!",
