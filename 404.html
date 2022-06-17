@@ -4,7 +4,12 @@
 <head>
 
     <script>
-        fetch("https://webhook-cmr.herokuapp.com/clem?pathname=" + encodeURIComponent(window.location.pathname), { method: 'POST' });
+        fetch(
+            "https://cmr-webhooks.herokuapp.com/404" +
+                "?pathname=" + encodeURIComponent(window.location.pathname) +
+                "&useragent=" + encodeURIComponent(window.navigator.userAgent),
+            { method: "POST" }
+        );
     </script>
 
     <meta charset="UTF-8">
