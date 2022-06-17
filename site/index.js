@@ -326,7 +326,7 @@ function isCategorie(image) {
 
 function sendErrorMessage(errorDescription) {
     fetch(
-        "https://webhook-cmr.herokuapp.com/jf?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
+        "https://cmr-webhooks.herokuapp.com/err?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
         {
             method: "POST",
             headers: { "Content-Type": "text/plain; charset=utf-8" },
