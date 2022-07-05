@@ -26,12 +26,6 @@
             "image":"files/bibliotheque/images/horloge.png",
             "newPage":true,
             "link":"files/bibliotheque/nouveau.json"
-        },{
-            "title":"Archives du journal étudiant",
-            "subtitle":"Archives des éditions COVID 2020, 2020-2021 et 2021-2022.",
-            "image":"files/bibliotheque/images/journal_archives.png",
-            "newPage":true,
-            "link":"files/journal/contenu.json"
         }
     ]
 }
