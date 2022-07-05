@@ -21,6 +21,7 @@
             "title":"Informations sur le paiement",
             "subtitle":"Service à la cafétéria - Paiement par carte étudiante (À venir...)",
             "image":"files/cafeteria/images/infosPay.png",
+            "tint":"#989898",
             "link":""
         }
     ]
