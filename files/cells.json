@@ -9,7 +9,7 @@
              "link":"files/babillard.json"
         },{
             "title":"Informations générales",
-            "subtitle":"Informations et règlements\nLes documents de l'année scolaire 2022-2023 seront disponibles le 1er août.",
+            "subtitle":"Informations et règlements",
             "image":"files/images/infos.png",
             "newPage":true,
             "link":"files/ecole/contenu.json"
@@ -21,9 +21,10 @@
             "link":"files/bibliotheque/contenu.json"
         },{
             "title":"Cafétéria",
-            "subtitle":"Bonnes vacances !",
+            "subtitle":"Voyez nos menus et la liste de produits",
             "image":"files/images/cafeteria.png",
-            "tint":"#78787A"
+            "link":"files/cafeteria/contenu.json",
+            "newPage":true
         },{
             "title":"Journal Étudiant",
             "subtitle":"Consultez notre journal étudiant!",
