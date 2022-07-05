@@ -6,15 +6,15 @@
             "image":"files/images/codedevie.png",
             "link":"files/ecole/cdv.pdf"
         },{
-            "title":"Règlement iPad (1, 2 et 3)",
+            "title":"Règlement iPad (1re à 4e secondaire)",
             "subtitle":"Règles d'utilisation de la tablette électronique iPad",
             "image":"files/images/reglementipad.png",
-            "link":"files/ecole/regles-utilisation-tablette123.pdf"
+            "link":"files/ecole/regles-utilisation-tablette1a4.pdf"
         },{
-            "title":"Règlement iPad (4 et 5)",
+            "title":"Règlement iPad (5e secondaire)",
             "subtitle":"Règles d'utilisation de la tablette électronique iPad",
             "image":"files/images/reglementipad.png",
-            "link":"files/ecole/regles-utilisation-tablette45.pdf"
+            "link":"files/ecole/regles-utilisation-tablette5.pdf"
         }
     ]
 }
