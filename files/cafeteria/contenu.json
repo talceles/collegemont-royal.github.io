@@ -19,10 +19,9 @@
             "link":"files/cafeteria/evenements.pdf"
         },{
             "title":"Informations sur le paiement",
-            "subtitle":"Service à la cafétéria - Paiement par carte étudiante (À venir...)",
+            "subtitle":"Service à la cafétéria - Paiement par carte étudiante)",
             "image":"files/cafeteria/images/infosPay.png",
-            "tint":"#989898",
-            "link":""
+            "link":"files/cafeteria/infosPaiement.pdf"
         }
     ]
 }
