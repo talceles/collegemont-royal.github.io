@@ -3,7 +3,7 @@
     "version":"1.15",
     "cells": [
         {
-            "title":"Babillard",
+            "title":"Babillard test",
              "subtitle":"Aucune annonce. À bientôt !",
              "babillard":true,
              "link":"files/babillard.json"
