@@ -4,7 +4,7 @@
     [
         {
             "title":"Partage de suggestions de lecture du personnel",
-            "subtitle":"Faites le plein d'idées de lecture pour l'été avec les suggestions des enseignants et du personnel au collège!",
+            "subtitle":"Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège!",
             "image":"files/bibliotheque/images/onaime.png",
             "newPage":true,
             "link":"files/bibliotheque/suggestions/contenu.json"
