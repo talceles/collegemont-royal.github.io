@@ -27,10 +27,10 @@
             "newPage":true
         },{
             "title":"Journal Étudiant",
-            "subtitle":"Consultez notre journal étudiant!",
+            "subtitle":"Consultez notre journal étudiant sur le Web !",
             "image":"files/images/journal.png",
-            "newPage":true,
-            "link":"files/journal/contenu.json"
+            "openURL":true,
+            "link":"https://collegemont-royal.qc.ca/journal/"
         },{
             "title":"Support technique",
             "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
