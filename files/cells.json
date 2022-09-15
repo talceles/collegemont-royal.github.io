@@ -33,7 +33,7 @@
             "link":"https://collegemont-royal.qc.ca/journal/"
         },{
             "title":"Support technique",
-            "subtitle":"Contactez l'équipe de support technique du collège et consultez les tutoriels.",
+            "subtitle":"Contactez l'équipe de support technique du collège et consultez les ressources.",
             "image":"files/images/support.png",
             "newPage":true,
             "link":"files/support/contenu.json"

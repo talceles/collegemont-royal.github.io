@@ -4,7 +4,7 @@
     [
         {
             "title":"Partage de suggestions de lecture du personnel",
-            "subtitle":"Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège!",
+            "subtitle":"Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège !",
             "image":"files/bibliotheque/images/onaime.png",
             "newPage":true,
             "link":"files/bibliotheque/suggestions/contenu.json"
@@ -16,13 +16,13 @@
             "openURL":true
         },{
             "title":"Balado littéraire",
-            "subtitle":"Les balados littéraires du comité de la bibliothèque sont disponibles !",
+            "subtitle":"Le balado littéraire signé comité de la bibliothèque explore différents styles littéraires avec des invités spéciaux !",
             "image":"files/bibliotheque/images/balado.png",
             "newPage":true,
             "link":"files/bibliotheque/balado.json"
         },{
             "title":"Nouveautés",
-            "subtitle":"Les livres fraîchement arrivés à la bibliothèque.",
+            "subtitle":"Découvrez ici les nouveaux livres de la bibliothèque. Bonne lecture !",
             "image":"files/bibliotheque/images/horloge.png",
             "newPage":true,
             "link":"files/bibliotheque/nouveau.json"

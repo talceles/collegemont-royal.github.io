@@ -2,22 +2,11 @@
     "title":"Support technique",
     "cells": [
         {
-            "title":"Rencontre technologique",
-            "subtitle":"Vous avez manqué la rencontre ou souhaitez simplement revoir certaines des étapes présentées ? La présentation est disponible ici en format PDF.",
+            "title":"Rentrée technologique",
+            "subtitle":"Rencontre technologique, étapes de configuration de base de l'iPad et tutoriels pour apprendre les fonctions de la tablette.",
             "image":"files/images/horaire.png",
-            "link":"files/support/presentation.pdf"
-        },{
-            "title":"Soyez à jour",
-            "subtitle":"Assurez-vous d’être à jour au niveau technologique en vérifiant ces 4 points !",
-            "image":"files/images/checklist.png",
-            "newPage":true,
-            "link":"files/support/checklist/contenu.json"
-        },{
-            "title":"Tutoriels iPad",
-            "subtitle":"Apprenez à utiliser votre tablette comme un pro!",
-            "image":"files/images/video.png",
-            "newPage":true,
-            "link":"files/support/tutoriels.json"
+            "link":"files/support/rentree.json",
+            "newPage":true
         },{
             "title":"Problèmes fréquents",
             "subtitle":"Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",

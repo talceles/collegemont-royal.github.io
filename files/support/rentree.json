@@ -1,0 +1,24 @@
+{
+    "title":"Rentrée technologique",
+    "topsubtitle":"Support technique",
+    "cells": [
+        {
+            "title":"Rencontre technologique",
+            "subtitle":"Vous avez manqué la rencontre ou souhaitez simplement revoir certaines des étapes présentées ? La présentation est disponible ici en format PDF.",
+            "image":"files/images/horaire.png",
+            "link":"files/support/presentation.pdf"
+        },{
+            "title":"Soyez à jour",
+            "subtitle":"Assurez-vous d’être à jour au niveau technologique en vérifiant ces 4 points !",
+            "image":"files/images/checklist.png",
+            "newPage":true,
+            "link":"files/support/checklist/contenu.json"
+        },{
+            "title":"Tutoriels iPad",
+            "subtitle":"Apprenez à utiliser votre tablette comme un pro !",
+            "image":"files/images/video.png",
+            "newPage":true,
+            "link":"files/support/tutoriels.json"
+        }
+    ]
+}
