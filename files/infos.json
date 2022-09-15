@@ -9,15 +9,9 @@
             "article":true
         },{
             "title":"Application développée par Clément Gauthier",
-            "subtitle":"Ancien élève du collège",
+            "subtitle":"Ancien élève du collège et opérateur en informatique",
             "image":"🙋🏼‍♂️",
             "notification":true
-        },{
-            "title":"Tester la version bêta",
-            "subtitle":"Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
-            "image":"files/images/testflight.png",
-            "link":"https://testflight.apple.com/join/QkygnW3M",
-            "openURL":true
         },{
             "title":"Allez voir mes autres applications !",
             "subtitle":"Ouvrir l'App Store",
@@ -29,6 +23,12 @@
             "subtitle":"Signaler un bogue, suggestions, etc.\n**cgauthier@collegemont-royal.qc.ca**",
             "image":"📨",
             "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
+            "openURL":true
+        },{
+            "title":"Tester la version bêta",
+            "subtitle":"Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
+            "image":"files/images/testflight.png",
+            "link":"https://testflight.apple.com/join/QkygnW3M",
             "openURL":true
         },{
             "title":"© Clément Gauthier",
