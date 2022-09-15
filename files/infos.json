@@ -21,7 +21,7 @@
         },{
             "title":"Contacter le développeur",
             "subtitle":"Signaler un bogue, suggestions, etc.\n**cgauthier@collegemont-royal.qc.ca**",
-            "image":"📨",
+            "image":"📧",
             "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
             "openURL":true
         },{
