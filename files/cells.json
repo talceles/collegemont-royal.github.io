@@ -29,7 +29,6 @@
             "title":"Journal Étudiant",
             "subtitle":"Consultez notre journal étudiant sur le Web !",
             "image":"files/images/journal.png",
-            "openURL":true,
             "link":"https://collegemont-royal.qc.ca/journal/"
         },{
             "title":"Support technique",
