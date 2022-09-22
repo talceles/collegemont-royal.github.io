@@ -3,11 +3,6 @@
     "version":"1.15",
     "cells": [
         {
-            "title":"Sondage sur l’environnement",
-            "subtitle":"Répondez au sondage concernant l’agrandissement de l’école. Merci !",
-            "button_title":"Envoyer une réponse",
-            "tint":"#B6103F"
-        },{
             "title":"Babillard",
             "subtitle":"Aucune annonce. À bientôt !",
             "babillard":true,

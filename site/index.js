@@ -98,6 +98,7 @@ function loadTableView() {
         if (cells[i].article) { classe = classe + " article" }
         if (cells[i].webView) { classe = classe + " webView" }
         if (cells[i].babillard) { classe = classe + " babillard" }
+        if (cells[i].button_title) { classe = classe + " action_button" }
         cells[i].subtitle = markDown(cells[i].subtitle)
 
         document.getElementsByClassName("cells")[0].insertAdjacentHTML("beforeend", GenerateHTMLCell(cells[i], i, classe));
@@ -138,7 +139,7 @@ function fadeIn() {
 function GenerateHTMLCell(cell, i, cellClass) {
 
     let image = cell.image || ""
-    let imageTint = cell.tint || "";
+    let tint = cell.tint || "";
 
     let title = cell.title || ""
     let subtitle = cell.subtitle || ""
@@ -147,8 +148,8 @@ function GenerateHTMLCell(cell, i, cellClass) {
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        if (imageTint != "") {
-            imageCode = `<img-container><img class="maskedimage" src="${emptyImage}" style="-webkit-mask-image: url(${image}); mask-image: url(${image}); background-color: ${imageTint};" id=${image}/></img-container>`
+        if (tint != "" && cell.button_title) {
+            imageCode = `<img-container><img class="maskedimage" src="${emptyImage}" style="-webkit-mask-image: url(${image}); mask-image: url(${image}); background-color: ${tint};" id=${image}/></img-container>`
         } else {
             imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
         }
@@ -178,8 +179,10 @@ function GenerateHTMLCell(cell, i, cellClass) {
 
     } else if (cellClass.indexOf("webView") > 0) {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><iframe src=${cells[i].link}></iframe><button onclick="window.open(${cells[i].link})">Ouvrir en plein écran ➜</button></cell>`
-    } else if (isCategorie(image)) {
+    } else if (isCategorie(cell)) {
         return `<p class="categorie">${title}</p>`
+    } else if (cell.button_title) {
+        return `<cell id = ${i} class="${cellClass}"><description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description><action_button style='background-color: ${cell.tint}'><img src="site/ressources/arrow_send.png"/>${cell.button_title}</action_button></cell>`
     } else {
         return `<cell id = ${i} class="${cellClass}">${imageCode}<description><cell-title>${title}</cell-title><cell-subtitle>${subtitle}</cell-subtitle></description></cell>`
     }
@@ -317,8 +320,10 @@ function isIpadOS() {
     return navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform);
 }
 
-function isCategorie(image) {
-    if (!image || image === "") {
+function isCategorie(cell) {
+    if (cell.button_title) return false
+    if (cell.babillard) return false
+    if (!cell.image || cell.image === "") {
         return true
     }
     return false
