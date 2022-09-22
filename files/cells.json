@@ -4,9 +4,13 @@
     "cells": [
         {
             "title":"Babillard",
-             "subtitle":"Aucune annonce. À bientôt !",
-             "babillard":true,
-             "link":"files/babillard.json"
+            "subtitle":"Aucune annonce. À bientôt !",
+            "babillard":true,
+            "link":"files/babillard.json"
+        },{
+            "title":"Sondage sur l’environnement",
+            "subtitle":"Répondez au sondage concernant l’agrandissement de l’école. Merci !",
+            "button_title":"Envoyer une réponse"
         },{
             "title":"Informations générales",
             "subtitle":"Signalez une absence, un retard ou un départ hâtif ici !",
