@@ -2,14 +2,13 @@
     "title":"Nous joindre",
     "cells": [
         {
-            "title":"Signaler une absence",
-            "subtitle":"Signaler l'absence d'un(e) élève",
+            "title":"Signalez une absence, un retard ou un départ hâtif",
             "image":"files/images/absence.png",
             "link":"tel:5143515596",
             "openURL":true
         },{
             "title":"Téléphone",
-            "subtitle":"Contacter le collège par téléphone",
+            "subtitle":"Contactez le collège par téléphone",
             "image":"files/images/telephone.png",
             "link":"tel:5143517851",
             "openURL":true
