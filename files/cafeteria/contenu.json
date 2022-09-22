@@ -8,6 +8,11 @@
             "link":"files/cafeteria/menuCafeteria.pdf",
             "webView":true
         },{
+            "title":"Informations sur le paiement",
+            "subtitle":"Service à la cafétéria - Paiement par carte étudiante",
+            "image":"files/cafeteria/images/infosPay.png",
+            "link":"files/cafeteria/infosPaiement.pdf"
+        },{
             "title":"Menu petits déjeuners et liste de produits",
             "subtitle":"Bien commencer la journée avec notre offre déjeuners !",
             "image":"files/cafeteria/images/dejeuner.png",
@@ -17,11 +22,6 @@
             "subtitle":"Des évènements culinaires pour découvrir de nouveaux plats !",
             "image":"files/cafeteria/images/evenement.png",
             "link":"files/cafeteria/evenements.pdf"
-        },{
-            "title":"Informations sur le paiement",
-            "subtitle":"Service à la cafétéria - Paiement par carte étudiante",
-            "image":"files/cafeteria/images/infosPay.png",
-            "link":"files/cafeteria/infosPaiement.pdf"
         }
     ]
 }
