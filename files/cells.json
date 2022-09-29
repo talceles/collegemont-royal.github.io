@@ -18,7 +18,8 @@
             "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
             "image":"files/images/bibliotheque.png",
             "newPage":true,
-            "link":"files/bibliotheque/contenu.json"
+            "link":"files/bibliotheque/contenu.json",
+            "analytics_name":"bibliotheque"
         },{
             "title":"Cafétéria",
             "subtitle":"Voyez nos menus et la liste de produits",
