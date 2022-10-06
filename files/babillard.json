@@ -1,17 +1,28 @@
 [
     {
         "contenu":"Le débat des chefs est disponible sur le site Web du journal étudiant ! Cliquez ici pour le visionner. 🗳🎤",
-        "link":"https://collegemont-royal.qc.ca/journal/2022/10/06/debat-des-chefs-2022/"
+        "link":"https://collegemont-royal.qc.ca/journal/2022/10/06/debat-des-chefs-2022/",
+        "expiration":"2022-10-07"
     },{
-        "contenu":"Les candidats du CMR ont été interrogés par nos journalistes, lisez leurs chroniques ici ➡️"
+        "contenu":"Les candidats du CMR ont été interrogés par nos journalistes, lisez leurs chroniques ici ➡️",
+        "expiration":"2022-10-07"
     },{
         "contenu":"🎤 Votez Melissa Idiri pour une année inoubliable!",
-        "link":"https://collegemont-royal.qc.ca/journal/2022/10/05/votez-melissa-idiri-pour-une-annee-inoubliable/"
+        "link":"https://collegemont-royal.qc.ca/journal/2022/10/05/votez-melissa-idiri-pour-une-annee-inoubliable/",
+        "expiration":"2022-10-07"
     },{
         "contenu":"🎤 Pour être bien représenté(e), pour être bien écouté(e), votez Novalie Chevalier!",
-        "link":"https://collegemont-royal.qc.ca/journal/2022/10/05/pour-etre-bien-representee-pour-etre-bien-ecoutee-votez-novalie-chevalier/"
+        "link":"https://collegemont-royal.qc.ca/journal/2022/10/05/pour-etre-bien-representee-pour-etre-bien-ecoutee-votez-novalie-chevalier/",
+        "expiration":"2022-10-07"
     },{
         "contenu":"🎤 Votez Nico pour du nouveau",
-        "link":"https://collegemont-royal.qc.ca/journal/2022/09/30/les-elections/"
+        "link":"https://collegemont-royal.qc.ca/journal/2022/09/30/les-elections/",
+        "expiration":"2022-10-07"
+    },{
+        "contenu":"files/images/babillard/poke1.png",
+        "expiration":"2022-10-12"
+    },{
+        "contenu":"files/images/babillard/poke2.png",
+        "expiration":"2022-10-12"
     }
 ]
