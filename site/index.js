@@ -169,7 +169,7 @@ function GenerateHTMLCell(cell, i, cellClass) {
 
         if (annonces[i].length > 0) {
             imageCode = imageCode = `<img-container><img src="files/images/babillard_fill.png" class="pin-image" id=${image}/></img-container>`
-            subtitle = annonces[i].length + " annonces"
+            subtitle = annonces[i].length + " annonce(s)"
         } else {
             cellClass = cellClass.replaceAll('babillard', '');
             image = "files/images/babillard.png"
