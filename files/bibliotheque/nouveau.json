@@ -3,70 +3,85 @@
     "cells":
     [
         {
-            "title":"Déportation, tome 1 de la série Le tournoi",
-            "subtitle":"**Mégann Plamondon ∙ Livre québécois**\nAfin d’arrêter l’escalade de violence ayant atteint un seuil critique, l’Union Internationale pour la Paix des Nations annonce la création d’un nouveau système de justice. Plus d’un siècle plus tard, Kary est condamnée au Tournoi pour complicité criminelle. Elle devra faire équipe avec Xander, un chef de gang notoire qui a lui-même ajouté son nom à la liste des déportés. Le Tournoi n’est pas une simple prison; c’est un sport de combat tordu où les criminels peuvent racheter leur liberté. Mais pour l’Organisation, l’absolution ne se gagne pas qu’avec les poings. Une seule option : céder le contrôle.",
-            "image":"https://images.renaud-bray.com/images/PG/3493/3493918-gf.jpg"
+            "title":"Virginia Woolf",
+            "subtitle":"**Liuba Gabriele**\nDébutant le jour de son suicide, cette bande dessinée retrace le parcours et l'oeuvre de l'écrivaine britannique à travers ses réflexions et celles de ses proches, tels que sa soeur Vanessa ou son époux Leonard.",
+            "image":"https://images.renaud-bray.com/images/PG/3653/3653084-gf.jpg"
         },{
-            "title":"Toucher les étoiles",
-            "subtitle":"**Frédérick Wolfe ∙ Livre québécois**\nIl y a deux choses que Madeleine adore : ses cours de ballet et le trampoline de son amie. Des joies toutes simples, bien loin de la soif de performance qui anime son père. Pour lui, ce qui compte vraiment, c’est d’être le meilleur dans toutes les sphères de sa vie, et cela vaut aussi pour sa femme et sa fille.",
-            "image":"https://images.renaud-bray.com/images/PG/3589/3589955-gf.jpg"
+            "title":"Une insolente curiosité",
+            "subtitle":"**Lynn Messina**\nAu cours d'une fête, Beatrice Hyde-Clare trébuche sur le cadavre de monsieur Otley dans la bibliothèque de la demeure des Skeffington. Prête à tout pour découvrir le coupable, elle n'hésite pas à questionner les invités ainsi que le duc de Kesgrave.",
+            "image":"https://images.renaud-bray.com/images/PG/3680/3680170-gf.jpg"
         },{
-            "title":"Le camping de la mort",
-            "subtitle":"**Thibault Vermot ∙ Roman jeunesse**\nThibald, 13 ans, part camper sans ses parents pour la première fois, accompagné de ses amis, Juliette et les jumeaux Tom et Sacha. Juliette arrive avec Aymeric, ce qui contrarie le jeune garçon. En effet, Thibald trouve qu'Aymeric a un comportement étrange. Il peint sans cesse des créatures fantastiques sur des cartes.",
-            "image":"https://images.renaud-bray.com/images/PG/3429/3429876-gf.jpg"
+            "title":"Les Villes de papier",
+            "subtitle":"**Dominique Fortier**\nElle est tour à tour visage, masque, maison, ville tout entière, énigme, absence.Figure mythique des lettres américaines, Emily Dickinson demeure encore aujourd’hui un mystère. Celle que l’on surnommait « la dame en blanc » a toujours refusé de rendre sa poésie publique ; on s’entend pourtant maintenant à voir en elle un des écrivains les plus importants du dix-neuvième siècle.Les villes de papier explore son existence de l’intérieur, en mode mineur, à travers ses livres, son jardin et ses fantômes. Autour de moments de la vie d’Emily, Dominique Fortier (Au péril de la mer, prix littéraire du Gouverneur général) trace un roman à la fois grave et cristallin, et nous offre une réflexion d’une profonde justesse sur les mondes qui nous construisent, sur les lieux que nous habitons et qui nous habitent aussi....",
+            "image":"https://images.renaud-bray.com/images/PG/3216/3216444-gf.jpg"
         },{
-            "title":"Maudite poupée",
-            "subtitle":"**Amélie Antoine∙ Roman jeunesse**\nThaïs, 12 ans, et sa soeur Margot, 11 ans, sont très proches et ont toujours joué ensemble. Alors qu'elles sont en vacances, Margot trouve une vieille poupée. Bientôt, elle ne quitte plus son nouveau jouet qu'elle a prénommé Rosemonde. Thaïs se méfie de cette poupée au regard intense qui semble la surveiller.",
-            "image":"https://images.renaud-bray.com/images/PG/3429/3429877-gf.jpg"
+            "title":"À quoi rêvent les étoiles",
+            "subtitle":"**Manon Fargetton**\nTitouan reste cloîtré dans sa chambre, Alix ne pense qu'au théâtre, Luce est inconsolable depuis la mort de son mari, Gabrielle est incapable de s'engager de peur de perdre sa liberté tandis qu'Armand se consacre exclusivement à sa fille. Cinq personnages en quête de sens dont les destins s'entrelacent.",
+            "image":"https://images.renaud-bray.com/images/PG/3704/3704454-gf.jpg"
         },{
-            "title":"Le musée des tortures",
-            "subtitle":"**Rachel Corenblit ∙ Roman jeunesse**\nLors de la visite scolaire de la cité de Carcassonne, Léo se retrouve dans le groupe des losers dont fait partie son ancien copain Adrien. L'ambiance entre eux est électrique, jusqu'au moment où une inconnue les invite à visiter le musée des tortures. Les adolescents acceptent sans savoir qu'un piège se referme sur eux. Pour en sortir vivants, ils doivent faire preuve de solidarité.",
-            "image":"https://images.renaud-bray.com/images/PG/3528/3528699-gf.jpg"
+            "title":"Champollion et l&#39;énigme des hiéroglyphes",
+            "subtitle":"**Viviane Koenig**\nJean-François Champollion est un élève surdoué dès 11 ans, qui rêve de résoudre l'énigme des hiéroglyphes. Il se promet de percer le secret de la pierre de Rosette malgré la difficulté et la concurrence sévère que lui opposent Silvestre de Sacy, Askerblad, Young et bien d'autres.",
+            "image":"https://images.renaud-bray.com/images/PG/3704/3704441-gf.jpg"
         },{
-            "title":"Né coupable",
-            "subtitle":"**Florence Cadier ∙ Roman jeunesse**\nEn mars 1944, la ségrégation bat son plein en Caroline du Sud. George Stinney, jeune Afro-Américain de 14 ans, est arrêté pour le meurtre de deux fillettes blanches. Le garçon, qui reconnaît les avoir croisées quelques heures avant leur disparition, est le coupable idéal aux yeux du shérif. Interrogé et poussé à signer des aveux dont il ne comprend pas le sens, il est condamné à mort.",
-            "image":"https://images.renaud-bray.com/images/PG/3329/3329050-gf.jpg"
+            "title":"Médias toxiques",
+            "subtitle":"**Pierre-Alexandre Bonin**\nTu soupçonnes un groupe de médias de contrôler l'information en\ndiffusant de fausses nouvelles. Tu as besoin de preuves pour révéler\nce scandale. Mais la recherche de la vérité n'est pas sans risque...",
+            "image":"https://images.renaud-bray.com/images/PG/3484/3484282-gf.jpg"
         },{
-            "title":"La Guêpe, tome 1 de la série Parasite",
-            "subtitle":"**Marie-Ève Bourassa ∙ Livre québécois**\nBillie vit avec son père dans une petite ville minière des Cantons-de-l'Est. Depuis quelque temps, toutes sortes d'événements bizarres et inquiétants ont lieu à l'école qu'elle fréquente. Après la mort de son ami Antoine Rivard dans des circonstances louches, Billie comprend qu'elle ne pourra plus se cacher. La Guêpe, mystérieuse appli qui semble se nourrir de la vie privée des jeunes – et de leur fascination pour la vie privée des autres –, lance aux ados du coin des défis de plus en plus périlleux... Qui est vraiment l'inquiétant parasite? La mort de leur camarade était-elle vraiment un suicide? Billie, Greg, Zach, Kat et Steeven n'étaient pas forcément faits pour s'entendre, mais ils n'auront pas le choix de s'unir pour tenter de comprendre ce qui est arrivé à Antoine, et quel rôle a bien pu y jouer la Guêpe.",
-            "image":"https://images.renaud-bray.com/images/PG/3342/3342824-gf.jpg"
+            "title":"Des choses formidables",
+            "subtitle":"**Susin Nielsen**\nWilbur a deux mères très protectrices, ce qui est beaucoup. Et deux amis, ce qui est peu. Surtout que l’un deux passe la majorité de son temps avec son nouvel amoureux, et que l’autre est son voisin de 80 ans. En plus, un événement gênant survenu deux ans auparavant a fait de lui l’éternelle cible de moqueries ; on peut comprendre que son estime personnelle soit fragile. Les choses ne s’arrangent pas lorsque Wilbur tombe amoureux de Charlie, l’ado parisienne qu’il accueille dans le cadre d’un échange étudiant, et que ce n’est pas réciproque. Quand vient son tour de s’envoler pour Paris, le moral est au plus bas. Ses amis mettent alors tout en œuvre pour que Wilbur se fasse enfin confiance.",
+            "image":"https://images.renaud-bray.com/images/PG/3535/3535697-gf.jpg"
         },{
-            "title":"Les fourmis, tome 2 de la série Parasite",
-            "subtitle":"**Marie-Ève Bourassa ∙ Livre québécois**\nLa mort de leur ami Antoine Rivard continue de hanter Billie, Zach, Steeven, Greg et Kat. D’autant plus que le mystère ne cesse de s’épaissir. Billie doit tenter de comprendre quel rôle sa propre famille et celle de Zach Plamondon (qu’elle aimerait tant ne pas trouver aussi irrésistible !) ont pu jouer dans le drame... C’est sans parler de la réapparition inattendue de sa mère, qu’elle n’avait pas vue depuis deux ans et dont le passé se révèle de plus en plus louche, ainsi que du comportement étrange que le deuil semble faire adopter au frère du défunt Antoine, le charmant mais inquiétant Oli. Et que dire du silence soudain de la Guêpe, mystérieuse appli qui semble se nourrir de la vie privée des jeunes de Saint-François-de-l’Avenir – et de leur fascination pour la vie privée des autres – en leur lançant des défis de plus en plus périlleux? Un silence inquiétant, qui donne l’impression qu’un retour en force du frelon maléfique plane comme une épée de Damoclès au-dessus de la tête de Billie, Zach et des autres.",
-            "image":"https://images.renaud-bray.com/images/PG/3503/3503171-gf.jpg"
+            "title":"On ne tire pas sur les fleurs pour qu&#39;elles poussent #01",
+            "subtitle":"**Catherine Girard-Audet**\n<p>Il aura fallu deux sessions d’université, vingt-quatre crédits et un cours sur le constructivisme (zzz) pour que Juliette Papillon comprenne qu’elle a fait fausse route. Un constat plutôt angoissant pour une fille qui aime savoir où elle s’en va. Comment faire pour trouver qui l’on est et ce que l’on veut quand on navigue dans le brouillard en se remettant de la plus grosse peine d’amour de l’histoire de l’humanité ? </p>",
+            "image":"https://images.renaud-bray.com/images/PG/3749/3749291-gf.jpg"
         },{
-            "title":"L'après",
-            "subtitle":"**Émilie Ouellette ∙ Livre québécois**\nPour survivre dans un monde sans adultes, il faut savoir se défendre... et créer des alliances! Une pandémie mondiale tue tous les adultes de la planète. Les enfants, uniques survivants de cette tragédie, doivent se débrouiller pour rester en vie dans cet univers où les seules lois sont celles imposées par les clans qui se sont formés. D'un côté, il y a celui de Margot et ses jeunes soeurs, Skye la téméraire et Charlie la candide, rejoint par leurs voisins, Karim et Naïm ; de l'autre, celui de Vincent, le plus impulsif et cruel d'entre tous, avec sa cousine Stella et leurs amis, Max, Jules, Hugo et Océane. Depuis huit mois, la bande de Vincent règne sur le quartier. Elle détient le monopole de la nourriture, et les autres enfants doivent se plier à ses exigences pour en obtenir. Un matin, Vincent surprend Skye, partie en mission de ravitaillement, en train de maltraiter son chien... mort! Il est alors convaincu qu'elle l'a froidement assassiné. Pour se venger, il kidnappe Charlie, 6 ans, dans l'espoir de torturer Skye. Une guerre éclate alors entre les bandes rivales. Mais lors d'une ultime confrontation, un traître se révèle : il cherche à éliminer tout le monde afin de prendre le contrôle du territoire. Pour survivre à cet ennemi commun, l'unique solution pour les deux clans est de s'allier!",
-            "image":"https://images.renaud-bray.com/images/PG/3512/3512944-gf.jpg"
+            "title":"Rap pour violoncelle seul",
+            "subtitle":"**Maryse Pagé**\nCondamné à effectuer des travaux communautaires, Malik se retrouve dans une résidence pour aînés auprès d'un vieil homme détestable qu'il n'a nulle envie de connaître. Sous la petite délinquance de l'un et l'aigreur de l'autre se cache une sensibilité qui, peu à peu, transformera cette relation forcée en amitié sincère.",
+            "image":"https://images.renaud-bray.com/images/PG/3035/3035041-gf.jpg"
         },{
-            "title":"Carmet de bord d'un (aspirant) chef de meute",
-            "subtitle":"**Simon Lafrance ∙ Livre québécois**\nÉmile est amoureux de la belle Maëva. À son grand désarroi, elle lui est hors d'atteinte, car dans la hiérarchie sociale de son école secondaire, il est le numéro huit mille (minimum).En regardant un documentaire sur les meutes de loups, Émile comprend que sa situation n'est pas désespérée. De mâle bêta, il doit passer à mâle alpha pour conquérir sa dulcinée.Il concocte donc un plan sérieux et détaillé devant le mener au sommet de l'école... avec Maëva à son bras.",
-            "image":"https://images.renaud-bray.com/images/PG/3327/3327514-gf.jpg"
+            "title":"La Voix de la nature",
+            "subtitle":"**Gabrielle Boulianne-Tremblay**\nJe suis une peinture à numéro.\nBien que mes parents aient dessiné\nmes contours ensemble,\nc'est à moi de me remplir\navec mes propres couleurs.\nEt tant pis si des gens trouvent\nque celles que j'ai choisies sont douteuses.\nParce que j'ai la certitude de vouloir\nêtre heureuse moi aussi.",
+            "image":"https://images.renaud-bray.com/images/PG/3582/3582857-gf.jpg"
         },{
-            "title":"Dix",
-            "subtitle":"**Marine Carteron ∙ Lecture avancée**\nSept adolescents et trois adultes partent sur une île coupée du monde pour participer à un escape game littéraire diffusé à la télévision en prime time. Les candidats meurent un par un. C'est le début d'une lutte sans merci pour survivre.",
-            "image":"https://images.renaud-bray.com/images/PG/2800/2800630-gf.jpg"
+            "title":"L&#39;Affaire Alaska Sanders",
+            "subtitle":"**Joel Dicker**\nAvril 1999, à Mount Pleasant, dans le New Hampshire. Le corps d'Alaska Sanders est découvert près d'un lac. Onze ans plus tard, l'affaire prend une nouvelle tournure lorsque le sergent Perry Gahalowood, convaincu d'avoir élucidé le crime à l'époque, reçoit une lettre anonyme troublante. Avec l'aide de son ami Marcus Goldman, il tente de faire la lumière sur ce meurtre.",
+            "image":"https://images.renaud-bray.com/images/PG/3604/3604044-gf.jpg"
         },{
-            "title":"La maison de poupées",
-            "subtitle":"**Bettty Ren Wright ∙ Lecture avancée**\nEn vacances chez sa tante, Amy découvre une superbe maison de poupées dans le grenier. Une fois la nuit tombée, elle entend des bruits étranges et aperçoit la petite maison. Le lendemain, elle trouve une poupée allongée sur un lit et l'autre cachée dans le placard. Elle enquête alors pour percer leur secret.",
-            "image":"https://images.renaud-bray.com/images/PG/3564/3564838-gf.jpg"
+            "title":"La Cité des nuages et des oiseaux",
+            "subtitle":"**Anthony Doerr**\nEn 1453, Anna, orpheline, est brodeuse à Constantinople alors que le sultan Mehmet II s'apprête à attaquer la ville. En 2020, dans une bibliothèque de l'Idaho, Zeno Ninis fait répéter des comédiens sans savoir qu'il est sur le point de croiser la route d'un jeune terroriste. Dans un futur indéfini, Konstance, 14 ans, vit à bord d'une capsule spatiale. Ces personnages sont liés par un même texte.\n",
+            "image":"https://images.renaud-bray.com/images/PG/3737/3737151-gf.jpg"
         },{
-            "title":"Fab",
-            "subtitle":"**Émilie Ouellette ∙ Livre québécois**\nFab a le souffle coupé. Face à la foule, dans la patinoire d'impro, elle a la bouche ouverte, mais aucun son n'en sort. Elle repense à tout ce qui s'est passé dernièrement: ses mères qui se sont séparées, le déménagement, sa rentrée au secondaire dans une école qu'elle n'a pas choisie. Rien ne fonctionne comme elle l'avait prévu!Les gens l'observent et attendent qu'elle dise quelque chose. Son cœur bat très fort dans ses oreilles. Elle qui n'a jamais pensé faire de l'improvisation de sa vie, s'est retrouvée inscrite dans ce cours... Et maintenant, devant cette foule, elle doit décider de la suite des choses: figer ou foncer!",
-            "image":"https://images.renaud-bray.com/images/PG/3356/3356961-gf.jpg"
+            "title":"Filles de la mer",
+            "subtitle":"**Mary Lynn Bracht**\nEn 1943, Hana, une jeune Coréenne, est enlevée par un soldat japonais alors quelle voulait protéger sa soeur, Emi. Déportée en Mandchourie, elle devient femme de réconfort au service de l'armée nippone. Premier roman.",
+            "image":"https://images.renaud-bray.com/images/PG/2763/2763923-gf.jpg"
         },{
-            "title":"Piège infernal",
-            "subtitle":"**Paul Roux ∙ Livre québécois**\nTu reçois une série de messages inquiétants. Tu te sens menacé sans savoir qui te persécute. Au fil des indices, tu deviens la cible d'une sombre affaire. Un piège se referme lentement sur toi et met ta vie en danger.",
-            "image":"https://images.renaud-bray.com/images/PG/2897/2897259-gf.jpg"
+            "title":"Florida",
+            "subtitle":"**Olivier Bourdeaut**\nEnfant, Elizabeth est une mini-miss exploitée par sa mère. Au fil des concours, la fillette ressent de plus en plus de rancoeur envers ses parents. Comprenant qu'il lui faut maîtriser son corps si elle veut être maître de son destin, la jeune femme entame sa transformation physique tout en préparant sa vengeance.",
+            "image":"https://images.renaud-bray.com/images/PG/3683/3683004-gf.jpg"
         },{
-            "title":"Ondes virales",
-            "subtitle":"**Kurt Martin∙ Livre québécois**\nTu assistes à un cours à distance quand un bref message t'interpelle. Si au début tu penses à une mauvaise blague, l'affaire se complique. Plusieurs jeunes disparaissent et il semblerait que tu sois le prochain sur la liste.",
-            "image":"https://images.renaud-bray.com/images/PG/3284/3284436-gf.jpg"    
+            "title":"Kuessipan",
+            "subtitle":"**Naomi Fontaine**\nKuessipan est un livre bouleversant qui nous fait découvrir le quotidien sur une réserve innue. C'est avec la grâce et la justesse d'une langue éblouissante que l'auteure Naomi Fontaine évoque cette réalité. Kuessipan : mot innu signifiant « à toi » ou « à ton tour ». Ce sont des lieux, des visages connus et aimés. Des chasseurs nomades. Des pêcheurs nostalgiques. Des portraits. Des vies autour de la baie qui reflète les choses de la Terre. Les lièvres. La banique. Les rituels. Les tambours en peau de caribou qui font danser les femmes. Des enfants qui grandissent. Des vieux qui regardent passer le temps. Des saumons à pêcher. Des épinettes. Des barrières visibles et invisibles. Des plaisirs éphémères. De l'alcool qui éclate les cervelles. Des souvenirs. Des voyages en train. Et surtout l'évidence que la vie est cet ensemble de morceaux à emboîter pour que naisse la symphonie....",
+            "image":"https://images.renaud-bray.com/images/PG/2295/2295063-gf.jpg"
         },{
-            "title":"Bilbo le Hobbit",
-            "subtitle":"**J.R.R Tolkien ∙ Roman graphique**\nBilbo Sacquet, un Hobbit vivant à la Comté, voit un jour arriver chez lui le magicien Gandalf accompagné de treize nains. Ces derniers désirent retrouver leur trésor volé par le dragon Smaug, et demandent à Bilbo de les aider. Commence alors pour le paisible Hobbit la plus grande aventure de son existence.",
-            "image":"https://images.renaud-bray.com/images/PG/1052/1052684-gf.jpg"
-        
-        }    
+            "title":"Loop, The",
+            "subtitle":"**Ben Oliver**\n\"A terrifying futurescape at the heart-stopping intersection of The Matrix and The Maze Runner, kicking off a trilogy sure to prove dystopian sci-fi still has more to offer.\" -- BooklistLife inside The Loop--the futuristic death row for teens under eighteen--is one long repetitive purgatory. But when news of the encroaching chaos in the outside world reaches the inmates and disorder begins to strike, the prison becomes the least of their worries. Perfect for fans of The Fifth Wave and The Maze Runner.\nIt's Luka Kane's sixteenth birthday and he's been inside The Loop for over two years. Every inmate is serving a death sentence with the option to push back their execution date by six months if they opt into \"Delays\", scientific and medical experiments for the benefit of the elite in the outside world.But rumors of a war on the outside are spreading amongst the inmates, and before they know it, their tortuous routine becomes disrupted. The government issued rain stops falling. Strange things are happening to the guards. And it's not long until the inmates are left alone inside the prison.Were the chains that shackled Luka to his cell the only instruments left to keep him safe? In a thrilling shift, he must overcome fellow prisoners hell-bent on killing him, the warden losing her mind, the rabid rats in the train tunnels, and a population turned into murderous monsters to try and break out of The Loop, save his family, and discover who is responsible for the chaos that has been inflicted upon the world....",
+            "image":"https://images.renaud-bray.com/images/PG/3393/3393369-gf.jpg"
+        },{
+            "title":"Robot sauvage",
+            "subtitle":"**Peter Brown**\nUn cargo transportant des robots fait naufrage. Seul rescapé, l'un d'entre eux, Rozzoum unité 7134, échoue sur une île. Après avoir subi un violent orage et échappé à l'attaque d'un ours, il comprend qu'il doit s'adapter à son environnement s'il veut survivre.",
+            "image":"https://images.renaud-bray.com/images/PG/2953/2953567-gf.jpg"
+        },{
+            "title":"Maman veut partir",
+            "subtitle":"**Jonathan Bécotte**\nOeuvre tout en finesse, écrite sous forme de poèmes, Maman veut partir raconte la joie des premières années de l’enfance, l’amour des parents, puis, doucement, l’éloignement de la mère. C’est l’histoire d’une séparation – celle des parents –, mais aussi celle d’une maladie qui emportera la mère. Le jeune narrateur, sans saisir pleinement ce qui est train de se produire, relate de manière ingénue et poétique ces événements auxquels il est confronté.\n",
+            "image":"https://images.renaud-bray.com/images/PG/2390/2390149-gf.jpg"
+        },{
+            "title":"L&#39;Année où je suis devenue ado",
+            "subtitle":"**Nora Dasnes**\nDe retour de vacances, Emma a hâte de retrouver ses meilleures amies, Linnéa et Bao. Mais rien ne se passe comme prévu, Linnéa a désormais un copain et Bao ne l'accepte pas. Face à ces changements, Emma ne sait pas comment réagir et se pose de nombreuses questions sur l'adolescence.",
+            "image":"https://images.renaud-bray.com/images/PG/3443/3443639-gf.jpg"
+        },{
+            "title":"Pearl et le monstre marin",
+            "subtitle":"**Anthony Silverston &Amp; Al**\nPearl vit entre l'absence d'une mère disparue et les difficultés financières d'un père ne parvenant pas à trouver du travail. Elle s'évade grâce à la plongée sous-marine. Un jour, elle découvre une pieuvre géante réfugiée dans une grotte. Elle baptise l'animal Otto et noue une amitié forte avec lui. Mais les braconniers et les marins du village veulent s'en débarrasser.\n",
+            "image":"https://images.renaud-bray.com/images/PG/3733/3733079-gf.jpg"
+        }        
     ]
 }
