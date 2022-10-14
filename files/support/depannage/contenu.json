@@ -23,6 +23,24 @@
             "tint":"#3F4A75",
             "newPage":true,
             "link":"files/support/depannage/systeme.json"
+        },{
+            "title":"Mots de passe",
+            "subtitle":"Notez vos mots de passe pour ne pas les oublier. On vous suggère quelques trucs pour vous faciliter la vie!\n**Voir les astuces ➜**",
+            "image":"files/support/images/passwords.png",
+            "newPage":true,
+            "link":"files/support/depannage/passwords.json"
+        },{
+            "title":"Sauvegardes Notability",
+            "subtitle":"L'application *Notability* permet de sauvegarder ses notes de plusieurs façons. Nous recommandons d'en utiliser deux. Vérifiez que vous utilisez iCloud et Google Drive pour la sauvegarde automatique.\n**Voir comment faire ➜**",
+            "image":"files/support/images/backup.png",
+            "newPage":true,
+            "link":"files/support/depannage/notability.json"
+        },{
+            "title":"Tutoriels iPad",
+            "subtitle":"Apprenez à utiliser votre tablette comme un pro !",
+            "image":"files/images/video.png",
+            "newPage":true,
+            "link":"files/support/tutoriels.json"
         }
     ]
 }

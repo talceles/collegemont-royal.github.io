@@ -2,11 +2,10 @@
     "title":"Support technique",
     "cells": [
         {
-            "title":"Rentrée technologique",
-            "subtitle":"Rencontre technologique, étapes de configuration de base de l'iPad et tutoriels pour apprendre les fonctions de la tablette.",
+            "title":"Rencontre technologique",
+            "subtitle":"Vous avez manqué la rencontre ou souhaitez simplement revoir certaines des étapes présentées ? La présentation est disponible ici en format PDF.",
             "image":"files/images/horaire.png",
-            "link":"files/support/rentree.json",
-            "newPage":true
+            "link":"files/support/presentation.pdf"
         },{
             "title":"Dépannage",
             "subtitle":"Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",
