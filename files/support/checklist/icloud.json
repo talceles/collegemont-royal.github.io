@@ -7,12 +7,12 @@
         },{
             "title":"Ces étapes sont destinées aux élèves n’ayant pas de forfait iCloud + ou de partage familial",
             "subtitle":"Si vous ou un membre de votre partage familial iCloud avez déjà un abonnement à iCloud +, ces étapes ne sont pas nécessaires et ne sont pas recommandées.",
-            "image":"files/support/checklist/images/person.png",
+            "image":"files/support/images/person.png",
             "notification":true
         },{
             "title":"Le compte iCloud du collège sera supprimé au terme de votre parcours d’études secondaires",
             "subtitle":"Il n’est pas recommandé d’y garder toutes vos précieuses photos, car vous devrez les exporter avant votre départ du collège.",
-            "image":"files/support/checklist/images/person2.png",
+            "image":"files/support/images/person2.png",
             "notification":true
         },{
             "title":"Marche à suivre"

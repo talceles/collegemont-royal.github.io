@@ -1,0 +1,28 @@
+{
+    "topsubtitle":"Support technique",
+    "title":"Dépannage",
+    "cells": [
+        {
+            "title":"Problèmes de connexion",
+            "subtitle":"Problèmes avec une connexion internet, AirPlay ou l'application Safari",
+            "image":"files/support/images/wifi.png",
+            "tint":"#3F4A75",
+            "newPage":true,
+            "link":"files/support/depannage/connexion.json"
+        },{
+            "title":"Problèmes de iCloud",
+            "subtitle":"Stockage iCloud saturé, impossible de télécharger une application, problème de blocage Mosyle...",
+            "image":"files/support/images/person.png",
+            "tint":"#3F4A75",
+            "newPage":true,
+            "link":"files/support/depannage/compte.json"
+        },{
+            "title":"Problèmes du système",
+            "subtitle":"Problèmes de lenteur, de son ou de stockage iPad",
+            "image":"files/support/images/stockage.png",
+            "tint":"#3F4A75",
+            "newPage":true,
+            "link":"files/support/depannage/systeme.json"
+        }
+    ]
+}

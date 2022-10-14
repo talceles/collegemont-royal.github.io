@@ -1,0 +1,19 @@
+{
+    "topsubtitle":"Support technique",
+    "title":"Problèmes de compte",
+    "cells": [
+        {
+            "title":"Stockage iCloud",
+            "subtitle":"*Pour libérer de l'espace de stockage dans iCloud.*\n**Rendez-vous dans Réglages > Votre nom (en haut) > iCloud > Gérer le stockage du compte**\nIci, vous pouvez voir quelles données utilisent le plus d'espace. Supprimez les données dont vous n'avez plus besoin.",
+            "image":"files/support/images/stockage.png"
+        },{
+            "title":"Mosyle",
+            "subtitle":"*Pour régler les problèmes d'applications bloquées sur les iPads*\n**1 - Mettre à jour les profils**\nOuvrez l'application Manager et cliquez sur le bouton 'Update' dans le coin supérieur droit.\n**2 - Redémarrez votre iPad**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
+            "image":"files/support/images/mozyle.png"
+        },{
+            "title":"Pour tout autre problème",
+            "subtitle":"**Redémarrez votre appareil**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
+            "image":"files/support/images/autre-2.png"
+        }
+    ]
+}

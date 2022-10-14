@@ -8,16 +8,16 @@
             "link":"files/support/rentree.json",
             "newPage":true
         },{
-            "title":"Problèmes fréquents",
+            "title":"Dépannage",
             "subtitle":"Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",
             "image":"files/images/ampoule.png",
             "newPage":true,
-            "link":"files/support/solutions.json"
+            "link":"files/support/depannage/contenu.json"
         },{
             "title":"Applications disponibles",
             "subtitle":"La liste des applications débloquées sur les iPads durant les heures de classe.",
             "image":"files/images/applications.png",
-            "link":"site/mozyle/applications",
+            "link":"site/mosyle",
             "openURL":true
         },{
             "title":"Contacter le support technique",

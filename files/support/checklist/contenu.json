@@ -5,7 +5,8 @@
         {
             "title":"Réseau WiFi au collège",
             "subtitle":"Le réseau WiFi adéquat au collège vous permet d’imprimer à la bibliothèque et d’avoir une connexion rapide et stable. Vérifiez que vous êtes connecté au réseau **College Mont Royal**. Le nom d’utilisateur est votre numéro d’élève et le mot de passe est votre date de naissance (AAAAMMJJ).",
-            "image":"files/support/checklist/images/wifi.png",
+            "image":"files/support/images/wifi.png",
+            "tint":"#3F4A75",
             "notification":true
         },{
             "title":"Compte iCloud du collège",

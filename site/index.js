@@ -148,7 +148,7 @@ function GenerateHTMLCell(cell, i, cellClass) {
 
     if (image.indexOf(".") > 0) {
         // IMAGE IS LINK
-        if (tint != "" && cell.button_title) {
+        if (tint != "" && !cell.button_title) {
             imageCode = `<img-container><img class="maskedimage" src="${emptyImage}" style="-webkit-mask-image: url(${image}); mask-image: url(${image}); background-color: ${tint};" id=${image}/></img-container>`
         } else {
             imageCode = `<img-container><img src="${image}" id=${image}/></img-container>`
