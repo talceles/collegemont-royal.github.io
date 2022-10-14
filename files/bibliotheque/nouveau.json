@@ -3,18 +3,6 @@
     "cells":
     [
         {
-            "title":"Virginia Woolf",
-            "subtitle":"**Liuba Gabriele**\nDébutant le jour de son suicide, cette bande dessinée retrace le parcours et l'oeuvre de l'écrivaine britannique à travers ses réflexions et celles de ses proches, tels que sa soeur Vanessa ou son époux Leonard.",
-            "image":"https://images.renaud-bray.com/images/PG/3653/3653084-gf.jpg"
-        },{
-            "title":"Une insolente curiosité",
-            "subtitle":"**Lynn Messina**\nAu cours d'une fête, Beatrice Hyde-Clare trébuche sur le cadavre de monsieur Otley dans la bibliothèque de la demeure des Skeffington. Prête à tout pour découvrir le coupable, elle n'hésite pas à questionner les invités ainsi que le duc de Kesgrave.",
-            "image":"https://images.renaud-bray.com/images/PG/3680/3680170-gf.jpg"
-        },{
-            "title":"Les Villes de papier",
-            "subtitle":"**Dominique Fortier**\nElle est tour à tour visage, masque, maison, ville tout entière, énigme, absence.Figure mythique des lettres américaines, Emily Dickinson demeure encore aujourd’hui un mystère. Celle que l’on surnommait « la dame en blanc » a toujours refusé de rendre sa poésie publique ; on s’entend pourtant maintenant à voir en elle un des écrivains les plus importants du dix-neuvième siècle.Les villes de papier explore son existence de l’intérieur, en mode mineur, à travers ses livres, son jardin et ses fantômes. Autour de moments de la vie d’Emily, Dominique Fortier (Au péril de la mer, prix littéraire du Gouverneur général) trace un roman à la fois grave et cristallin, et nous offre une réflexion d’une profonde justesse sur les mondes qui nous construisent, sur les lieux que nous habitons et qui nous habitent aussi....",
-            "image":"https://images.renaud-bray.com/images/PG/3216/3216444-gf.jpg"
-        },{
             "title":"À quoi rêvent les étoiles",
             "subtitle":"**Manon Fargetton**\nTitouan reste cloîtré dans sa chambre, Alix ne pense qu'au théâtre, Luce est inconsolable depuis la mort de son mari, Gabrielle est incapable de s'engager de peur de perdre sa liberté tandis qu'Armand se consacre exclusivement à sa fille. Cinq personnages en quête de sens dont les destins s'entrelacent.",
             "image":"https://images.renaud-bray.com/images/PG/3704/3704454-gf.jpg"
@@ -43,6 +31,34 @@
             "subtitle":"**Gabrielle Boulianne-Tremblay**\nJe suis une peinture à numéro.\nBien que mes parents aient dessiné\nmes contours ensemble,\nc'est à moi de me remplir\navec mes propres couleurs.\nEt tant pis si des gens trouvent\nque celles que j'ai choisies sont douteuses.\nParce que j'ai la certitude de vouloir\nêtre heureuse moi aussi.",
             "image":"https://images.renaud-bray.com/images/PG/3582/3582857-gf.jpg"
         },{
+            "title":"Loop, The",
+            "subtitle":"**Ben Oliver**\n\"A terrifying futurescape at the heart-stopping intersection of The Matrix and The Maze Runner, kicking off a trilogy sure to prove dystopian sci-fi still has more to offer.\" -- BooklistLife inside The Loop--the futuristic death row for teens under eighteen--is one long repetitive purgatory. But when news of the encroaching chaos in the outside world reaches the inmates and disorder begins to strike, the prison becomes the least of their worries. Perfect for fans of The Fifth Wave and The Maze Runner.\nIt's Luka Kane's sixteenth birthday and he's been inside The Loop for over two years. Every inmate is serving a death sentence with the option to push back their execution date by six months if they opt into \"Delays\", scientific and medical experiments for the benefit of the elite in the outside world.But rumors of a war on the outside are spreading amongst the inmates, and before they know it, their tortuous routine becomes disrupted. The government issued rain stops falling. Strange things are happening to the guards. And it's not long until the inmates are left alone inside the prison.Were the chains that shackled Luka to his cell the only instruments left to keep him safe? In a thrilling shift, he must overcome fellow prisoners hell-bent on killing him, the warden losing her mind, the rabid rats in the train tunnels, and a population turned into murderous monsters to try and break out of The Loop, save his family, and discover who is responsible for the chaos that has been inflicted upon the world....",
+            "image":"https://images.renaud-bray.com/images/PG/3393/3393369-gf.jpg"
+        },{
+            "title":"Robot sauvage",
+            "subtitle":"**Peter Brown**\nUn cargo transportant des robots fait naufrage. Seul rescapé, l'un d'entre eux, Rozzoum unité 7134, échoue sur une île. Après avoir subi un violent orage et échappé à l'attaque d'un ours, il comprend qu'il doit s'adapter à son environnement s'il veut survivre.",
+            "image":"https://images.renaud-bray.com/images/PG/2953/2953567-gf.jpg"
+        },{
+            "title":"L'année où je suis devenue ado",
+            "subtitle":"**Nora Dasnes**\nDe retour de vacances, Emma a hâte de retrouver ses meilleures amies, Linnéa et Bao. Mais rien ne se passe comme prévu, Linnéa a désormais un copain et Bao ne l'accepte pas. Face à ces changements, Emma ne sait pas comment réagir et se pose de nombreuses questions sur l'adolescence.",
+            "image":"https://images.renaud-bray.com/images/PG/3443/3443639-gf.jpg"
+        },{
+            "title":"Pearl et le monstre marin",
+            "subtitle":"**Anthony Silverston &Amp; Al**\nPearl vit entre l'absence d'une mère disparue et les difficultés financières d'un père ne parvenant pas à trouver du travail. Elle s'évade grâce à la plongée sous-marine. Un jour, elle découvre une pieuvre géante réfugiée dans une grotte. Elle baptise l'animal Otto et noue une amitié forte avec lui. Mais les braconniers et les marins du village veulent s'en débarrasser.\n",
+            "image":"https://images.renaud-bray.com/images/PG/3733/3733079-gf.jpg"
+        },{
+            "title":"Virginia Woolf",
+            "subtitle":"**Liuba Gabriele**\nDébutant le jour de son suicide, cette bande dessinée retrace le parcours et l'oeuvre de l'écrivaine britannique à travers ses réflexions et celles de ses proches, tels que sa soeur Vanessa ou son époux Leonard.",
+            "image":"https://images.renaud-bray.com/images/PG/3653/3653084-gf.jpg"
+        },{
+            "title":"Une insolente curiosité",
+            "subtitle":"**Lynn Messina**\nAu cours d'une fête, Beatrice Hyde-Clare trébuche sur le cadavre de monsieur Otley dans la bibliothèque de la demeure des Skeffington. Prête à tout pour découvrir le coupable, elle n'hésite pas à questionner les invités ainsi que le duc de Kesgrave.",
+            "image":"https://images.renaud-bray.com/images/PG/3680/3680170-gf.jpg"
+        },{
+            "title":"Les Villes de papier",
+            "subtitle":"**Dominique Fortier**\nElle est tour à tour visage, masque, maison, ville tout entière, énigme, absence.Figure mythique des lettres américaines, Emily Dickinson demeure encore aujourd’hui un mystère. Celle que l’on surnommait « la dame en blanc » a toujours refusé de rendre sa poésie publique ; on s’entend pourtant maintenant à voir en elle un des écrivains les plus importants du dix-neuvième siècle.Les villes de papier explore son existence de l’intérieur, en mode mineur, à travers ses livres, son jardin et ses fantômes. Autour de moments de la vie d’Emily, Dominique Fortier (Au péril de la mer, prix littéraire du Gouverneur général) trace un roman à la fois grave et cristallin, et nous offre une réflexion d’une profonde justesse sur les mondes qui nous construisent, sur les lieux que nous habitons et qui nous habitent aussi....",
+            "image":"https://images.renaud-bray.com/images/PG/3216/3216444-gf.jpg"
+        },{
             "title":"L'Affaire Alaska Sanders",
             "subtitle":"**Joel Dicker**\nAvril 1999, à Mount Pleasant, dans le New Hampshire. Le corps d'Alaska Sanders est découvert près d'un lac. Onze ans plus tard, l'affaire prend une nouvelle tournure lorsque le sergent Perry Gahalowood, convaincu d'avoir élucidé le crime à l'époque, reçoit une lettre anonyme troublante. Avec l'aide de son ami Marcus Goldman, il tente de faire la lumière sur ce meurtre.",
             "image":"https://images.renaud-bray.com/images/PG/3604/3604044-gf.jpg"
@@ -63,25 +79,9 @@
             "subtitle":"**Naomi Fontaine**\nKuessipan est un livre bouleversant qui nous fait découvrir le quotidien sur une réserve innue. C'est avec la grâce et la justesse d'une langue éblouissante que l'auteure Naomi Fontaine évoque cette réalité. Kuessipan : mot innu signifiant « à toi » ou « à ton tour ». Ce sont des lieux, des visages connus et aimés. Des chasseurs nomades. Des pêcheurs nostalgiques. Des portraits. Des vies autour de la baie qui reflète les choses de la Terre. Les lièvres. La banique. Les rituels. Les tambours en peau de caribou qui font danser les femmes. Des enfants qui grandissent. Des vieux qui regardent passer le temps. Des saumons à pêcher. Des épinettes. Des barrières visibles et invisibles. Des plaisirs éphémères. De l'alcool qui éclate les cervelles. Des souvenirs. Des voyages en train. Et surtout l'évidence que la vie est cet ensemble de morceaux à emboîter pour que naisse la symphonie....",
             "image":"https://images.renaud-bray.com/images/PG/2295/2295063-gf.jpg"
         },{
-            "title":"Loop, The",
-            "subtitle":"**Ben Oliver**\n\"A terrifying futurescape at the heart-stopping intersection of The Matrix and The Maze Runner, kicking off a trilogy sure to prove dystopian sci-fi still has more to offer.\" -- BooklistLife inside The Loop--the futuristic death row for teens under eighteen--is one long repetitive purgatory. But when news of the encroaching chaos in the outside world reaches the inmates and disorder begins to strike, the prison becomes the least of their worries. Perfect for fans of The Fifth Wave and The Maze Runner.\nIt's Luka Kane's sixteenth birthday and he's been inside The Loop for over two years. Every inmate is serving a death sentence with the option to push back their execution date by six months if they opt into \"Delays\", scientific and medical experiments for the benefit of the elite in the outside world.But rumors of a war on the outside are spreading amongst the inmates, and before they know it, their tortuous routine becomes disrupted. The government issued rain stops falling. Strange things are happening to the guards. And it's not long until the inmates are left alone inside the prison.Were the chains that shackled Luka to his cell the only instruments left to keep him safe? In a thrilling shift, he must overcome fellow prisoners hell-bent on killing him, the warden losing her mind, the rabid rats in the train tunnels, and a population turned into murderous monsters to try and break out of The Loop, save his family, and discover who is responsible for the chaos that has been inflicted upon the world....",
-            "image":"https://images.renaud-bray.com/images/PG/3393/3393369-gf.jpg"
-        },{
-            "title":"Robot sauvage",
-            "subtitle":"**Peter Brown**\nUn cargo transportant des robots fait naufrage. Seul rescapé, l'un d'entre eux, Rozzoum unité 7134, échoue sur une île. Après avoir subi un violent orage et échappé à l'attaque d'un ours, il comprend qu'il doit s'adapter à son environnement s'il veut survivre.",
-            "image":"https://images.renaud-bray.com/images/PG/2953/2953567-gf.jpg"
-        },{
             "title":"Maman veut partir",
             "subtitle":"**Jonathan Bécotte**\nOeuvre tout en finesse, écrite sous forme de poèmes, Maman veut partir raconte la joie des premières années de l’enfance, l’amour des parents, puis, doucement, l’éloignement de la mère. C’est l’histoire d’une séparation – celle des parents –, mais aussi celle d’une maladie qui emportera la mère. Le jeune narrateur, sans saisir pleinement ce qui est train de se produire, relate de manière ingénue et poétique ces événements auxquels il est confronté.\n",
             "image":"https://images.renaud-bray.com/images/PG/2390/2390149-gf.jpg"
-        },{
-            "title":"L'année où je suis devenue ado",
-            "subtitle":"**Nora Dasnes**\nDe retour de vacances, Emma a hâte de retrouver ses meilleures amies, Linnéa et Bao. Mais rien ne se passe comme prévu, Linnéa a désormais un copain et Bao ne l'accepte pas. Face à ces changements, Emma ne sait pas comment réagir et se pose de nombreuses questions sur l'adolescence.",
-            "image":"https://images.renaud-bray.com/images/PG/3443/3443639-gf.jpg"
-        },{
-            "title":"Pearl et le monstre marin",
-            "subtitle":"**Anthony Silverston &Amp; Al**\nPearl vit entre l'absence d'une mère disparue et les difficultés financières d'un père ne parvenant pas à trouver du travail. Elle s'évade grâce à la plongée sous-marine. Un jour, elle découvre une pieuvre géante réfugiée dans une grotte. Elle baptise l'animal Otto et noue une amitié forte avec lui. Mais les braconniers et les marins du village veulent s'en débarrasser.\n",
-            "image":"https://images.renaud-bray.com/images/PG/3733/3733079-gf.jpg"
-        }        
+        }
     ]
 }
