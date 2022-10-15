@@ -9,14 +9,14 @@
             "link":"files/babillard.json"
         },{
             "title":"Informations générales",
-            "subtitle":"Signalez une absence, un retard ou un départ hâtif ici !",
-            "image":"files/images/infos.png",
+            "subtitle":"Cette image n'existe pas",
+            "image":"files/images/nexistepas.png",
             "newPage":true,
             "link":"files/ecole/contenu.json"
         },{
             "title":"Bibliothèque",
             "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
-            "image":"files/images/bibliotheque.png",
+            "image":"https://images.unsplash.com/photo-1579022287310-910c9a360453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80",
             "newPage":true,
             "link":"files/bibliotheque/contenu.json"
         },{
