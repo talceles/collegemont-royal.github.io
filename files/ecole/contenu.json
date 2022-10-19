@@ -17,16 +17,22 @@
             "link":"files/ecole/codedevie.json",
             "newPage":true
         },{
+            "title":"Signalez une absence, un retard ou un départ hâtif",
+            "subtitle":"Laissez-nous un message contenant le nom de votre enfant, son groupe et les détails de l'évènement à signaler.\nCliquez ici pour composer le **(514) 351-5596.**",
+            "image":"files/images/absence.png",
+            "link":"tel:5143515596",
+            "openURL":true
+        },{
+            "title":"Nous joindre",
+            "subtitle":"Contactez le secrétariat ou le support technique.",
+            "image":"files/images/telephone.png",
+            "link":"files/ecole/contact.json",
+            "newPage":true
+        },{
             "title":"Livraison d'uniformes",
             "subtitle":"Visitez le site Web de Modécole pour passer une commande.",
             "image":"files/images/modecole.png",
             "link":"https://modecole.com/"
-        },{
-            "title":"Nous joindre",
-            "subtitle":"Signaler une absence et contacter le collège",
-            "image":"files/images/telephone.png",
-            "link":"files/ecole/contact.json",
-            "newPage":true
         }
     ]
 }
