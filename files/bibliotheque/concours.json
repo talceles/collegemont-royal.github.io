@@ -6,7 +6,7 @@
         {
             "title":"Envoyez une lecture !",
             "subtitle":"Envoyez le livre que vous avez lu et augmentez le score de votre classe !",
-            "image":"files/images/mail.png",
+            "button_title":"Remplir le formulaire",
             "openURL":true,
             "link":"https://forms.gle/UGmGEJsLNPKSt3Mb9"
         },{
