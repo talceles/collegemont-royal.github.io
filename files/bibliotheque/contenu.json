@@ -3,6 +3,12 @@
     "cells":
     [
         {
+            "title":"Concours de lecture",
+            "subtitle":"Consultez le classement de votre classe et envoyez vos lectures récentes ici !",
+            "image":"files/bibliotheque/images/concours.png",
+            "newPage":true,
+            "link":"files/bibliotheque/concours.json"
+        },{
             "title":"Partage de suggestions de lecture du personnel",
             "subtitle":"Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège !",
             "image":"files/bibliotheque/images/onaime.png",
