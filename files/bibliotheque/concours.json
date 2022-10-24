@@ -9,48 +9,8 @@
             "button_title":"Remplir le formulaire",
             "openURL":true,
             "link":"https://forms.gle/UGmGEJsLNPKSt3Mb9"
-        },
-        
-        {
-            "title":"Première secondaire ⬇"
         },{
-            "title":"Groupe 11",
-            "subtitle":"56 points",
-            "image":"🥇"
-        },{
-            "title":"Groupe 13",
-            "subtitle":"45 points",
-            "image":"🥈"
-        },{
-            "title":"Groupe 10",
-            "subtitle":"43 points",
-            "image":"🥉"
-        },{
-            "title":"Groupe 12",
-            "subtitle":"34 points",
-            "image":"🏅"
-        },
-        
-        {
-            "title":"Deuxième secondaire ⬇"
-        },{
-            "title":"Groupe 23",
-            "subtitle":"92 points",
-            "image":"🥇"
-        },{
-            "title":"Groupe 22",
-            "subtitle":"78 points",
-            "image":"🥈"
-        },{
-            "title":"Groupe 20",
-            "subtitle":"34 points",
-            "image":"🥉"
-        },{
-            "title":"Groupe 21",
-            "subtitle":"12 points",
-            "image":"🏅"
-        },{
-            "title":"Autres niveaux... On comprend le principe..."
+            "title":"Le classement sera disponible ici sous peu..."
         }
         
     ]
