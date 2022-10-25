@@ -1,41 +1,46 @@
 {
-    "topsubtitle":"Collège Mont-Royal",
-    "version":"1.16",
+    "topsubtitle": "Collège Mont-Royal",
+    "version": "1.16",
     "cells": [
         {
-            "title":"Babillard",
-            "subtitle":"Aucune annonce. À bientôt !",
-            "babillard":true,
-            "link":"files/babillard.json"
-        },{
-            "title":"Informations générales",
-            "subtitle":"Signalez une absence, un retard ou un départ hâtif ici !",
-            "image":"files/images/infos.png",
-            "newPage":true,
-            "link":"files/ecole/contenu.json"
-        },{
-            "title":"Bibliothèque",
-            "subtitle":"Suggestions de lecture, critiques littéraires, balados et activités",
-            "image":"files/images/bibliotheque.png",
-            "newPage":true,
-            "link":"files/bibliotheque/contenu.json"
-        },{
-            "title":"Cafétéria",
-            "subtitle":"Voyez nos menus et la liste de produits",
-            "image":"files/images/cafeteria.png",
-            "link":"files/cafeteria/contenu.json",
-            "newPage":true
-        },{
-            "title":"Journal Étudiant",
-            "subtitle":"Consultez notre journal étudiant sur le Web !",
-            "image":"files/images/journal.png",
-            "link":"https://collegemont-royal.qc.ca/journal/"
-        },{
-            "title":"Support technique",
-            "subtitle":"Contactez l'équipe de support technique du collège et consultez les ressources.",
-            "image":"files/images/support.png",
-            "newPage":true,
-            "link":"files/support/contenu.json"
+            "title": "Babillard",
+            "subtitle": "Aucune annonce. À bientôt !",
+            "babillard": true,
+            "link": "files/babillard.json"
+        },
+        {
+            "title": "Informations générales",
+            "subtitle": "Signalez une absence, un retard ou un départ hâtif ici !",
+            "image": "files/images/infos.png",
+            "newPage": true,
+            "link": "files/ecole/contenu.json"
+        },
+        {
+            "title": "Bibliothèque",
+            "subtitle": "Suggestions de lecture, critiques littéraires, balados et activités",
+            "image": "files/images/bibliotheque.png",
+            "newPage": true,
+            "link": "files/bibliotheque/contenu.json"
+        },
+        {
+            "title": "Cafétéria",
+            "subtitle": "Voyez nos menus et la liste de produits",
+            "image": "files/images/cafeteria.png",
+            "link": "files/cafeteria/contenu.json",
+            "newPage": true
+        },
+        {
+            "title": "Journal Étudiant",
+            "subtitle": "Consultez notre journal étudiant sur le Web !",
+            "image": "files/images/journal.png",
+            "link": "https://collegemont-royal.qc.ca/journal/"
+        },
+        {
+            "title": "Support technique",
+            "subtitle": "Contactez l'équipe de support technique du collège et consultez les ressources.",
+            "image": "files/images/support.png",
+            "newPage": true,
+            "link": "files/support/contenu.json"
         }
     ]
 }
