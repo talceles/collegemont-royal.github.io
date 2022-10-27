@@ -1,17 +1,66 @@
 {
-    "topsubtitle":"Bibliothèque",
-    "title":"Concours de lecture",
-    "cells":
-    [
+    "topsubtitle": "Bibliothèque",
+    "title": "Concours de lecture",
+    "cells": [
         {
-            "title":"Envoyez une lecture !",
-            "subtitle":"Envoyez le livre que vous avez lu et augmentez le score de votre classe !",
-            "button_title":"Remplir le formulaire",
-            "openURL":true,
-            "link":"https://forms.gle/UGmGEJsLNPKSt3Mb9"
-        },{
-            "title":"Le classement sera disponible ici sous peu..."
+            "title": "Envoyez une lecture !",
+            "subtitle": "Envoyez le livre que vous avez lu et augmentez le score de votre classe !",
+            "button_title": "Remplir le formulaire",
+            "openURL": true,
+            "link": "https://forms.gle/UGmGEJsLNPKSt3Mb9"
+        },
+        {
+            "title": "Première secondaire ⬇"
+        },
+        {
+            "title": "Groupe 10",
+            "subtitle": "8 points",
+            "image": "🥇"
+        },
+        {
+            "title": "Groupe 13",
+            "subtitle": "2 points",
+            "image": "🥈"
+        },
+        {
+            "title": "Deuxième secondaire ⬇"
+        },
+        {
+            "title": "Groupe 21",
+            "subtitle": "9 points",
+            "image": "🥇"
+        },
+        {
+            "title": "Troisième secondaire ⬇"
+        },
+        {
+            "title": "Groupe 33",
+            "subtitle": "9 points",
+            "image": "🥇"
+        },
+        {
+            "title": "Quatrième secondaire ⬇"
+        },
+        {
+            "title": "Groupe 43",
+            "subtitle": "6 points",
+            "image": "🥇"
+        },
+        {
+            "title": "Groupe 41",
+            "subtitle": "3 points",
+            "image": "🥈"
+        },
+        {
+            "title": "Cinquième secondaire ⬇"
+        },
+        {
+            "title": "Groupe 53",
+            "subtitle": "3 points",
+            "image": "🥇"
+        },
+        {
+            "title": "Vous ne voyez pas votre groupe ? Personne n'a envoyé de lecture..."
         }
-        
     ]
 }
