@@ -1,28 +1,32 @@
 {
-    "title":"Nous joindre",
+    "title": "Nous joindre",
     "cells": [
         {
-            "title":"Contacter le secrétariat"
-        },{
-            "title":"Téléphone",
-            "subtitle":"Contactez le collège par téléphone\nCliquez ici pour composer le **(514) 351-7851**.",
-            "image":"files/images/telephone.png",
-            "link":"tel:5143517851",
-            "openURL":true
-        },{
-            "title":"Courriel",
-            "subtitle":"Cliquez ici pour contacter le collège par courriel.",
-            "image":"files/images/mail.png",
-            "link":"mailto:info@collegemont-royal.qc.ca",
-            "openURL":true
-        },{
-            "title":"Contacter le support technique"
-        },{
-            "title":"Courriel (Support CMR)",
-            "subtitle":"Cliquez ici pour écrire un courriel au support technique du collège et nous vous répondrons dès que possible.",
-            "image":"files/images/contact.png",
-            "openURL":true,
-            "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Demande%20d'assistance%20technique&body=Bonjour%2C%0D%0A%0D%0A(Description%20de%20la%20probl%C3%A9matique)%0D%0A%0D%0AMerci!%0D%0A%0D%0A(Votre%20nom%20et%20groupe%2C%20s%E2%80%99il%20y%20a%20lieu)"
+            "title": "Contacter le secrétariat"
+        },
+        {
+            "title": "Téléphone",
+            "subtitle": "Contactez le collège par téléphone\nCliquez ici pour composer le **(514) 351-7851**.",
+            "image": "files/images/telephone.png",
+            "link": "tel:5143517851",
+            "openURL": true
+        },
+        {
+            "title": "Courriel",
+            "subtitle": "Cliquez ici pour contacter le collège par courriel.",
+            "image": "files/images/mail.png",
+            "link": "mailto:info@collegemont-royal.qc.ca",
+            "openURL": true
+        },
+        {
+            "title": "Contacter le support technique"
+        },
+        {
+            "title": "Courriel (Support CMR)",
+            "subtitle": "Cliquez ici pour écrire un courriel au support technique du collège et nous vous répondrons dès que possible.",
+            "image": "files/images/contact.png",
+            "openURL": true,
+            "link": "mailto:cgauthier@collegemont-royal.qc.ca?subject=Demande%20d'assistance%20technique&body=Bonjour%2C%0D%0A%0D%0A(Description%20de%20la%20probl%C3%A9matique)%0D%0A%0D%0AMerci!%0D%0A%0D%0A(Votre%20nom%20et%20groupe%2C%20s%E2%80%99il%20y%20a%20lieu)"
         }
     ]
 }

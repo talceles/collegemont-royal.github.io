@@ -1,0 +1,87 @@
+@import url("./webView.css");
+@import url("./categorie.css");
+@import url("./article.css");
+@import url("./action.css");
+@import url("./babillard.css");
+
+div.cells {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15px;
+    margin-bottom: 10px;
+    max-width: 850px;
+}
+
+.cell {
+    position: inherit;
+    display: flex;
+    cursor: default;
+    height: auto;
+    margin: 0px 10px;
+    padding: 15px 5px 15px 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    -webkit-text-size-adjust: 115%;
+}
+
+h2.cell-title {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.cell-subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--subtext);
+    padding: 5px 0px;
+    margin: 0;
+}
+
+.cell>img {
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background-size: contain;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
+
+p.emoji {
+    font-size: 50px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.hilighted {
+    background-color: var(--accent);
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.hovers {
+    transition: all 0.2s;
+}
+
+.hovers:hover {
+    background-color: var(--hover);
+    padding-left: 18px;
+}
+
+.hovers.hilighted:hover {
+    background-color: var(--hilight);
+}

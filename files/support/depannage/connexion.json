@@ -1,27 +1,30 @@
 {
-    "topsubtitle":"Support technique",
-    "title":"Problèmes de connexion",
+    "topsubtitle": "Support technique",
+    "title": "Problèmes de connexion",
     "cells": [
         {
-            "title":"Réseau WiFi au collège",
-            "subtitle":"Le réseau WiFi adéquat au collège vous permet d’imprimer à la bibliothèque et d’avoir une connexion rapide et stable. Vérifiez que vous êtes connecté au réseau **College Mont Royal**. Le nom d’utilisateur est votre numéro d’élève et le mot de passe est votre date de naissance (AAAAMMJJ).\n---\n*Pour les problèmes de connexion au WiFi ou pour une connexion lente.*\n**1 - Redémarrez le WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi;\n*Pour un ordinateur*, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n**2 - Oublier le réseau WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\n*Pour un ordinateur*, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier.",
-            "image":"files/support/images/wifi.png",
-            "tint":"#3F4A75"
-        },{
-            "title":"AirPlay",
-            "subtitle":"*Pour les problèmes de connexion à une Apple TV.*\n**1 - S'assurer que l'Apple TV est disponible**\nPour vous connecter, personne d'autre ne doit être connecté à l'Apple TV.\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi.\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth.",
-            "image":"files/support/images/airplay-2.png",
-            "tint":"#3F4A75"
-        },{
-            "title":"Safari",
-            "subtitle":"*Pour améliorer la réactivité de Safari ou les problèmes avec les sites web.*\n**1 - Redémarrez l'application Safari**\nCliquez deux fois sur le bouton d'accueil et fermez l'application.\n**2 - Fermez tous les onglets**\nDans la barre d'outils, en haut à droite, cliquez longuement sur le bouton ⧉.\n**3 - Videz le cache de Safari**\nRendez-vous dans Réglages > Safari > Effacer l'historique de navigation.",
-            "image":"files/support/images/safari-2.png",
-            "tint":"#3F4A75"
-        },{
-            "title":"Pour tout autre problème de connexion",
-            "subtitle":"**Redémarrez votre appareil**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
-            "image":"files/support/images/autre-2.png",
-            "tint":"#3F4A75"
+            "title": "Réseau WiFi au collège",
+            "subtitle": "Le réseau WiFi adéquat au collège vous permet d’imprimer à la bibliothèque et d’avoir une connexion rapide et stable. Vérifiez que vous êtes connecté au réseau **College Mont Royal**. Le nom d’utilisateur est votre numéro d’élève et le mot de passe est votre date de naissance (AAAAMMJJ).\n---\n*Pour les problèmes de connexion au WiFi ou pour une connexion lente.*\n**1 - Redémarrez le WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi;\n*Pour un ordinateur*, rendez-vous dans le panneau de contrôle (en bas à droite de votre écran), puis cliquez sur le bouton WiFi.\n**2 - Oublier le réseau WiFi**\n*Pour un iPad*, rendez-vous dans Réglages > WiFi > ⓘ > Oublier ce réseau;\n*Pour un ordinateur*, rendez-vous dans Paramètres > Réseau et Internet > WiFi > Gérer les réseaux connus > Oublier.",
+            "image": "files/support/images/wifi.png",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "AirPlay",
+            "subtitle": "*Pour les problèmes de connexion à une Apple TV.*\n**1 - S'assurer que l'Apple TV est disponible**\nPour vous connecter, personne d'autre ne doit être connecté à l'Apple TV.\n**2 - Redémarrez le WiFi**\nRendez-vous dans Réglages > WiFi.\n**3 - Redémarrez le Bluetooth**\nRendez-vous dans Réglages > Bluetooth.",
+            "image": "files/support/images/airplay-2.png",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "Safari",
+            "subtitle": "*Pour améliorer la réactivité de Safari ou les problèmes avec les sites web.*\n**1 - Redémarrez l'application Safari**\nCliquez deux fois sur le bouton d'accueil et fermez l'application.\n**2 - Fermez tous les onglets**\nDans la barre d'outils, en haut à droite, cliquez longuement sur le bouton ⧉.\n**3 - Videz le cache de Safari**\nRendez-vous dans Réglages > Safari > Effacer l'historique de navigation.",
+            "image": "files/support/images/safari-2.png",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "Pour tout autre problème de connexion",
+            "subtitle": "**Redémarrez votre appareil**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
+            "image": "files/support/images/autre-2.png",
+            "tint": "#3F4A75"
         }
     ]
 }

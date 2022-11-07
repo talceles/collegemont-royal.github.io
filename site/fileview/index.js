@@ -36,7 +36,6 @@ function setContent() {
     const params = new URLSearchParams(window.location.search);
     let title = params.get("t");
     let source = params.get("s");
-    console.log(source)
     document.title = title;
     document.querySelector("p.filetitle").innerText = title;
     document.querySelector("iframe.fileview").src = addSlashIfNeeded(source);

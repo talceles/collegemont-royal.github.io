@@ -1,0 +1,80 @@
+div.header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    cursor: default;
+    background-color: #1D2953;
+    border-radius: 0 0 15px 15px;
+}
+
+div.headerTitle {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    left: 75px;
+    width: auto;
+}
+
+h1.title {
+    display: inline;
+    font-size: min(5.5vw, 30px);
+    font-weight: bold;
+    margin: 0;
+}
+
+h5.headerSubtitle {
+    font-weight: bold;
+    width: 100%;
+    display: inline;
+    font-size: min(3.5vw, 11px);
+    padding-left: 2px;
+    margin: 0;
+}
+
+div.headerTitleAndLogo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    left: 0px;
+}
+
+button {
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+button.i {
+    top: 17.5px;
+    right: 17.5px;
+    background-image: url("../ressources/i.png");
+    height: 35px;
+    width: 35px;
+}
+
+button.logo {
+    background-image: url("../ressources/logo.png");
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#hidden {
+    display: none;
+}

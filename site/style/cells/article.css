@@ -1,0 +1,27 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.article img {
+    height: auto;
+    width: 100%;
+    max-height: 35vw;
+}
+
+.article .description {
+    transition: all, 0.2s;
+    padding: 16px 16px;
+}
+
+.article.hovers:hover .description {
+    padding: 16px 24px;
+}
+
+.article h2.cell-title {
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}

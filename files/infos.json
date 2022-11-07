@@ -9,30 +9,36 @@
             "article": true
         },
         {
-            "title": "Application développée par Clément Gauthier",
-            "subtitle": "Ancien élève du collège et opérateur en informatique",
-            "image": "files/images/clement.png",
-            "notification": true
-        },
-        {
-            "title": "Allez voir mes autres applications !",
-            "subtitle": "Ouvrir l'App Store",
-            "image": "files/images/appstore.png",
-            "link": "https://apps.apple.com/developer/stephane-gauthier/id1489666753",
-            "openURL": true
-        },
-        {
-            "title": "Contacter le développeur",
-            "subtitle": "Signaler un bogue, suggestions, etc.\n**cgauthier@collegemont-royal.qc.ca**",
-            "image": "📧",
-            "link": "mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
-            "openURL": true
+            "title": "Politique de confidentialité",
+            "subtitle": "En utilisant l'application CMR, vos données sont utilisées et partagées selon cette politique.",
+            "image": "files/images/confidentialite.png",
+            "link": "PolitiqueDeConfidentialite.pdf"
         },
         {
             "title": "Tester la version bêta",
             "subtitle": "Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
             "image": "files/images/testflight.png",
             "link": "https://testflight.apple.com/join/QkygnW3M",
+            "openURL": true
+        },
+        {
+            "title": "Application développée par Clément Gauthier",
+            "subtitle": "Ancien élève et opérateur en informatique du Collège Mont-Royal",
+            "image": "files/images/clement.png",
+            "notification": true
+        },
+        {
+            "title": "Me contacter",
+            "subtitle": "Pour toute demande, envoyez-moi un courriel au **cgauthier@collegemont-royal.qc.ca**",
+            "image": "📧",
+            "link": "mailto:cgauthier@collegemont-royal.qc.ca?subject=Probl%C3%A8me%20dans%20l%27application%20CMR",
+            "openURL": true
+        },
+        {
+            "title": "Allez voir mes autres applications",
+            "subtitle": "Ouvrir l'App Store",
+            "image": "files/images/appstore.png",
+            "link": "https://apps.apple.com/developer/stephane-gauthier/id1489666753",
             "openURL": true
         },
         {

@@ -1,29 +1,32 @@
 {
-    "title":"Support technique",
+    "title": "Support technique",
     "cells": [
         {
-            "title":"Rencontre technologique",
-            "subtitle":"Vous avez manqué la rencontre ou souhaitez simplement revoir certaines des étapes présentées ? La présentation est disponible ici en format PDF.",
-            "image":"files/images/horaire.png",
-            "link":"files/support/presentation.pdf"
-        },{
-            "title":"Dépannage",
-            "subtitle":"Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",
-            "image":"files/images/ampoule.png",
-            "newPage":true,
-            "link":"files/support/depannage/contenu.json"
-        },{
-            "title":"Applications disponibles",
-            "subtitle":"La liste des applications débloquées sur les iPads durant les heures de classe.",
-            "image":"files/images/applications.png",
-            "link":"site/mosyle",
-            "openURL":true
-        },{
-            "title":"Contacter le support technique",
-            "subtitle":"Écrivez un courriel au support technique du collège et nous vous répondrons dès que possible.",
-            "image":"files/images/contact.png",
-            "openURL":true,
-            "link":"mailto:cgauthier@collegemont-royal.qc.ca?subject=Demande%20d'assistance%20technique&body=Bonjour%2C%0D%0A%0D%0A(Description%20de%20la%20probl%C3%A9matique)%0D%0A%0D%0AMerci!%0D%0A%0D%0A(Votre%20nom%20et%20groupe%2C%20s%E2%80%99il%20y%20a%20lieu)"
+            "title": "Rencontre technologique",
+            "subtitle": "Vous avez manqué la rencontre ou souhaitez simplement revoir certaines des étapes présentées ? La présentation est disponible ici en format PDF.",
+            "image": "files/images/horaire.png",
+            "link": "files/support/presentation.pdf"
+        },
+        {
+            "title": "Dépannage",
+            "subtitle": "Consultez la marche à suivre pour résoudre les problèmes les plus fréquents.",
+            "image": "files/images/ampoule.png",
+            "newPage": true,
+            "link": "files/support/depannage/contenu.json"
+        },
+        {
+            "title": "Applications disponibles",
+            "subtitle": "La liste des applications débloquées sur les iPads durant les heures de classe.",
+            "image": "files/images/applications.png",
+            "link": "site/mosyle",
+            "openURL": true
+        },
+        {
+            "title": "Contacter le support technique",
+            "subtitle": "Écrivez un courriel au support technique du collège et nous vous répondrons dès que possible.",
+            "image": "files/images/contact.png",
+            "openURL": true,
+            "link": "mailto:cgauthier@collegemont-royal.qc.ca?subject=Demande%20d'assistance%20technique&body=Bonjour%2C%0D%0A%0D%0A(Description%20de%20la%20probl%C3%A9matique)%0D%0A%0D%0AMerci!%0D%0A%0D%0A(Votre%20nom%20et%20groupe%2C%20s%E2%80%99il%20y%20a%20lieu)"
         }
     ]
 }

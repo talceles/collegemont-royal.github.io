@@ -1,0 +1,37 @@
+.action_button {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 8px 8px 8px !important;
+}
+
+.action_button div.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #3F4A75;
+
+    margin-top: 8px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.action_button div.button img {
+    height: 18px;
+    width: 18px;
+    padding-right: 12px;
+}
+
+.action_button.hovers:hover {
+    padding-left: 8px;
+}
+
+.action_button h2.cell-title {
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}

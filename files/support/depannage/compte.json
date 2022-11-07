@@ -1,29 +1,32 @@
 {
-    "topsubtitle":"Support technique",
-    "title":"Problèmes de compte",
+    "topsubtitle": "Support technique",
+    "title": "Problèmes de compte",
     "cells": [
         {
-            "title":"Compte iCloud du collège",
-            "subtitle":"Connectez-vous à votre compte iCloud du collège pour bénéficier de 200 Go de stockage gratuit. *Vérifiez ces étapes si vous avez de la difficulté à installer des applications.*\n**Voir comment faire ➜**",
-            "image":"files/support/images/person.png",
-            "newPage":true,
-            "link":"files/support/depannage/icloud.json",
-            "tint":"#3F4A75"
-        },{
-            "title":"Stockage iCloud",
-            "subtitle":"*Pour libérer de l'espace de stockage dans iCloud.*\n**Rendez-vous dans Réglages > Votre nom (en haut) > iCloud > Gérer le stockage du compte**\nIci, vous pouvez voir quelles données utilisent le plus d'espace. Supprimez les données dont vous n'avez plus besoin.",
-            "image":"files/support/images/stockage.png",
-            "tint":"#3F4A75"
-        },{
-            "title":"Mosyle",
-            "subtitle":"*Pour régler les problèmes d'applications bloquées sur les iPads*\n**1 - Mettre à jour les profils**\nOuvrez l'application Manager et cliquez sur le bouton 'Update' dans le coin supérieur droit.\n**2 - Redémarrez votre iPad**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
-            "image":"files/support/images/mozyle.png",
-            "tint":"#3F4A75"
-        },{
-            "title":"Pour tout autre problème",
-            "subtitle":"**Redémarrez votre appareil**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
-            "image":"files/support/images/autre-2.png",
-            "tint":"#3F4A75"
+            "title": "Compte iCloud du collège",
+            "subtitle": "Connectez-vous à votre compte iCloud du collège pour bénéficier de 200 Go de stockage gratuit. *Vérifiez ces étapes si vous avez de la difficulté à installer des applications.*\n**Voir comment faire ➜**",
+            "image": "files/support/images/person.png",
+            "newPage": true,
+            "link": "files/support/depannage/icloud.json",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "Stockage iCloud",
+            "subtitle": "*Pour libérer de l'espace de stockage dans iCloud.*\n**Rendez-vous dans Réglages > Votre nom (en haut) > iCloud > Gérer le stockage du compte**\nIci, vous pouvez voir quelles données utilisent le plus d'espace. Supprimez les données dont vous n'avez plus besoin.",
+            "image": "files/support/images/stockage.png",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "Mosyle",
+            "subtitle": "*Pour régler les problèmes d'applications bloquées sur les iPads*\n**1 - Mettre à jour les profils**\nOuvrez l'application Manager et cliquez sur le bouton 'Update' dans le coin supérieur droit.\n**2 - Redémarrez votre iPad**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
+            "image": "files/support/images/mozyle.png",
+            "tint": "#3F4A75"
+        },
+        {
+            "title": "Pour tout autre problème",
+            "subtitle": "**Redémarrez votre appareil**\nAppuyez sur le bouton de verrouillage et le bouton d'accueil simultanément jusqu'à ce que le logo  apparaisse.",
+            "image": "files/support/images/autre-2.png",
+            "tint": "#3F4A75"
         }
     ]
 }

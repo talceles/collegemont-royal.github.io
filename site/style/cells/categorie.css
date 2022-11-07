@@ -1,0 +1,10 @@
+h2.categorie {
+    position: relative;
+    padding: 20px 30px 10px 25px;
+    margin: 0;
+    cursor: default;
+
+    font-weight: bold;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+}

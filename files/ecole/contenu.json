@@ -1,38 +1,43 @@
 {
-    "title":"Informations générales",
+    "title": "Informations générales",
     "cells": [
         {
-            "title":"Calendrier",
-            "subtitle":"Calendrier scolaire pour l'année scolaire en cours",
-            "image":"files/images/calendrier.png",
-            "link":"files/ecole/calendrier.pdf"
-        },{
-            "title":"Horaire des cycles",
-            "subtitle":"Heures des cours et des pauses pour les deux cycles",
-            "image":"files/images/horaire.png",
-            "link":"files/ecole/horairecycles.pdf"
-        },{
-            "title":"Code de vie",
-            "image":"files/images/codedevie.png",
-            "link":"files/ecole/codedevie.json",
-            "newPage":true
-        },{
-            "title":"Signalez une absence, un retard ou un départ hâtif",
-            "subtitle":"Laissez-nous un message contenant le nom de votre enfant, son groupe et les détails de l'évènement à signaler.\nCliquez ici pour composer le **(514) 351-5596.**",
-            "image":"files/images/absence.png",
-            "link":"tel:5143515596",
-            "openURL":true
-        },{
-            "title":"Nous joindre",
-            "subtitle":"Contactez le secrétariat ou le support technique.",
-            "image":"files/images/telephone.png",
-            "link":"files/ecole/contact.json",
-            "newPage":true
-        },{
-            "title":"Livraison d'uniformes",
-            "subtitle":"Visitez le site Web de Modécole pour passer une commande.",
-            "image":"files/images/modecole.png",
-            "link":"https://modecole.com/"
+            "title": "Calendrier",
+            "subtitle": "Calendrier scolaire pour l'année scolaire en cours",
+            "image": "files/images/calendrier.png",
+            "link": "files/ecole/calendrier.pdf"
+        },
+        {
+            "title": "Horaire des cycles",
+            "subtitle": "Heures des cours et des pauses pour les deux cycles",
+            "image": "files/images/horaire.png",
+            "link": "files/ecole/horairecycles.pdf"
+        },
+        {
+            "title": "Code de vie",
+            "image": "files/images/codedevie.png",
+            "link": "files/ecole/codedevie.json",
+            "newPage": true
+        },
+        {
+            "title": "Signalez une absence, un retard ou un départ hâtif",
+            "subtitle": "Laissez-nous un message contenant le nom de votre enfant, son groupe et les détails de l'évènement à signaler.\nCliquez ici pour composer le **(514) 351-5596.**",
+            "image": "files/images/absence.png",
+            "link": "tel:5143515596",
+            "openURL": true
+        },
+        {
+            "title": "Nous joindre",
+            "subtitle": "Contactez le secrétariat ou le support technique.",
+            "image": "files/images/telephone.png",
+            "link": "files/ecole/contact.json",
+            "newPage": true
+        },
+        {
+            "title": "Livraison d'uniformes",
+            "subtitle": "Visitez le site Web de Modécole pour passer une commande.",
+            "image": "files/images/modecole.png",
+            "link": "https://modecole.com/"
         }
     ]
 }

@@ -1,53 +1,60 @@
 {
-    "title":"Balado littéraire",
-    "cells":
-    [
+    "title": "Balado littéraire",
+    "cells": [
         {
-            "title":"Prochain balado le 15 novembre !",
-            "image":"📣"
-        },{
-            "title":"2021-2022 ⬇"
-        },{
-            "title":"Spécial bloopers!",
-            "subtitle":"**2:04** - Pour partir en vacances le coeur léger, voici un balado rempli de moments loufoques survenus lors de l'enregistrement de nos balados. Bonne écoute!",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/bloopers.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/baladobloopers.mp3"
-            
-        },{
-            "title":"Coeur de cristal",
-            "subtitle":"**9:12** - Septième et dernier épisode du balado littéraire du comité 2021-2022. Pour terminer l'année en beauté, les chroniqueuses Éloïse Giasson, Coralie Paul et Novalie Chevalier, ainsi que notre invitée spéciale, Mme Marie-Pierre Tousignant, vous invitent à vous plonger dans le conte philosphique de Frédéric Lenoir intitulé Coeur de cristal. C'est aussi l'occasion d'entendre pour la dernière fois votre animatrice préférée, Salma Sévigny, qui en est à sa dernière année au collège.",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado7.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado7.mp3"
-        },{
-            "title":"Le petit astronaute",
-            "subtitle":"**8:51** - Sixième épisode du balado littéraire du comité 2021-2022. Découvrez l'univers d'un petit garçon qui vit la vie autrement. Au poste de chroniqueur se trouvent Sarah Hervé, Elias Kassas, Chloé Larivée, ainsi que notre invitée spéciale, Mme Isabelle Dufour. Le tout est bien évidemment animé par Salma Sévigny, notre animatrice dévouée.", 
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado6.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado6.mp3"
-        },{
-            "title":"C'est quoi l'amour?, Pourquoi les filles ont mal au ventre?, ainsi que J'ai mal et pourtant, ça ne se voit pas",
-            "subtitle":"**6:48** - Cinquième épisode du balado littéraire du comité 2021-2022. Plongez-vous dans ces trois oeuvres signées Lucile de Pesloüan et Geneviève Darling en compagnie de Lydia Hurtubise, Annabelle Jacob, Chloé Larivée, ainsi que notre invitée spéciale, Mme Mélanie Tremblay.",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado5.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado5.mp3"
-        },{
-            "title":"L'étranger",
-            "subtitle":"**9:12** - Quatrième épisode du balado littéraire du comité 2021-2022. Découvrez le personnage déconcertant de ce premier roman d'Albert Camus à travers les échanges de Sarah Léonie Hervé, Novalie Chevalier, Éloïse Giasson, ainsi que notre invitée spéciale, Mme Geneviève Coutu. Le tout est animé par Salma Sévigny.",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado4.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado4.mp3"
-        },{     
-            "title":"L'albatros et la mésange",
-            "subtitle":"**6:42** - Troisième épisode du balado littéraire du comité 2021-2022. Plongez-vous dans l'univers délicat et déroutant de ce roman signé Dominique Demers en compagnie d'Éléonore Forest, de Pauline Hervé, de Béatrice Vézina, ainsi que de notre invité spécial, Charles Desrochers.",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado3.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado3.mp3"
-        },{
-            "title":"Le Mystère Henri Pick",
-            "subtitle":"**6:10** - Deuxième épisode du balado littéraire du comité 2021-2022. Avec notre invité spécial, Benoit Laforest, et les chroniqueuses Romane Forest, Lydia Hurtubise et Coralie Paul, lancez-vous dans le mystère entourant ce vieux manuscrit. ",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado2.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado2.mp3"
-        },{
-            "title":"L'année de grâce et la dystopie",
-            "subtitle":"**7:35** - Premier épisode du balado littéraire du comité de la bibliothèque 2021-2022. Novalie Chevalier, Chloé Larivée, Annabelle Jacob, ainsi que notre invitée spéciale, Émilie de Bellefeuille Bordeleau, vous présentent une oeuvre poignante qui ne vous laissera pas indifférent.",
-            "image":"https://collegemont-royal.github.io/archives/balado/images/balado1.png",
-            "link":"https://collegemont-royal.github.io/archives/balado/balado1.mp3"
+            "title": "Prochain balado le 15 novembre !",
+            "image": "📣"
+        },
+        {
+            "title": "2021-2022 ⬇"
+        },
+        {
+            "title": "Spécial bloopers!",
+            "subtitle": "**2:04** - Pour partir en vacances le coeur léger, voici un balado rempli de moments loufoques survenus lors de l'enregistrement de nos balados. Bonne écoute!",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/bloopers.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/baladobloopers.mp3"
+        },
+        {
+            "title": "Coeur de cristal",
+            "subtitle": "**9:12** - Septième et dernier épisode du balado littéraire du comité 2021-2022. Pour terminer l'année en beauté, les chroniqueuses Éloïse Giasson, Coralie Paul et Novalie Chevalier, ainsi que notre invitée spéciale, Mme Marie-Pierre Tousignant, vous invitent à vous plonger dans le conte philosphique de Frédéric Lenoir intitulé Coeur de cristal. C'est aussi l'occasion d'entendre pour la dernière fois votre animatrice préférée, Salma Sévigny, qui en est à sa dernière année au collège.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado7.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado7.mp3"
+        },
+        {
+            "title": "Le petit astronaute",
+            "subtitle": "**8:51** - Sixième épisode du balado littéraire du comité 2021-2022. Découvrez l'univers d'un petit garçon qui vit la vie autrement. Au poste de chroniqueur se trouvent Sarah Hervé, Elias Kassas, Chloé Larivée, ainsi que notre invitée spéciale, Mme Isabelle Dufour. Le tout est bien évidemment animé par Salma Sévigny, notre animatrice dévouée.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado6.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado6.mp3"
+        },
+        {
+            "title": "C'est quoi l'amour?, Pourquoi les filles ont mal au ventre?, ainsi que J'ai mal et pourtant, ça ne se voit pas",
+            "subtitle": "**6:48** - Cinquième épisode du balado littéraire du comité 2021-2022. Plongez-vous dans ces trois oeuvres signées Lucile de Pesloüan et Geneviève Darling en compagnie de Lydia Hurtubise, Annabelle Jacob, Chloé Larivée, ainsi que notre invitée spéciale, Mme Mélanie Tremblay.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado5.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado5.mp3"
+        },
+        {
+            "title": "L'étranger",
+            "subtitle": "**9:12** - Quatrième épisode du balado littéraire du comité 2021-2022. Découvrez le personnage déconcertant de ce premier roman d'Albert Camus à travers les échanges de Sarah Léonie Hervé, Novalie Chevalier, Éloïse Giasson, ainsi que notre invitée spéciale, Mme Geneviève Coutu. Le tout est animé par Salma Sévigny.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado4.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado4.mp3"
+        },
+        {
+            "title": "L'albatros et la mésange",
+            "subtitle": "**6:42** - Troisième épisode du balado littéraire du comité 2021-2022. Plongez-vous dans l'univers délicat et déroutant de ce roman signé Dominique Demers en compagnie d'Éléonore Forest, de Pauline Hervé, de Béatrice Vézina, ainsi que de notre invité spécial, Charles Desrochers.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado3.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado3.mp3"
+        },
+        {
+            "title": "Le Mystère Henri Pick",
+            "subtitle": "**6:10** - Deuxième épisode du balado littéraire du comité 2021-2022. Avec notre invité spécial, Benoit Laforest, et les chroniqueuses Romane Forest, Lydia Hurtubise et Coralie Paul, lancez-vous dans le mystère entourant ce vieux manuscrit. ",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado2.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado2.mp3"
+        },
+        {
+            "title": "L'année de grâce et la dystopie",
+            "subtitle": "**7:35** - Premier épisode du balado littéraire du comité de la bibliothèque 2021-2022. Novalie Chevalier, Chloé Larivée, Annabelle Jacob, ainsi que notre invitée spéciale, Émilie de Bellefeuille Bordeleau, vous présentent une oeuvre poignante qui ne vous laissera pas indifférent.",
+            "image": "https://collegemont-royal.github.io/archives/balado/images/balado1.png",
+            "link": "https://collegemont-royal.github.io/archives/balado/balado1.mp3"
         }
     ]
 }

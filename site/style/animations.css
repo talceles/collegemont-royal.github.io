@@ -1,0 +1,21 @@
+.transitionLeft {
+    transition: all 0.3s;
+    transform: translateX(-20%);
+    opacity: 0%;
+}
+
+.fadeIn {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+        left: 10%;
+    }
+
+    100% {
+        opacity: 100%;
+        left: 0px;
+    }
+}

@@ -1,0 +1,53 @@
+.webView {
+    flex-direction: column;
+    padding: 0 !important;
+    overflow: hidden;
+    background-color: var(--accent);
+}
+
+.webView iframe {
+    border-style: none;
+    padding-top: 5px;
+    height: min(40vw, 350px);
+}
+
+.webView button {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    height: 35px;
+    width: 230px;
+    border-radius: 12px;
+
+    font-size: 15px;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: inherit;
+
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.23);
+    background-color: inherit;
+}
+
+.webView img {
+    margin-left: 6px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.webView .description {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 65px;
+}
+
+.webView h2.cell-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.webView p.cell-subtitle {
+    padding-top: 1px;
+}
