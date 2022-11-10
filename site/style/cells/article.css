@@ -6,9 +6,9 @@
 }
 
 .article img {
-    height: auto;
-    width: 100%;
-    min-width: 0;
+    height: auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
     max-height: 35vw;
 }
 
