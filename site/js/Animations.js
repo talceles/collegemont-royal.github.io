@@ -16,7 +16,6 @@ export function fadeIn() {
         for (let i = 0; i < elements.length; i++) {
             elements[i].classList.remove("fadeIn");
             elements[i].classList.add("fadeIn");
-            console.log("fadein")
         }
     }
 }
