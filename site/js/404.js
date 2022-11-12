@@ -2,8 +2,8 @@ import { initialUISetup } from "./UIHandler.js";
 import { getSrc } from "./URLUtilities.js";
 initialUISetup();
 
-const urlParams = new URLSearchParams(window.location);
-const src = urlParams.get('src');
+var url = new URL(window.location);
+var src = url.searchParams.get("src");
 if (src) {
     sendErrorMessage("Source non trouvée au " + src);
 } else {
