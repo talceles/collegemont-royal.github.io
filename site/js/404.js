@@ -1,11 +1,16 @@
+console.log("1");
 import { initialUISetup } from "./UIHandler.js";
+console.log("2");
 initialUISetup();
+console.log("3");
 
 const urlParams = new URLSearchParams(window.location);
 const src = urlParams.get('src');
 if (src) {
+    console.log("4");
     sendErrorMessage("Source non trouvée au " + src);
 } else {
+    console.log("5");
     send404Message();
 }
 
