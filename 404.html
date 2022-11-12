@@ -2,40 +2,6 @@
 <html lang="fr">
 
 <head>
-    <script type="module">
-        import * as UIHandler from "/site/js/UIHandler.js";
-        UIHandler.initialUISetup();
-
-        const urlParams = new URLSearchParams(window.location);
-        const src = urlParams.get('src');
-        if (src) {
-            sendErrorMessage("Source non trouvée au " + src);
-        } else {
-            send404Message();
-        }
-
-        function send404Message() {
-            fetch(
-                "https://cmr-webhooks.herokuapp.com/404" +
-                "?pathname=" + encodeURIComponent(window.location.pathname) +
-                "&useragent=" + encodeURIComponent(window.navigator.userAgent),
-                { method: "POST" }
-            );
-        }
-
-        function sendErrorMessage(errorDescription) {
-            fetch(
-                "https://cmr-webhooks.herokuapp.com/err?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(URLUtilities.getSrc()),
-                {
-                    method: "POST",
-                    headers: { "Content-Type": "text/plain; charset=utf-8" },
-                    body: errorDescription,
-                }
-            );
-        }
-
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=1522031702">
@@ -43,7 +9,7 @@
     <link rel="apple-touch-icon" href="/site/ressources/favicon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" type="text/css" href="site/style/index.css">
+    <link rel="stylesheet" type="text/css" href="/site/style/index.css">
     <meta name="theme-color" content="#1D2953">
     <title>Erreur 404</title>
 </head>
@@ -80,6 +46,40 @@
             </div>
         </div>
     </div>
+
+    <script type="module">
+        import * as UIHandler from "/site/js/UIHandler.js";
+        UIHandler.initialUISetup();
+
+        const urlParams = new URLSearchParams(window.location);
+        const src = urlParams.get('src');
+        if (src) {
+            sendErrorMessage("Source non trouvée au " + src);
+        } else {
+            send404Message();
+        }
+
+        function send404Message() {
+            fetch(
+                "https://cmr-webhooks.herokuapp.com/404" +
+                "?pathname=" + encodeURIComponent(window.location.pathname) +
+                "&useragent=" + encodeURIComponent(window.navigator.userAgent),
+                { method: "POST" }
+            );
+        }
+
+        function sendErrorMessage(errorDescription) {
+            fetch(
+                "https://cmr-webhooks.herokuapp.com/err?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(URLUtilities.getSrc()),
+                {
+                    method: "POST",
+                    headers: { "Content-Type": "text/plain; charset=utf-8" },
+                    body: errorDescription,
+                }
+            );
+        }
+
+    </script>
 
 </body>
 
