@@ -1,4 +1,4 @@
-import { initialUISetup } from "/site/js/UIHandler.js";
+import { initialUISetup } from "./site/js/UIHandler.js";
 initialUISetup();
 
 const urlParams = new URLSearchParams(window.location);
