@@ -68,9 +68,7 @@ export class Cell {
     _cellIsCategorie() {
         if (this.data.button_title) return false
         if (this.data.babillard) return false
-        if (!this.data.image || this.data.image === "") {
-            return true
-        }
+        if (!this.data.image) return true;
         return false
     }
 
