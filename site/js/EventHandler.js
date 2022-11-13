@@ -4,7 +4,7 @@ import * as Animations from "./Animations.js";
 export function addPopstateEventListener() {
     window.addEventListener('popstate', () => {
         document.getElementsByClassName("headerSubtitle")[0].innerHTML = "Application CMR";
-        page.loadTableView();
+        Page.loadCurrentPage();
     })
 }
 
