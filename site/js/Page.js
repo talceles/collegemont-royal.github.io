@@ -15,7 +15,6 @@ export class Page {
         const res = await fetch(url);
         const data = await res.json()
             .catch(e => {
-                console.log("allo");
                 window.location.replace("/404.html?src=" + url);
             });;
         return new Page(data, url);
