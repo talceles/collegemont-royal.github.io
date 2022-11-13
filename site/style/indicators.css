@@ -1,0 +1,21 @@
+div.indicator {
+    display: flex;
+    padding: 15px 5px 15px 5px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.indicator>h2 {
+    padding-left: 25px;
+    margin: 0;
+    font-size: 25px;
+    font-family: CenturyGothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.indicator>img {
+    position: relative;
+    left: 15px;
+    height: 80px;
+    width: 80px;
+}
