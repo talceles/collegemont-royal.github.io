@@ -1,7 +1,38 @@
 {
     "title": "Salon du livre",
-    "bookmark":true,
+    "bookmark": true,
     "cells": [
-        
+        {
+            "title": "Informations sur la sortie"
+        },
+        {
+            "title": "Contactez Mme Faral",
+            "subtitle": "Contactez Nathalie Faral, l'organisatrice de la sortie, par texto ou par téléphone en cliquant ici.",
+            "image": "files/images/telephone.png",
+            "newPage": true,
+            "link": "files/bibliotheque/salondulivre/contact.json"
+        },
+        {
+            "title": "Déroulement de la journée",
+            "subtitle": "Points de rendez-vous obligatoires",
+            "image": "files/images/checklist.png",
+            "newPage": true,
+            "link": "files/bibliotheque/salondulivre/deroulement.json"
+        },
+        {
+            "title": "Horaire des auteurs et dédicaces",
+            "subtitle": "Cliquez ici pour visiter le site web du salon du livre.",
+            "image": "files/images/horaire.png",
+            "link": "https://www.salondulivredemontreal.com/programmation"
+        },
+        {
+            "title": "Pour sauvegarder cette page..."
+        },
+        {
+            "title": "Sauvegardez cette page",
+            "subtitle": "Elle apparaitra sur votre application!",
+            "article": true,
+            "image": "files/bibliotheque/salondulivre/savepagesalondulivre.gif"
+        }
     ]
 }

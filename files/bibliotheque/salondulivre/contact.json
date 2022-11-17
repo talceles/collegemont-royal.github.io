@@ -1,0 +1,22 @@
+{
+    "topsubtitle": "Salon du livre",
+    "title": "Contactez Mme Faral",
+    "cells": [
+        {
+            "title": "Envoyer un texto",
+            "subtitle": "Cliquez ici pour envoyer un texto à Mme Faral.",
+            "image": "files/bibliotheque/images/bulle.png",
+            "tint": "#3DC55E",
+            "link": "sms:4385014973",
+            "openURL": true
+        },
+        {
+            "title": "Passer un coup de fil",
+            "subtitle": "Cliquez ici pour appeler Mme Faral.",
+            "image": "files/images/telephone.png",
+            "tint": "#3DC55E",
+            "link": "tel:4385014973",
+            "openURL": true
+        }
+    ]
+}
