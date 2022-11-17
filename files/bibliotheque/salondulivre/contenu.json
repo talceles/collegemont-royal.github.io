@@ -2,10 +2,6 @@
     "title": "Salon du livre",
     "bookmark":true,
     "cells": [
-        {
-            "title": "Salon du livre",
-            "subtitle":"Rendez-vous au salon du livre le X novembre à 15h30",
-            "image": "files/bibliotheque/salondulivre/logosalondulivre.png"
-        }
+        
     ]
 }
