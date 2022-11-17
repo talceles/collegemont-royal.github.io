@@ -5,7 +5,7 @@
         {
             "title": "Envoyer un texto",
             "subtitle": "Cliquez ici pour envoyer un texto à Mme Faral.",
-            "image": "files/bibliotheque/images/mail.png",
+            "image": "files/images/mail.png",
             "tint": "#3DC55E",
             "link": "sms:4385014973",
             "openURL": true
