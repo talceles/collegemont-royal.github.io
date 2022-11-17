@@ -7,7 +7,7 @@
         },
         {
             "title": "Contactez Mme Faral",
-            "subtitle": "Contactez Nathalie Faral, l'organisatrice de la sortie, par texto ou par téléphone en cliquant ici.",
+            "subtitle": "Contactez Nathalie Faral, l'organisatrice de la sortie, par texto ou par téléphone en cliquant ici.\n**En cas d'urgence ou de retard uniquement**",
             "image": "files/images/telephone.png",
             "newPage": true,
             "link": "files/bibliotheque/salondulivre/contact.json"
