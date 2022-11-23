@@ -10,7 +10,7 @@
         },
         {
             "title": "Informations générales",
-            "subtitle": "**Signalez une absence, un retard ou un départ hâtif ici !**",
+            "subtitle": "Signalez une absence, un retard ou un départ hâtif ici !",
             "image": "files/images/infos.png",
             "newPage": true,
             "link": "files/ecole/contenu.json"
