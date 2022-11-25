@@ -1,12 +1,16 @@
 import * as EventHandler from "./EventHandler.js";
 
 export function setupDarkMode() {
+    // Setup unitial du mode sombre
     _setDarkMode();
-    window
-        .matchMedia("(prefers-color-scheme: dark)")
-        .addEventListener("change", function () {
+    // Si le navigateur est compatible, on change le mode quand il est changé pour le système
+    let darkModeStatus = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkModeStatus?.addEventListener) {
+        darkModeStatus.addEventListener("change", function () {
+            // Quand le système change de mode, on change le dark mode
             _setDarkMode();
         });
+    }
 }
 
 function _setDarkMode() {
