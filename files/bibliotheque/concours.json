@@ -14,22 +14,22 @@
         },
         {
             "title": "Groupe 10",
-            "subtitle": "242 points",
+            "subtitle": "288 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 13",
-            "subtitle": "233 points",
+            "subtitle": "266 points",
             "image": "🥈"
         },
         {
             "title": "Groupe 11",
-            "subtitle": "84 points",
+            "subtitle": "144 points",
             "image": "🥉"
         },
         {
             "title": "Groupe 12",
-            "subtitle": "50 points",
+            "subtitle": "61 points",
             "image": "🏅"
         },
         {
@@ -37,22 +37,22 @@
         },
         {
             "title": "Groupe 23",
-            "subtitle": "123 points",
+            "subtitle": "141 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 21",
-            "subtitle": "92 points",
+            "subtitle": "103 points",
             "image": "🥈"
         },
         {
             "title": "Groupe 20",
-            "subtitle": "63 points",
+            "subtitle": "86 points",
             "image": "🥉"
         },
         {
             "title": "Groupe 22",
-            "subtitle": "23 points",
+            "subtitle": "38 points",
             "image": "🏅"
         },
         {
@@ -60,17 +60,17 @@
         },
         {
             "title": "Groupe 33",
-            "subtitle": "83 points",
+            "subtitle": "84 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 32",
-            "subtitle": "25 points",
+            "subtitle": "30 points",
             "image": "🥈"
         },
         {
             "title": "Groupe 30",
-            "subtitle": "19 points",
+            "subtitle": "20 points",
             "image": "🥉"
         },
         {
@@ -83,12 +83,12 @@
         },
         {
             "title": "Groupe 43",
-            "subtitle": "131 points",
+            "subtitle": "146 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 41",
-            "subtitle": "11 points",
+            "subtitle": "21 points",
             "image": "🥈"
         },
         {
@@ -96,8 +96,13 @@
         },
         {
             "title": "Groupe 53",
-            "subtitle": "33 points",
+            "subtitle": "38 points",
             "image": "🥇"
+        },
+        {
+            "title": "Groupe 51",
+            "subtitle": "36 points",
+            "image": "🥈"
         },
         {
             "title": "Vous ne voyez pas votre groupe ? Personne n'a envoyé de lecture..."
