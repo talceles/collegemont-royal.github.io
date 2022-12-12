@@ -12,7 +12,7 @@ if (src) {
 
 function send404Message() {
     fetch(
-        "https://cmr-webhooks.herokuapp.com/404" +
+        "https://cmr-webhooks.romz.xyz/404" +
         "?pathname=" + encodeURIComponent(window.location.pathname) +
         "&useragent=" + encodeURIComponent(window.navigator.userAgent),
         { method: "POST" }
@@ -21,7 +21,7 @@ function send404Message() {
 
 function sendErrorMessage(errorDescription) {
     fetch(
-        "https://cmr-webhooks.herokuapp.com/err?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
+        "https://cmr-webhooks.romz.xyz/err?pathname=" + encodeURIComponent(window.location.pathname) + "&src=" + encodeURIComponent(getSrc()),
         {
             method: "POST",
             headers: { "Content-Type": "text/plain; charset=utf-8" },
