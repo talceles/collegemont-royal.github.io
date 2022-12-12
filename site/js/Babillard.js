@@ -21,6 +21,7 @@ export class Babillard {
         const annonces = await this._getAnnonces();
         const template = await this._htmlTemplate();
 
+        Babillard._sortAnnonces();
         if (Babillard.annonces[this.i].length > 0) {
             this.data.subtitle = Babillard.annonces[this.i].length + " annonce(s)"
         }
