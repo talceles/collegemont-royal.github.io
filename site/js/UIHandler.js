@@ -5,12 +5,12 @@ export function setupDarkMode() {
     _setDarkMode();
     // Si le navigateur est compatible, on change le mode quand il est changé pour le système
     let darkModeStatus = window.matchMedia("(prefers-color-scheme: dark)");
-    if (darkModeStatus?.addEventListener) {
+    try { // Pas tous les appareils sont compatibles avec le dark mode, on vérifie.
         darkModeStatus.addEventListener("change", function () {
             // Quand le système change de mode, on change le dark mode
             _setDarkMode();
         });
-    }
+    } catch {}
 }
 
 function _setDarkMode() {
