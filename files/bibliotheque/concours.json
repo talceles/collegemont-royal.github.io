@@ -13,23 +13,23 @@
             "title": "Première secondaire ⬇"
         },
         {
-            "title": "Groupe 10",
-            "subtitle": "288 points",
+            "title": "Groupe 13",
+            "subtitle": "350 points",
             "image": "🥇"
         },
         {
-            "title": "Groupe 13",
-            "subtitle": "266 points",
+            "title": "Groupe 10",
+            "subtitle": "310 points",
             "image": "🥈"
         },
         {
             "title": "Groupe 11",
-            "subtitle": "144 points",
+            "subtitle": "176 points",
             "image": "🥉"
         },
         {
             "title": "Groupe 12",
-            "subtitle": "61 points",
+            "subtitle": "62 points",
             "image": "🏅"
         },
         {
@@ -37,22 +37,22 @@
         },
         {
             "title": "Groupe 23",
-            "subtitle": "141 points",
+            "subtitle": "162 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 21",
-            "subtitle": "103 points",
+            "subtitle": "138 points",
             "image": "🥈"
         },
         {
             "title": "Groupe 20",
-            "subtitle": "86 points",
+            "subtitle": "101 points",
             "image": "🥉"
         },
         {
             "title": "Groupe 22",
-            "subtitle": "38 points",
+            "subtitle": "85 points",
             "image": "🏅"
         },
         {
@@ -60,18 +60,18 @@
         },
         {
             "title": "Groupe 33",
-            "subtitle": "84 points",
+            "subtitle": "114 points",
             "image": "🥇"
+        },
+        {
+            "title": "Groupe 30",
+            "subtitle": "30 points",
+            "image": "🥈"
         },
         {
             "title": "Groupe 32",
             "subtitle": "30 points",
             "image": "🥈"
-        },
-        {
-            "title": "Groupe 30",
-            "subtitle": "20 points",
-            "image": "🥉"
         },
         {
             "title": "Groupe 31",
@@ -83,7 +83,7 @@
         },
         {
             "title": "Groupe 43",
-            "subtitle": "146 points",
+            "subtitle": "181 points",
             "image": "🥇"
         },
         {
@@ -92,20 +92,27 @@
             "image": "🥈"
         },
         {
+            "title": "Groupe 42",
+            "subtitle": "10 points",
+            "image": "🥉"
+        },
+        {
             "title": "Cinquième secondaire ⬇"
         },
         {
             "title": "Groupe 53",
-            "subtitle": "38 points",
+            "subtitle": "59 points",
             "image": "🥇"
         },
         {
             "title": "Groupe 51",
-            "subtitle": "36 points",
+            "subtitle": "44 points",
             "image": "🥈"
         },
         {
-            "title": "Vous ne voyez pas votre groupe ? Personne n'a envoyé de lecture..."
+            "title": "Groupe 52",
+            "subtitle": "5 points",
+            "image": "🥉"
         }
     ]
 }
