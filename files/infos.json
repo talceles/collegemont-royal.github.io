@@ -11,21 +11,21 @@
         {
             "title": "Politique de confidentialité",
             "subtitle": "En utilisant l'application CMR, vos données sont utilisées et partagées selon cette politique.",
-            "image": "files/images/confidentialite.png",
+            "image": "files/images/privacy.png",
             "link": "PolitiqueDeConfidentialite.pdf"
-        },
-        {
-            "title": "Tester la version bêta",
-            "subtitle": "Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
-            "image": "files/images/testflight.png",
-            "link": "https://testflight.apple.com/join/QkygnW3M",
-            "openURL": true
         },
         {
             "title": "Application développée par Clément Gauthier",
             "subtitle": "Ancien élève et opérateur en informatique du Collège Mont-Royal",
             "image": "files/images/clement.png",
             "notification": true
+        },
+        {
+            "title": "Tester la version bêta",
+            "subtitle": "Obtenez la version la plus récente avant tout le monde et signalez les bogues !",
+            "image": "files/images/testflightapp.png",
+            "link": "https://testflight.apple.com/join/QkygnW3M",
+            "openURL": true
         },
         {
             "title": "Me contacter",
