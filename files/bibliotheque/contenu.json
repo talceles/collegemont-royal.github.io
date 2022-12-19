@@ -9,13 +9,6 @@
             "link": "files/bibliotheque/concours.json"
         },
         {
-            "title": "Partage de suggestions de lecture du personnel",
-            "subtitle": "Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège !",
-            "image": "files/bibliotheque/images/onaime.png",
-            "newPage": true,
-            "link": "files/bibliotheque/suggestions/contenu.json"
-        },
-        {
             "title": "Ma bibliothèque animée",
             "subtitle": "Suggestions de lecture et critiques littéraires",
             "image": "files/bibliotheque/images/padlet.png",
@@ -35,6 +28,13 @@
             "image": "files/bibliotheque/images/horloge.png",
             "newPage": true,
             "link": "files/bibliotheque/nouveau.json"
+        },
+        {
+            "title": "Partage de suggestions de lecture du personnel",
+            "subtitle": "Faites le plein d'idées de lecture avec les suggestions des enseignants et du personnel au collège !",
+            "image": "files/bibliotheque/images/onaime.png",
+            "newPage": true,
+            "link": "files/bibliotheque/suggestions/contenu.json"
         }
     ]
 }

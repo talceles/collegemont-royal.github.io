@@ -5,6 +5,12 @@
             "title": "2022-2023 ⬇"
         },
         {
+            "title": "Jack et la grande aventure du cochon de noël",
+            "subtitle": "À venir - Jack et la grande aventure du cochon de noël avec notre invité(e) spécial(e) et l'équipe du comité de la bibliothèque !",
+            "image": "https://collegemont-royal.github.io/archives/balado/2022-2023/images/balado2.png",
+            "notification":true
+        },
+        {
             "title": "Le prince et la couturière",
             "subtitle": "**6:40** - Célébrez l'arrivée de la neige avec une lecture inspirante : Le prince et la couturière. Au balado avec nous, Clara Chayer et Lilianne Gauthier ainsi que notre invitée spéciale, Mme Leila Bujold.",
             "image": "https://collegemont-royal.github.io/archives/balado/2022-2023/images/balado1.png",
@@ -14,7 +20,7 @@
             "title": "2021-2022 ⬇"
         },
         {
-            "title": "Spécial bloopers!",
+            "title": "Spécial bloopers !",
             "subtitle": "**2:04** - Pour partir en vacances le coeur léger, voici un balado rempli de moments loufoques survenus lors de l'enregistrement de nos balados. Bonne écoute!",
             "image": "https://collegemont-royal.github.io/archives/balado/2021-2022/images/bloopers.png",
             "link": "https://collegemont-royal.github.io/archives/balado/2021-2022/baladobloopers.mp3"
